@@ -1,0 +1,1921 @@
+Date: Thu, 19 Mar 2026 23:12:18 +1100 (AEDT)
+Message-ID: <1697680285.116153.1773922338869@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116152_754793791.1773922338869"
+
+------=_Part_116152_754793791.1773922338869
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>API Design Standards</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>API Design Standards</h1>
+    <div class=3D"Section1">
+        <p></p>
+<h2 id=3D"APIDesignStandards-Topics"><span class=3D"inline-comment-marker" =
+data-ref=3D"ca330a2b-d6a5-44b6-be31-831bda224f59">Topics</span></h2>
+<ul>
+<li><a href=3D"#APIDesignStandards-restful_api_overview">RESTful API Overvi=
+ew</a></li>
+<li><a href=3D"#APIDesignStandards-resource_naming">Resource Naming &amp; U=
+RIs</a>&nbsp;(Resource&nbsp;Naming URIs, Resource Naming Anti-patterns, Plu=
+ralisation)</li>
+<li><a href=3D"#APIDesignStandards-http_verbs">Use of HTTP Verbs</a>&nbsp;(=
+GET, PUT, POST, DELETE, OPTIONS, TRACE,&nbsp;PATCH, HEAD)</li>
+<li><a href=3D"#APIDesignStandards-page_sort_filter">Paging, Sorting &amp; =
+Filtering</a></li>
+<li><a href=3D"#APIDesignStandards-response_codes">Response Status Codes</a=
+></li>
+<li><a href=3D"#APIDesignStandards-data_representation">Data Representation=
+ in Requests &amp; Responses</a></li>
+<li><a href=3D"#APIDesignStandards-versioning">Versioning of APIs</a></li>
+</ul>
+<h2 id=3D"APIDesignStandards-restful_api_overviewRESTfulAPIOverview"><span =
+class=3D"confluence-anchor-link" id=3D"APIDesignStandards-restful_api_overv=
+iew"></span>RESTful API Overview</h2>
+<h3 id=3D"APIDesignStandards-Terminology">Terminology</h3>
+<ul>
+<li>API - a collection of resources with associated actions (HTTP verbs) pr=
+oviding a cohesive suite of functionality</li>
+<li>Resource - an object/entity which is the central focus of the intent of=
+ an action to be applied</li>
+<li>Method/Action - the HTTP verb to be applied to the resource</li>
+<li>Endpoint/Operation - the combination of method/action and the resource =
+- roughly equivalent to an operation on a SOAP web service</li>
+</ul>
+<h3 id=3D"APIDesignStandards-RESTfulAPIs">RESTful APIs&nbsp;</h3>
+<p>There is a good overview of the REST architectural style at:&nbsp;<a hre=
+f=3D"http://www.restapitutorial.com/lessons/whatisrest.html" class=3D"exter=
+nal-link" rel=3D"nofollow">http://www.restapitutorial.com/lessons/whatisres=
+t.html</a></p>
+<p>Here are some key points for successfully offering REST APIs:</p>
+<ul>
+<li>Use HTTP Verbs appropriately (align with semantics in <a href=3D"https:=
+//tools.ietf.org/html/rfc7231" class=3D"external-link" rel=3D"nofollow">RFC=
+7231</a>)</li>
+<li>Provide sensible resource names</li>
+<li>Use HTTP response codes to indicate status</li>
+<li>Create resources at the right level of granularity</li>
+</ul>
+<h2 id=3D"APIDesignStandards-resource_namingResourceNaming&amp;URIs"><span =
+class=3D"confluence-anchor-link" id=3D"APIDesignStandards-resource_naming">=
+</span>Resource Naming &amp; URIs</h2>
+<h3 id=3D"APIDesignStandards-Summary">Summary</h3>
+<ul>
+<li><p>Use nouns and not verbs in resource names</p></li>
+<li><p>Use plural nouns in all cases for collections, i.e.</p>
+<ul>
+<li>/customers instead of /customer</li>
+</ul></li>
+<li><p>Differentiate between the collection resource and the&nbsp;singular =
+resource, i.e. everything is a resource. Rethink interactions in terms of r=
+esource states, not service operations</p>
+<ul>
+<li>/customers is the collection, /customers/1234 is a&nbsp;single entity</=
+li>
+</ul></li>
+<li>Define resources at the right level of granularity=20
+<ul>
+<li>don't define them so coarsely that they encompass all information withi=
+n a context (eg. the world)</li>
+<li>don't define them so finely that a consumer would need to interact with=
+ multiple resources in order to collate the required information</li>
+</ul></li>
+<li><p>Minimise hierarchies past 3 levels: /&lt;resource&gt;/&lt;identifier=
+&gt;/&lt;resource&gt;, i.e.</p>
+<ul>
+<li><p>/customers</p></li>
+<li><p>/customers/1234</p></li>
+<li><p>/customers/1234/transactions</p></li>
+<li><p>/transactions/1111</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"APIDesignStandards-ResourceNamingStructure">Resource Naming Struc=
+ture</h3>
+<p>An API is a collection of verb actions on a resource set, with supportin=
+g data representations. Guidance for the design method, which will assist i=
+n identifying resources from a consumer use case and behaviour model, is gi=
+ven in the Delivery Methodology.</p>
+<p>Resource names should be nouns. It is acceptable to use a verb-like adje=
+ctive with the nouns as long as it is still clear that an object, a thing, =
+is being identified.</p>
+<p>Each resource should have its own URI. There should be no sharing of add=
+ress. The resource structure should be predictable (it makes sense) and hie=
+rarchical within the confines of usability (it provides the ability to mani=
+pulate sub-structures without confusing the user or making parsing complex)=
+. Relationships should make sense, if the design method is followed properl=
+y.</p>
+<p>Resources are generally plural collections, with an identifier as part o=
+f the URI to identify a unique resource.</p>
+<p>Resources should not bleed information about internal data structures an=
+d types, or processes.</p>
+<p>Resources can be decomposed into sub-resources (subsets of the primary r=
+esource) but attributes of the resource can only exist in one sub-resource.=
+&nbsp; Sub-resources are most often used when updating a subset of the reso=
+urce's attributes.&nbsp; Refer to the section below regarding the use of th=
+e PUT verb for more information.</p>
+<p>A more detailed description of resource and endpoint structuring pattern=
+s is described <span style=3D"color: rgb(0,51,102);">in <a href=3D"https://=
+confluence.srv.westpac.com.au/display/mesh/Pattern+19%3A+API+Endpoint+Desig=
+n+Patterns" rel=3D"nofollow">Pattern 19: API Endpoint Design Patterns</a>.<=
+/span></p>
+<p>Some excellent external articles on resource naming are shown below:<br>=
+<a href=3D"http://www.restapitutorial.com/lessons/restfulresourcenaming.htm=
+l" class=3D"external-link" rel=3D"nofollow">http://www.restapitutorial.com/=
+lessons/restfulresourcenaming.html</a><br><a href=3D"https://www.thoughtwor=
+ks.com/insights/blog/rest-api-design-resource-modeling" class=3D"external-l=
+ink" rel=3D"nofollow">https://www.thoughtworks.com/insights/blog/rest-api-d=
+esign-resource-modeling</a></p>
+<h3 id=3D"APIDesignStandards-ResourceURIExamples">Resource URI Examples</h3=
+>
+<p>To insert (create) a new customer in the system use, for example:<br>
+ POST /customers</p>
+<p>To read a customer with Customer ID# 33245, for example:<br>
+ GET /customers/33245</p>
+<p>The same URI would be used for PUT and DELETE, to update and delete, res=
+pectively.</p>
+<p>Where a resource represents a process, such as the fulfilment of a new a=
+ccount for a customer, you could initiate that process as follows:<br>
+ POST /accountFulfilment</p>
+<h3 id=3D"APIDesignStandards-FullyqualifiedURIStructure">Fully qualified UR=
+I Structure</h3>
+<p>All URIs for RESTful APIs should adhere to the following format:</p>
+<p>{base url} / {layer} / {Domain (1..1)} / {Subdomain (0..2)} / {API Name =
+(1..1)} / {version (1..1)} / {resources (1..1)} / { sub-resources (0..1)}<b=
+r>
+ It is recommended that a maximum of 8 resources be contained within each A=
+PI.</p>
+<p>Example fully qualified URI:&nbsp;<a href=3D"http://api.westpac.com.au/i=
+nf/parties/customers/v1/customerSearch" class=3D"external-link" rel=3D"nofo=
+llow">http://api.westpac.com.au/inf/parties/customers/v1/customerSearch</a>=
+</p>
+<h2 id=3D"APIDesignStandards-http_verbsUseofHTTPVerbs"><span class=3D"confl=
+uence-anchor-link" id=3D"APIDesignStandards-http_verbs"></span>Use of HTTP =
+Verbs</h2>
+<h3 id=3D"APIDesignStandards-Summary.1">Summary</h3>
+<p>The HTTP verbs comprise a major portion of our "uniform interface" const=
+raint and provide us the action counterpart to the noun-based resource. The=
+ primary or most commonly used HTTP verbs (or methods, as they are properly=
+ called) are POST, GET, PUT, DELETE. These correspond to create, read, upda=
+te, and delete (or CRUD) operations, respectively. PATCH can be used in pla=
+ce of PUT where a partial update (subset of fields) of a resource is requir=
+ed. Note that POST can also be used as a general purpose 'do stuff' action.=
+&nbsp; HEAD is the final HTTP verb currently supported for Westpac Mesh API=
+s and is similar to GET but it MUST NOT return a response payload.&nbsp; It=
+ is used to retrieve metadata or check service availability for the resourc=
+e.</p>
+<p>Note: The permitted response codes, and what they mean, for each verb ar=
+e described in the <a href=3D"#APIDesignStandards-response_codes">Response =
+Status Codes</a>&nbsp;section below.</p>
+<p>We summarise the allowed use of HTTP verbs as follows:</p>
+<ul>
+<li>POST for unsafe to repeat operations (such as creating data or starting=
+ jobs)</li>
+<li>GET for safe to repeat (and potentially cache) queries</li>
+<li>PUT for safe to repeat operations (such as updating data)</li>
+<li>DELETE for safe to repeat operations that remove resources (second repe=
+at is usually an error)</li>
+<li>PATCH for unsafe to repeat update operations</li>
+<li>HEAD for safe to repeat service availability checking, response payload=
+ size checking, and checking staleness of cached data</li>
+</ul>
+<p>The following HTTP specs describe the semantics for these verbs which we=
+ honour on Westpac Mesh.</p>
+<p><a href=3D"https://tools.ietf.org/html/rfc7231" class=3D"external-link" =
+rel=3D"nofollow">HTTP Core Semantics</a></p>
+<p><a href=3D"http://tools.ietf.org/html/rfc5789" class=3D"external-link" r=
+el=3D"nofollow">HTTP PATCH Method</a></p>
+<p><a href=3D"https://tools.ietf.org/html/rfc7396" class=3D"external-link" =
+rel=3D"nofollow">JSON Merge PATCH</a></p>
+<h4 id=3D"APIDesignStandards-Tableofpermittedverbsandresourcetypes">Table o=
+f permitted verbs and resource types</h4>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 87.=
+4434%;">
+<colgroup>
+<col style=3D"width: 7.62316%;">
+<col style=3D"width: 11.3628%;">
+<col style=3D"width: 44.5164%;">
+<col style=3D"width: 36.246%;">
+</colgroup>
+<thead>
+<tr>
+<th class=3D"confluenceTh"><p>HTTP Verb</p></th>
+<th class=3D"confluenceTh"><p>CRUD equivalent</p></th>
+<th class=3D"confluenceTh"><p>Entire Collection (e.g. /customers)</p></th>
+<th class=3D"confluenceTh"><p>Specific Item (e.g. /customers/{id})</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">POST</td>
+<td class=3D"confluenceTd">Create</td>
+<td class=3D"confluenceTd"><p>201 (Created)</p><p>Response to include the i=
+dentifier for the resource created to allow a subsequent GET to be requeste=
+d</p></td>
+<td class=3D"confluenceTd"><span>405 (Method Not Allowed)</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">GET</td>
+<td class=3D"confluenceTd">Read</td>
+<td class=3D"confluenceTd">200 (OK), list of customers. Use pagination, sor=
+ting and filtering to navigate big lists.</td>
+<td class=3D"confluenceTd">200 (OK), single customer<br>
+ 404 (Not Found), if ID not found or invalid</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">PUT</td>
+<td class=3D"confluenceTd"><p>Update/Replace</p><p>(Create is also possible=
+)</p></td>
+<td class=3D"confluenceTd"><p>405 (Method Not Allowed), unless you want to =
+update/replace every resource in the entire collection in which case the ou=
+tcome would be:</p><p>204 (No Content)<br>
+ 200 (OK), only if useful data can be returned</p></td>
+<td class=3D"confluenceTd"><p>204 (No Content)<br><span style=3D"letter-spa=
+cing: 0.0px;">200 (OK), only if useful data can be returned<br></span>404 (=
+Not Found), if ID not found or invalid</p><p>Note. Technically, PUT can be =
+used to create a resource if the primary key (id) is chosen by the Client i=
+nstead of the Server but this is an uncommon case. PUT can thus be used whe=
+re an endpoint can provide an insert or update, typically referred to as an=
+ upsert, but the primary key of the resource MUST be known by the Client.</=
+p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">DELETE</td>
+<td class=3D"confluenceTd">Delete</td>
+<td class=3D"confluenceTd"><p>405 (Method Not Allowed), unless you want to =
+delete the whole collection (often not desirable) in which case the outcome=
+ would be:</p><p>204 (No Content)<br>
+ 200 (OK)<span>, if useful data can be returned</span></p></td>
+<td class=3D"confluenceTd">204 (No Content)<br>
+ 200 (OK)<span>, if useful data can be returned<br></span>404 (Not Found), =
+if ID not found or invalid</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>PATCH</p></td>
+<td class=3D"confluenceTd">Update</td>
+<td class=3D"confluenceTd"><p>204 (No Content)<br>
+ 200 (OK), only if useful data can be returned</p><p>Note. PATCH cannot be =
+used to create or delete an item within the collection as the body of the P=
+ATCH request contains only the representation of the resource but no explic=
+it instruction as to the action to be applied - it will always be treated a=
+s change.</p></td>
+<td class=3D"confluenceTd">204 (No Content)<br><span>200 (OK), only if usef=
+ul data can be returned<br></span>404 (Not Found), if ID not found or inval=
+id</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p>HEAD</p><p><br></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Health-check Read</p><p><br></p=
+></td>
+<td colspan=3D"1" class=3D"confluenceTd">200 (OK) but without response body=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd">200 (OK)<br>
+ 404 (Not Found)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"APIDesignStandards-Tableofpermittedverbsandrequestparametertypes"=
+>Table of permitted verbs and request parameter types</h4>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">HTTP Verb</th>
+<th class=3D"confluenceTh">Header<sup>+</sup></th>
+<th class=3D"confluenceTh">Path</th>
+<th class=3D"confluenceTh">Query</th>
+<th class=3D"confluenceTh">Body</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">POST</td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+<td class=3D"confluenceTd"><span>Permitted<sup>*</sup></span></td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">GET</td>
+<td class=3D"confluenceTd">Permitted</td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+<td class=3D"confluenceTd">Not p<span>ermitted</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">PUT</td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+<td class=3D"confluenceTd"><span>Permitted<sup>*</sup></span></td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">DELETE</td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+<td class=3D"confluenceTd"><span>Permitted</span></td>
+<td class=3D"confluenceTd">Not p<span>ermitted</span></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">PATCH</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Permitted</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Permitted</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>Permitted<sup>*</sup></span>=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd">Permitted</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">HEAD</td>
+<td colspan=3D"1" class=3D"confluenceTd">Permitted</td>
+<td colspan=3D"1" class=3D"confluenceTd">Permitted</td>
+<td colspan=3D"1" class=3D"confluenceTd">Permitted</td>
+<td colspan=3D"1" class=3D"confluenceTd">Not permitted</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Key</p>
+<p><sup>+</sup> headers should only be used to transport non-functional inf=
+ormation (eg. auditing).&nbsp; Westpac Mesh has defined a set of standard h=
+eaders to be used and APIs should not introduce their own headers without d=
+iscussion with Westpac Mesh architecture.</p>
+<p><sup>*</sup> should not contain resource content (this should be in the =
+body) but may be used to provide context or hints for processing</p>
+<h3 id=3D"APIDesignStandards-POST">POST</h3>
+<p>POST is an unsafe operation in that it typically creates a new resource =
+(or may initiate a new job/process). Each resource will be new, so the resu=
+lt is effectively different each time as a new identifier would be returned=
+ in the data payload (as a rule).&nbsp; When creating new resources the mos=
+t common use case is the creation of a single new resource, however it is a=
+cceptable to request creation of multiple resources when required (ie. send=
+ing an array of items to be created).&nbsp; Note that when requesting creat=
+ion of multiple new resources the entire request should be treated as being=
+ atomic in that all resources will be created or none will be created other=
+wise it will be difficult to form a response indicating which of the reques=
+ted objects failed to be created.</p>
+<p><strong>Example:</strong></p>
+<p><span style=3D"letter-spacing: 0.0px;">POST /customers</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">POST request</b><span class=3D"collapse-source expa=
+nd-control" style=3D"display:none;"><span class=3D"expand-control-icon icon=
+">&nbsp;</span><span class=3D"expand-control-text">Expand source</span></sp=
+an><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">POST /customers HTTP/1.1
+Content-Type: application/json
+=20
+{
+    "firstName": "Samuel",
+    "lastName": "Johnson",
+    "middleName": null,
+    "dateOfBirth": "1998-07-03",
+    "gender": {
+        "code": "M"
+    },
+    "status": {
+        "code": "A"
+   }
+}</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">POST response</b><span class=3D"collapse-source exp=
+and-control" style=3D"display:none;"><span class=3D"expand-control-icon ico=
+n">&nbsp;</span><span class=3D"expand-control-text">Expand source</span></s=
+pan><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">HTTP/1.1 201 Created
+Content-Type: application/json
+
+{
+    "data": {
+        "customerId": {
+            "id" : "12345",
+            "idScheme": "CustomerInternalId"
+        }
+    }
+}</pre>
+</div>
+</div>
+<h3 id=3D"APIDesignStandards-GET">GET</h3>
+<p><span style=3D"letter-spacing: 0.0px;">GET is to be used for safe to rep=
+eat queries. The use of GET must not lead to a change of resource state, bu=
+t it is valid for resource state to change between queries due to other imp=
+acting factors.</span></p>
+<p><span style=3D"letter-spacing: 0.0px;">The use of GET shall not require =
+any data payload for normal query operations. Use of query parameters is th=
+e correct way to search for data. If there is a concern that PII may be in =
+the URI and it is desirable to avoid this due to server log caching concern=
+s then either:</span></p>
+<ul>
+<li>PREFERRED: Abstract the PII into the user=E2=80=99s identity and establ=
+ish the data as part of the authentication process.</li>
+<li>BACKUP OPTION: Use a POST to create a query request resource and return=
+ a response ID, then use GET against that ID to obtain the results.&nbsp;<e=
+m>Note this is also a pattern for queries which may take time to complete.<=
+/em></li>
+<li>NOT PREFERRED: Use a POST with query data in the body and return a resp=
+onse set to this call.</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<p>GET /customers/12345</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">GET request: single resource</b><span class=3D"coll=
+apse-source expand-control" style=3D"display:none;"><span class=3D"expand-c=
+ontrol-icon icon">&nbsp;</span><span class=3D"expand-control-text">Expand s=
+ource</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">GET /customers/12345 HTTP/1.1
+Content-Type: application/json</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">GET response: single resource</b><span class=3D"col=
+lapse-source expand-control" style=3D"display:none;"><span class=3D"expand-=
+control-icon icon">&nbsp;</span><span class=3D"expand-control-text">Expand =
+source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">HTTP/1.1 200 Ok
+Content-Type: application/json
+=20
+{
+    "data": {
+        "customerId": {
+            "id" : "12345",
+            "idScheme": "CustomerInternalId"
+        },
+        "firstName": "Samuel",
+        "lastName": "Johnson",
+        "middleName": "Andrew",
+        "dateOfBirth": "1998-07-03",
+        "gender": {
+            "code": "M"
+        },
+        "status": {
+            "code": "A"
+        }
+    }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p>GET /customers</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">GET request: collection resource</b><span class=3D"=
+collapse-source expand-control" style=3D"display:none;"><span class=3D"expa=
+nd-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">Expa=
+nd source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">GET /customers HTTP/1.1
+Content-Type: application/json</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">GET response: collection resource</b><span class=3D=
+"collapse-source expand-control" style=3D"display:none;"><span class=3D"exp=
+and-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">Exp=
+and source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">HTTP/1.1 200 Ok
+Content-Type: application/json
+=20
+{
+    "data": {
+        "customers": [
+        {
+            "customerId": {
+                "id" : "12345",
+                "idScheme": "CustomerInternalId"
+            },
+            "firstName": "Samuel",
+            "lastName": "Johnson",
+            "middleName": "Andrew",
+            "dateOfBirth": "1998-07-03",
+            "gender": {
+                "code": "M"
+            },
+            "status": {
+                "code": "A"
+            }
+        },
+        ...
+        {
+            "customerId": {
+                "id" : "67890",
+                "idScheme": "CustomerInternalId"
+            },
+            "firstName": "Samantha",
+            "lastName": "Jones",
+            "middleName": Louisa,
+            "dateOfBirth": "1985-10-23",
+            "gender": {
+                "code": "F"
+            },
+            "status": {
+                "code": "A"
+            }
+        }
+        ]
+    }
+}</pre>
+</div>
+</div>
+<h3 id=3D"APIDesignStandards-PUT">PUT</h3>
+<p>PUT is to be used for creating or updating the state of the resource bei=
+ng called. It should be possible to make the same call against a resource u=
+sing a PUT and the outcome on resource state to be the same (idempotent), a=
+ssuming no other agent impacts the resource between calls.</p>
+<p>The use of PUT for update operations creates some complexity. PUT is mea=
+nt to replace the <em>entire</em> resource with a new representation, howev=
+er many organisations use PUT for partial updates by only passing in the re=
+source attributes to change. This approach however would not guarantee idem=
+potency (repeatability) and we do not support this approach on Westpac Mesh=
+ - PUT must be used to replace the <em>entire</em> resource.</p>
+<p>The approaches available to support <em>partial</em> updates, listed in =
+order of most preferred to least preferred are:</p>
+<ul>
+<li>Use PATCH to update the subset of fields required.&nbsp; Note that you =
+cannot use PATCH to insert or delete items within a nested collection conta=
+ined inside the resource; you will need to use POST AND DELETE respectively=
+ on a sub-resource.</li>
+<li>Use POST on the primary resource and append '/do/<em>verb</em>' to the =
+URI.&nbsp; eg. POST /customers/33245/do/terminate.&nbsp; This approach is a=
+ppropriate to encapsulate a discrete action to be applied against the resou=
+rce, equivalent to creating a new HTTP verb to describe the action.&nbsp; H=
+owever, it is not appropriate to use&nbsp;<em>'/do/update'</em>&nbsp;to sup=
+port partial resource updates as PATCH should be used for this purpose.</li=
+>
+<li>Use PUT on a sub-resource of the primary resource which represents the =
+collection of fields to be updated - all fields of the sub-resource MUST be=
+ supplied. &nbsp;However, we don't want to end up with a design where every=
+ field becomes its own sub-resource. &nbsp;Where the sub-resource contains =
+a collection of fields it needs to be named in an intuitive fashion.&nbsp; =
+Note: each attribute or property of the resource can only be present in ONE=
+ sub-resource.</li>
+<li>Use POST to a new resource, which is used only for updates, that is nam=
+ed similarly to the primary resource. eg. POST /customerUpdates.&nbsp; This=
+ option is suitable where the unique identifier for the resource to be upda=
+ted cannot be described via the URI.&nbsp; This could occur where the provi=
+der system (or API) does not expose the unique identifier or the resource c=
+ontains a nested collection and there is a desire to insert, update or dele=
+te item(s) in the collection along with scalar attributes of the resource w=
+ithin a single endpoint.</li>
+<li>Use DELETE to remove the resource, then use POST to (re)create the reso=
+urce.</li>
+</ul>
+<p><strong>Note</strong>.&nbsp; It is permissible to apply PUT to a collect=
+ion resource but note that it is expected that you will replace ALL items w=
+ithin that collection.&nbsp; If you want to selectively update items within=
+ the collection use PATCH instead.</p>
+<p><strong>Examples:</strong></p>
+<p>PUT&nbsp;<a href=3D"http://www.example.com/buckets/secret_stuff" class=
+=3D"external-link" rel=3D"nofollow">/</a>customers/12345</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">PUT request: single resource</b><span class=3D"coll=
+apse-source expand-control" style=3D"display:none;"><span class=3D"expand-c=
+ontrol-icon icon">&nbsp;</span><span class=3D"expand-control-text">Expand s=
+ource</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">PUT /customers/12345 HTTP/1.1
+Content-Type: application/json
+=20
+{
+    "firstName": "Samuel",
+    "lastName": "Johnson",
+    "middleName": null,
+    "dateOfBirth": "1998-07-03",
+    "gender": {
+        "code": "M"
+    },
+    "status": {
+        "code": "A"
+   }
+}</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">PUT response: single resource</b><span class=3D"col=
+lapse-source expand-control" style=3D"display:none;"><span class=3D"expand-=
+control-icon icon">&nbsp;</span><span class=3D"expand-control-text">Expand =
+source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">HTTP/1.1 204 No Content
+Content-Type: application/json</pre>
+</div>
+</div>
+<p><br></p>
+<p>PUT&nbsp;/customers&nbsp;(NOT RECOMMENDED&nbsp;!)</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">PUT request: collection resource</b><span class=3D"=
+collapse-source expand-control" style=3D"display:none;"><span class=3D"expa=
+nd-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">Expa=
+nd source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">PUT /customers/12345 HTTP/1.1
+Content-Type: application/json
+=20
+[
+    {
+        "customerId": {
+            "id" : "12345",
+            "idScheme": "CustomerInternalId"
+        },
+        "firstName": "Samuel",
+        "lastName": "Johnson",
+        "middleName": null,
+        "dateOfBirth": "1998-07-03",
+        "gender": {
+            "code": "M"
+        },
+        "status": {
+            "code": "A"
+        }
+    },
+    {
+        "customerId": {
+            "id" : "67890",
+            "idScheme": "CustomerInternalId"
+        },
+        "firstName": "Samantha",
+        "lastName": "Grey",
+        "middleName": Louise,
+        "dateOfBirth": "1985-10-23",
+        "gender": {
+            "code": "F"
+        },
+        "status": {
+            "code": "A"
+        }
+    }
+]</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">PUT response: collection resource</b><span class=3D=
+"collapse-source expand-control" style=3D"display:none;"><span class=3D"exp=
+and-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">Exp=
+and source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">HTTP/1.1 204 No Content
+Content-Type: application/json</pre>
+</div>
+</div>
+<h3 id=3D"APIDesignStandards-DELETE">DELETE</h3>
+<p>DELETE is used to completely remove a resource instance. This is a safe =
+operation in that a call can be made multiple times and only the targeted r=
+esource should be deleted, however note that a second call should be an err=
+or (resource not found) if the DELETE has been completed.</p>
+<p><strong>Note</strong>. A request body cannot be sent when using the DELE=
+TE verb.</p>
+<p><strong>Examples:</strong></p>
+<p>DELETE /customers/12345</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">DELETE request: single resource</b><span class=3D"c=
+ollapse-source expand-control" style=3D"display:none;"><span class=3D"expan=
+d-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">Expan=
+d source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">DELETE /customers/12345 HTTP/1.1
+Content-Type: application/json</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">DELETE response: single resource</b><span class=3D"=
+collapse-source expand-control" style=3D"display:none;"><span class=3D"expa=
+nd-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">Expa=
+nd source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">HTTP/1.1 204 No Content
+Content-Type: application/json</pre>
+</div>
+</div>
+<p><br></p>
+<p>DELETE&nbsp;<span class=3D"nolink">/customers</span>&nbsp;(NOT RECOMMEND=
+ED&nbsp;!)</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">DELETE request: collection resource</b><span class=
+=3D"collapse-source expand-control" style=3D"display:none;"><span class=3D"=
+expand-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">=
+Expand source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">DELETE /customers HTTP/1.1
+Content-Type: application/json</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">DELETE response: collection resource</b><span class=
+=3D"collapse-source expand-control" style=3D"display:none;"><span class=3D"=
+expand-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">=
+Expand source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">HTTP/1.1 204 No Content
+Content-Type: application/json</pre>
+</div>
+</div>
+<h3 id=3D"APIDesignStandards-PATCH">PATCH</h3>
+<p>PATCH is used to update a subset of attributes for a resource. This is a=
+n unsafe operation in that the state of a resource may be different after a=
+pplying the same PATCH request multiple times due to simultaneous updates a=
+pplied by other parties. There are various PATCH request formats in use wit=
+hin the industry. Westpac Mesh has adopted the&nbsp;<a href=3D"https://tool=
+s.ietf.org/html/rfc7396" class=3D"external-link" rel=3D"nofollow">JSON Merg=
+e PATCH</a>&nbsp;format as it supports the same request format as used for =
+POST and PUT verbs.</p>
+<p><strong>Note</strong>. The target resource URI may identify a single obj=
+ect or a collection of objects.&nbsp; If it identifies a collection of obje=
+cts only existing objects within the collection can be updated - you cannot=
+ insert or delete objects within the collection using PATCH.</p>
+<p><strong>Examples:</strong></p>
+<p>PATCH /customers/12345</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">PATCH request: single resource</b><span class=3D"co=
+llapse-source expand-control" style=3D"display:none;"><span class=3D"expand=
+-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">Expand=
+ source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">PATCH /customers/12345 HTTP/1.1
+Content-Type: application/merge-patch+json
+=20
+{
+   "lastName": "Johnson",
+   "middleName": null
+}</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">PATCH response: single resource</b><span class=3D"c=
+ollapse-source expand-control" style=3D"display:none;"><span class=3D"expan=
+d-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">Expan=
+d source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">HTTP/1.1 204 No Content
+Content-Type: application/json</pre>
+</div>
+</div>
+<p><br></p>
+<p>PATCH /customers&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">PATCH request: collection resource</b><span class=
+=3D"collapse-source expand-control" style=3D"display:none;"><span class=3D"=
+expand-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">=
+Expand source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">PATCH /customers HTTP/1.1
+Content-Type: application/merge-patch+json
+=20
+[
+   {
+      "customerId": {
+         "id": "1234",
+         "idScheme": "CustomerInternalId"
+      },
+      "lastName": "Johnson",
+      "middleName": null
+   },
+   {
+      "customerId": {
+         "id": "5678",
+         "idScheme": "CustomerInternalId"
+      },
+      "lastName": "Warren",
+      "firstName": "Jennifer"
+   }
+]</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">PATCH response: collection resource</b><span class=
+=3D"collapse-source expand-control" style=3D"display:none;"><span class=3D"=
+expand-control-icon icon">&nbsp;</span><span class=3D"expand-control-text">=
+Expand source</span></span><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">HTTP/1.1 204 No Content
+Content-Type: application/json</pre>
+</div>
+</div>
+<h3 id=3D"APIDesignStandards-HEAD">HEAD</h3>
+<p>HEAD is to be used for safe to repeat queries. The use of HEAD must not =
+lead to a change of resource state, but it is valid for resource state to c=
+hange between queries due to other impacting factors. Note that as HEAD is =
+used for probing API availability, response payload size, and cache expiry,=
+ the actual resource will NOT be returned.</p>
+<p><strong>Examples:</strong></p>
+<p>HEAD /customers/12345</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">HEAD request</b><span class=3D"collapse-source expa=
+nd-control" style=3D"display:none;"><span class=3D"expand-control-icon icon=
+">&nbsp;</span><span class=3D"expand-control-text">Expand source</span></sp=
+an><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">GET /customers/12345 HTTP/1.1
+Content-Type: application/json</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">HEAD response</b><span class=3D"collapse-source exp=
+and-control" style=3D"display:none;"><span class=3D"expand-control-icon ico=
+n">&nbsp;</span><span class=3D"expand-control-text">Expand source</span></s=
+pan><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">HTTP/1.1 200 Ok
+Content-Type: application/json
+</pre>
+</div>
+</div>
+<h2 id=3D"APIDesignStandards-page_sort_filterPaging,SortingandFiltering"><s=
+pan class=3D"confluence-anchor-link" id=3D"APIDesignStandards-page_sort_fil=
+ter"></span>Paging, Sorting and Filtering</h2>
+<p>Please refer to <a href=3D"/display/MESH/Pattern+9%3A+Paging%2C+Sorting+=
+and+Filtering">Pattern 9: Paging, Sorting and Filtering</a></p>
+<h2 id=3D"APIDesignStandards-response_codesResponseStatusCodes"><span class=
+=3D"confluence-anchor-link" id=3D"APIDesignStandards-response_codes"></span=
+>Response Status Codes</h2>
+<h3 id=3D"APIDesignStandards-Summary.2">Summary</h3>
+<p>Most HTTP common response codes are generally well understood by API con=
+sumers, such as 404 =E2=80=93 Not Found. However, others are less commonly =
+understood, and it is important designers and implementers are consistent i=
+n how they are used in order to breed a consistent familiarity for API cons=
+umers. A good accessible resource for HTTP codes and their meanings is in W=
+ikipedia:&nbsp;<a href=3D"https://en.wikipedia.org/wiki/List_of_HTTP_status=
+_codes" class=3D"external-link" rel=3D"nofollow">https://en.wikipedia.org/w=
+iki/List_of_HTTP_status_codes</a></p>
+<p class=3D"TableHeading">A summary table is provided below showing which c=
+odes are in use on Westpac Mesh. If the code is not in this table, it is no=
+t to be used as a response code. If a use case is not covered and requires =
+a new response code, then propose through program architecture. Note that o=
+nly a few combinations are invalid due to the filtering down of response st=
+atus codes.</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 54.0px;">
+<col style=3D"width: 144.0px;">
+<col style=3D"width: 54.0px;">
+<col style=3D"width: 46.0px;">
+<col style=3D"width: 47.0px;">
+<col style=3D"width: 67.0px;">
+<col style=3D"width: 62.0px;">
+<col style=3D"width: 58.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th rowspan=3D"2" class=3D"confluenceTh"><p class=3D"TableHeading" align=3D=
+"center">Code</p></th>
+<th colspan=3D"1" class=3D"confluenceTh"><br></th>
+<th colspan=3D"6" class=3D"confluenceTh"><p class=3D"TableHeading" align=3D=
+"center">HTTP Verb</p></th>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p class=3D"TableHeading" align=3D"center">Statu=
+s</p></th>
+<th colspan=3D"1" class=3D"confluenceTh">POST</th>
+<th class=3D"confluenceTh"><p class=3D"TableHeading" align=3D"center">GET</=
+p></th>
+<th class=3D"confluenceTh"><p class=3D"TableHeading" align=3D"center">PUT</=
+p></th>
+<th class=3D"confluenceTh"><p class=3D"TableHeading" align=3D"center">DELET=
+E</p></th>
+<th colspan=3D"1" class=3D"confluenceTh">PATCH</th>
+<th class=3D"confluenceTh"><p class=3D"TableHeading" align=3D"center">HEAD<=
+/p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">200</=
+p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Ok</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">201</=
+p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Created</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">N</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">N</p>=
+</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">N</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">N</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">202</=
+p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Accepted</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">N</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">N</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">204</=
+p></td>
+<td colspan=3D"1" class=3D"confluenceTd">No Content</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">N</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">303*=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd">See Other</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">N</t=
+d>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">N</t=
+d>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">N</t=
+d>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">N</t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">400</=
+p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Bad Request</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">401</=
+p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Unauthorised</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">403</=
+p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Forbidden</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">N</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">404</=
+p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Not Found</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">409</=
+p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Conflict</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">N</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">N</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">500</=
+p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Internal Server Error</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd">Y</t=
+d>
+<td class=3D"confluenceTd"><p class=3D"TableHeading" align=3D"center">Y</p>=
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>* Only applicable for asynchronous processing, refer <a href=3D"https://=
+confluence.srv.westpac.com.au/display/mesh/Pattern+5%3A+Asynchronous+Proces=
+sing" rel=3D"nofollow">Pattern 5: Asynchronous Processing</a>.</p>
+<p><br></p>
+<p style=3D"text-align: left;" align=3D"center">The following response code=
+s have been considered for inclusion in the above list but dismissed as bei=
+ng unsuitable.</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 74.=
+2647%;">
+<colgroup>
+<col style=3D"width: 4.23765%;">
+<col style=3D"width: 10.4246%;">
+<col style=3D"width: 28.138%;">
+<col style=3D"width: 57.0387%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Code</th>
+<th class=3D"confluenceTh">Status</th>
+<th colspan=3D"1" class=3D"confluenceTh">Purpose for inclusion</th>
+<th class=3D"confluenceTh"><p>Reasons for exclusion</p></th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">207</td>
+<td colspan=3D"1" class=3D"confluenceTd">Multi-Status</td>
+<td colspan=3D"1" class=3D"confluenceTd">To support partial success scenari=
+os</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ul>
+<li>Part of the WebDAV extensions for HTTP to support distributed authoring=
+ - limit HTTP response codes to core set</li>
+<li>Response structure is assumed to be XML</li>
+<li>Response structure is composed of a single results object containing an=
+ array of objects indicating the success or otherwise for each item - our p=
+reference is to use the data object to return successful processing results=
+ and only use the results object to report the errors</li>
+</ul></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">422</td>
+<td colspan=3D"1" class=3D"confluenceTd">Unprocessable Entity</td>
+<td colspan=3D"1" class=3D"confluenceTd">To distinguish between syntactical=
+ and semantic client errors</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ul>
+<li>Part of the WebDAV extensions for HTTP to support distributed authoring=
+ - limit HTTP response codes to core set</li>
+<li>400 Bad Request can mean syntactical or semantic errors (original defin=
+ition in RFC2616 only covered syntactical errors)</li>
+<li>Little benefit in distinguishing between syntactical and semantic error=
+s - keeps it simple for designers/developers</li>
+<li>400 is the generally accepted response code for client errors</li>
+</ul></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">501</td>
+<td colspan=3D"1" class=3D"confluenceTd">Not Implemented</td>
+<td colspan=3D"1" class=3D"confluenceTd">Enable the response code for Infor=
+mation and Capability APIs, to indicate in a resource/end-point that certai=
+n functionality is not yet implemented</td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ul>
+<li><span style=3D"color: rgb(34,34,34);">Status code indicates that the se=
+rver does not support the method/end-point to fulfill the request.<span>&nb=
+sp;</span></span></li>
+<li>Status code does not align to the use-case need, as the method/end-poin=
+t exists and certain functional detail is not yet implemented.</li>
+<li><span style=3D"color: rgb(36,36,36);">Swagger is the primary mechanism =
+to describe whether a feature has been implemented or not. e.g. if the endp=
+oint is not in Swagger it is not ready for production use ; if the brandSil=
+o is not in the list of allowed enums, then it is not ready for production =
+use. </span></li>
+<li><span style=3D"color: rgb(36,36,36);">Swagger is also the primary mecha=
+nism for Service Discovery through Connect, hence the contract needs to be =
+reflective of what is implemented and available features.</span></li>
+<li><span style=3D"color: rgb(34,34,34);"><span>Considering above, Swagger =
+should be limited to supported features.</span></span></li>
+<li><span style=3D"color: rgb(34,34,34);"><span>Current use-case need is fo=
+r internal APIs (information and capability) and the decision is scoped at =
+that. If other API layers need to support the response code arises, then it=
+ will need re-assessment based on use-case.</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p align=3D"center"><br></p>
+<h4 id=3D"APIDesignStandards-ResponseCodeDetailedGuidance">Response Code De=
+tailed Guidance</h4>
+<p>Further details on the codes to be used is provided below, as elaborated=
+ from:&nbsp;<a href=3D"http://www.restapitutorial.com/httpstatuscodes.html"=
+ class=3D"external-link" rel=3D"nofollow">http://www.restapitutorial.com/ht=
+tpstatuscodes.html</a>&nbsp;and&nbsp;<a href=3D"http://ietf.org/" class=3D"=
+external-link" rel=3D"nofollow">IETF.org</a></p>
+<p><strong>200 Ok</strong></p>
+<p>The request has succeeded. The information returned with the response is=
+ dependent on the method used in the request, for example:</p>
+<ul>
+<li>POST: a response body may be returned if required by&nbsp;the use case,=
+ though this should be limited to new identifiers (when creating a new reso=
+urce) rather than&nbsp;an entire representation of the resource.</li>
+<li>GET: an entity corresponding to the requested&nbsp;resource is sent in =
+the response.</li>
+<li>PUT: the typical response code returned will be 204 with no response bo=
+dy as there is no meaningful data to be returned.&nbsp; A response body may=
+ only be returned if there is meaningful data to return and in this case th=
+e response code will be 200.</li>
+<li>DELETE: the typical response code returned will be 204 with no response=
+ body as there is no meaningful data to be returned.</li>
+<li>PATCH: the typical response code returned will be 204 with no response =
+body as there is no meaningful data to be returned.&nbsp; A response body m=
+ay only be returned if there is meaningful data to return and in this case =
+the response code will be 200.</li>
+<li>HEAD: the entity-header fields corresponding to&nbsp;the&nbsp;requested=
+ resource are sent in the response without any message-body.</li>
+</ul>
+<p>This is a general status code, and the most common code used to indicate=
+ success where more fine grained success handling is not required.</p>
+<p><strong>201 Created</strong></p>
+<p>The request has been fulfilled and resulted in a new resource being crea=
+ted. This should only be used for PUT or POST. The resource must have been =
+created. If creation is pending, then return 202 instead.</p>
+<p>We will still provide a resource ID in the response body if appropriate,=
+ to support subsequent calls, but if this is not appropriate the API design=
+ must support another query mechanism for finding resources.</p>
+<p><strong>202 Accepted</strong></p>
+<p>The request has been accepted for processing, but processing has not com=
+pleted. It may be subsequently rejected. We will only support this status c=
+ode for DELETE, POST, or PUT. Call-back queries will be implemented using a=
+ POST, followed by a GET.</p>
+<p>We will still provide a resource ID in the response body if appropriate,=
+ to support subsequent calls, but if this is not appropriate the API design=
+ must support another query mechanism for finding resources.</p>
+<p><strong>204 No Content</strong></p>
+<p>The request has been successfully processed, but there is no data to ret=
+urn. This is an appropriate response for PUT, POST, DELETE, PATCH methods w=
+here there is no meaningful data which can be returned to the caller.&nbsp;=
+ It is important to note that it is prohibited to return any content in the=
+ response body when providing a 204 response code.&nbsp; If there is meanin=
+gful data available to be returned then use a 200 response code with a body=
+ containing this data.</p>
+<p>Use of a 204 response code is not recommended for the GET method.&nbsp; =
+The caller will expect to receive a 200 response code for successful invoca=
+tion of this method.&nbsp; If you are accessing a collection resource (eg. =
+/customers) and apply a filter to the collection (eg. postCode=3D9999) whic=
+h results in no matching customers found then the response should be a 200 =
+response code and a body containing an empty array of customer objects.</p>
+<p>Note that the 204 should not be used as a general code for HEAD type que=
+ries, as HEAD should provide the same status code response that the GET wou=
+ld have given, had it been made in its place.</p>
+<p><strong>303 See Other</strong></p>
+<p>The resource you have requested is not available at this URI but is avai=
+lable at the address identified in the Location HTTP header.</p>
+<p><strong>400 Bad Request</strong></p>
+<p>The request could not be understood due to malformed syntax or data. The=
+ consumer should not resubmit without making changes.</p>
+<p><strong>401 Unauthorised</strong></p>
+<p>Use this error code response for missing or invalid authentication token=
+, but if bleeding through security failures is disallowed, use 404 instead.=
+&nbsp; Westpac Mesh APIs should not generally expose a 401 response code as=
+ the APIs should authenticate with the backend provider at an application l=
+evel rather than user level.&nbsp; However, the caller may receive a 401 re=
+sponse code if the API gateway cannot authenticate the caller using their A=
+PI key and secret.</p>
+<p><strong>403 Forbidden</strong></p>
+<p>Use this error code response when the caller is not authorised to access=
+ the provider or one of its functions, but if bleeding through security fai=
+lures is disallowed, use 404 instead. Westpac Mesh APIs do not generally ex=
+pose a 403 response code as the APIs should be authorised with the backend =
+provider at an application level rather than user level; this is generally =
+referred to as coarse grained authorisation.&nbsp; It is assumed that the c=
+alling application will determine whether the user should be permitted to i=
+nvoke a particular function of the provider.&nbsp; However, if your provide=
+r does authorise individual users for specific functions then it is permitt=
+ed to expose a 403 response code.&nbsp; It is also possible that the API ga=
+teway will return a 403 if the calling application is not authorised to cal=
+l this API.</p>
+<p><strong>404 Not Found</strong></p>
+<p>Used when the requested resource cannot be found or if you do not wish t=
+o disclose that a resource exists.&nbsp; The latter case generally occurs f=
+or public APIs where a user fails to authenticate or be authorised and you =
+do not wish to expose that the resource exists.</p>
+<p>If the requested resource identifies a specific resource such as a custo=
+mer identified by the URI /customers/{customerId} then it is appropriate to=
+ return 404 if no customer exists with the supplied customerID.</p>
+<p>However, if the requested resource identifies a set of objects such as a=
+ list of accounts for a specified customer as in the URI /customers/{custom=
+erId}/accounts then it is not appropriate to return a 404 where the custome=
+r does not have any accounts.&nbsp; Instead a 200 containing an empty array=
+ of accounts is the appropriate response.&nbsp; It is appropriate to return=
+ a 404 if no customer exists for the specified customerId.</p>
+<p><strong>409 Conflict</strong></p>
+<p>Use when a resource conflict would be caused by fulfilling the request. =
+This should only be the case for PUT, POST and DELETE methods. Potential sc=
+enarios for returning a 409 are: resource duplication, optimistic lock viol=
+ation, resource is not in an apppropriate state for the action.</p>
+<p><strong>500 Internal Server Error</strong></p>
+<p>This general catch-all error covers when the server-side throws an excep=
+tion. Whilst there are many 500 series status codes, for an API these shoul=
+d almost never be thrown. Use 500 only for errors that the consumer cannot =
+address from their end.&nbsp;</p>
+<h2 id=3D"APIDesignStandards-data_representationDataRepresentationinRequest=
+sandResponses"><span class=3D"confluence-anchor-link" id=3D"APIDesignStanda=
+rds-data_representation"></span>Data Representation in Requests and Respons=
+es&nbsp;&nbsp;</h2>
+<h3 id=3D"APIDesignStandards-SummaryofApproach">Summary of Approach</h3>
+<p><strong>All payloads must ONLY support the MIME content type application=
+/json. </strong>The following exceptions apply:</p>
+<ul>
+<li>application/merge-patch+json - for use with PATCH verb requests only</l=
+i>
+<li>other MIME types such as image/jpeg as the response where the content t=
+o be returned consists solely of that content type. However, application/xm=
+l is specifically excluded.</li>
+</ul>
+<h4 id=3D"APIDesignStandards-Fundamentalprinciples">Fundamental principles<=
+/h4>
+<ul>
+<li>All responses must return the resource data contained within a data att=
+ribute.&nbsp; This allows additional metadata such as paging information to=
+ also be included at the root level</li>
+<li>The HTTP Accept header should expect to receive application/json but ca=
+n safely ignore other values</li>
+<li>Use camel case for all field names in JSON</li>
+<li>Use ISO8601 for date time formatting, i.e.&nbsp;2012-01-01T12:00:00Z.&n=
+bsp; Note that the date time value must be returned as UTC time not local t=
+ime.</li>
+<li>Nest foreign key relations as this allows simple&nbsp; future inlining =
+of extra information, e.g.</li>
+</ul>
+<p>{ customer: { id: 1234} } vs { customerId: 1234 }</p>
+<ul>
+<li>Use standard names for common fields, i.e. id,&nbsp;modifiedAt, created=
+At</li>
+<li>Errors should be returned in an error attribute for&nbsp;a&nbsp;JSON re=
+sponse. This should not be returned along with a data&nbsp;attribute.This i=
+s an array of error objects, each containing:</li>
+</ul>
+<p>code =E2=80=93 Application specific error code</p>
+<p>message =E2=80=93 Human readable description, but not necessarily intend=
+ed for display to the end user</p>
+<p>details =E2=80=93&nbsp;Detailed information about the error</p>
+<ul>
+<li>Use <a href=3D"https://confluence.srv.westpac.com.au/display/mesh/Commo=
+n+Data+Types" rel=3D"nofollow">Common Data Types</a> where applicable to en=
+sure consistency across all Westpac Mesh APIs</li>
+<li>Don't echo information in the response payload which was provided in th=
+e request (body/header/path)</li>
+<li>Design the interface for ease of use by the consumer(s)=20
+<ul>
+<li>The API should provide an abstraction of the underlying provider system=
+ data models - don't just echo the provider interface in the API interface<=
+/li>
+<li>Don't design the interface to satisfy a single specific consumer - desi=
+gn for all possible consumers</li>
+</ul></li>
+<li>If there are more than three levels in the JSON&nbsp;data&nbsp;structur=
+es, consider your resource granularity again.</li>
+<li>If a response (ignoring paging a collection) is&nbsp;more&nbsp;than a p=
+age of text when printed out, then consider again your&nbsp;resource&nbsp;g=
+ranularity.</li>
+<li>Don't be afraid of supporting multiple query parameters. Most consumers=
+ will not use more than&nbsp;a&nbsp;few&nbsp;parameters at a&nbsp;time. The=
+ size of a generated URI is usually irrelevant to the consumer anyway.&nbsp=
+;Let the consumer&nbsp;requirements&nbsp;drive this.</li>
+<li>Don't send fields with null data&nbsp;- just don't&nbsp;send&nbsp;them<=
+/li>
+<li>Make field and property names meaningful</li>
+<li>Use double quotes for all field names and values - this is generally en=
+forced by the JSON serialiser for the language framework being used</li>
+</ul>
+<p><br></p>
+<h2 id=3D"APIDesignStandards-versioningVersioning"><strong><span class=3D"c=
+onfluence-anchor-link" id=3D"APIDesignStandards-versioning"></span></strong=
+>Versioning</h2>
+<p>Westpac Mesh APIs honour <a href=3D"https://semver.org/" class=3D"extern=
+al-link" rel=3D"nofollow">semantic versioning</a> principles in that a new =
+major version is not guaranteed to be backwardly compatible with a prior ma=
+jor version, a new minor version is backwardly compatible with a prior mino=
+r version, a new patch version is backwardly compatible with a prior patch =
+version.&nbsp;</p>
+<p>Westpac Mesh APIs supports both <strong>URL versioning</strong> and <str=
+ong>Media type versioning.&nbsp; </strong></p>
+<p><span style=3D"color: rgb(1,55,85);"><strong>URL versioning</strong> is =
+on by default </span>in which include the major version number in the URI w=
+hich allows side by side deployment of different major versions of an API&n=
+bsp;</p>
+<p><a href=3D"https://confluence.srv.westpac.com.au/display/MESH/Solution+O=
+ptions+-+API+Versioning" rel=3D"nofollow">Media type versioning</a> is avai=
+lable for Open API 3.0 and&nbsp; is a flexible solution for versioning endp=
+oints without creating a new major version of an API.</p>
+<ul>
+<li>It allows versioning individual API endpoints when you need it.</li>
+<li>You can version input and output schemas independently.</li>
+</ul>
+<p>Media type versioning allows the old endpoint to be marked as deprecated=
+ and a new endpoint to be created in the same version of the API. Only two =
+endpoint versions are allowed before a major version needs to be created. W=
+hen a new major version is created , any deprecated endpoints MUST be remov=
+ed.</p>
+<p><span>You should consider the pros and cons of each versioning strategy,=
+ and choose the one that suits your needs and preferences. You should also =
+follow some best practices, such as minimizing breaking changes, documentin=
+g your API versions, and deprecating old versions gracefully.&nbsp;</span><=
+/p>
+<p>The use of JSON&nbsp;instead of XML as a data format for APIs provides t=
+he opportunity to make many changes in a backwards compatible fashion. &nbs=
+p;The table below illustrates some typical types of changes and whether the=
+y are backwardly compatible (non-breaking) or not. &nbsp;Note that the term=
+ 'operation' refers to the combination of HTTP verb and URI.</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped tf-macro confluenceTable" data-tf-ready=3D"true">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th data-column=3D"0" class=3D"confluenceTh">Type of change</th>
+<th data-column=3D"1" class=3D"confluenceTh">Backward compatible</th>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Add new =
+mandatory request field (query,request body,header etc )to an existing oper=
+ation.</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">No</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Add new optional request field (query,request bo=
+dy,header) to an existing operation</td>
+<td class=3D"confluenceTd">Yes</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Add new =
+fields/objects to the response of an existing operation</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Yes&nbsp=
+;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Add new operation to an existing API</td>
+<td class=3D"confluenceTd">Yes</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Rename or delete an existing field from an opera=
+tion</td>
+<td class=3D"confluenceTd"><p>No</p></td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Rename o=
+r delete an existing operation</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1"><p>No</p=
+></td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Change c=
+ardinality of a field from 1 to n or n to 1</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">No</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Add new =
+http status code</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">No</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Add new =
+error code</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Yes</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Enhance =
+enum(s) to add more values in request</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Yes</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Enhance =
+enum(s) to add more values in response</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">No</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Change m=
+andatory request field(query,request body,header) to optional</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Yes</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Change d=
+ata types in request /response</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">No</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Change /=
+ Remove enum values in request / response</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">No</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Change/ =
+remove existing endpoint names</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">No</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Change /=
+ remove existing http status codes / error codes</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">No</td>
+</tr>
+<tr>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">Change e=
+ndpoint verb - example GET to POST</td>
+<td class=3D"tf-rowspan-1 tf-colspan-1 confluenceTd" colspan=3D"1">No</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Note then when a new major version of an API is required, the ne=
+w major version MUST include all operations and associated functionality fr=
+om the prior version except where this functionality is deliberately being =
+deprecated in the new version.</strong></p>
+<h3 id=3D"APIDesignStandards-MaturityLevels">Maturity Levels</h3>
+<p>Whilst being "properly" RESTful requires compliance to a number of archi=
+tectural style guides and patterns,&nbsp;what we are trying to achieve with=
+ APIs is more important than ivory tower arguments about levels of complian=
+ce with the RESTful style guides.&nbsp;That said, the following link provid=
+es a good description of a maturity model for Restful APIs which takes a co=
+arse grained approach to defining increasing levels of maturity, and how th=
+is benefits the integrating systems:&nbsp;<a href=3D"http://martinfowler.co=
+m/articles/richardsonMaturityModel.html" class=3D"external-link" rel=3D"nof=
+ollow">http://martinfowler.com/articles/richardsonMaturityModel.html</a></p=
+>
+<p>The following table summarises the Richardson Maturity Model:</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p>Level</p></td>
+<td class=3D"confluenceTd"><p>Description</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>0</p></td>
+<td class=3D"confluenceTd"><p>"The&nbsp;Swamp of POX/POJ"</p><p>HTTP is use=
+d as the transport, but without using any of the web mechanisms. Effectivel=
+y, this is XML or JSON remote procedure calls (Plain old XML/JSON).</p></td=
+>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"confluenceTd"><p>Resources</p><p>Rather than making all reques=
+ts to a singular service endpoint, we now start talking to individual resou=
+rces.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2</p></td>
+<td class=3D"confluenceTd"><p>HTTP Verbs</p><p>Start&nbsp; using the HTTP v=
+erbs as closely as possible to how they are used in HTTP itself</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>3</p></td>
+<td class=3D"confluenceTd"><p>Hypermedia Controls</p><p>Introduce Hypermedi=
+a As The Engine Of Application State - The message flow defines the availab=
+le behaviour on the resource - "What can one do next?"</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>There is a lot more to maturity than just this, as one could argue that:=
+</p>
+<p>Level 1 should introduce some additional&nbsp;standards&nbsp;for using r=
+esources, but the key is to start treating endpoints as managing resources,=
+ not providing services, in order to allow the next step to work.</p>
+<p>Level 2 should cover off some of the other core HTTP behavior management=
+ capabilities, especially around caching, but the key is at this level we a=
+re driving the message flow behaviour in line with how the web's client ser=
+ver model works.</p>
+<p>Level 3 is nirvana and challenging to implement fully with APIs.</p>
+<p>For Westpac Mesh APIs, we are targeting level 2 compliance and will supp=
+ort level 3 (HATEOAS) for use cases where it makes sense to do so.&nbsp; Th=
+e precise design model which will be used to support HATEOAS is yet to be f=
+inalised.</p>
+<p><br></p>
+<h2 id=3D"APIDesignStandards-References:">References:</h2>
+<p><a href=3D"http://www.restapitutorial.com/lessons/whatisrest.html" class=
+=3D"external-link" rel=3D"nofollow">http://www.restapitutorial.com/lessons/=
+whatisrest.html</a></p>
+<p><a href=3D"http://www.restapitutorial.com/lessons/httpmethods.html" clas=
+s=3D"external-link" rel=3D"nofollow">http://www.restapitutorial.com/lessons=
+/httpmethods.html</a></p>
+<p><a href=3D"http://www.restapitutorial.com/httpstatuscodes.html" class=3D=
+"external-link" rel=3D"nofollow">http://www.restapitutorial.com/httpstatusc=
+odes.html</a></p>
+<p><a href=3D"http://www.restapitutorial.com/lessons/restfulresourcenaming.=
+html" class=3D"external-link" rel=3D"nofollow">http://www.restapitutorial.c=
+om/lessons/restfulresourcenaming.html</a></p>
+<p><a href=3D"https://www.thoughtworks.com/insights/blog/rest-api-design-re=
+source-modeling" class=3D"external-link" rel=3D"nofollow">https://www.thoug=
+htworks.com/insights/blog/rest-api-design-resource-modeling</a></p>
+<p><a href=3D"http://martinfowler.com/articles/richardsonMaturityModel.html=
+" class=3D"external-link" rel=3D"nofollow">http://martinfowler.com/articles=
+/richardsonMaturityModel.html</a></p>
+<p><a href=3D"http://www.apiacademy.co/" class=3D"external-link" rel=3D"nof=
+ollow">http://www.apiacademy.co/</a>&nbsp;(API Design 303: Pagination)&nbsp=
+;</p>
+<p><a href=3D"https://tools.ietf.org/html/rfc7231" class=3D"external-link" =
+rel=3D"nofollow">https://tools.ietf.org/html/rfc7231</a>&nbsp;(HTTP Semanti=
+cs)</p>
+<p><a href=3D"http://tools.ietf.org/html/rfc5789" class=3D"external-link" r=
+el=3D"nofollow">http://tools.ietf.org/html/rfc5789</a>&nbsp;(HTTP PATCH met=
+hod)</p>
+<p><a href=3D"https://confluence.srv.westpac.com.au/x/Btw-Ig" rel=3D"nofoll=
+ow">HTTP PATCH formats</a></p>
+<p><a href=3D"https://tools.ietf.org/html/rfc7396" class=3D"external-link" =
+rel=3D"nofollow">https://tools.ietf.org/html/rfc7396</a>&nbsp;(JSON Merge P=
+atch)</p>
+<p><a href=3D"https://www.rfc-editor.org/rfc/rfc9110.html#name-501-not-impl=
+emented" class=3D"external-link" rel=3D"nofollow">RFC 9110: HTTP Semantics =
+(rfc-editor.org)</a></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_116152_754793791.1773922338869--

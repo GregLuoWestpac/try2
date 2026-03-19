@@ -1,0 +1,952 @@
+Date: Thu, 19 Mar 2026 23:20:31 +1100 (AEDT)
+Message-ID: <202571442.116215.1773922831562@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116214_1891636058.1773922831562"
+
+------=_Part_116214_1891636058.1773922831562
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Mac OS Setup</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Mac OS Setup</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"MacOSSetup-/*<![CDATA[*/div.rbtoc1773922831507{padding:0p=
+x;}div.rbtoc1773922831507ul{margin-left:0px;}div.rbtoc1773922831507li{margi=
+n-left:0px;padding-left:0px;}/*]]>*/#MacOSSetup-PreSetup#MacOSSetup-PreSetu=
+pCommonSoftwareInstallation#MacOSSetup-CommonSof"><style type=3D"text/css">=
+/*<![CDATA[*/
+div.rbtoc1773922831507 {padding: 0px;}
+div.rbtoc1773922831507 ul {margin-left: 0px;}
+div.rbtoc1773922831507 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1773922831507">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#MacOSSetup-"></a></li>
+<li><a href=3D"#MacOSSetup-PreSetup">Pre Setup</a></li>
+<li><a href=3D"#MacOSSetup-CommonSoftwareInstallation">Common Software Inst=
+allation</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#MacOSSetup-OnceloggedviaCitrixSecureAccess(VPN)intoMAC">Onc=
+e logged via Citrix Secure Access (VPN) into MAC</a></li>
+<li><a href=3D"#MacOSSetup-Proxyworkaround">Proxy work around</a></li>
+<li><a href=3D"#MacOSSetup-SetupNode">Setup Node</a></li>
+<li><a href=3D"#MacOSSetup-SetupGIT">Setup GIT</a></li>
+<li><a href=3D"#MacOSSetup-MESHDevTools">MESH Dev Tools</a></li>
+</ul></li>
+<li><a href=3D"#MacOSSetup-OptionalSoftwareInstallation">Optional Software =
+Installation</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#MacOSSetup-NVM">NVM</a></li>
+<li><a href=3D"#MacOSSetup-Setupprinter">Set up printer</a></li>
+<li><a href=3D"#MacOSSetup-JDK/Maven">JDK / Maven</a></li>
+<li><a href=3D"#MacOSSetup-IDEs">IDEs</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#MacOSSetup-General">General</a></li>
+<li><a href=3D"#MacOSSetup-IntelliJ">IntelliJ</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#MacOSSetup-KnownIssues">Known Issues</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#MacOSSetup-IssuerCertificateNodeGyp/CanvasInstallationIssue=
+s">Issuer Certificate Node Gyp / Canvas Installation Issues</a></li>
+<li><a href=3D"#MacOSSetup-AccesstoPeopleExpressthrowsxmlerrorbothedgeandch=
+rome">Access to People Express throws xml error both edge and chrome</a></l=
+i>
+<li><a href=3D"#MacOSSetup-IncorrectMSTeamsstatus">Incorrect MS Teams statu=
+s</a></li>
+</ul></li>
+<li><a href=3D"#MacOSSetup-OfficialKnowledgeBase">Official Knowledge Base</=
+a></li>
+<li><a href=3D"#MacOSSetup-RelatedInformation">Related Information</a></li>
+</ul>
+</div></h2>
+<h2 id=3D"MacOSSetup-PreSetup">Pre Setup</h2>
+<p>Follow the following guides:</p>
+<ol>
+<li><span style=3D"color: rgb(23,43,77);"><a href=3D"/download/attachments/=
+1125779143/1.%20Setting%20up%20your%20new%20Mac%20instructions.pdf?version=
+=3D1&amp;modificationDate=3D1652677202560&amp;api=3Dv2" data-linked-resourc=
+e-id=3D"1125779994" data-linked-resource-version=3D"1" data-linked-resource=
+-type=3D"attachment" data-linked-resource-default-alias=3D"1. Setting up yo=
+ur new Mac instructions.pdf" data-nice-type=3D"PDF Document" data-linked-re=
+source-content-type=3D"application/pdf" data-linked-resource-container-id=
+=3D"1125779143" data-linked-resource-container-version=3D"69">Setting up yo=
+ur new Mac instructions.pdf</a></span></li>
+<li><span style=3D"color: rgb(23,43,77);"><a href=3D"/download/attachments/=
+1125779143/2.%20Set%20Up%20Your%20Office%20365%20applications%20on%20macOS.=
+pdf?version=3D1&amp;modificationDate=3D1652677288847&amp;api=3Dv2" data-lin=
+ked-resource-id=3D"1125780001" data-linked-resource-version=3D"1" data-link=
+ed-resource-type=3D"attachment" data-linked-resource-default-alias=3D"2. Se=
+t Up Your Office 365 applications on macOS.pdf" data-nice-type=3D"PDF Docum=
+ent" data-linked-resource-content-type=3D"application/pdf" data-linked-reso=
+urce-container-id=3D"1125779143" data-linked-resource-container-version=3D"=
+69">Set Up Your Office 365 applications on macOS.pdf</a></span></li>
+<li><span style=3D"color: rgb(23,43,77);"><a href=3D"/download/attachments/=
+1125779143/3.%20Setting%20up%20your%20RSA%20Soft%20Token.pdf?version=3D1&am=
+p;modificationDate=3D1652677313563&amp;api=3Dv2" data-linked-resource-id=3D=
+"1125780004" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"attachment" data-linked-resource-default-alias=3D"3. Setting up your RS=
+A Soft Token.pdf" data-nice-type=3D"PDF Document" data-linked-resource-cont=
+ent-type=3D"application/pdf" data-linked-resource-container-id=3D"112577914=
+3" data-linked-resource-container-version=3D"69">Setting up your RSA Soft<s=
+pan> Token</span></a><br></span></li>
+<li><span style=3D"color: rgb(23,43,77);"><a href=3D"/download/attachments/=
+1125779143/4.%20Access%20Citrix%20Secure%20Access%20%28VPN%29%20on%20macOS%=
+20instructions.pdf?version=3D1&amp;modificationDate=3D1652677247527&amp;api=
+=3Dv2" data-linked-resource-id=3D"1125779999" data-linked-resource-version=
+=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-defaul=
+t-alias=3D"4. Access Citrix Secure Access (VPN) on macOS instructions.pdf" =
+data-nice-type=3D"PDF Document" data-linked-resource-content-type=3D"applic=
+ation/pdf" data-linked-resource-container-id=3D"1125779143" data-linked-res=
+ource-container-version=3D"69">Access Citrix Secure Access (VPN) on macOS i=
+nstructions</a></span></li>
+</ol>
+<h2 id=3D"MacOSSetup-CommonSoftwareInstallation">Common Software Installati=
+on</h2>
+<h3 id=3D"MacOSSetup-OnceloggedviaCitrixSecureAccess(VPN)intoMAC"><span sty=
+le=3D"color: rgb(23,43,77);">Once logged via Citrix Secure Access (VPN) int=
+o MAC</span></h3>
+<ol>
+<li><span style=3D"color: rgb(23,43,77);">Open Westpac "Self Service" App</=
+span></li>
+<li><span style=3D"color: rgb(23,43,77);">Browse "Developer" and install&nb=
+sp;</span>&nbsp;=20
+<ol>
+<li><span style=3D"color: rgb(23,43,77);">Xcode -&nbsp;This will download a=
+nd install a lot of command line tools that we'll need.</span></li>
+<li><span style=3D"color: rgb(23,43,77);">Homebrew</span></li>
+<li><span style=3D"color: rgb(23,43,77);">Amazon Corretto 21 JDK (if develo=
+ping Java code)</span></li>
+<li><span style=3D"color: rgb(23,43,77);">Visual Studio Code or IntelliJ ID=
+EA CE</span>
+<ol>
+<li><span style=3D"color: rgb(23,43,77);">Source Tree</span></li>
+</ol></li>
+</ol></li>
+<li><span style=3D"color: rgb(23,43,77);">Download Postman (old version) fr=
+om here <a href=3D"https://community.postman.com/t/direct-download-link-for=
+-9-x/29148" class=3D"external-link" rel=3D"nofollow">https://community.post=
+man.com/t/direct-download-link-for-9-x/29148</a></span></li>
+</ol>
+<h3 style=3D"text-align: left;" id=3D"MacOSSetup-Proxyworkaround">Proxy wor=
+k around&nbsp;</h3>
+<p>To ensure that the right proxies are being applied, follow the steps bel=
+ow.&nbsp;</p>
+<p><strong>NOTE: This may cause npm installations that use node-gyp and can=
+vas to fail. If so, refer to the known issues section.</strong></p>
+<p><strong>For &gt;M1 Macs:</strong></p>
+<ol>
+<li>Update or create ~/.zshrc file</li>
+<li><p>Add the following proxy setting&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Emacs" data-theme=3D"Emacs">httpProxyServer=
+=3Dhttp://df.proxy.prod.mte.westpac.com.au:8080
+httpsProxyServer=3Dhttp://df.proxy.prod.mte.westpac.com.au:8080
+
+export http_proxy=3D$httpProxyServer
+export https_proxy=3D$httpsProxyServer
+export HTTP_PROXY=3D$httpProxyServer
+export HTTPS_PROXY=3D$httpsProxyServer
+export no_proxy=3Dsrv.westpac.com.au,schema.wdpconnect.westpac.com.au,home,=
+localhost,127.0.0.*
+export NO_PROXY=3Dsrv.westpac.com.au,schema.wdpconnect.westpac.com.au,home,=
+localhost,127.0.0.*
+</pre>
+</div>
+</div></li>
+</ol>
+<p><strong>For older Macs</strong></p>
+<ol>
+<li>Update or create ~/.bash_profile file</li>
+<li><p>Add the following proxy setting&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Emacs" data-theme=3D"Emacs">httpProxyServer=
+=3Dhttp://df.proxy.prod.mte.westpac.com.au:8080
+httpsProxyServer=3Dhttp://df.proxy.prod.mte.westpac.com.au:8080
+
+export http_proxy=3D$httpProxyServer
+export https_proxy=3D$httpsProxyServer
+export HTTP_PROXY=3D$httpProxyServer
+export HTTPS_PROXY=3D$httpsProxyServer
+export no_proxy=3Dsrv.westpac.com.au,schema.wdpconnect.westpac.com.au,home,=
+localhost,127.0.0.*
+export NO_PROXY=3Dsrv.westpac.com.au,schema.wdpconnect.westpac.com.au,home,=
+localhost,127.0.0.*
+</pre>
+</div>
+</div></li>
+<li><p>Add to your ~/.zshrc file (this assumes you have migrated your mac t=
+erminal to zsh)</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Emacs" data-theme=3D"Emacs">if [ -f ~/.bash_p=
+rofile ]; then . ~/.bash_profile; fi</pre>
+</div>
+</div></li>
+<li>Restart your terminal</li>
+</ol>
+<h3 id=3D"MacOSSetup-SetupNode"><span style=3D"color: rgb(23,43,77);">Setup=
+ Node</span></h3>
+<p><span style=3D"color: rgb(23,43,77);">Install nodejs via Brew or NVM</sp=
+an></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">brew instal=
+l node@22</pre>
+</div>
+</div>
+<p><span style=3D"color: rgb(23,43,77);">and then follow the following guid=
+e:</span></p>
+<p><span style=3D"color: rgb(23,43,77);"><a href=3D"/display/MESH/2.2+Node.=
+js+installation+and+setup">2.2 Node.js installation and setup</a></span></p=
+>
+<h3 style=3D"text-align: left;" id=3D"MacOSSetup-SetupGIT">Setup GIT</h3>
+<p style=3D"text-align: left;">Preferably, install <u>Xcode CLT Selector</u=
+> from the <u>Self Service</u> App and that will get you git. You can also =
+simply execute the following command in your terminal and you will be promp=
+ted to install Xcode tools.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">git</pre>
+</div>
+</div>
+<p style=3D"text-align: left;">Configuration of git is not different on a m=
+ac than on Windows.</p>
+<h3 style=3D"text-align: left;" id=3D"MacOSSetup-MESHDevTools">MESH Dev Too=
+ls</h3>
+<p style=3D"text-align: left;"><span style=3D"color: rgb(23,43,77);">This r=
+equires brew to be installed</span></p>
+<p style=3D"text-align: left;">Install python, once installation is complet=
+e verify the path where the package is installed:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">brew instal=
+l python@3.11
+which python3.11</pre>
+</div>
+</div>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">ln -s $HOME=
+BREW_PREFIX/bin/python3.11 $HOMEBREW_PREFIX/bin/python
+ln -s $HOMEBREW_PREFIX/bin/pip3.11 $HOMEBREW_PREFIX/bin/pip</pre>
+</div>
+</div>
+<p>If your python3.11 and pip3.11 files are installed somewhere else then y=
+ou are on your own.</p>
+<p>Execute the following commands to configure pip</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">pip config =
+set global.index-url https://artifactory.srv.westpac.com.au/artifactory/api=
+/pypi/westpac-pypi/simple
+pip config set global.index https://artifactory.srv.westpac.com.au/artifact=
+ory/api/pypi/westpac-pypi/simple
+pip config set global.trusted-host artifactory.srv.westpac.com.au
+mkdir -p ~/.config/certs/
+curl -Ss https://bitbucket.srv.westpac.com.au/projects/WDP2/repos/wdp-confi=
+g-mgmt-ansible-inventory/raw/all/files/client_trusted_chain.pem -o ~/.confi=
+g/certs/client_trusted_chain.pem
+pip config set global.cert ~/.config/certs/client_trusted_chain.pem</pre>
+</div>
+</div>
+<p><br></p>
+<p>Proceed with installation following the commands below:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">brew instal=
+l openssl rust
+pip install cryptography
+pip install mesh-dev-tools</pre>
+</div>
+</div>
+<h2 id=3D"MacOSSetup-OptionalSoftwareInstallation">Optional Software Instal=
+lation</h2>
+<h3 id=3D"MacOSSetup-NVM">NVM</h3>
+<p>This requires brew to be installed</p>
+<ol>
+<li>run the following command in terminal<br>
+ $ brew install nvm</li>
+<li>Modify your .zshrc file to map nvm<br>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">export NVM_=
+DIR=3D"$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] &amp;&amp; \. "/opt/homebrew/opt/nv=
+m/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] &amp;&amp; \. "/=
+opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_comp=
+letion
+
+
+export NVM_CURRENT=3D"~/.nvm/versions/node/$(nvm current)/"</pre>
+</div>
+</div></li>
+<li>install LTS versions of Node (install node 22 as default)</li>
+<li>If you are install older versions of Node (14) on a newer Silicon Mac (=
+arm64) you will need to switch your terminal architecture to x64, before tr=
+ying to nvm install. This is because there is no arm64 version of the node =
+14 binary&nbsp; &nbsp;=20
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">arch -x86_6=
+4 zsh
+nvm install 14</pre>
+</div>
+</div><a href=3D"https://github.com/nvm-sh/nvm/issues/3148#issuecomment-213=
+4442775" class=3D"external-link" rel=3D"nofollow">https://github.com/nvm-sh=
+/nvm/issues/3148#issuecomment-2134442775</a>&nbsp;</li>
+</ol>
+<p><u>Troubleshooting&nbsp; &lt; v16 Node versions on MacOS</u></p>
+<ul>
+<li>If you are installing a version of node lower than 16 using an M1 Mac, =
+nvm may download and compile your node runtime using experimental arm64 bin=
+aries. This may cause errors in your local installs/builds as node will att=
+empt to install arm64 versions of packages which our internal artifactory m=
+ay not have. This is the case with <strong>Canvas@2.6.1</strong>. If you ru=
+n into this issue, see&nbsp;<a href=3D"https://github.com/nvm-sh/nvm#macos-=
+troubleshooting" class=3D"external-link" rel=3D"nofollow">https://github.co=
+m/nvm-sh/nvm#macos-troubleshooting</a>&nbsp;&gt; Macs with M1 Chip and foll=
+ow the steps to get an x64 version of node installed via nvm&nbsp;</li>
+</ul>
+<h3 id=3D"MacOSSetup-Setupprinter">Set up printer</h3>
+<p>See:&nbsp;<a href=3D"https://sm2.sn.westpac.com.au/msp?id=3Dkb_article&a=
+mp;table=3Dkb_knowledge&amp;sys_kb_id=3D8c229c1ec3802614ca28751ed4013157&am=
+p;searchTerm=3Dsetting%20up%20printer%20on%20a%20Mac" class=3D"external-lin=
+k" rel=3D"nofollow">Self-Help Portal - Internal Customer - Apple Mac - Sett=
+ing up printer on a MacBook</a></p>
+<h3 id=3D"MacOSSetup-JDK/Maven">JDK / Maven</h3>
+<p>JDK: Open the Self Service app, under Developer (or use search) install =
+Amazon Corretto 21</p>
+<p>Maven:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Midnight" data-theme=3D"Midnight">brew instal=
+l maven</pre>
+</div>
+</div>
+<p><br></p>
+<p>Alternatively you can install Maven manually by following this link</p>
+<p><a href=3D"/display/MD/How+to+install+Maven+without+admin+rights+on+your=
++macbook">How to install Maven without admin rights on your macbook</a></p>
+<h3 id=3D"MacOSSetup-IDEs">IDEs</h3>
+<h4 id=3D"MacOSSetup-General">General</h4>
+<p>For IDEs like PyCharm, IntelliJ and Visual Studio Code, download the Mac=
+ compatible binary (Apple Silicon for M1 Macs) and copy to <strong>YOUR App=
+lication folder</strong>. Open Finder, Go to folder.., Macintosh HD =E2=86=
+=92&nbsp;&lt;your salary id&gt;&nbsp;=E2=86=92 Applications.</p>
+<p>You can have a look at this article on how to install apps to your user =
+directory.</p>
+<p><a href=3D"/display/MD/How+to+install+apps+%28e.g.+WebStorm%29+without+a=
+dmin+access+on+your+Macbook">How to install apps (e.g. WebStorm) without ad=
+min access on your Macbook</a></p>
+<h4 id=3D"MacOSSetup-IntelliJ">IntelliJ</h4>
+<p>Make sure you got Java and Maven installed and set:</p>
+<p>Maven:</p>
+<ul>
+<li>Maven home path as&nbsp;/Users/&lt;your user account&gt;/.homebrew/Cell=
+ar/maven/3.8.6/libexec</li>
+<li>User settings file as&nbsp;/Users/&lt;your user account&gt;/.m2/setting=
+s.xml</li>
+<li>Local repository as&nbsp;/Users/&lt;your user account&gt;/.m2/repositor=
+y</li>
+<li>Tick the "Use settings from .mvn/maven.config" option</li>
+</ul>
+<p>JDK: if you are only using JDK 21 as above you should be OK, just make s=
+ure that:</p>
+<ul>
+<li>On File&nbsp;=E2=86=92 Project Settings=20
+<ul>
+<li>SDK: you have correto-21</li>
+<li>Project: correto-21</li>
+</ul></li>
+<li>On IntelliJ IDEA&nbsp;=E2=86=92 Preferences...&nbsp;=E2=86=92 Maven=20
+<ul>
+<li>Importing: JDK for importer is properly set as Project SDK</li>
+<li>Runner: JRE is&nbsp;properly set as Project SDK</li>
+</ul></li>
+</ul>
+<p>You can find a slightly more detailed overview on how to setup your macb=
+ook in the article below.</p>
+<p><a href=3D"/display/MD/How+to+setup+your+MacBook+without+admin+access">H=
+ow to setup your MacBook without admin access</a></p>
+<h2 id=3D"MacOSSetup-KnownIssues">Known Issues</h2>
+<h3 id=3D"MacOSSetup-IssuerCertificateNodeGyp/CanvasInstallationIssues">Iss=
+uer Certificate Node Gyp / Canvas Installation Issues</h3>
+<p>If you are experiencing issuer certificate errors when running an <code>=
+npm install</code> , this is most likely caused by any HTTP Proxy setup thr=
+ough your bash_profile or zshrc (whichever you used to define the proxies).=
+ To resolve, you can remove the lines from the <code>.bash_profile</code> o=
+r <code>.zshrc</code>&nbsp;and restart your terminal. (note: after restarti=
+ng, verify that the terminal has unbound the proxies by typing <code>echo $=
+http_proxy</code>&nbsp; and verify that nothing prints below it)</p>
+<h3 id=3D"MacOSSetup-AccesstoPeopleExpressthrowsxmlerrorbothedgeandchrome">=
+Access to People Express throws xml error both edge and chrome</h3>
+<p>See: <a class=3D"external-link" href=3D"https://sm2.sn.westpac.com.au/wb=
+gtechserviceportal?sys_kb_id=3D84ca1ee48765695051e521b8dabb35db&amp;id=3Dkb=
+_article_view&amp;sysparm_rank=3D1&amp;sysparm_tsqueryId=3D4fca07491b11b114=
+269edce8b04bcbca" rel=3D"nofollow">https://sm2.sn.westpac.com.au/wbgtechser=
+viceportal?sys_kb_id=3D84ca1ee48765695051e521b8dabb35db&amp;id=3Dkb_article=
+_view&amp;sysparm_rank=3D1&amp;sysparm_tsqueryId=3D4fca07491b11b114269edce8=
+b04bcbca</a></p>
+<h3 id=3D"MacOSSetup-IncorrectMSTeamsstatus">Incorrect MS Teams status</h3>
+<p>If you have issues with Teams not updating it's status, make sure to upd=
+ate Office 365 to the latest version by:</p>
+<ol>
+<li><p class=3D"p1">Open Microsoft Word or any other MS Office Suite applic=
+ation other than Teams</p></li>
+<li><p class=3D"p1">Select the Check for updates under the help menu</p></l=
+i>
+<li><p class=3D"p1">Select Microsoft auto update option and proceed (you ne=
+ed to close Microsoft applications so they can be updated)</p></li>
+</ol>
+<p>If the above does not work:</p>
+<ol>
+<li><p>Quit Teams app and Login to <a href=3D"http://portal.office.com" cla=
+ss=3D"external-link" rel=3D"nofollow">portal.office.com</a> using browser</=
+p></li>
+<li><p>Click of Teams and see if your Status changes when using web</p></li=
+>
+<li><p>Reset Microsoft Teams setting to default</p></li>
+<li><p>Quit Microsoft Teams and launch Self Service app. Under Utilities -&=
+gt; "Reset Microsoft Teams</p></li>
+<li><p>Re-launch Teams and test</p></li>
+</ol>
+<h2 id=3D"MacOSSetup-OfficialKnowledgeBase">Official Knowledge Base</h2>
+<p><a href=3D"https://sm2.sn.westpac.com.au/wbgtechserviceportal?id=3Dsearc=
+h&amp;spa=3D1&amp;q=3DApple%20Mac" class=3D"external-link" rel=3D"nofollow"=
+>https://sm2.sn.westpac.com.au/wbgtechserviceportal?id=3Dsearch&amp;spa=3D1=
+&amp;q=3DApple%20Mac</a></p>
+<p><br></p>
+<p><br></p>
+<h2 id=3D"MacOSSetup-RelatedInformation">Related Information</h2>
+<p><img height=3D"250" style=3D"margin: 2px; border: 1px solid #ddd; box-si=
+zing: border-box; vertical-align: text-bottom;" src=3D"2bc22506873ff3d63b10=
+04d655b09d0a1a69bdd6952439fe033789e8b7231866" width=3D"250"></p>
+<p><img height=3D"250" style=3D"margin: 2px; border: 1px solid #ddd; box-si=
+zing: border-box; vertical-align: text-bottom;" src=3D"007d0cf0a22aea4fc53b=
+db9b2172c0d3995423a102f630b74f55d4c5c126853a" width=3D"250"></p>
+<p><img height=3D"250" style=3D"margin: 2px; border: 1px solid #ddd; box-si=
+zing: border-box; vertical-align: text-bottom;" src=3D"dd12f8bd87f012623a9a=
+a2bba0fd5a39d9ec3d334c96a4b92b16dd6a4edcef4b" width=3D"250"></p>
+<p><img height=3D"250" style=3D"margin: 2px; border: 1px solid #ddd; box-si=
+zing: border-box; vertical-align: text-bottom;" src=3D"50107ddf7d8f1c5a8a77=
+f0fae5c3feeed5b1ddeb5ad3cca1a2665632b2840a9c" width=3D"250"></p>
+<p>For those who have obtained a MacBook after Westpac zScaler Migration&nb=
+sp;</p>
+<p><img height=3D"250" style=3D"margin: 2px; border: 1px solid #ddd; box-si=
+zing: border-box; vertical-align: text-bottom;" src=3D"9664f7cc3b34c33250a0=
+1a3310d65c4d0b45e98f01c8b0c1330ca378ae8110fd" width=3D"250"><img height=3D"=
+250" style=3D"margin: 2px; border: 1px solid #ddd; box-sizing: border-box; =
+vertical-align: text-bottom;" src=3D"c66aa1ee244b316681f3c1e728ab86afe4ca6c=
+f6bd5d4c9068237174e4e1c37c" width=3D"250"></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_116214_1891636058.1773922831562
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/dd12f8bd87f012623a9aa2bba0fd5a39d9ec3d334c96a4b92b16dd6a4edcef4b
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAFbUlEQVR4Xu3cDVPiOBgH8NAXUgqtIFXwkN3e9/9Qx9zuja6ny/kG
+Imq3SZo0TauzONLK8f/NWJonsclDSxhtgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAIAd0DID2+G9vNhm7BXPlvVgxnaY57ieGXuN51q/3XYHtF0z8ha3bUa2wjIDW/Hb
+Vztnv5iRHUbNwNs2bP5O9Zz1T2mPU9/oRfhuzrMZCcftlRUdJSuzgik334aGUg8W9vIxIc93QVXu
+peY7zJy3RvRE7JzQoFjDmc13mZFL6HyRuwd2qNcI9aTeyDQ36P8td68PBnpNnRwzUIfFMt9fNTKC
++hhXsK390RSyidao//9e8B0nyQs3jZ31JlL/JJD6PkLq+6ix1Ot5A3tLY6k3D6nvI6S+j5D6PkLq
++wipN8f3fTNUk0ZSZ8muszvJtrsgnUaybyL15bWXnuy+KAQvhCTXxQb1aCJ14h+QRX8+Juw/8lcL
+Qg4aOeuN3HhKrAdy49tdK5oHSZq6uyzeUa/nxlMjqfdu/TV5JIF9b92uCeku/eKdt3pSr4f5f4kp
+1ZbLeNYkL3Bm811WymXodOVuQId6DVNqvsPKuUyt/sjrdLxR3zHPeVXz3VWRS+j2HDpwem7Fyr2K
+5jtrw1w2bP5Ojbyvfw5IfcueN1r66dXztl5P6tZGyTzXNCgzsBVWssny4JpSr3hr2Yb9XRQOAAAA
+AAAAAAAAAO8Wm4GtcWlshnSxGXhLXDhc/gG7yXm671o3KtBi93+fxv+oAIlncvOh2q3Of9luuU8r
+mqkuYxnMyu/ADldCo6DVPdLu71p2Goj0G76x2nwoeqg6KfeZdIpd6vvl4tticbhqntZrvt5lSCnt
++SRW2EFiFuVfIfOVJjSKRVPxwKqjtDripYCmp5KE6fFYy6+iYe6EEvlxdq3PrGneZSbbkUdixRHb
+y8aoDYvVqkEcijHqRyrwu8fa7SEqV3pM6CQMaDvrVm5iOg5PbZt1Og2n8iUkHng1i7K1cey0pptD
+J32hjcNxaenMcUT6f2T7qk/VNCYqXU7s69UunepjlMPijeUgxnKM4tdL0mdEX9nkUrs/YYv56Cjd
+nFIz9YMsynMZ8rCeOou64iKa0vQyS88sZd/Mk8UUP70mPJotGsz7lE1jUpW6Vt2nbEVSPkY5LN5Y
+DoKP0Y0Lh9I/RzzzI/KYF9fewLokox+EnKelPx9aeZWoT3++sxnoPt25L33xAova4iPL36i/7D6d
+peW1iilruiIPdm8hCqrPqqYaVd1bUj4zqzGqYTFqEHxHxF4hny6FTTn0NCvE+oY/si2/UjxRFFGf
+VfNodrj0ie+5sqXRBeUvZT3I+5RNY1J51lX1VLyAimOUv6EGocaYVTDGrex5sUjIHdvIp+svdiny
+TQG74OQyuDM2BP6NUywiVxS4ZLJmQT2W8cjP2Wz2k2ivNN6n3rTcZV79rX/Hu6s+papZRc85OvbC
+CWXzTZwFom4rsC02R0SeN2TP3djPNrH29BamOds+zeYTHpVTWpv2CJ+QshhrLX7a4sm3xUJp1adq
+ylrxLjOsXKwO2ASvxijq2TbWBqHGKKq5/KwP5snqsqud9mj+1H7spEM+P75NkrsBIS/z+1hsdFfj
+i+uL7pkouMm/qwuWJgkuVhfdq6yNR1hqa9ZyLGNC65g/HImvr1B9FpqWuixU3zrn7XyMRXIQV920
+fWk6+hgTc5KIC6VhPWtETLEZ0H3EkKwv4ejy9ck4dXon37g/kY/4kozDH2SVONrboik+6303YwAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFW/ANkmCmI8U8/IAAAAAElFTkSu
+QmCC
+------=_Part_116214_1891636058.1773922831562
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/007d0cf0a22aea4fc53bdb9b2172c0d3995423a102f630b74f55d4c5c126853a
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAFa0lEQVR4Xu3cDXOaSBgH8OXNRRQSK0lIou1+/y/VmzYz7dlmvCTm
+xVjl9lkElpVkYu+EWP+/mSDsC+7DrjCRFcYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAD2gGUm7Ia/Wjlm2guWtv1kpu0x3/V8M+0lvme/uewe6Hhmymu8jpmyE7aZsBNv
+Hu2KszJT9hg3E163ZfHf1Eyvv0sHHPpWH8Lf5i7NlCjpzO34JJ2bGWSz+C60FHr44Dw+p2w5C+ti
+3yi+x8zz1hk/z1bOeVjNUczi+8yIJXI/5qtHTqTnZJoJvZXT3OD4S756czTQc5rkmglNeHgs1+et
+tKA5xgh2tH+aIjrRGvl/7oDvumm5cdtar7cR+juB0A8RQj9ErYXezAXsNa2F3j6EfogQ+iFC6IcI
+oR8ihN6eIAjMpIa0EjoFu1jfSXa8B9ZtJfo2Qn+88WVnH2cb4Yqx9KZaoBlthM6CI/ZwPE0YfSN/
+/cDYUSu93sqNp9R+YreB07PjaZjK0L3H6h31Zm48tRJ6/y5YsGcWOvf23YKx3mNQvfPWTOjNML+X
+GHNtuoxvX5Ybill8n23EMnR7+WrIh3oO2Si+xzZjGdvHZ363658du2af1xXfXzWxRF7f5QO379XM
+3Kspvre2jGXL4r+plev6+4DQd2y51dRPv5nLejOh21sFs2yoUWbCTtjpNtODGwq95tKyC4c7KRwA
+AAAAAAAAAAAADoxgzOMi39K+7R9zzi/0H9daHZni6Le/hbFSbGcGp+rl5K1fuf9/ogueZo3fbHSF
+Hf9lJkl86I8c/beGthNavVi/4yuMlWI7M+JncnnJR9Xk3Yu4G1qhy626RpcEY2nXTMz5ep1ywstQ
+Hsl+wARRCdmSXkQs8+J1uZgHLFBbn2QvfCoKUrkPXPs555qgHdNjaEL5WkwsKermuaroJ7lxSW/W
+k8UHnA8og0rIt+tnzeZ9vdFUqWicfHceCxWBlq8LK6Hnw+aSX0Yh79T2uuDjaMxpDhyRhVQzPJ5E
+CcWSFVTlitkzJSGLjRyH6vlyL1liWTfPzYqGclSrhSw+tqLTE4p8GH0cFC2lPRSNziqtG5eoFaFF
+sMHpaxsed44vaTafGscjXh869ZWXH7ERH6rhzukZPJSaFaRyxa/1NeKIZTvWPyNl3TxXFQ3lmFSL
+dUJE1daP+ll3NWUVjVaV8sapEeWJSujVm5odV5+7t7AGnZ9LCvt7mqbuCzcB75k2++4q+Zlc0Qql
+VM92Xytbawv5d3Uuu+/HSVxEX9TNc5VfjD2phUzoDbj4QO3ZPKGWjSZF4yqtrNGh84SBzhhFn4g8
+lasrAR1lQQe8PEV0syKqG1Q2bQXihZEmiuXHjkOfKFKtqw2wcsEvRoFFr+sPtjbglfw0VzQu26d4
+sddjq+ZMNKNFfrw+F5NZ1Yqa4Usf4XLmQP48gjz1Gx21NzyB6svz0s2Pe3WPtWZXD6o71sW8n+pl
+kr+RajQpdlWzTy305M66zdZE9sLjnhUu5KgbfI99fygPnh+tY19NE99PpvR4kZk8gdj6KULl56m/
+vo2icfWjIrS/nLywRvlloqj7iqfobCJfTm15mnMoCjcMQpeGddFotf98V321Ut2Htjk9T+SpX7s2
+xNNfneeurPj99C5NZwOK+F6orMVqmqbTFR3scDKf9K7LWll+MrmZJDLVS3/MJ6+HQQazdJ4/v6Co
++zLfmv9DF+ivq9n8b9muW+v0+f75lAZt0Wglb9x1T+6z7jkw/4UwE94TYSbompm28i4dcOgAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH+0fwH4+PXjifstNAAAAABJRU5ErkJg
+gg==
+------=_Part_116214_1891636058.1773922831562
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/c66aa1ee244b316681f3c1e728ab86afe4ca6cf6bd5d4c9068237174e4e1c37c
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAFN0lEQVR4Xu3cCXPaOBQHcOFLDocDhRQ6gUT7/T/UZprsbJM0m0lz
+Eg6vniX5ECYbMsUOy/83LZWfnoVebMQ0NjAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAACwAxp2YDvC5dK1Y2ssHOfFju2w0PNDO7ZO6Dvvzt0BgW9H3uIHdmQrHDuwFe8+
+2xPu0o7sMG4H3rZh+gdVc9Q/pT0ufaMX4Yd5CzsSjYKpMziKp3YHWU3fhppK7zy5z68xWzx0ympf
+Sd9h9ro15N9U4xvvFHsSdvous2qJvBPTPHSjfI9STem1LHO97nfTvDvs5Xuq5NmBKjw9Z+1pLTOo
+jnUGu7n/NEW00Fr9/98T/sCLs41ftR31Okr/JFD6PkLp+6i20qt5A3tLbaXXD6XvI5S+j1D6PkLp
++wil16fZbNqhitRSOhU701eSXf+JHdRSfR2lP9+F8mB31UZnyVh8V0yoRh2ls+Yhe+rejhj9Rv7m
+ibHDWo56LReeYueF/Wq6LWdw24ll6f5z8Yp6NReeaim9fd+csVfWcR+d+xljredm8cpbNaVXw/69
+xITnbpcJneNsI2Gn77KVWvpeyzQ7vJ/vISvpO2y1lonTHYYHB+Gw69nHvCx9d5XUEvltj/e8tl9y
+515J+s7asJYN0z+olvf1zwGlb9lio1s/w2re1qsp3dmomEVFk7IDW+HEm9weXFHpJW8t27C/N4UD
+AAAAAAAAAAAAQBlhB9byubBDv4t47+jCDhQIO5Cnftsv9LXNdz1byhmcZYOnDav9Ho2Ac+5a19lp
+9LWdv4O50DFJH85M1396+ceOfFBjEbx6vZ/FoBm9tDN1Zgc2JQbJYee+UIesL3/QA9n8wmPGTnnM
+Txnd+SHRzR86IAw1hPxDuzmh6tCHPhdWw7ZLbhTL7qwxGSIZZF2nnBany0YNHlKOnm1xeMoZUK+Z
+vkqL+Jekk3ZPiCY/oc/RN0Uy2T7vRyc92eQtes2NohGVzIMwmvBcgAamv2oISh9FY9fVQdWTDx/z
+46jDS750hpvTOc0Q2cglnXJaSa3ygIlstoXhR3wiJytys9VpLT5hQz7WY9LT+C7ds6mfkutv0BH0
+Cftkw5clm/w0IJI9NdkQh/Lfse7IlW7CfKgbNp+73WM6XGmGyEYu6TxRz08zEdlsC8MnpyedxNn0
+ddqEHyeZ6efX/UXI5s5Mb7m6cW42XHni96+P4vAiF1hBe12Is7XhH7Lxx0vD6qb7ZXvOTza8LM0o
+6ZTTmgfji/H1PMkwsy3s/EgdpjeZrU47Pz0LLlUOEbL2r0e++Wmbl5egh2QjpB/mSeDS+ZQGqDtJ
+0bmqbRrJg34Fqc3caVaClps0Q+RGJnYnY0cBC44Ksy0MryZpemm26ZrRjtWLIr2U7d3lPkleuBOA
+7nBLAt9fF14jH5D+LFm1VPBvmknxu6fevM78QA/rMlY7gwZr6MmbuRT600mmDZ3Wn3UbuTv1RK4h
+6OUgVwSzXPnJgkHLXD+MTnkuQN18pGtXe6pGEnTdsVpo0vCID8Kwb17rFNZ/+aDV6LhOLiPdbU0n
+xQMaSWSzzYYXtKily5yerU5ryWVzSMt3+V0V58uH6aX5+ozZ6OruanTDWO8hntKZkQbI8vZRmN1S
+SdCPr6dX7Xz4x9f7OH4o+VqOwe08eD1ol2es64ynerkxsy3037TkJOmLX9LZqrRoHv/FLjvzku9F
+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgF31L18LEVtGtfy8AAAAAElF
+TkSuQmCC
+------=_Part_116214_1891636058.1773922831562
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/2bc22506873ff3d63b1004d655b09d0a1a69bdd6952439fe033789e8b7231866
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAFNUlEQVR4Xu3cC1fiOBQH8EsfpDxaQVCYFTX7/T/UetRdFWVZFXkO
+dJq2aUsKDDhDK8v/d8bS3tyEXIFwhlaIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAADkBBDeyHtVjoamyNuaaN1dgBswzTUmPrWKa2de4BKJpqZBOzqEb2QlMDe7H1s92n
+L9TIAWNqYLMd0z8pm0f9Szri0nd6EX6aMVcjTrs40Zpn7kRtENLp+5BT6fZQH01dmg/sVbWn0g+Y
+um612Ldg5xuzl1t8avohU2pxjCu5e6I7yZZANqXnsszVa7dy9/WknmzJkqEGsjAcxfuTXGaQHeUZ
+rCf+0+SIhVZp//8+4UuGGx+85fao51H6F4HSjxFKP0a5lZ7NG9gmuZWeP5R+jFD6MULpxwilHyOU
+np9yuayGMpJL6aLYWXgmWTeHVMql+jxKH71a3oNdCw7sBZH7upyQjTxKp/IJDWv9NolP5HtDopNc
+HvVcTjy52pjeynpFa/Zt1yvdHC2fUc/mxFMupVffyzOakq1/aO8zosqovHzmLZvSs6F+LnHJEpfL
+WNpFfOBT0w9ZqpaGUZG7NmskW4RU+gFL13Kp1VpWqWS1aob6mK9KP1wranHMqsHqRtVcceXeivSD
+tWMtO6Z/Ui7v618DSt+z+U6XflrZvK1nU7q2UzHzjCalBvZCc3e5PDij0le8tezD8V4UDgAAAAAA
+AAAAAACfw9XAb8LVwBa4GvgJTmQy7u/KT/vb4bFUKDLG9OSpbx5tssTVQIyrgS1pzZvgNjzun0dN
+vsK8ODXqL8vB0I0a+E1u1MAWbtTAz43/VSN86Si+2KXhPfzVMvGIyOQi6n9/zDVzWZMHqcGNaG56
+zU3/yGbiBI/jjScyr5NZKp4Y1/ZuWSO4V+KnzE10EzlN2UTBFPyBlc5Bh2gqp8FM/W7Llo+ZfK5f
+sAvHZsWwXW44azsdXRfTuHQu5YsluPGbRVRcGOeNdOptTg3vJdZ22mJCUZaKJ8ZlRcsbQd4hqyS6
+NVjDuarHc4kHVjsHfcOptOVMg4HW/xH34kW3K/0h0Uvtb6LOs9puPdJb53lOg+odvaWuAyIRNfv+
+7nm3NKKPswdt4XUxB0qiSo5L5/fjtyjauk2kDBY9ipu812w08MrOcip9fyfRb13pM6uuvVDriejR
+O/pzXFDbvZ97fkP04e18pL51QUT14O+V71h5VPn+4B3Poth6ctzG85lr3cvoXSIjGEg99gde2Tma
+ir8j+9D60mk8Jmr+5+1cijHUymmoBiKpiz4XAyqkvl8olRWS4/5z9Tg3itPwKPqFresWWN15nY2n
+sv1np/xF/SXu1t8sEde/yWvgHjrexn9OiYi8nMCki5kIylictcntdG4UkncYdwsHjpqSdxYIO/ui
+1nSaxJduWLNSsHVNrA5Ny2p4awZrl8MNX1pzEsucrnfClcSPyiWgyKokVqMwFmX5o8if4CbY87as
+YTnX8l79aNTtUixzYjELm6KBU539EWVrNNMgLX7UORf/Ys3+9+K05E358fzddQfegrrof/Bgk9Rr
+d1+7lYfgwHSfJ11RJtndSbfSC3MsEheAz0Rmu5fM2qA+cCfiCw3iO4y63S0Gkyc5IUoMHJGdfXIq
+vYqXllqUftWFeqEbXzpqbHxV7RlXA5FfnpV25bReNq7bncEfauhLWLvCb+v0iSausWE15Q/V6E0K
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACy8gOtbUKZ0LbYAQAAAABJRU5E
+rkJggg==
+------=_Part_116214_1891636058.1773922831562
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/9664f7cc3b34c33250a01a3310d65c4d0b45e98f01c8b0c1330ca378ae8110fd
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAFTklEQVR4Xu3cCVOjSBQH8OZscoDJJJq4SbT3+3+osUat8RjLdYzR
+nGw30BwNOMbagNn8f1Vq896jwwtISiEhBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAYA9oamA3nM3GUGMl1rr+psb2mGNajhor41j6h2v3gG2pkfdYthrZCV0N7MSHj/aA
+sVEje4yqgfdtWf5J1ez1L+mAW9/ql/DTzLUa8Yb2XO8f+3M1IeTLd6Gm1t2Z8brwyXrqFvWeK99j
+6nlrQE/DwSl1s5mAWr7PlF4880wOjwwvnQlV03otp7lu54ccPh1105kqmWqgCrPXZDyvZQuqoxzB
+RuqPJk+caJX8//eAb5h+svC7tr1eR+tfBFo/RGj9ENXWejUvYO+prfX6ofVDhNYPEVo/RGj9EKH1
++jSbTTVUkVpaF80uoyvJhjUjjVq6r6P11yeH7+xOuOBuCPGfsgXVqKN10jwis87jkIj/yD/MCDmq
+Za/XcuHJ19/I76bR0vuPrs9bt16zV9SrufBUS+vt5+aSLIhrvOjPS0Jar83slbdqWq+G+n+JCU3d
+LuPoo2QhoJbvs1wvPbMlhy7tpTNCrnyP5XuZ6J2B02g4g46p7vOi8v1V0ItntU3aNdtWwZ17BeV7
+a8tetiz/pFpe178GtL5j661u/XSqeVmvpnV9q2bWFW2UGtgJ3d/m9uCKWi94admFw70pHAAAAAAA
+AAAAAAA+jqmBLPbHiu0wQizK1GgBpgYymBpIC99gx6KlCxn+IK215N9PLtV4jF2okSKauNK8Gl5n
+gnr/ojz5X7OP1UiCqQFBo6artXq0JE3K41m6wafppy8tM0L8Rlny45gaKGHRpri9gxN3ePT4zz5f
+7lLadcJJRKjNa9g3Gr4z0443iCkVYqA7hAlBQWZeUZKW3FkTTxCsWpbkj0/5ocCfekfURJuanVrU
+9EX2nA/O5ep9j34LkmL12ChYpLbjTaio63lnXb480byT46CxER15LrX5mEY3wtD4XhCmVgy9sWGk
+nnY5b1ySFs+TTJCsWpDkjx/0yo8FlmxqZuohnfDHY2KHDr2heNKjshadkAEdR3MG3PDZlUGa+hAd
+Lzyi6YCPx2Is33if7BCmVBzJgSyI55UlaRY1OiOxu5IJklULkmciKiJW8KjRpmamDo4wS2ZFtSyb
+0FFQGb9/fXxvvoifvftj37niA0OcwAhp2bNT8j08PG74199vfFx6WosrxMpX7CLJxPPGJSlLp6v/
+IoPbwmxBkj/+yh5fje9XQUW0qdmVRTfBFU6RNcQvaFR2eX5h34Y1AU9+eAQ5sw1x0MgdSv8aNzUW
+7lN5lLDoZ+6AVyrCYETOmznU0sSZLD0BS+VySUKO7eC0zFKbmp46CIozQTgQq8tDtO2HvxThpeym
+0f0ZJX4s1qZ44uTNANOrmZwyd5nY/6UEchXf4xOanDdXIk3Ft7JsPmlrRIuuw8tNzeTF6ShIxIOo
+rLfsaMGdeuHaLUMcLALtOZ44g5zo/KQg5nrzBndhqnvTdxzxShZbEtNtjpNQvsLxot7lvEkJS75o
+v6W5y2XRBKXJa2KT8LiVm5qZuj3lpznR3CYYtOOy1rT/1JmK5yNqvR28DPFVulN/Lj5I4HIznd/y
+06ajzf+JXmBvTp59f5r+VA1/4SzW99MTuZyv2Dy+sGAg582XcP3Hlb1otIuzZUl/Hn32gdzUTP6h
+dfd0Jz74ZTnkg+GDLPNW/jW5dVcFn4sCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA++pfV3Qlf93vTsQAAAAASUVORK5CYII=
+------=_Part_116214_1891636058.1773922831562
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/50107ddf7d8f1c5a8a77f0fae5c3feeed5b1ddeb5ad3cca1a2665632b2840a9c
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAFK0lEQVR4Xu3cC1PiOhgG4NBbyqUVLUo9ypr//6cOs+ueVTzquCoI
+CN2kbXpJCwvO0Iq8z7ik/XIxH6Vl1gYIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAA2AMNNbAb9nKpq7EVFpr2psb2mG2YthpbxTa1jdvuActUI+uYlhrZCU0N7MTGr/aQ
+vlQje4yqgfW2bP5B1Rz1T+mAU9/qJPwwY6FGXN+aar3TYKpWCMXmu1BT6s5Yn8wCsnhxynIvNN9j
+6nWrT8+jjXPq5GtCavN9puTiGt/k5pHuZmsi1aRey2XuuPtdbj4dHWdrqmSogSqMJ+n2tJYZVEd5
+BeuZ/zS54kKr1H/dF3zTCNKd37Ud9TpS/ySQ+iFC6oeottSreQNbp7bU64fUDxFSP0RI/RAh9UOE
+1OvTarXUUEVqSV0kO4/vJOvmmDRryb6O1CdPNj/Y3WjHWRISPOUbVKOO1EnriIy7jz4Rf5G/HxNy
+VMtRr+XGU6C9kd8tva31Hp2Ap25O8nfUq7nxVEvqnefWnMyIo79qz3NC2pNW/s5bNalXQ/27xIBm
+lsvY2kW6E1Kb77NCLp7RlpsO9bI1QqH5HivmMtC6fbvZtPtdQz3mZc33V0kurtkx6LHRMUtW7pU0
+31tb5rJl8w+q5X39c0DqO7bYaumnXc3bejWpa1sls6hoUmpgJ7Rgm+XBFaVe8tayC4e7KBwAAAAA
+AAAAAAAAdoyt3ClgamADTA38BSPEpCzZVf7a72SqBIvGC5220ehQbhBus3zVVpgaSDE1sCGtN0y3
+0zDXmPVy+6TRznz8dEMN682aGZ0RIcNsOLdTMFQDGxiqgb97e1Aj0pmVfz7PKYk+ae7xwyielWzZ
+aYlXCeelpWAlt8cZYQJhJzQgzKUnPHZCS2/4MP4jBhXfSRMPlu0r28QTiKv4/hUN6JWoUzpHHXrx
+dPlvDWgvmk5UpfJoM5/6WY90/wkrPPfbcVpe0AvXoRYh1LLdAU1LgSYrRFj8ymS0Lbba/CTo00tZ
+m8NEK9+91PV0MBZWRH3jNnICUZU4d33XF5kWOkd9B3zbJ8QPN5gcqKgt1jWxTKDFj5BN+cGl8Vfq
+JGWfP1yKlONEsgmlq6OYnKP4pD4TC6cuwp4lGP85IvlBWfgQ940e5QSiqnjfFE+T2jlsII6+qA1f
+BibLZ5c919/PlPt8czMgb+9Nki6vk+VNEAQGb+3dnfbE75LlCj/iwr9e3uZrsub83/W5OljcN6be
+tBT7Yay086usTTYysh+hPg+fFDZMAlpPnCi/kv3U4JqEd2n/+3azMKxZUoa8n7m2nPzQ9r3os9I4
+LnODJX3DRcWrlXdeJ3vUh0LmummTBx544CWRSwNkmTyD32cLQ6QjSy74X1Zy/2Yn7M27jcIiuRLx
+YGnfX+I4hq/1eAJJlVh+l1+3kJlJWltsVoIlD8SKnhe9y09SfnXRxckalT7t2bYXnkS2e5UphQY1
+nNalqOXDUL+VjNnmF8C+uGpFu+m/qIi2WGbQpK+uX0aXKTkBWWWG1y9xmVM7hyPKWq/sMrduAUPj
+LCxOJ+TH8mV6yy+ssrw5ew6CF75x/BJMxfcOyFIIZvZscfcSdV4+vrJ4OPc9+ElunfeSryTJk4Ol
+fc3gbjrqkHQCsmruj55G/n3SNT8T4oymozavvW/zZmVfA/NlMTWQs+6of3EHnDoAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwJf2B17YFXHm89SRAAAAAElFTkSuQmCC
+------=_Part_116214_1891636058.1773922831562--

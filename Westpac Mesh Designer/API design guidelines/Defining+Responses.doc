@@ -1,0 +1,332 @@
+Date: Thu, 19 Mar 2026 23:18:36 +1100 (AEDT)
+Message-ID: <558674603.116197.1773922716443@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116196_1283516307.1773922716443"
+
+------=_Part_116196_1283516307.1773922716443
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Defining Responses</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Defining Responses</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"DefiningResponses-SupportedSuccessResponseCodes"><strong>=
+Supported Success Response Codes</strong></h3>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">HTTP Status Code</th>
+<th class=3D"confluenceTh">Status</th>
+<th class=3D"confluenceTh">Description</th>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">200</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">OK</td>
+<td class=3D"confluenceTd">The standard response for successful HTTP reques=
+ts, should contain a request body</td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">201</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Created</td>
+<td class=3D"confluenceTd">The request has been fulfilled, resulting in the=
+ creation of a new resource</td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">202</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Accepted</td>
+<td class=3D"confluenceTd">The request has been accepted for processing, bu=
+t the processing has not been completed. The request might or might not be =
+eventually acted upon, and may be disallowed when processing occurs</td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">204</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">No Content</td>
+<td class=3D"confluenceTd">The server successfully processed the request an=
+d is not returning any content</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"DefiningResponses-SupportedFailureResponseCodes"><strong>Supporte=
+d Failure Response Codes</strong></h3>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">HTTP Status Code</th>
+<th class=3D"confluenceTh">Status</th>
+<th class=3D"confluenceTh">Description</th>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">400</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Bad Request</td>
+<td class=3D"confluenceTd">The server <span class=3D"inline-comment-marker"=
+ data-ref=3D"6b912db6-bee4-4878-b072-10f0f5dedaa0">cannot or will not proc<=
+/span>ess the request due to an apparent client error</td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">404</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Not Found</td>
+<td class=3D"confluenceTd">The requested resource could not be found but ma=
+y be available in the future, subsequent requests by the client are permiss=
+ible</td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">409</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Conflict</td>
+<td class=3D"confluenceTd">The request could not be completed due to a conf=
+lict with the current state of the target resource. Can be used when optimi=
+stic locking is in use.</td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">500</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Internal Server Er=
+ror</td>
+<td class=3D"confluenceTd">A generic error message, given when an unexpecte=
+d condition on the server was encountered and no more specific HTTP respons=
+e code is suitable</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_116196_1283516307.1773922716443--

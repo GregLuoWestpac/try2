@@ -1,0 +1,363 @@
+Date: Thu, 19 Mar 2026 23:18:47 +1100 (AEDT)
+Message-ID: <993657665.116201.1773922727237@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116200_1378888887.1773922727237"
+
+------=_Part_116200_1378888887.1773922727237
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Error Handling</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Error Handling</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"ErrorHandling-ErrorMessageStructure">Error Message Struct=
+ure</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+=09"result": {
+=09=09"errors": [
+=09=09=09{
+=09=09=09=09"code": 101,
+=09=09=09=09"message": "Component not found",
+=09=09=09=09"details": "Unable to find component for {componentId}"
+=09=09=09}
+=09=09]
+=09}
+}</pre>
+</div>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Error Property</th>
+<th class=3D"confluenceTh">Mandatory</th>
+<th class=3D"confluenceTh">Description</th>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Code</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">YES</td>
+<td class=3D"confluenceTd">A specific API code used to identify the type of=
+ error. This is not the HTTP Code.</td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Message</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">YES</td>
+<td class=3D"confluenceTd">A consumer friendly description of the error wit=
+h context if appropriate. I.e. 'Invalid customer number' (explicit error)&n=
+bsp;or 'Missing mandatory field' (implicit - i.e. general due to provider n=
+ot providing further information)</td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Details</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">NO</td>
+<td class=3D"confluenceTd">Detailed message of the error, usually derived f=
+rom provider error message for business related errors. This could be pass =
+through or filtered if sensitive information is returned.<br>
+ For technical errors this will be defined in the API implementation.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>All errors should be returned in JSON format. Westpac Mesh APIs can resp=
+ond with a single or multiple errors.</p>
+<h3 id=3D"ErrorHandling-ErrorClassification">Error Classification</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Error Cassification</th>
+<th class=3D"confluenceTh">HTTP Status Code</th>
+<th class=3D"confluenceTh">Error Code</th>
+<th class=3D"confluenceTh">Description</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Business Error</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">4xx</td>
+<td class=3D"confluenceTd">1 - 9999</td>
+<td class=3D"confluenceTd">Related to data processed by the API, an error w=
+ith consumer input</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Technical Error</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">500</td>
+<td class=3D"confluenceTd">10000 or greater</td>
+<td class=3D"confluenceTd">Related to the environment, typically out of the=
+ consumer's control</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><strong>Process for Mapping Errors</strong></p>
+<p>It is the responsibility of the API Designer to work with the Business A=
+nalyst to agree on which provider errors are 'business important'.<strong><=
+br></strong></p>
+<ul>
+<li>Confirm whether errors being returned are actual errors and not warning=
+ or informational messages</li>
+<li>If no errors, return a HTTP response code 2xx</li>
+<li>If the error is bad data submitted by the consumer, return HTTP respons=
+e code 4xx</li>
+<li>If the error was caused by failed processing on the server, return HTTP=
+ response code 5xx</li>
+<li>Once the appropriate HTTP response code is determined, identify the app=
+ropriate error code</li>
+<li>If none are appropriate, assign a new error code&nbsp;in the error bloc=
+k by allocating the next available number based on the error classification=
+ (business or technical)</li>
+<li>Provide an easily understood description of the error in the message el=
+ement of the error block</li>
+<li>Map the provider's error message to the details element of the error bl=
+ock</li>
+</ul>
+<p>When designing the errors in your API, put yourself in the shoes of a co=
+nsumer and think about the types of errors you would want to know about.</p=
+>
+<p>It is important that the occurrence of an error is propagated up the cal=
+l stack, but the error detail at each level must NOT be blindly propagated =
+up the call stack.&nbsp;You can include provider error details from the dow=
+nstream call in your API's specific error block to aid in troubleshooting.<=
+/p>
+<p><br></p>
+<p><strong>Further reading:</strong>&nbsp;<a href=3D"/display/MESH/API+Erro=
+r+Handling">API Error Handling</a></p>
+    </div>
+</body>
+</html>
+------=_Part_116200_1378888887.1773922727237--

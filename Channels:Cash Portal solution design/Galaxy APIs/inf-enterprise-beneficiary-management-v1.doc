@@ -1,0 +1,4110 @@
+Date: Thu, 19 Mar 2026 22:55:55 +1100 (AEDT)
+Message-ID: <1585685428.116028.1773921355390@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116027_649180765.1773921355390"
+
+------=_Part_116027_649180765.1773921355390
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>inf-enterprise-beneficiary-management-v1</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>inf-enterprise-beneficiary-management-v1</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+<div class=3D"columnLayout two-right-sidebar" data-layout=3D"two-right-side=
+bar">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<h1 id=3D"infenterprisebeneficiarymanagementv1-APIOverview"><span style=3D"=
+color: rgb(51,102,255);"><strong>API Overview</strong></span></h1>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 110=
+2.47px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><span style=3D"color=
+: rgb(0,0,0);">API Name</span></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd">inf-enterprise-benef=
+iciary-management-v1</td>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 357.0px;">
+<col class=3D"" style=3D"width: 745.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><span style=3D"color=
+: rgb(0,0,0);">Base URL</span></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd">/inf/beneficiary/man=
+agement/v1</td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><span style=3D"color=
+: rgb(0,0,0);">API Description &nbsp; &nbsp;</span></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd">This INF API for CRU=
+D process of beneficiary to the data store.</td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Layer&nbsp;</th>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Informational&nbsp;<=
+/td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><span style=3D"color=
+: rgb(0,0,0);">Swagger Location</span></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.
+  ~
+  ~ All rights reserved.
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.
+  ~ Use, duplication or dissemination is forbidden and is subject to prior
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --> <!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.=20
+  ~
+  ~ All rights reserved.=20
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.=20
+  ~ Use, duplication or dissemination is forbidden and is subject to prior=
+=20
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --></p>
+<div class=3D"file-macro-container include4confluence include4confluence-co=
+ntent">
+<div class=3D"include4confluence-panel panel" id=3D"include4confluence-bord=
+er">
+<div class=3D"">
+<div class=3D"include4confluence-header">
+<a href=3D"https://bitbucket.srv.westpac.com.au/projects/WDP/repos/benefici=
+ary-management-v1-api" target=3D"_blank" rel=3D"noreferrer">WDP / beneficia=
+ry-management-v1-api /</a> <b> <a href=3D"https://bitbucket.srv.westpac.com=
+.au/projects/WDP/repos/beneficiary-management-v1-api/browse/openapi.yaml?at=
+=3Drefs/heads/master" target=3D"_blank" rel=3D"noreferrer">openapi.yaml</a>=
+ </b>
+<div class=3D"include4confluence-no-wrap include4confluence-meta-branch-tag=
+-info">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-devtools-branch"></span=
+> master
+</div>
+<div style=3D"clear:both"></div>
+</div>
+</div>
+<div class=3D"include4confluence-panel-content-container ">
+<div class=3D"include4confluence-code-content">
+<pre style=3D"font-size: 12px;">openapi: "3.0.3"
+
+###########################################################################=
+#####
+#                       API Information                                    =
+    #
+###########################################################################=
+#####
+info:
+  title: "Beneficiary Management"
+  description: "The API represents the enterprise INF layer for the benefic=
+iary management."
+  version: "1.0.1"
+  contact:
+    url: "https://mesh.westpac.com.au/components/apis/beneficiary-managemen=
+t-v1"
+  x-baseSchemaVersion: "0.13.0" # The version of openapi-base on which this=
+ specification is based
+
+###########################################################################=
+#####
+#                  Base Path                                               =
+    #
+###########################################################################=
+#####
+servers:
+  - url: "/inf/beneficiary/management/v1"
+
+###########################################################################=
+#####
+#                                  Security                                =
+    #
+###########################################################################=
+#####
+security:
+  - BasicAuth: []
+
+tags:
+  - name: createBeneficiaries
+  - name: getBeneficiary
+  - name: updateBeneficiary
+  - name: updateBeneficiaryStatus
+  - name: listBeneficiaries
+  - name: health Check
+###########################################################################=
+#####
+#                      Paths                                               =
+    #
+###########################################################################=
+#####
+paths:
+  /healthcheck:
+    get:
+      description: Retrieve HealthCheck Summary of API.
+      operationId: getHealthCheckStatus
+      responses:
+        "200":
+          $ref: "https://schema.mesh.westpac.com.au/platform/contracts/0.13=
+.0/openapi-base.yaml#/components/responses/200healthCheckStatusResponse"
+      tags:
+        - health Check
+  /beneficiaries:
+    post:
+      requestBody:
+        description: Create beneficiaries
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                beneficiaries:
+                  type: array
+                  items:
+                    $ref: "#/components/schemas/BeneficiaryRequest"
+      tags:
+        - createBeneficiaries
+      operationId: createBeneficiaries
+      summary: create beneficiaries
+      description: create beneficiaries
+      responses:
+        "201":
+          $ref: "#/components/responses/CreateBeneficiariesResponse"
+        "400":
+          $ref: "#/components/responses/400BadRequest"
+        "500":
+          $ref: "#/components/responses/500InternalServerErrorResponse"
+  /beneficiaries/{id}:
+    get:
+      description: get the details of the beneficiary by id
+      tags:
+        - getBeneficiary
+      operationId: getBeneficiaryDetail
+      summary: retrieve a beneficiary detail
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: unique id of the beneficiary
+          schema:
+            $ref: "#/components/schemas/beneficiaryId"
+      responses:
+        "200":
+          $ref: "#/components/responses/GetBeneficiaryDetailResponse"
+        "400":
+          $ref: "#/components/responses/400BadRequest"
+        "404":
+          $ref: "#/components/responses/404NotFound"
+        "500":
+          $ref: "#/components/responses/500InternalServerErrorResponse"
+    put:
+      description: update beneficiary details by id
+      tags:
+        - updateBeneficiary
+      operationId: updateBeneficiary
+      summary: update a beneficiary
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: unique id of the beneficiary to be updated
+          schema:
+            $ref: "#/components/schemas/beneficiaryId"
+      requestBody:
+        description: Update beneficiary
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/BeneficiaryUpdateRequest"
+      responses:
+        "200":
+          $ref: "#/components/responses/UpdateBeneficiaryResponse"
+        "400":
+          $ref: "#/components/responses/400BadRequest"
+        "404":
+          $ref: "#/components/responses/404NotFound"
+        "409":
+          $ref: "#/components/responses/409Conflict"
+        "500":
+          $ref: "#/components/responses/500InternalServerErrorResponse"
+    patch:
+      summary: Update a property of a beneficiary; limited to status proper=
+ty with value ARCHIVED
+      description: Update beneficiary status to ARCHIVED
+      tags:
+        - updateBeneficiaryStatus
+      operationId: updateBeneficiaryStatus
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: unique id of the beneficiary to update the status
+          schema:
+            $ref: "#/components/schemas/beneficiaryId"
+      requestBody:
+        required: true
+        content:
+          application/merge-patch+json:
+            schema:
+              type: object
+              required:
+                - status
+              properties:
+                status:
+                  $ref: "#/components/schemas/status"
+      responses:
+        "204":
+          description: Successfully updated (no content returned)
+        "400":
+          $ref: "#/components/responses/400BadRequest"
+        "409":
+          $ref: "#/components/responses/409Conflict"
+        "404":
+          $ref: "#/components/responses/404NotFound"
+        "500":
+          $ref: "#/components/responses/500InternalServerErrorResponse"
+
+  /beneficiaries/summary:
+    post:
+      summary: retrieve a list of beneficiaries by ids and other search par=
+ameters
+      description: retrieve a list of beneficiaries by ids and other search=
+ parameters
+      tags:
+        - listBeneficiaries
+      operationId: ListBeneficiaries
+      parameters:
+        - name: pageKey
+          description: current page for pagination
+          in: query
+          schema:
+            type: integer
+            default: 0
+            example: 0
+        - name: pageSize
+          description: page size for the pagination
+          in: query
+          schema:
+            type: integer
+            default: 1000
+            example: 100
+        - name: sort
+          in: query
+          description: for sorting with the sorting pattern, + for asc and =
+- for desc
+          schema:
+            type: string
+            default: "+nickname"
+            example: "+nickname"
+            pattern: "^[\\+\\-][a-zA-Z]+[a-zA-Z0-9]*$"
+      requestBody:
+        description: retrieve a list of beneficiaries
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ListBeneficiariesRequest"
+      responses:
+        "200":
+          $ref: "#/components/responses/ListBeneficiariesResponse"
+        "400":
+          $ref: "#/components/responses/400BadRequest"
+        "500":
+          $ref: "#/components/responses/500InternalServerErrorResponse"
+
+###########################################################################=
+#####
+#                           Components                                     =
+    #
+###########################################################################=
+#####
+components:
+  # parameters:
+
+  # schemas:
+  schemas:
+    nickname:
+      description: nickname of the beneficiary
+      type: string
+      example: "office 1"
+      minLength: 1
+      maxLength: 70
+      pattern: "^[a-zA-Z0-9\\- !,.:\\;?_]+$"
+    accountName:
+      description: account name of the beneficiary
+      type: string
+      pattern: "^[a-zA-Z0-9\\- !,.:\\;?_]+$"
+      minLength: 1
+      maxLength: 140
+      example: "Apple Tree"
+    status:
+      description: status of the beneficiaries ACTIVE, ON-HOLD OR ARCHIVED
+      example: "ARCHIVED"
+      type: string
+      enum:
+        - ACTIVE
+        - ARCHIVED
+        - ON-HOLD
+    type:
+      description: beneficiary account type either PayId or BSB &amp; Accou=
+nt number
+      type: string
+      example: BSB_ACCOUNT_NUMBER
+      enum:
+        - PAYID
+        - BSB_ACCOUNT_NUMBER
+    org:
+      description: Name of Organisation
+      type: string
+      example: "18342800027"
+      minLength: 0
+      maxLength: 15
+      pattern: '^[0-9]+$'
+    currency:
+      description: currency used by the beneficiary
+      type: string
+      example: AUD
+      minLength: 1
+      maxLength: 3
+      pattern: "^[A-Z]{3}$"
+    beneficiaryId:
+      description: unique id of the beneficiary
+      type: string
+      format: uuid
+      example: "4b2b93ad-d6b8-4b6d-a446-0a5b56f1a804"
+    externalId:
+      description: external id of the beneficiary from legacy system
+      type: string
+      format: uuid
+      example: "4b2b93ad-d6b8-4b6d-a446-0a5b56f1a804"
+    isNew:
+      description: indicates if the payment for the beneficiary is the firs=
+t payment (true) or not (false)
+      type: boolean
+      example: true
+    amount:
+      description: Payment amount to be paid
+      type: string
+      pattern: '^\d{1,13}\.?\d{1,4}$'
+    reference:
+      description: A reference assigned by the initiating party to unambigu=
+ously identify the payment
+      type: string
+      maxLength: 35
+      pattern: '^(?!.*(;|--|\{|\}|&lt;|&gt;|%|#|"|=3D)).*[\s\S]*$'
+    divisionId:
+      description: id required by IROM api
+      type: string
+      format: uuid
+      example: "9129cb19-bc35-4ef5-91dc-0deb09d2e577"
+    BeneficiaryResponse:
+      description: Represents Beneficiary Response Object
+      title: BeneficiaryResponse
+      properties:
+        id:
+          $ref: "#/components/schemas/beneficiaryId"
+        externalId:
+          $ref: "#/components/schemas/externalId"
+        nickname:
+          $ref: "#/components/schemas/nickname"
+        divisionId:
+          $ref: "#/components/schemas/divisionId"
+        currency:
+          $ref: "#/components/schemas/currency"
+        org:
+         $ref: "#/components/schemas/org"
+        status:
+          $ref: "#/components/schemas/status"
+        type:
+          $ref: "#/components/schemas/type"
+        account:
+          $ref: "#/components/schemas/Account"
+        isNew:
+          $ref: "#/components/schemas/isNew"
+        reference:
+          $ref: "#/components/schemas/reference"
+        amount:
+          $ref: "#/components/schemas/amount"
+    BeneficiaryRequest:
+      description: Represents Beneficiary Request Object
+      title: CreateBeneficiaryRequest
+      required:
+        - id
+        - nickname
+        - currency
+        - account
+        - type
+        - org
+      properties:
+        id:
+          $ref: "#/components/schemas/beneficiaryId"
+        externalId:
+          $ref: "#/components/schemas/externalId"
+        nickname:
+          $ref: "#/components/schemas/nickname"
+        divisionId:
+          $ref: "#/components/schemas/divisionId"
+        currency:
+          $ref: "#/components/schemas/currency"
+        org:
+          $ref: "#/components/schemas/org"
+        type:
+          $ref: "#/components/schemas/type"
+        account:
+          $ref: "#/components/schemas/Account"
+        isNew:
+          allOf:
+            - $ref: "#/components/schemas/isNew"
+          default: true
+        reference:
+          $ref: "#/components/schemas/reference"
+        amount:
+          $ref: "#/components/schemas/amount"
+    BeneficiaryUpdateRequest:
+      description: Represents Beneficiary Request Object
+      title: UpdateBeneficiaryRequest
+      required:
+        - nickname
+        - currency
+        - account
+        - type
+      properties:
+        nickname:
+          $ref: "#/components/schemas/nickname"
+        currency:
+          $ref: "#/components/schemas/currency"
+        type:
+         $ref: "#/components/schemas/type"
+        account:
+          $ref: "#/components/schemas/Account"
+        isNew:
+          $ref: "#/components/schemas/isNew"
+        reference:
+          $ref: "#/components/schemas/reference"
+        amount:
+          $ref: "#/components/schemas/amount"
+    ListBeneficiariesRequest:
+      type: object
+      description: Represents List Beneficiary Request Object
+      title: ListBeneficiariesRequest
+      required:
+        - ids
+      properties:
+        ids:
+          description: list of beneficiary ids to search and retrieve
+          type: array
+          items:
+            $ref: "#/components/schemas/beneficiaryId"
+        query:
+          type: string
+          description: |=20
+            Text to search in nickname and account fields. It supports part=
+ial and case insensitive search.=20
+            The given text should be a substring of either nickname or acco=
+untName to be considered as a match.
+          example: "1123456"
+          maxLength: 256
+          minLength: 1
+          pattern: "^(.+)$"
+        statuses:
+          type: array
+          description: list of beneficiary status to filter the search. Giv=
+en statues are ORed in the search
+          items:
+            $ref: "#/components/schemas/status"
+    Account:
+      type: object
+      description: Represents Account detail object as json string
+      oneOf:
+        - $ref: "#/components/schemas/BankDetails"
+        - $ref: "#/components/schemas/PayIdDetails"
+      example:
+        accountId:
+          BSB: "123456"
+          accountNumber: "123456789"
+        accountName: "John Doe"
+        bankName: "Westpac Banking Corporation"
+    BankDetails:
+      type: object
+      description: Represents Account detail object
+      required:
+        - accountId
+        - accountName
+        - bankName
+      properties:
+        accountId:
+          type: object
+          description: Account ID (BSB and Account Number) of the beneficia=
+ry
+          required:
+            - BSB
+            - accountNumber
+          properties:
+            BSB:
+              description: BSB for the account
+              type: string
+              example: "123456"
+              minLength: 6
+              maxLength: 6
+              pattern: "^[0-9]+$"
+            accountNumber:
+              description: Account number
+              type: string
+              example: "123456789"
+              minLength: 1
+              maxLength: 28
+              pattern: "^[a-zA-Z0-9.]+$"
+        accountName:
+          $ref: "#/components/schemas/accountName"
+        bankName:
+          description: Name of the Bank
+          type: string
+          pattern: "^[\\w ]+$"
+          minLength: 1
+          maxLength: 70
+          example: "Westpac Banking Corporation"
+    PayIdDetails:
+      type: object
+      description: Represents Account detail object
+      required:
+        - payIDType
+        - payIDName
+        - payIDValue
+      properties:
+        payIDType:
+          description: "alias type for the PayID, either email / phone / or=
+gId / bsb"
+          type: string
+          example: "123456789"
+          minLength: 1
+          maxLength: 20
+        payIDName:
+          description: "pay id name returned from the alias resolution"
+          type: string
+          example: "123456789"
+          minLength: 1
+          maxLength: 256
+        payIDValue:
+          description: "alias id for the PayID, either email / phone / orgI=
+d / bsb"
+          type: string
+          example: "123456789"
+          minLength: 1
+          maxLength: 256
+  # responses:
+  responses:
+    200healthCheckStatusResponse:
+      description: healthcheck status
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              status:
+                type: string
+                enum:
+                  - success
+    GetBeneficiaryDetailResponse:
+      description: get beneficiary detail response
+      content:
+        application/json:
+          schema:
+            title: GetBeneficiaryDetailResponse
+            type: object
+            properties:
+              data:
+                allOf:
+                  - $ref: "#/components/schemas/BeneficiaryResponse"
+                title: GetBeneficiaryDetailData
+    ListBeneficiariesResponse:
+      description: beneficiary creation response
+      content:
+        application/json:
+          schema:
+            type: object
+            title: ListBeneficiariesResponse
+            properties:
+              data:
+                type: object
+                title: ListBeneficiariesData
+                properties:
+                  beneficiaries:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/BeneficiaryResponse"
+              paging:
+                type: object
+                title: pageDetails
+                properties:
+                  pageSize:
+                    description: Number of items per page
+                    type: integer
+                    format: int32
+                    minimum: 1
+                    example: 50
+                  count:
+                    description: Total number of items available
+                    type: integer
+                    format: int32
+                    example: 160
+                  previousPageKey:
+                    description: Key for start of previous page. -1 if no p=
+revious page exists
+                    type: integer
+                    format: int32
+                    minimum: 0
+                    example: 0
+                  nextPageKey:
+                    description: Key for start of next page. -1 if no next =
+page exists
+                    type: integer
+                    format: int32
+                    minimum: 0
+                    example: 2
+                  moreItems:
+                    description: Indicator to show if there are more items =
+available. If true, more records are available (by narrowing search paramet=
+ers)
+                    type: boolean
+                    example: true
+    CreateBeneficiariesResponse:
+      description: beneficiary creation response
+      content:
+        application/json:
+          schema:
+            title: CreateBeneficiariesResponse
+            type: object
+            properties:
+              data:
+                type: object
+                title: CreateBeneficiariesData
+                properties:
+                  beneficiaries:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/BeneficiaryResponse"
+    UpdateBeneficiaryResponse:
+      description: beneficiary update response
+      content:
+        application/json:
+          schema:
+            title: UpdateBeneficiaryResponse
+            type: object
+            properties:
+              data:
+                type: object
+                title: UpdateBeneficiaryData
+                properties:
+                  beneficiaries:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/BeneficiaryResponse"
+    400BadRequest:
+      description: |
+        __Bad Request__
+
+        Possible errors=20
+
+        &lt;table&gt;
+        &lt;tr&gt;
+         &lt;th align=3D"left"&gt;Error Code&lt;/th&gt;
+         &lt;th align=3D"left"&gt;Error Message&lt;/th&gt;
+         &lt;th&gt;&amp;nbsp&amp;nbsp&lt;/th&gt;
+         &lt;th&gt;Error Description&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;1&lt;/td&gt;
+         &lt;td&gt;Missing mandatory header&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;The mandatory header {headerName} was not supplied.&lt;/=
+td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;1&lt;/td&gt;
+         &lt;td&gt;Missing mandatory field&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;The mandatory field {fieldName} was not supplied.&lt;/td=
+&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;2&lt;/td&gt;
+         &lt;td&gt;Invalid data&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;The field {field name} contains invalid data according t=
+o its specified format.&lt;/td&gt;
+        &lt;/tr&gt;
+      content:
+        application/json:
+          schema:
+            $ref: 'https://schema.mesh.westpac.com.au/platform/contracts/0.=
+12.0/openapi-base.yaml#/components/schemas/ErrorResponse'
+          example:
+            result:
+              errors:
+                - code: 1
+                  message: Invalid Header Parameter
+                  details: &gt;-
+                    The mandatory field {fieldName} was not supplied.
+    401Unauthorized:
+      description: |
+        __Bad Request__
+
+        Possible errors=20
+
+        &lt;table&gt;
+        &lt;tr&gt;
+         &lt;th align=3D"left"&gt;Error Code&lt;/th&gt;
+         &lt;th align=3D"left"&gt;Error Message&lt;/th&gt;
+         &lt;th&gt;&amp;nbsp&amp;nbsp&lt;/th&gt;
+         &lt;th&gt;Error Description&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;90002&lt;/td&gt;
+         &lt;td&gt;Downstream api authentication error&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;Downstream api authentication failure&lt;/td&gt;
+        &lt;/tr&gt;
+      content:
+        application/json:
+          schema:
+            $ref: 'https://schema.mesh.westpac.com.au/platform/contracts/0.=
+12.0/openapi-base.yaml#/components/schemas/ErrorResponse'
+          example:
+            result:
+              errors:
+                - code: 90002
+                  message: Downstream api authentication error
+                  details: &gt;-
+                    Downstream api authentication failure
+
+    404NotFound:
+      description: |
+        __Bad Request__
+
+        Possible errors=20
+
+        &lt;table&gt;
+        &lt;tr&gt;
+         &lt;th align=3D"left"&gt;Error Code&lt;/th&gt;
+         &lt;th align=3D"left"&gt;Error Message&lt;/th&gt;
+         &lt;th&gt;&amp;nbsp&amp;nbsp&lt;/th&gt;
+         &lt;th&gt;Error Description&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;3&lt;/td&gt;
+         &lt;td&gt;Resource not found&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;Beneficiary with id {id} could not be found.&lt;/td&gt;
+        &lt;/tr&gt;
+      content:
+        application/json:
+          schema:
+            $ref: 'https://schema.mesh.westpac.com.au/platform/contracts/0.=
+12.0/openapi-base.yaml#/components/schemas/ErrorResponse'
+          example:
+            result:
+              errors:
+                - code: 3
+                  message: Resource not found
+                  details: &gt;-
+                    Beneficiary with id {id} could not be found.
+    409Conflict:
+      description: |
+        __Conflict__
+
+        Possible errors=20
+
+        &lt;table&gt;
+        &lt;tr&gt;
+         &lt;th align=3D"left"&gt;Error Code&lt;/th&gt;
+         &lt;th align=3D"left"&gt;Error Message&lt;/th&gt;
+         &lt;th&gt;&amp;nbsp&amp;nbsp&lt;/th&gt;
+         &lt;th&gt;Error Description&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;4&lt;/td&gt;
+         &lt;td&gt;Status update conflict&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;Beneficiary with given id is already in ARCHIVED state a=
+nd cannot be updated.&lt;/td&gt;
+        &lt;/tr&gt;
+      content:
+        application/json:
+          schema:
+            $ref: 'https://schema.mesh.westpac.com.au/platform/contracts/0.=
+12.0/openapi-base.yaml#/components/schemas/ErrorResponse'
+          example:
+            result:
+              errors:
+                - code: 3
+                  message: Resource not found
+                  details: &gt;-
+                    Beneficiary with id {id} could not be found.
+    500InternalServerErrorResponse:
+      description: |
+        __Internal Server Error__
+
+        Possible errors=20
+
+        &lt;table&gt;
+        &lt;tr&gt;
+         &lt;th align=3D"left"&gt;Error Code&lt;/th&gt;
+         &lt;th align=3D"left"&gt;Error Message&lt;/th&gt;
+         &lt;th&gt;&amp;nbsp&amp;nbsp&lt;/th&gt;
+         &lt;th&gt;Error Description&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;10001&lt;/td&gt;
+         &lt;td&gt;Host Unavailable&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;The downstream system failed to accept the request.&lt;/=
+td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;10002&lt;/td&gt;
+         &lt;td&gt;Provider Timeout&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;The downstream system failed to respond within the expec=
+ted time periods.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;10003&lt;/td&gt;
+         &lt;td&gt;Technical Error&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;   {Technical Error details} &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;10004&lt;/td&gt;
+         &lt;td&gt;Unauthorized&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;Not authorized to access Ping Directory.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+         &lt;td&gt;90001&lt;/td&gt;
+         &lt;td&gt;Error occurred while notifying downstream&lt;/td&gt;
+         &lt;td&gt;&lt;/td&gt;
+         &lt;td&gt;Downstream service did not respond in time. Please try a=
+gain later.&lt;/td&gt;
+        &lt;/tr&gt;
+
+  securitySchemes:
+
+    BasicAuth:
+      type: http
+      scheme: basic</pre>
+</div>
+</div>
+</div>
+</div> &nbsp;=20
+<p></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><span style=3D"color=
+: rgb(0,0,0);">Document Status</span></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-success">REVIEWED</s=
+pan></p>
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">IN PROGRESS</=
+span></p>
+<ul>
+<li>Retrieving a list of beneficiaries / accounts</li>
+<li>Create beneficiary</li>
+<li>Update beneficiary</li>
+<li>Delete/Archive the beneficiary</li>
+</ul>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class=3D"cell aside" data-type=3D"aside">
+<div class=3D"innerCell">
+<p><span class=3D"confluence-anchor-link" id=3D"infenterprisebeneficiaryman=
+agementv1-top"></span></p>
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1773921355066 {padding: 0px;}
+div.rbtoc1773921355066 ul {margin-left: 0px;}
+div.rbtoc1773921355066 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1773921355066">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-APIOverview">API Overv=
+iew</a></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-Endpointsoverview">End=
+points overview</a></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-Capability:Retrievinga=
+listofbeneficiaries/accounts">Capability: Retrieving a list of beneficiarie=
+s / accounts</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-POST/beneficiaries/sum=
+mary">POST /beneficiaries/summary</a></li>
+</ul></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-Capability:Retrievinga=
+beneficiarydetail">Capability: Retrieving a beneficiary detail</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-GET/beneficiaries/{id}=
+">GET /beneficiaries/{id}</a></li>
+</ul></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-Capability:Createbenef=
+iciary">Capability: Create beneficiary</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-POST/beneficiaries">PO=
+ST /beneficiaries</a></li>
+</ul></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-Capability:Updatebenef=
+iciary">Capability: Update beneficiary</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-PUT/beneficiaries/{id}=
+">PUT /beneficiaries/{id}</a></li>
+</ul></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-Capability:Delete/Arch=
+ivethebeneficiary">Capability: Delete/Archive the beneficiary</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-PATCH/beneficiaries/{i=
+d}">PATCH /beneficiaries/{id}</a></li>
+</ul></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-DataSourceMappings">Da=
+ta Source Mappings</a></li>
+</ul>
+</div>
+<p></p>
+</div>
+</div>
+</div>
+<div class=3D"columnLayout single" data-layout=3D"single">
+<div class=3D"cell normal" data-type=3D"normal">
+<div class=3D"innerCell">
+<p style=3D"text-align: left;"><br></p>
+<h1 id=3D"infenterprisebeneficiarymanagementv1-Endpointsoverview"><span sty=
+le=3D"color: rgb(51,102,255);"><strong>Endpoints overview</strong></span></=
+h1>
+<p><strong><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1773921355261 {padding: 0px;}
+div.rbtoc1773921355261 ul {margin-left: 0px;}
+div.rbtoc1773921355261 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></strong></p>
+<div class=3D"toc-macro rbtoc1773921355261"><strong>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-POST/beneficiaries/sum=
+mary">POST /beneficiaries/summary</a></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-GET/beneficiaries/{id}=
+">GET /beneficiaries/{id}</a></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-POST/beneficiaries">PO=
+ST /beneficiaries</a></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-PUT/beneficiaries/{id}=
+">PUT /beneficiaries/{id}</a></li>
+<li><a href=3D"#infenterprisebeneficiarymanagementv1-PATCH/beneficiaries/{i=
+d}">PATCH /beneficiaries/{id}</a></li>
+</ul></strong>
+</div>
+<p></p>
+<h1 id=3D"infenterprisebeneficiarymanagementv1-Capability:Retrievingalistof=
+beneficiaries/accounts"><span style=3D"color: rgb(51,102,255);"><strong>Cap=
+ability:<span class=3D"fabric-text-color-mark"> Retrieving a list of benefi=
+ciaries / accounts</span></strong></span></h1>
+<p><br></p>
+<h2 id=3D"infenterprisebeneficiarymanagementv1-POST/beneficiaries/summary">=
+<span>POST /<span style=3D"color: rgb(23,43,77);">beneficiaries/summary</sp=
+an></span></h2>
+<p>This endpoint retrieves all <span style=3D"color: rgb(23,43,77);">benefi=
+ciaries </span>that the user is entitled to and only return accounts / bene=
+ficiaries.&nbsp;</p>
+<p><span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-macro =
+aui-lozenge aui-lozenge-current">FEB 26</span> enhance to support last used=
+, "NEW" flag and the additional fields required for payment.&nbsp;</span></=
+span></p>
+<p><br></p>
+<div id=3D"expander-191809388" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-191809388" cl=
+ass=3D"expand-control"><button type=3D"button" id=3D"expand-button-19180938=
+8" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-expa=
+nded=3D"true" aria-controls=3D"expander-content-191809388"><span class=3D"e=
+xpand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hidden=
+=3D"true"></span><span class=3D"expand-control-text conf-macro-render">Deta=
+ils of retrieving the list of arrangements</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-191809388" class=3D"expand-cont=
+ent" aria-labelledby=3D"expand-button-191809388">
+<h3 id=3D"infenterprisebeneficiarymanagementv1-Request"><span>Request</span=
+></h3>
+<p>Query Parameter</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 573=
+.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 164.0px;">
+<col class=3D"" style=3D"width: 97.0px;">
+<col class=3D"" style=3D"width: 166.0px;">
+<col class=3D"" style=3D"width: 258.0px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Name</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Required</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Values</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span>pageKey</span></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>:cross:</p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"2" class=3D"=
+confluenceTd"><p style=3D"text-align: left;">pageKey is<span>&nbsp;</span><=
+u>zero-indexed</u>. So the first pageKey to be passed is&nbsp;<strong>0</st=
+rong></p><p style=3D"text-align: left;">Default pageSize=3D 1000</p><p styl=
+e=3D"text-align: left;">Default pageKey=3D 0</p><p style=3D"text-align: lef=
+t;">Example: ?<span style=3D"color: rgb(23,43,77);">pageSize=3D25&amp;pageK=
+ey=3D0</span></p><p><br></p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span>pageSize</span></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+:cross:</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span>sort</span></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+:cross:</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;">Optional, by default it's sorted by nickname=
+ in ascending order.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Header Parameters</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 975=
+.0px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Name</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Required</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 239.0px;">
+<col class=3D"" style=3D"width: 85.0px;">
+<col class=3D"" style=3D"width: 650.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-messageId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Must be a GUID (Globally unique message identifier). This uniquely ident=
+ifies this call. This MUST NOT be propagated</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-appCorrelationId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Must be a GUID (Globally unique message identifier). Consumer generated =
+message identifier for correlation purposes. e.g. This is used to group tog=
+ether a number of downstream API/provider calls initiated from a single API=
+ call, comprising a business transaction. This MUST be propagated</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-organisationId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The organisation the caller is operating in.</p><p>Available values : WP=
+AC, SGB, BSA, BOM, BTPL, UBS, VIRG, RAMS, BAS, WNZL</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-originatingSystemId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Alfabet Id of calling application e.g. A00304. Must be propagated to API=
+s being invoked. Exception for partners calling in via partner APIs, do not=
+ populate this header as the partner=E2=80=99s consuming application name (=
+eg. ptr-corelogic-valex) will be injected into this field by the gateway.</=
+p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-consumerType</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The originating consumption channel invoking the API (eg. Partner, Staff=
+, Customer). Note that an API consuming another API should pass the value s=
+upplied by the calling application. Further information regarding this head=
+er can be found at<span>&nbsp;</span><a href=3D"https://confluence.srv.west=
+pac.com.au/x/cbH-B" rel=3D"nofollow">https://confluence.srv.westpac.com.au/=
+x/cbH-B</a>.</p><p><em>Available values</em><span>&nbsp;</span>: Partner, P=
+ublic, Staff, Customer, Prospect, Other</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-userId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The unique identifier for the user invoking the API (eg. Staff salary nu=
+mber, Customer CIS/GCIS key, Partner CIS/GCIS key or other identifier).</p>=
+</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-userIdScheme</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The scheme (type) applicable for the user identifier of the consumer inv=
+oking the API.</p><p>Available values : StaffSalaryNumber, CustomerInternal=
+Id, CustomerNumber, SystemProcess, CorporateUserId, ProspectId</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-originatingBSB</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Identifies the BSB from which this request originated. The format should=
+ be XXY-ZZZ. The first two digits (XX) specify the bank or financial instit=
+ution. The third digit (Y) tells which state the branch is located in. The =
+last three digits (ZZZ) specify the address of the branch.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><span style=3D"font-size: 16.0px;font-weight: bold;letter-spacing: -0.00=
+6em;">Responses</span></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 845=
+.0px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Response =
+Code</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Example</p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 178.0px;">
+<col class=3D"" style=3D"width: 666.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-cztx6i"><span class=3D"css-1et8=
+jlg">200 (With data)</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;"><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "beneficiaries": [
+      {
+        "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "externalId": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "nickname": "Bayer, Miller and MacGyver",
+        "currency": "AUD",
+        "org": "31370215",
+        "status": "ACTIVE",
+        "type": "BSB_ACCOUNT_NUMBER",
+&nbsp;    "account": {
+          "accountId": {
+            "accountNumber": "084765",
+            "BSB": "014111"
+          },
+          "bankName": "ANZ Bank",
+          "accountName": "ANZ Joint"
+        }
+&nbsp; &nbsp; &nbsp;
+      },
+      {
+        "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "externalId": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "nickname": "Bayer, Miller and MacGyver",
+        "currency": "AUD",
+        "org": "31370215",
+        "status": "ARCHIVED",
+        "type": "PAYID",
+&nbsp; &nbsp; &nbsp; &nbsp; "account": {
+=09 &nbsp; &nbsp; &nbsp;"payIDName": "ABC Corp",
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "payIDType": "TELI",
+          "payIDValue": "0407123456"
+        }
+      }
+    ]
+  },
+  "paging": {
+    "id": "1",
+    "pageSize": 50,
+    "count": 160,
+    "previousPageKey": "0",
+    "nextPageKey": "2",
+    "moreItems": true
+  }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-macro =
+aui-lozenge aui-lozenge-current">FEB 26</span></span></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "beneficiaries": [
+      {
+        "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "externalId": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "nickname": "Bayer, Miller and MacGyver",
+        "currency": "AUD",
+        "org": "31370215",
+        "status": "ACTIVE",
+        "type": "BSB_ACCOUNT_NUMBER",
+        "isNew": false,
+        "lastUsedDateTime": "2025-07-03T12:00:00Z",
+        "account": {
+          "accountId": {
+            "accountNumber": "084765",
+            "BSB": "014111"
+          },
+          "bankName": "ANZ Bank",
+          "accountName": "ANZ Joint"
+        },
+        "amount": 1000.00,
+        "reference": "Invoice #12345",
+      },
+      {
+        "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "externalId": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "nickname": "Bayer, Miller and MacGyver",
+        "currency": "AUD",
+        "org": "31370215",
+        "status": "ARCHIVED",
+        "type": "PAYID",
+        "isNew": true,
+        "lastUsedDateTime": "2025-07-01T12:00:00Z",
+        "account": {
+          "payIDName": "ABC Corp",
+          "payIDType": "TELI",
+          "payIDValue": "0407123456"
+        },
+        "amount": 500.00,
+        "reference": "Invoice #67890",
+      }
+    ]
+  },
+  "paging": {
+    "id": "1",
+    "pageSize": 50,
+    "count": 160,
+    "previousPageKey": "0",
+    "nextPageKey": "2",
+    "moreItems": true
+  }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">200 (No data)</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "beneficiaries": [],
+  }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">400</span></span></span></p></td>
+<td style=3D"text-align: left;" rowspan=3D"3" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "result": {
+    "errors": [
+      {
+        "code": 0,
+        "message": "string",
+        "details": "string"
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" rowspan=3D"2" class=3D"confluenceTd"><p><sp=
+an class=3D"status-lozenge-span css-0"><span class=3D"css-zsg42k"><span cla=
+ss=3D"css-1i1uhdn">500</span></span></span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Body Parameters</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 120=
+8.0px;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 47.0px;">
+<col class=3D"" style=3D"width: 271.0px;">
+<col class=3D"" style=3D"width: 123.0px;">
+<col class=3D"" style=3D"width: 148.0px;">
+<col class=3D"" style=3D"width: 88.0px;">
+<col class=3D"" style=3D"width: 100.0px;">
+<col class=3D"" style=3D"width: 429.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" style=3D"text-align: center;" co=
+ntenteditable=3D"false" data-mce-resize=3D"false"><br></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Name</str=
+ong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Source</s=
+trong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Type</str=
+ong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Format</s=
+trong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Required<=
+/strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Example</=
+strong></p></th>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: center;" co=
+ntenteditable=3D"false" data-mce-resize=3D"false">1</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(51,51,51);"><span>nickname</span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>upstream</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"em=
+oji-common-main-styles emoji-common-node   emoji-common-emoji-image   css-1=
+9bdfyn" title=3D":white_check_mark:">&nbsp;:cross:</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;">For searching</p>
+<ul>
+<li>Beneficiary nickname</li>
+</ul>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: center;" co=
+ntenteditable=3D"false" data-mce-resize=3D"false">2</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(51,51,51);"><span>accountName</span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>upstream</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"em=
+oji-common-main-styles emoji-common-node   emoji-common-emoji-image   css-1=
+9bdfyn" title=3D":white_check_mark:">&nbsp;:cross:</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>For searching</p>
+<ul>
+<li>Account name / PayID name</li>
+</ul>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: center;" co=
+ntenteditable=3D"false" data-mce-resize=3D"false">3</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(51,51,51);"><span>accountDetail</span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>upstream</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"em=
+oji-common-main-styles emoji-common-node   emoji-common-emoji-image   css-1=
+9bdfyn" title=3D":white_check_mark:">&nbsp;:cross:</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;">For searching</p>
+<ul>
+<li>Account details (either BSB/Acc no or PayID value)</li>
+</ul>
+</div></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: center;" co=
+ntenteditable=3D"false" data-mce-resize=3D"false">4</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(51,51,51);"><span>status</span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>upstream</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>enum</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"em=
+oji-common-main-styles emoji-common-node   emoji-common-emoji-image   css-1=
+9bdfyn" title=3D":white_check_mark:">:cross:</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;">if not passing, default to show all records.=
+&nbsp;</p>
+<p style=3D"text-align: left;">support either filtering by "ACTIVE" /&nbsp;=
+<span>&nbsp;"ARCHIVED".&nbsp;</span></p>
+</div></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: center;" co=
+ntenteditable=3D"false" data-mce-resize=3D"false">5</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(51,51,51);"><span>ids</span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>upstream</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>List</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>List&lt;String&gt=
+;</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"em=
+oji-common-main-styles emoji-common-node   emoji-common-emoji-image   css-1=
+9bdfyn" title=3D":white_check_mark:">:tick:</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;">List of beneficiary ids received from the up=
+stream. The API returns only records that matches the id specified.&nbsp;</=
+p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"infenterprisebeneficiarymanagementv1-InputValidation">Input Valid=
+ation</h3>
+<p>The below validations should be done on the extracted account IDs.</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 47.=
+3727%;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 4.95417%;">
+<col class=3D"" style=3D"width: 25.625%;">
+<col class=3D"" style=3D"width: 21.0125%;">
+<col class=3D"" style=3D"width: 48.341%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" contenteditable=3D"false" data-m=
+ce-resize=3D"false"><br></th>
+<th class=3D"confluenceTh">Scenario</th>
+<th class=3D"confluenceTh">Action</th>
+<th class=3D"confluenceTh">Comment</th>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">1</td>
+<td class=3D"confluenceTd">if no beneficiary ids are received from entitlem=
+ent&nbsp;</td>
+<td class=3D"confluenceTd">Return 200 with empty object</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">2</td>
+<td class=3D"confluenceTd">if no beneficiary ids are passed&nbsp;</td>
+<td class=3D"confluenceTd">Return 400&nbsp;</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">3</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p><br></p>
+<p><strong>&nbsp;:information: <a href=3D"#infenterprisebeneficiarymanageme=
+ntv1-top">Go to top of this page</a></strong></p>
+<p><br></p>
+<h1 id=3D"infenterprisebeneficiarymanagementv1-Capability:Retrievingabenefi=
+ciarydetail"><span style=3D"color: rgb(51,102,255);"><strong>Capability:<sp=
+an class=3D"fabric-text-color-mark"> Retrieving a beneficiary detail</span>=
+</strong></span></h1>
+<p><br></p>
+<h2 id=3D"infenterprisebeneficiarymanagementv1-GET/beneficiaries/{id}"><spa=
+n>GET /<span style=3D"color: rgb(23,43,77);">beneficiaries/{id}</span></spa=
+n></h2>
+<p>This endpoint retrieves <span style=3D"color: rgb(23,43,77);">beneficiar=
+y detail </span>that the user is entitled to and is ACTIVE.</p>
+<p><span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-macro =
+aui-lozenge aui-lozenge-current">FEB 26</span> </span>supports capability t=
+o retrieve payment template (embedded in beneficiary), new flag and last us=
+ed.&nbsp;</span></p>
+<p><br></p>
+<div id=3D"expander-119853345" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-119853345" cl=
+ass=3D"expand-control"><button type=3D"button" id=3D"expand-button-11985334=
+5" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-expa=
+nded=3D"true" aria-controls=3D"expander-content-119853345"><span class=3D"e=
+xpand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hidden=
+=3D"true"></span><span class=3D"expand-control-text conf-macro-render">Deta=
+ils of retrieving the list of arrangements</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-119853345" class=3D"expand-cont=
+ent" aria-labelledby=3D"expand-button-119853345">
+<h3 id=3D"infenterprisebeneficiarymanagementv1-Request.1"><span>Request</sp=
+an></h3>
+<p>Query Parameter</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 686=
+.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 175.0px;">
+<col class=3D"" style=3D"width: 80.0px;">
+<col class=3D"" style=3D"width: 191.0px;">
+<col class=3D"" style=3D"width: 239.0px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Name</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Required</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Values</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span>&nbsp;</span></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span>&nbsp;</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Path Parameter</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 686=
+.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 175.0px;">
+<col class=3D"" style=3D"width: 80.0px;">
+<col class=3D"" style=3D"width: 191.0px;">
+<col class=3D"" style=3D"width: 239.0px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Name</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Required</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Values</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span>&nbsp;id</span></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span class=3D"emoji-common-main-styles emoji-common-node   emoji-common-em=
+oji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span>&nbsp;String</span></td>
+<td class=3D"confluenceTd"><span>id of the beneficiary</span></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span>&nbsp;</span></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span>&nbsp;</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Header Parameters</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 975=
+.359px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Name</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Required</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 239.0px;">
+<col class=3D"" style=3D"width: 85.0px;">
+<col class=3D"" style=3D"width: 650.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-messageId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Must be a GUID (Globally unique message identifier). This uniquely ident=
+ifies this call. This MUST NOT be propagated</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-appCorrelationId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Must be a GUID (Globally unique message identifier). Consumer generated =
+message identifier for correlation purposes. e.g. This is used to group tog=
+ether a number of downstream API/provider calls initiated from a single API=
+ call, comprising a business transaction. This MUST be propagated</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-organisationId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The organisation the caller is operating in.</p><p>Available values : WP=
+AC, SGB, BSA, BOM, BTPL, UBS, VIRG, RAMS, BAS, WNZL</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-originatingSystemId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Alfabet Id of calling application e.g. A00304. Must be propagated to API=
+s being invoked. Exception for partners calling in via partner APIs, do not=
+ populate this header as the partner=E2=80=99s consuming application name (=
+eg. ptr-corelogic-valex) will be injected into this field by the gateway.</=
+p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-consumerType</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The originating consumption channel invoking the API (eg. Partner, Staff=
+, Customer). Note that an API consuming another API should pass the value s=
+upplied by the calling application. Further information regarding this head=
+er can be found at<span>&nbsp;</span><a href=3D"https://confluence.srv.west=
+pac.com.au/x/cbH-B" rel=3D"nofollow">https://confluence.srv.westpac.com.au/=
+x/cbH-B</a>.</p><p><em>Available values</em><span>&nbsp;</span>: Partner, P=
+ublic, Staff, Customer, Prospect, Other</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-userId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The unique identifier for the user invoking the API (eg. Staff salary nu=
+mber, Customer CIS/GCIS key, Partner CIS/GCIS key or other identifier).</p>=
+</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-userIdScheme</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The scheme (type) applicable for the user identifier of the consumer inv=
+oking the API.</p><p>Available values : StaffSalaryNumber, CustomerInternal=
+Id, CustomerNumber, SystemProcess, CorporateUserId, ProspectId</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-originatingBSB</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Identifies the BSB from which this request originated. The format should=
+ be XXY-ZZZ. The first two digits (XX) specify the bank or financial instit=
+ution. The third digit (Y) tells which state the branch is located in. The =
+last three digits (ZZZ) specify the address of the branch.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><span>Responses</span></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 845=
+.0px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Response =
+Code</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Example</p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 178.0px;">
+<col class=3D"" style=3D"width: 666.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-cztx6i"><span class=3D"css-1et8=
+jlg">200 (With data)</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;"><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+    "externalId": "d0868661-b955-4e76-9f15-d97626f7df6b",
+    "nickname": "Bayer, Miller and MacGyver",
+    "currency": "AUD",
+    "org": "31370215", // cis key or the organisation
+    "type": "BSB_ACCOUNT_NUMBER",
+=09"status": "ACTIVE",
+      "account": {
+        "accountId": {
+          "accountNumber": "084765",
+          "BSB": "014111"
+        },
+        "bankName": "ANZ Bank",
+        "accountName": "ANZ Joint"
+      }
+&nbsp; }
+}</pre>
+</div>
+</div>
+<p>&nbsp;<span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-=
+macro aui-lozenge aui-lozenge-current">FEB 26</span></span></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "beneficiaries": [
+      {
+        "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "externalId": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "nickname": "Bayer, Miller and MacGyver",
+        "currency: "AUD",
+        "amount": "1000.00",
+        "org": "31370215",
+        "status": "ACTIVE",
+        "type": "BSB_ACCOUNT_NUMBER",
+        "isNew": false,
+        "lastUsedDateTime": "2025-07-03T12:00:00Z",
+        "account": {
+          "accountId": {
+            "accountNumber": "084765",
+            "BSB": "014111"
+          },
+          "bankName": "ANZ Bank",
+          "accountName": "ANZ Joint"
+        },
+        "reference": "Invoice #12345"
+      },
+      {
+        "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "externalId": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "nickname": "Bayer, Miller and MacGyver",
+        "currency: "AUD",
+        "amount": "500.00",=20
+&nbsp; &nbsp; &nbsp; &nbsp; "org": "31370215",
+        "status": "ARCHIVED",
+        "type": "PAYID",
+        "isNew": true,
+        "lastUsedDateTime": "2025-07-01T12:00:00Z",
+        "account": {
+          "payIDName": "ABC Corp",
+          "payIDType": "TELI",
+          "payIDValue": "0407123456"
+        },
+        "reference": "Invoice #67890"
+      }
+    ]
+  },
+  "paging": {
+    "id": "1",
+    "pageSize": 50,
+    "count": 160,
+    "previousPageKey": "0",
+    "nextPageKey": "2",
+    "moreItems": true
+  }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">200 (No data)</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "beneficiaries": [],
+  }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">400</span></span></span></p></td>
+<td style=3D"text-align: left;" rowspan=3D"3" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "result": {
+    "errors": [
+      {
+        "code": 0,
+        "message": "string",
+        "details": "string"
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" rowspan=3D"2" class=3D"confluenceTd"><p><sp=
+an class=3D"status-lozenge-span css-0"><span class=3D"css-zsg42k"><span cla=
+ss=3D"css-1i1uhdn">500</span></span></span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Body Parameters</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 120=
+8.0px;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0,1=
+,6">
+<colgroup class=3D"">
+<col style=3D"width: 48.0px;">
+<col class=3D"" style=3D"width: 283.0px;">
+<col class=3D"" style=3D"width: 126.0px;">
+<col class=3D"" style=3D"width: 152.0px;">
+<col class=3D"" style=3D"width: 88.0px;">
+<col class=3D"" style=3D"width: 100.0px;">
+<col class=3D"" style=3D"width: 439.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" style=3D"text-align: center;" sc=
+ope=3D"col" contenteditable=3D"false" data-mce-resize=3D"false"><br></th>
+<th style=3D"text-align: left;" scope=3D"col" class=3D"confluenceTh"><p><st=
+rong>Name</strong></p></th>
+<th style=3D"text-align: left;" scope=3D"col" class=3D"confluenceTh"><p><st=
+rong>Source</strong></p></th>
+<th style=3D"text-align: left;" scope=3D"col" class=3D"confluenceTh"><p><st=
+rong>Type</strong></p></th>
+<th style=3D"text-align: left;" scope=3D"col" class=3D"confluenceTh"><p><st=
+rong>Format</strong></p></th>
+<th style=3D"text-align: left;" scope=3D"col" class=3D"confluenceTh"><p><st=
+rong>Required</strong></p></th>
+<th style=3D"text-align: left;" scope=3D"col" class=3D"confluenceTh"><p><st=
+rong>Example</strong></p></th>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: center;" co=
+ntenteditable=3D"false" data-mce-resize=3D"false">1</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><br></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"infenterprisebeneficiarymanagementv1-InputValidation.1">Input Val=
+idation</h3>
+<p>The below validations should be done on the extracted account IDs.</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 47.=
+3727%;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0,1=
+,2">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 4.93708%;">
+<col class=3D"" style=3D"width: 25.6258%;">
+<col class=3D"" style=3D"width: 21.0022%;">
+<col class=3D"" style=3D"width: 48.4304%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" contenteditable=3D"false" data-m=
+ce-resize=3D"false"><br></th>
+<th class=3D"confluenceTh">Scenario</th>
+<th class=3D"confluenceTh">Action</th>
+<th class=3D"confluenceTh">Comment</th>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">1</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Beneficiary id needs to be provided&nbsp;</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Return 400</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">2</td>
+<td class=3D"confluenceTd">Beneficiary to be viewed is not ACTIVE&nbsp;</td=
+>
+<td class=3D"confluenceTd">Return 404</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">3</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p><br></p>
+<p><strong>&nbsp;:information: <a href=3D"#infenterprisebeneficiarymanageme=
+ntv1-top">Go to top of this page</a></strong></p>
+<p><br></p>
+<h1 id=3D"infenterprisebeneficiarymanagementv1-Capability:Createbeneficiary=
+"><strong style=3D"color: rgb(51,102,255);letter-spacing: -0.01em;">Capabil=
+ity: Create beneficiary&nbsp;</strong></h1>
+<h2 id=3D"infenterprisebeneficiarymanagementv1-POST/beneficiaries">POST /be=
+neficiaries</h2>
+<p>This endpoint creates a new beneficiary/account as provided in request b=
+ody.&nbsp;<br><span style=3D"color: rgb(51,51,51);"><span><span class=3D"st=
+atus-macro aui-lozenge aui-lozenge-current">FEB 26</span> The API should en=
+force a behaviour of state transition from "ON_HOLD" to "ACTIVE" and reject=
+s invalid state transition.&nbsp;</span></span></p>
+<p><br></p>
+<p><span style=3D"color: rgb(51,51,51);"><span><span style=3D"color: rgb(25=
+5,0,0);"><u><strong>Feb 2026 Changes as part of Divisions:</strong></u></sp=
+an><span style=3D"color: rgb(23,43,77);">&nbsp;DivisionId is included as pa=
+rt of the add beneficiary request body so that the same can be persisted in=
+ PDP when IROM API gets called from the Beneficiary INF API. Refer to the S=
+D here for the sequence flow details:&nbsp;</span><a href=3D"https://conflu=
+ence.srv.westpac.com.au/display/ARTC/SD%3A+Sub-Orgs%28Divisions%29+Channels=
+#SD:SubOrgs(Divisions)Channels-Beneficiary-Addbeneficiary" style=3D"" rel=
+=3D"nofollow">SD: Sub-Orgs(Divisions) Channels - Beneficiary-Addbeneficiary=
+</a></span></span></p>
+<p><br></p>
+<div id=3D"expander-1765293159" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-1765293159" c=
+lass=3D"expand-control"><button type=3D"button" id=3D"expand-button-1765293=
+159" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-ex=
+panded=3D"true" aria-controls=3D"expander-content-1765293159"><span class=
+=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hid=
+den=3D"true"></span><span class=3D"expand-control-text conf-macro-render">D=
+etails of search for a list of arrangements</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-1765293159" class=3D"expand-con=
+tent" aria-labelledby=3D"expand-button-1765293159">
+<p><span>Request</span></p>
+<p>Query Parameter</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 52.=
+5106%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 16.4863%;">
+<col class=3D"" style=3D"width: 11.4136%;">
+<col class=3D"" style=3D"width: 26.0997%;">
+<col class=3D"" style=3D"width: 46.0004%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Name</str=
+ong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Required<=
+/strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Values</s=
+trong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Descripti=
+on</strong></p></th>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><br></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Header Parameters</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 975=
+.359px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Name</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Required</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 239.0px;">
+<col class=3D"" style=3D"width: 85.0px;">
+<col class=3D"" style=3D"width: 650.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-messageId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Must be a GUID (Globally unique message identifier). This uniquely ident=
+ifies this call. This MUST NOT be propagated</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-appCorrelationId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Must be a GUID (Globally unique message identifier). Consumer generated =
+message identifier for correlation purposes. e.g. This is used to group tog=
+ether a number of downstream API/provider calls initiated from a single API=
+ call, comprising a business transaction. This MUST be propagated</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-organisationId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The organisation the caller is operating in.</p><p>Available values : WP=
+AC, SGB, BSA, BOM, BTPL, UBS, VIRG, RAMS, BAS, WNZL</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-originatingSystemId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Alfabet Id of calling application e.g. A00304. Must be propagated to API=
+s being invoked. Exception for partners calling in via partner APIs, do not=
+ populate this header as the partner=E2=80=99s consuming application name (=
+eg. ptr-corelogic-valex) will be injected into this field by the gateway.</=
+p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-consumerType</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The originating consumption channel invoking the API (eg. Partner, Staff=
+, Customer). Note that an API consuming another API should pass the value s=
+upplied by the calling application. Further information regarding this head=
+er can be found at<span>&nbsp;</span><a href=3D"https://confluence.srv.west=
+pac.com.au/x/cbH-B" rel=3D"nofollow">https://confluence.srv.westpac.com.au/=
+x/cbH-B</a>.</p><p><em>Available values</em><span>&nbsp;</span>: Partner, P=
+ublic, Staff, Customer, Prospect, Other</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-userId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The unique identifier for the user invoking the API (eg. Staff salary nu=
+mber, Customer CIS/GCIS key, Partner CIS/GCIS key or other identifier).</p>=
+</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-userIdScheme</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The scheme (type) applicable for the user identifier of the consumer inv=
+oking the API.</p><p>Available values : StaffSalaryNumber, CustomerInternal=
+Id, CustomerNumber, SystemProcess, CorporateUserId, ProspectId</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-originatingBSB</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Identifies the BSB from which this request originated. The format should=
+ be XXY-ZZZ. The first two digits (XX) specify the bank or financial instit=
+ution. The third digit (Y) tells which state the branch is located in. The =
+last three digits (ZZZ) specify the address of the branch.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Body Parameters</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 123=
+7.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 36.0px;">
+<col class=3D"" style=3D"width: 287.0px;">
+<col class=3D"" style=3D"width: 127.0px;">
+<col class=3D"" style=3D"width: 154.0px;">
+<col class=3D"" style=3D"width: 87.0px;">
+<col class=3D"" style=3D"width: 99.0px;">
+<col class=3D"" style=3D"width: 446.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: center;" class=3D"confluenceTd"><br></td>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Name</str=
+ong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Source</s=
+trong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Type</str=
+ong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Format</s=
+trong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Required<=
+/strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Example</=
+strong></p></th>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: center;" class=3D"confluenceTd"><p>1</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>beneficiaries</p>=
+</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Upstream API</p><=
+/td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>List&lt;Beneficia=
+ries&gt;</p><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span><span class=
+=3D"emoji-common-main-styles emoji-common-node   emoji-common-emoji-image  =
+ css-19bdfyn" title=3D":white_check_mark:">:tick:</span></span></p><p><br><=
+/p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">beneficiaries</b><span class=3D"collapse-source exp=
+and-control" style=3D"display:none;"><span class=3D"expand-control-icon ico=
+n">&nbsp;</span><span class=3D"expand-control-text">Expand source</span></s=
+pan><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "beneficiaries": [
+    {
+      "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+      "nickname": "ABC company",
+      "currency": "AUD",
+      "org": "31370215",
+      "type": "BSB_ACCOUNT_NUMBER",
+      "account": {
+        "accountId": {
+          "accountNumber": "084765",
+          "BSB": "014111"
+        },
+        "bankName": "ANZ Bank",
+        "accountName": "ANZ Joint"
+      }
+    }
+  ]
+}</pre>
+</div>
+</div>
+<p><span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-macro =
+aui-lozenge aui-lozenge-current">FEB 26</span></span></span></p>
+<p><span style=3D"color: rgb(51,51,51);"><span><u style=3D"text-align: left=
+;"><strong>Changes as part of Divisions:</strong></u><span style=3D"color: =
+rgb(23,43,77);">&nbsp;DivisionId is included as part of the add beneficiary=
+ request body so that the same can be persisted in PDP when IROM API gets c=
+alled from this endpoint.</span></span></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">beneficiaries</b><span class=3D"collapse-source exp=
+and-control" style=3D"display:none;"><span class=3D"expand-control-icon ico=
+n">&nbsp;</span><span class=3D"expand-control-text">Expand source</span></s=
+pan><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "beneficiaries": [
+    {
+      "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+      "nickname": "ABC company",
+ &nbsp; &nbsp; &nbsp;"divisionId": "9129cb19-bc35-4ef5-91dc-0deb09d2e577",
+&nbsp; &nbsp; &nbsp; "currency: "AUD",
+      "amount": "1000.00", =20
+&nbsp; &nbsp; &nbsp; "org": "31370215",
+      "type": "BSB_ACCOUNT_NUMBER",
+      "account": {
+        "accountId": {
+          "accountNumber": "084765",
+          "BSB": "014111"
+        },
+        "bankName": "ANZ Bank",
+        "accountName": "ANZ Joint"
+      },
+      "reference": "Invoice123",
+      "isNew": true
+    }
+  ]
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h3 id=3D"infenterprisebeneficiarymanagementv1-Responses">Responses</h3>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 910=
+.0px;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0">
+<thead class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false"><br></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Response =
+Code</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Example</p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 49.0px;">
+<col class=3D"" style=3D"width: 129.0px;">
+<col class=3D"" style=3D"width: 731.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false">1</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-cztx6i"><span class=3D"css-1et8=
+jlg">200</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "beneficiaries": [
+      {
+        "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "externalId": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "nickname": "ABC company",
+        "currency": "AUD",
+        "org": "31370215",
+        "type": "BSB_ACCOUNT_NUMBER",
+        "status": "ACTIVE",
+        "account": {
+          "accountId": {
+            "accountNumber": "084765",
+            "BSB": "014111"
+          },
+          "bankName": "ANZ Bank",
+          "accountName": "ANZ Joint"
+        }
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-macro =
+aui-lozenge aui-lozenge-current">FEB 26</span></span></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "beneficiaries": [
+      {
+        "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "externalId": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "nickname": "ABC company",
+ &nbsp; &nbsp; &nbsp; &nbsp;"divisionId": "9129cb19-bc35-4ef5-91dc-0deb09d2=
+e577",
+&nbsp; &nbsp; &nbsp; &nbsp; "currency: "AUD",
+        "amount": "1000.00", =20
+&nbsp; &nbsp; &nbsp; &nbsp; "org": "31370215",
+        "type": "BSB_ACCOUNT_NUMBER",
+        "status": "ACTIVE",
+        "isNew": true,
+        "lastUsedDateTime": null,
+        "reference": "Invoice123",
+        "amount": 1000.00,
+        "account": {
+          "accountId": {
+            "accountNumber": "084765",
+            "BSB": "014111"
+          },
+          "bankName": "ANZ Bank",
+          "accountName": "ANZ Joint"
+        }
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false">2</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">400</span></span></span></p></td>
+<td style=3D"text-align: left;" rowspan=3D"2" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "result": {
+    "errors": [
+      {
+        "code": 0,
+        "message": "string",
+        "details": "string"
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false">3</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">500</span></span></span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"infenterprisebeneficiarymanagementv1-InputValidation.2">Input Val=
+idation</h3>
+<p>The provided account(s) should be checked against the accounts the user =
+is entitled to operate on.</p>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 55.=
+9695%;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 4.37715%;">
+<col class=3D"" style=3D"width: 37.6037%;">
+<col class=3D"" style=3D"width: 30.7727%;">
+<col class=3D"" style=3D"width: 27.2577%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" contenteditable=3D"false" data-m=
+ce-resize=3D"false"><br></th>
+<th class=3D"confluenceTh">Scenario</th>
+<th class=3D"confluenceTh">Action</th>
+<th class=3D"confluenceTh">Comment</th>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">1</td>
+<td class=3D"confluenceTd">Required field are missing in the request&nbsp;<=
+/td>
+<td class=3D"confluenceTd">Return 400</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">2</td>
+<td class=3D"confluenceTd"><p><s>Duplicate check at the beneficiary level, =
+for the beneficiary to be created, check if there are duplicated <span styl=
+e=3D"color: rgb(23,43,77);">accounts (BSB &amp; Acc No combo) or PayIDs</sp=
+an><span style=3D"letter-spacing: 0.0px;">&nbsp;</span></s></p></td>
+<td class=3D"confluenceTd"><s>Return 400&nbsp;</s></td>
+<td class=3D"confluenceTd"><p><s>Only check if the "isDuplicated" flag is n=
+ot set to true</s></p><p><s>Setting to true after user has acknowledged the=
+ duplicated record in the UI.</s></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">3</td>
+<td class=3D"confluenceTd">Malicious character validations on BSB / PayID p=
+ayloads&nbsp;</td>
+<td class=3D"confluenceTd">Return 400&nbsp;</td>
+<td class=3D"confluenceTd"><p>Refer to the below Jira ticket for allow char=
+acter sets:</p>
+<ol>
+<li>PayID validation=20
+<ol>
+<li><a href=3D"https://aus01.safelinks.protection.outlook.com/?url=3Dhttps%=
+3A%2F%2Fjira.srv.westpac.com.au%2Fbrowse%2FART-41745&amp;data=3D05%7C02%7Ce=
+dmond.tso%40westpac.com.au%7C012587b369064e34fc9108dd5aebdb2a%7C57c64fd466c=
+a49f5ab382e67ef58e724%7C0%7C0%7C638766691238642443%7CUnknown%7CTWFpbGZsb3d8=
+eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCI=
+sIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DCtd68U9OglSeUO%2FNjF%2F9UtcJ2g0R=
+bBX8HhiEy7grRDA%3D&amp;reserved=3D0" class=3D"external-link" rel=3D"nofollo=
+w">PayID validation</a></li>
+</ol></li>
+<li>BSB Validation&nbsp;=20
+<ol>
+<li><a href=3D"https://aus01.safelinks.protection.outlook.com/?url=3Dhttps%=
+3A%2F%2Fjira.srv.westpac.com.au%2Fbrowse%2FART-39684&amp;data=3D05%7C02%7Ce=
+dmond.tso%40westpac.com.au%7C012587b369064e34fc9108dd5aebdb2a%7C57c64fd466c=
+a49f5ab382e67ef58e724%7C0%7C0%7C638766691238618914%7CUnknown%7CTWFpbGZsb3d8=
+eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCI=
+sIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D7JVvlAj8e3qPgLpHDvV%2FIbt6uQ6EmT=
+BH%2B4EmLvUwfdY%3D&amp;reserved=3D0" class=3D"external-link" rel=3D"nofollo=
+w">BSB validation</a></li>
+</ol></li>
+</ol></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">4</td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p><br></p>
+<p><strong>&nbsp;:information: <a href=3D"#infenterprisebeneficiarymanageme=
+ntv1-top">Go to top of this page</a></strong></p>
+<p><br></p>
+<h1 id=3D"infenterprisebeneficiarymanagementv1-Capability:Updatebeneficiary=
+"><span style=3D"color: rgb(51,102,255);"><strong>Capability: Update benefi=
+ciary&nbsp;</strong></span></h1>
+<h2 id=3D"infenterprisebeneficiarymanagementv1-PUT/beneficiaries/{id}">PUT =
+/beneficiaries/{id}</h2>
+<p>This endpoint updates the details of the beneficiary / account provided =
+in request body.</p>
+<p><span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-macro =
+aui-lozenge aui-lozenge-current">FEB 26</span> enhance to support payment t=
+emplate, last used and "NEW" flag. The API should enforce a behaviour of st=
+ate transition from "ON_HOLD" to "ACTIVE" and rejects invalid state transit=
+ion. &nbsp;</span></span></p>
+<p><br></p>
+<div id=3D"expander-658872174" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-658872174" cl=
+ass=3D"expand-control"><button type=3D"button" id=3D"expand-button-65887217=
+4" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-expa=
+nded=3D"true" aria-controls=3D"expander-content-658872174"><span class=3D"e=
+xpand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hidden=
+=3D"true"></span><span class=3D"expand-control-text conf-macro-render">Deta=
+ils of search for a list of arrangements</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-658872174" class=3D"expand-cont=
+ent" aria-labelledby=3D"expand-button-658872174">
+<p><span>Request</span></p>
+<p>Query Parameter</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 52.=
+5106%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 16.4863%;">
+<col class=3D"" style=3D"width: 11.4136%;">
+<col class=3D"" style=3D"width: 26.0997%;">
+<col class=3D"" style=3D"width: 46.0004%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Name</str=
+ong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Required<=
+/strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Values</s=
+trong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Descripti=
+on</strong></p></th>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><br></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Path Parameter</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 114=
+7.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 194.0px;">
+<col class=3D"" style=3D"width: 127.0px;">
+<col class=3D"" style=3D"width: 303.0px;">
+<col class=3D"" style=3D"width: 522.0px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Name</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Required</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Values</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span>&nbsp;id</span></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span class=3D"emoji-common-main-styles emoji-common-node   emoji-common-em=
+oji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span>&nbsp;String</span></td>
+<td class=3D"confluenceTd"><span>id of the beneficiary</span></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span>&nbsp;</span></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span>&nbsp;</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Header Parameters</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 975=
+.359px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Name</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Required</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 239.0px;">
+<col class=3D"" style=3D"width: 85.0px;">
+<col class=3D"" style=3D"width: 650.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-messageId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Must be a GUID (Globally unique message identifier). This uniquely ident=
+ifies this call. This MUST NOT be propagated</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-appCorrelationId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Must be a GUID (Globally unique message identifier). Consumer generated =
+message identifier for correlation purposes. e.g. This is used to group tog=
+ether a number of downstream API/provider calls initiated from a single API=
+ call, comprising a business transaction. This MUST be propagated</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-organisationId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The organisation the caller is operating in.</p><p>Available values : WP=
+AC, SGB, BSA, BOM, BTPL, UBS, VIRG, RAMS, BAS, WNZL</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-originatingSystemId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Alfabet Id of calling application e.g. A00304. Must be propagated to API=
+s being invoked. Exception for partners calling in via partner APIs, do not=
+ populate this header as the partner=E2=80=99s consuming application name (=
+eg. ptr-corelogic-valex) will be injected into this field by the gateway.</=
+p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-consumerType</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The originating consumption channel invoking the API (eg. Partner, Staff=
+, Customer). Note that an API consuming another API should pass the value s=
+upplied by the calling application. Further information regarding this head=
+er can be found at<span>&nbsp;</span><a href=3D"https://confluence.srv.west=
+pac.com.au/x/cbH-B" rel=3D"nofollow">https://confluence.srv.westpac.com.au/=
+x/cbH-B</a>.</p><p><em>Available values</em><span>&nbsp;</span>: Partner, P=
+ublic, Staff, Customer, Prospect, Other</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-userId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The unique identifier for the user invoking the API (eg. Staff salary nu=
+mber, Customer CIS/GCIS key, Partner CIS/GCIS key or other identifier).</p>=
+</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-userIdScheme</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The scheme (type) applicable for the user identifier of the consumer inv=
+oking the API.</p><p>Available values : StaffSalaryNumber, CustomerInternal=
+Id, CustomerNumber, SystemProcess, CorporateUserId, ProspectId</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-originatingBSB</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Identifies the BSB from which this request originated. The format should=
+ be XXY-ZZZ. The first two digits (XX) specify the bank or financial instit=
+ution. The third digit (Y) tells which state the branch is located in. The =
+last three digits (ZZZ) specify the address of the branch.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Body Parameters</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 123=
+7.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 36.0px;">
+<col class=3D"" style=3D"width: 287.0px;">
+<col class=3D"" style=3D"width: 127.0px;">
+<col class=3D"" style=3D"width: 154.0px;">
+<col class=3D"" style=3D"width: 87.0px;">
+<col class=3D"" style=3D"width: 99.0px;">
+<col class=3D"" style=3D"width: 446.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: center;" class=3D"confluenceTd"><br></td>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Name</str=
+ong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Source</s=
+trong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Type</str=
+ong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Format</s=
+trong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Required<=
+/strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Example</=
+strong></p></th>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: center;" class=3D"confluenceTd"><p>1</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Upstream API</p><=
+/td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Object</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Object</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span><span class=
+=3D"emoji-common-main-styles emoji-common-node   emoji-common-emoji-image  =
+ css-19bdfyn" title=3D":white_check_mark:">:tick:</span></span></p><p><br><=
+/p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">beneficiaries</b><span class=3D"collapse-source exp=
+and-control" style=3D"display:none;"><span class=3D"expand-control-icon ico=
+n">&nbsp;</span><span class=3D"expand-control-text">Expand source</span></s=
+pan><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "externalId": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d",
+  "nickname": "ABC company",
+  "currency": "AUD",
+  "type": "BSB_ACCOUNT_NUMBER",
+  "account": {
+    "accountId": {
+      "accountNumber": "084765",
+      "BSB": "014111"
+    },
+    "bankName": "ANZ Bank",
+    "accountName": "ANZ Joint"
+  }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-macro =
+aui-lozenge aui-lozenge-current">FEB 26</span></span></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">beneficiaries</b><span class=3D"collapse-source exp=
+and-control" style=3D"display:none;"><span class=3D"expand-control-icon ico=
+n">&nbsp;</span><span class=3D"expand-control-text">Expand source</span></s=
+pan><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "externalId": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d",
+  "nickname": "ABC company",
+  "currency: "AUD",
+  "amount": "0.00", =20
+&nbsp; "type": "BSB_ACCOUNT_NUMBER",
+  "isNew": false,
+  "lastUsedDateTime": "2025-07-07T12:00:00Z",
+  "reference": "Invoice123",
+  "account": {
+    "accountId": {
+      "accountNumber": "084765",
+      "BSB": "014111"
+    },
+    "bankName": "ANZ Bank",
+    "accountName": "ANZ Joint"
+  }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h3 id=3D"infenterprisebeneficiarymanagementv1-Responses.1">Responses</h3>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 845=
+.0px;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0">
+<thead class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false"><br></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Response =
+Code</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Example</p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 48.6354px;">
+<col class=3D"" style=3D"width: 129.365px;">
+<col class=3D"" style=3D"width: 666.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false">1</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-cztx6i"><span class=3D"css-1et8=
+jlg">200</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "beneficiaries": [
+      {
+        "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "externalId": "d0868661-b955-4e76-9f15-d97626f7df6b",
+        "nickname": "ABC company",
+        "currency": "AUD",
+        "org": "31370215",
+        "type": "BSB_ACCOUNT_NUMBER",
+        "status": "ACTIVE",
+        "account": {
+          "accountId": {
+            "accountNumber": "084765",
+            "BSB": "014111"
+          },
+          "bankName": "ANZ Bank",
+          "accountName": "ANZ Joint"
+        }
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-macro =
+aui-lozenge aui-lozenge-current">FEB 26</span></span></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "externalId": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d",
+  "nickname": "ABC company",
+  "currency: "AUD",
+  "amount": "0.00", =20
+&nbsp; "type": "BSB_ACCOUNT_NUMBER",
+  "isNew": false,
+  "lastUsedDateTime": "2025-07-07T12:00:00Z",
+  "reference": "Invoice123",
+  "account": {
+    "accountId": {
+      "accountNumber": "084765",
+      "BSB": "014111"
+    },
+    "bankName": "ANZ Bank",
+    "accountName": "ANZ Joint"
+  }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false">2</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">400</span></span></span></p></td>
+<td style=3D"text-align: left;" rowspan=3D"2" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "result": {
+    "errors": [
+      {
+        "code": 0,
+        "message": "string",
+        "details": "string"
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false">3</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">500</span></span></span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"infenterprisebeneficiarymanagementv1-InputValidation.3">Input Val=
+idation</h3>
+<p>The provided account(s) should be checked against the accounts the user =
+is entitled to operate on.</p>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 55.=
+9695%;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0,1=
+">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 4.33735%;">
+<col class=3D"" style=3D"width: 37.5904%;">
+<col class=3D"" style=3D"width: 30.7952%;">
+<col class=3D"" style=3D"width: 27.1807%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" contenteditable=3D"false" data-m=
+ce-resize=3D"false"><br></th>
+<th class=3D"confluenceTh">Scenario</th>
+<th class=3D"confluenceTh">Action</th>
+<th class=3D"confluenceTh">Comment</th>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">1</td>
+<td class=3D"confluenceTd">Required field are missing in the request&nbsp;<=
+/td>
+<td class=3D"confluenceTd">Return 400</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">2</td>
+<td class=3D"confluenceTd"><p><s>Duplicate check at the beneficiary level, =
+for the beneficiary to be updated, check if there are duplicated <span styl=
+e=3D"color: rgb(23,43,77);">accounts (BSB &amp; Acc No combo) or PayIDs</sp=
+an>&nbsp;</s></p></td>
+<td class=3D"confluenceTd"><s>Return 400</s></td>
+<td class=3D"confluenceTd"><p><s>Only check if the "isDuplicated" flag is n=
+ot set to true</s></p><p><s>Setting to true after user has acknowledged the=
+ duplicated record in the UI.</s></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">3</td>
+<td class=3D"confluenceTd"><p>Beneficiary to be updated is in ARCHIVED stat=
+e</p></td>
+<td class=3D"confluenceTd">Return 409</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">4</td>
+<td class=3D"confluenceTd">Malicious character validations on BSB / PayID p=
+ayloads&nbsp;</td>
+<td class=3D"confluenceTd">Return 400&nbsp;</td>
+<td class=3D"confluenceTd"><p>Refer to the below Jira ticket for allow char=
+acter sets:</p>
+<ol>
+<li>PayID validation=20
+<ol>
+<li><a href=3D"https://aus01.safelinks.protection.outlook.com/?url=3Dhttps%=
+3A%2F%2Fjira.srv.westpac.com.au%2Fbrowse%2FART-41745&amp;data=3D05%7C02%7Ce=
+dmond.tso%40westpac.com.au%7C012587b369064e34fc9108dd5aebdb2a%7C57c64fd466c=
+a49f5ab382e67ef58e724%7C0%7C0%7C638766691238642443%7CUnknown%7CTWFpbGZsb3d8=
+eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCI=
+sIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DCtd68U9OglSeUO%2FNjF%2F9UtcJ2g0R=
+bBX8HhiEy7grRDA%3D&amp;reserved=3D0" class=3D"external-link" rel=3D"nofollo=
+w">PayID validation</a></li>
+</ol></li>
+<li>BSB Validation&nbsp;=20
+<ol>
+<li><a href=3D"https://aus01.safelinks.protection.outlook.com/?url=3Dhttps%=
+3A%2F%2Fjira.srv.westpac.com.au%2Fbrowse%2FART-39684&amp;data=3D05%7C02%7Ce=
+dmond.tso%40westpac.com.au%7C012587b369064e34fc9108dd5aebdb2a%7C57c64fd466c=
+a49f5ab382e67ef58e724%7C0%7C0%7C638766691238618914%7CUnknown%7CTWFpbGZsb3d8=
+eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCI=
+sIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D7JVvlAj8e3qPgLpHDvV%2FIbt6uQ6EmT=
+BH%2B4EmLvUwfdY%3D&amp;reserved=3D0" class=3D"external-link" rel=3D"nofollo=
+w">BSB validation</a></li>
+</ol></li>
+</ol></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p><br></p>
+<p><strong>&nbsp;:information: <a href=3D"#infenterprisebeneficiarymanageme=
+ntv1-top">Go to top of this page</a></strong></p>
+<h1 id=3D"infenterprisebeneficiarymanagementv1-Capability:Delete/Archivethe=
+beneficiary"><span style=3D"color: rgb(51,102,255);"><strong>Capability: De=
+lete/Archive the beneficiary&nbsp;</strong></span></h1>
+<h2 id=3D"infenterprisebeneficiarymanagementv1-PATCH/beneficiaries/{id}">PA=
+TCH /beneficiaries/{id}</h2>
+<p>This endpoint deletes the beneficiary/account by changing the status to =
+ARCHIVED. If beneficiary is set to ARCHIVED accounts linked to beneficiary =
+should be set to ARCHIVED.</p>
+<p><br></p>
+<p><span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-macro =
+aui-lozenge aui-lozenge-current">FEB 26</span> To extend this capability a =
+bit further to be "update" status instead of just updating to "ARCHIVE". Th=
+e EXP API will trigger update to "ON_HOLD" state or to revert to a previous=
+ state. (if downstream DSR call gets any issue)</span></span></p>
+<p><span style=3D"color: rgb(51,51,51);"><span>state validation is expected=
+ as per the below scenarios:</span></span></p>
+<p><span style=3D"color: rgb(51,51,51);"><span>expected state flow refers t=
+o <a href=3D"https://confluence.srv.westpac.com.au/pages/viewpage.action?pa=
+geId=3D2088155282#id-05SD:Beneficiaryenhancements&amp;paymenttemplate-State=
+TransitionforBeneficiary" rel=3D"nofollow">05- SD: Beneficiary enhancements=
+ &amp; payment template - Westpac One Core - Westpac Enterprise Confluence<=
+/a></span></span></p>
+<p><br></p>
+<div id=3D"expander-1765716407" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-1765716407" c=
+lass=3D"expand-control"><button type=3D"button" id=3D"expand-button-1765716=
+407" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-ex=
+panded=3D"true" aria-controls=3D"expander-content-1765716407"><span class=
+=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hid=
+den=3D"true"></span><span class=3D"expand-control-text conf-macro-render">D=
+etails of getting the list of the transactions for an account</span></butto=
+n>
+</div>
+<div role=3D"region" id=3D"expander-content-1765716407" class=3D"expand-con=
+tent" aria-labelledby=3D"expand-button-1765716407">
+<p><span>Request</span></p>
+<p><br></p>
+<p>Path Parameter</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 686=
+.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 175.0px;">
+<col class=3D"" style=3D"width: 80.0px;">
+<col class=3D"" style=3D"width: 191.0px;">
+<col class=3D"" style=3D"width: 239.0px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Name</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Required</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Values</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span>&nbsp;id</span></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span class=3D"emoji-common-main-styles emoji-common-node   emoji-common-em=
+oji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span>&nbsp;String</span></td>
+<td class=3D"confluenceTd"><span>id of the beneficiary</span></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span>&nbsp;</span></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span>&nbsp;</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Header Parameters</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 975=
+.359px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Name</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Required</strong></p></th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+<p><strong>Description</strong></p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 239.0px;">
+<col class=3D"" style=3D"width: 85.0px;">
+<col class=3D"" style=3D"width: 650.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-messageId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Must be a GUID (Globally unique message identifier). This uniquely ident=
+ifies this call. This MUST NOT be propagated</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-appCorrelationId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Must be a GUID (Globally unique message identifier). Consumer generated =
+message identifier for correlation purposes. e.g. This is used to group tog=
+ether a number of downstream API/provider calls initiated from a single API=
+ call, comprising a business transaction. This MUST be propagated</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-organisationId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The organisation the caller is operating in.</p><p>Available values : WP=
+AC, SGB, BSA, BOM, BTPL, UBS, VIRG, RAMS, BAS, WNZL</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-originatingSystemId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Alfabet Id of calling application e.g. A00304. Must be propagated to API=
+s being invoked. Exception for partners calling in via partner APIs, do not=
+ populate this header as the partner=E2=80=99s consuming application name (=
+eg. ptr-corelogic-valex) will be injected into this field by the gateway.</=
+p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-consumerType</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The originating consumption channel invoking the API (eg. Partner, Staff=
+, Customer). Note that an API consuming another API should pass the value s=
+upplied by the calling application. Further information regarding this head=
+er can be found at<span>&nbsp;</span><a href=3D"https://confluence.srv.west=
+pac.com.au/x/cbH-B" rel=3D"nofollow">https://confluence.srv.westpac.com.au/=
+x/cbH-B</a>.</p><p><em>Available values</em><span>&nbsp;</span>: Partner, P=
+ublic, Staff, Customer, Prospect, Other</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-userId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The unique identifier for the user invoking the API (eg. Staff salary nu=
+mber, Customer CIS/GCIS key, Partner CIS/GCIS key or other identifier).</p>=
+</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-userIdScheme</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>The scheme (type) applicable for the user identifier of the consumer inv=
+oking the API.</p><p>Available values : StaffSalaryNumber, CustomerInternal=
+Id, CustomerNumber, SystemProcess, CorporateUserId, ProspectId</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(59,65,81);">x-originatingBSB</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span><span class=3D"emoji-common-main-styles emoji-common-node   emoji-=
+common-emoji-image   css-19bdfyn" title=3D":white_check_mark:">:tick:</span=
+></span></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>Identifies the BSB from which this request originated. The format should=
+ be XXY-ZZZ. The first two digits (XX) specify the bank or financial instit=
+ution. The third digit (Y) tells which state the branch is located in. The =
+last three digits (ZZZ) specify the address of the branch.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p>Body Parameters&nbsp;</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 123=
+0.0px;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 50.0px;">
+<col class=3D"" style=3D"width: 233.0px;">
+<col style=3D"width: 129.0px;">
+<col class=3D"" style=3D"width: 147.0px;">
+<col class=3D"" style=3D"width: 110.0px;">
+<col class=3D"" style=3D"width: 112.0px;">
+<col class=3D"" style=3D"width: 448.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false"><br></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Name</str=
+ong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Source&nb=
+sp;</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Type</str=
+ong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Format</s=
+trong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Required<=
+/strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Descripti=
+on</strong></p></th>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false">1</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Upstream API</p><=
+/td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Object</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Object</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span><span class=
+=3D"emoji-common-main-styles emoji-common-node   emoji-common-emoji-image  =
+ css-19bdfyn" title=3D":white_check_mark:">:tick:</span></span></p><p><br><=
+/p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom" style=3D"borde=
+r-bottom-width: 1px;">
+<b class=3D"code-title">beneficiaries</b><span class=3D"collapse-source exp=
+and-control" style=3D"display:none;"><span class=3D"expand-control-icon ico=
+n">&nbsp;</span><span class=3D"expand-control-text">Expand source</span></s=
+pan><span class=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">    {
+      "status": "ARCHIVED"
+    }  </pre>
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h3 id=3D"infenterprisebeneficiarymanagementv1-Responses.2">Responses</h3>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 116=
+5.0px;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0">
+<thead class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false"><br></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Response =
+Code</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Example</p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 49.0px;">
+<col class=3D"" style=3D"width: 247.0px;">
+<col class=3D"" style=3D"width: 868.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false">1</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-cztx6i"><span class=3D"css-1et8=
+jlg">204</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">No Content</td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false">2</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">400</span></span></span></p></td>
+<td style=3D"text-align: left;" rowspan=3D"2" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "result": {
+    "errors": [
+      {
+        "code": 0,
+        "message": "string",
+        "details": "string"
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;" cont=
+enteditable=3D"false" data-mce-resize=3D"false">3</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">500</span></span></span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"infenterprisebeneficiarymanagementv1-5.3.InputValidation">5.3. In=
+put Validation</h3>
+<p>The provided account(s) should be checked against the accounts the user =
+is entitled to operate on.</p>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 55.=
+9695%;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0,1=
+">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 4.36205%;">
+<col class=3D"" style=3D"width: 37.5136%;">
+<col class=3D"" style=3D"width: 30.6798%;">
+<col class=3D"" style=3D"width: 27.3355%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" contenteditable=3D"false" data-m=
+ce-resize=3D"false"><br></th>
+<th class=3D"confluenceTh">Scenario</th>
+<th class=3D"confluenceTh">Action</th>
+<th class=3D"confluenceTh">Comment</th>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">1</td>
+<td class=3D"confluenceTd">Provided beneficiaries id cannot be found</td>
+<td class=3D"confluenceTd">Return 404</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">2</td>
+<td class=3D"confluenceTd">Beneficiary is already in ARCHVIED status</td>
+<td class=3D"confluenceTd">Return 409</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">3</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(51,51,51);"><span><span class=3D"status-macro =
+aui-lozenge aui-lozenge-current">FEB 26</span> </span></span>Incorrect stat=
+e transition&nbsp;</p>
+</div></td>
+<td class=3D"confluenceTd">Return 400</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p><strong style=3D"letter-spacing: 0.0px;">&nbsp;:information: <a href=3D"=
+#infenterprisebeneficiarymanagementv1-top">Go to top of this page</a></stro=
+ng></p>
+<p><br></p>
+<p><br></p>
+<h1 id=3D"infenterprisebeneficiarymanagementv1-DataSourceMappings"><span st=
+yle=3D"color: rgb(51,102,255);"><strong>Data Source Mappings</strong></span=
+></h1>
+<p>Data source mapping can be found here: <a href=3D"https://confluence.srv=
+.westpac.com.au/display/ARTC/exp-beneficiary-management-v1" rel=3D"nofollow=
+">exp-beneficiary-management-v1 - Westpac One Core - Westpac Enterprise Con=
+fluence</a></p>
+<p><br></p>
+<p><strong style=3D"color: rgb(51,102,255);font-size: 24.0px;letter-spacing=
+: -0.01em;"><span style=3D"font-size: 24.0px;letter-spacing: -0.01em;">Refe=
+rences</span></strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 71.=
+4901%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 45.7283%;">
+<col class=3D"" style=3D"width: 54.2717%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">Document Title</th>
+<th class=3D"confluenceTh">Document Link/Location</th>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">API Error Handling</=
+td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"/display/=
+MESH/API+Error+Handling">API Error Handling</a></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">Common Data Types</t=
+d>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"/display/=
+MESH/Common+Data+Types">Common Data Types</a></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">Pattern 9: Paging, S=
+orting and Filtering</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"https://c=
+onfluence.srv.westpac.com.au/x/iZS4Rw" class=3D"" rel=3D"nofollow">https://=
+confluence.srv.westpac.com.au/x/iZS4Rw</a></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Experience API Entit=
+lements</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"https://c=
+onfluence.srv.westpac.com.au/x/1pa4Rw" class=3D"" rel=3D"nofollow">https://=
+confluence.srv.westpac.com.au/x/1pa4Rw</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>&nbsp;:information: <a href=3D"#infenterprisebeneficiarymanageme=
+ntv1-top">Go to top of this page</a></strong></p>
+</div>
+</div>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_116027_649180765.1773921355390--

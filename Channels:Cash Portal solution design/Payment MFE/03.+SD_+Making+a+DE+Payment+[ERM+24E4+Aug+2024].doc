@@ -1,0 +1,945 @@
+Date: Thu, 19 Mar 2026 22:41:18 +1100 (AEDT)
+Message-ID: <1657724631.115941.1773920478953@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_115940_1576760333.1773920478953"
+
+------=_Part_115940_1576760333.1773920478953
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>03. SD: Making a DE Payment [ERM 24E4 Aug 2024]</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>03. SD: Making a DE Payment [ERM 24E4 Aug 2024]</h1>
+    <div class=3D"Section1">
+        <p><br></p>
+<p></p>
+<p></p>
+<p></p>
+<h1 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-ReleaseScope">Release S=
+cope</h1>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"2" scope=3D"colgroup" class=3D"confluenceTh"><h1 id=3D"id-03=
+.SD:MakingaDEPayment[ERM24E4Aug2024]-ReleaseName">Release Name</h1></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"panel" style=3D"border-width: 1px;">
+<div class=3D"panelHeader" style=3D"border-bottom-width: 1px;"><b>Version n=
+ame</b>
+</div>
+<div class=3D"panelContent">
+<p><strong><span>Release:</span></strong>[ERM 24E4 Aug 2024]</p>
+<p><strong><span>Program:</span></strong>&nbsp; Corporate Cash Management P=
+latform</p>
+<p><strong><span>Project:</span></strong> Corporate Cash Management Platfor=
+m Tech <strong><span>Project ID:</span></strong> PR223065 <strong><span>Pro=
+ject Cost Centre:</span></strong> 163344 <strong><span>Investment ID: </spa=
+n></strong>INS223056</p>
+<p><strong>Status: <span class=3D"status-macro aui-lozenge aui-lozenge-curr=
+ent">DONE</span>&nbsp;</strong>/<strong>&nbsp;</strong> &nbsp;</p>
+<p><strong><span>Confidentiality Classification: </span></strong><span></sp=
+an></p>
+<p><span><strong>Issue Date: <time datetime=3D"2025-02-17" class=3D"date-pa=
+st">17 Feb 2025</time>&nbsp;</strong></span></p>
+<p><span><strong>Issued By: <a class=3D"confluence-userlink user-mention" d=
+ata-username=3D"M061387" href=3D"/display/~M061387" data-linked-resource-id=
+=3D"1359044573" data-linked-resource-version=3D"1" data-linked-resource-typ=
+e=3D"userinfo" data-base-url=3D"https://confluence.srv.westpac.com.au">Thom=
+as Van Deun</a>&nbsp;</strong></span></p>
+<p><strong>JIRA: <span class=3D"jira-issue resolved" data-jira-key=3D"ART-1=
+5153"> <a href=3D"https://jira.srv.westpac.com.au/browse/ART-15153" class=
+=3D"jira-issue-key"><img class=3D"icon" src=3D"https://jira.srv.westpac.com=
+.au:8444/secure/viewavatar?size=3Dxsmall&amp;avatarId=3D10300&amp;avatarTyp=
+e=3Dissuetype">ART-15153</a> - <span class=3D"summary">DE Phase 3 - Process=
+ Single Outward DE Credit Payment</span> <span class=3D"aui-lozenge aui-loz=
+enge-subtle             aui-lozenge-success
+     jira-macro-single-issue-export-pdf">Done</span> </span> </strong></p>
+<p><strong>ACD: </strong></p>
+</div>
+</div>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div id=3D"expander-2070356638" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-2070356638" c=
+lass=3D"expand-control"><button type=3D"button" id=3D"expand-button-2070356=
+638" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-ex=
+panded=3D"true" aria-controls=3D"expander-content-2070356638"><span class=
+=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hid=
+den=3D"true"></span><span class=3D"expand-control-text conf-macro-render">T=
+able of Contents...</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-2070356638" class=3D"expand-con=
+tent" aria-labelledby=3D"expand-button-2070356638">
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1773920478913 {padding: 0px;}
+div.rbtoc1773920478913 ul {margin-left: 0px;}
+div.rbtoc1773920478913 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1773920478913">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-ReleaseScope">Rel=
+ease Scope</a></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-ReleaseName">Rele=
+ase Name</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-RACI">RACI</a></l=
+i>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-ImpactedSystemSum=
+mary">Impacted System Summary</a></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-Scopeofthisdocume=
+nt:">Scope of this document:</a></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-KeyDecisions">Key=
+ Decisions</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-Non-FunctionalReq=
+uirementsTraceability">Non-Functional Requirements Traceability</a></li>
+</ul></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-HighLevelRequirem=
+ents">High Level Requirements</a></li>
+</ul></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-Solution">Solutio=
+n</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-GalaxyPaymentChan=
+ges:">Galaxy Payment Changes:</a></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-SequenceDiagram">=
+Sequence Diagram</a></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-IntegrationDiagra=
+m">Integration Diagram</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-DetailedIntegrati=
+onImpacts">Detailed Integration Impacts</a></li>
+</ul></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-ErrorHandling">Er=
+ror Handling</a></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-Data&amp;Informat=
+ionModel">Data &amp; Information Model</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-DataMappings">Dat=
+a Mappings</a></li>
+</ul></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-OperationalImpact=
+s">Operational Impacts</a></li>
+</ul></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-References">Refer=
+ences</a></li>
+<li><a href=3D"#id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-Glossary">Glossar=
+y</a></li>
+</ul>
+</div>
+<p></p>
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-RACI">RACI</h2>
+<p></p>
+<ul>
+<li><p></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 33.=
+38889%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 26.622295%;">
+<col class=3D"" style=3D"width: 41.763725%;">
+<col class=3D"" style=3D"width: 72.04659%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">RACI</th>
+<th class=3D"confluenceTh">Role</th>
+<th class=3D"confluenceTh">Channel</th>
+</tr>
+<tr class=3D"">
+<td rowspan=3D"2" class=3D"confluenceTd">Responsible</td>
+<td class=3D"confluenceTd"><p>Solution Designer</p></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1949406955">
+<li data-inline-task-id=3D"40"><span class=3D"placeholder-inline-tasks">Ali=
+ Hosseini</span></li>
+<li data-inline-task-id=3D"41"><span class=3D"placeholder-inline-tasks">Tho=
+mas Van Deun</span></li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Development Lead</p></td>
+<td class=3D"confluenceTd"><span class=3D"placeholder-inline-tasks">&nbsp;<=
+/span></td>
+</tr>
+<tr class=3D"">
+<td rowspan=3D"2" class=3D"confluenceTd">Approval and signing off</td>
+<td class=3D"confluenceTd"><p>Architect</p><p><br></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"placeholder-inline-tasks">The =
+relevant one according to who's been the main responsible for the AIA/ACD f=
+or the feature.</span></p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1949406955">
+<li data-inline-task-id=3D"48"><span class=3D"placeholder-inline-tasks">Ave=
+ Cahyadi</span></li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Integration Architect</p></td>
+<td class=3D"confluenceTd"><p><span class=3D"placeholder-inline-tasks">&nbs=
+p;</span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Consulted</td>
+<td class=3D"confluenceTd"><p>Delivery Lead</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td rowspan=3D"3" class=3D"confluenceTd">Consulted if Applicable</td>
+<td class=3D"confluenceTd"><p>Information Architect</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>IT Business Analyst</p></td>
+<td class=3D"confluenceTd"><p>Andrea For</p><p>Sid Shekar</p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Design</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Nga Duong</li>
+<li>Jennifer Kasalo</li>
+<li>Cisilia Goh</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td rowspan=3D"8" class=3D"confluenceTd">Informed</td>
+<td class=3D"confluenceTd"><p>Program Director</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Lipsa Patnaik</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Operational team</p></td>
+<td class=3D"confluenceTd">TBA</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Finance BA</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Engineering team</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Bobby Joseph</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">
+<ul>
+<li>Release management</li>
+<li>Production readiness team</li>
+<li>Service management</li>
+</ul></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Testing team</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li><p>Mahender Shaga</p></li>
+<li><p>Sham Pakhale</p></li>
+<li><p>Praveen B Gaikwad</p></li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>SVP Testing&nbsp;</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Kripashankar Mishra</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>ISG</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Wasif Mahmood</li>
+<li>Phillip Uzunovski (<span><span class=3D"ui-provider ec buv bcg buw bux =
+buy buz bva bvb bvc bvd bve bvf bvg bvh bvi bvj bvk bvl bvm bvn bvo bvp bvq=
+ bvr bvs bvt bvu bvv bvw bvx bvy bvz bwa bwb"><a class=3D"external-link" hr=
+ef=3D"mailto:puzunovski@westpac.com.au" rel=3D"nofollow">puzunovski@westpac=
+.com.au</a></span></span>)</li>
+<li>Raj Vaishya (<span><span class=3D"ui-provider ec buv bcg buw bux buy bu=
+z bva bvb bvc bvd bve bvf bvg bvh bvi bvj bvk bvl bvm bvn bvo bvp bvq bvr b=
+vs bvt bvu bvv bvw bvx bvy bvz bwa bwb"><a class=3D"external-link" href=3D"=
+mailto:raj.vaishya@westpac.com.au" rel=3D"nofollow">raj.vaishya@westpac.com=
+.au</a></span></span>)</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td rowspan=3D"3" class=3D"confluenceTd">Reviewed</td>
+<td class=3D"confluenceTd"><p>Product Business Analyst</p></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1949406955">
+<li data-inline-task-id=3D"1"><span class=3D"placeholder-inline-tasks">Coli=
+n Yau</span></li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Product Owner</p></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1949406955">
+<li data-inline-task-id=3D"44">Mel Jamieson</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Solution designer</p></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1949406955">
+<li data-inline-task-id=3D"46">At least one Solution designers for peer rev=
+iew</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div><p></p></li>
+</ul>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-ImpactedSystemSummary">=
+<span>Impacted System Summary</span></h2>
+<p><span></span></p>
+<p></p>
+<p></p>
+<div class=3D"plugin-tabmeta-details">
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 24.=
+1341%;">
+<colgroup>
+<col style=3D"width: 25.5287%;">
+<col style=3D"width: 5.70473%;">
+<col style=3D"width: 68.7306%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh"><p>Cash Platform (<span><span class=3D"ui-provid=
+er gs b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah a=
+i aj ak">A014A6</span></span>)</p></th>
+<td class=3D"confluenceTd"><p>=E2=AD=90</p></td>
+<td class=3D"confluenceTd"><p>Galaxy Payments MFE:</p>
+<ul style=3D"list-style-type: square;">
+<li>POST /Payments=20
+<ul style=3D"list-style-type: square;">
+<li>Uplift to support DE fields ( UI &lt;&gt; EXP API )</li>
+<li>Uplift to send new fields downstream (EXP &lt;&gt; Payment Initation AP=
+I)</li>
+<li>Uplift to handle new statusReasonCodes (but HTTP codes and ISO codes st=
+ay the same)</li>
+</ul></li>
+<li>POST /schemeEligibility=20
+<ul style=3D"list-style-type: square;">
+<li>Uplift to handle DE payment method (EXP logic and response)</li>
+</ul></li>
+</ul><p><br></p><p>Downstream changes - see <a href=3D"/display/ARTC/01.+SD=
+%3A++Payments+DE+Phase+3">01. SD: Process Single Outward DE Credit Payment<=
+/a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class=3D"panel" style=3D"border-width: 1px;">
+<div class=3D"panelHeader" style=3D"border-bottom-width: 1px;"><b>Impacted =
+System Images</b>
+</div>
+<div class=3D"panelContent">
+<p>=E2=AD=90 - Change&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; =F0=9F=9F=A9 - New&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span c=
+lass=3D"fabric-text-color-mark">=F0=9F=94=B5 </span>- Existing Implementati=
+on &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :cross: - Decommission<=
+/p>
+</div>
+</div>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-Scopeofthisdocument:"><=
+span>Scope of this document:</span></h2>
+<p><strong>In scope:</strong></p>
+<p><span>Channel changes</span></p>
+<ul style=3D"list-style-type: square;">
+<li><span>&nbsp;to <strong>make</strong> a DE payment with the existing POS=
+T /Payments endpoint</span>
+<ul style=3D"list-style-type: square;">
+<li><span>UI mapping / EXP API mapping</span></li>
+<li><span>BSB Eligibility service changes to support DE method</span></li>
+</ul></li>
+</ul>
+<p><br></p>
+<p><strong>Out of scope:</strong></p>
+<p><span>Uplift to v2 payment initiation</span></p>
+<p><span>Listing and details of DE payment ( <span class=3D"jira-issue reso=
+lved" data-jira-key=3D"ART-15154"> <a href=3D"https://jira.srv.westpac.com.=
+au/browse/ART-15154" class=3D"jira-issue-key"><img class=3D"icon" src=3D"ht=
+tps://jira.srv.westpac.com.au:8444/secure/viewavatar?size=3Dxsmall&amp;avat=
+arId=3D10300&amp;avatarType=3Dissuetype">ART-15154</a> - <span class=3D"sum=
+mary">DE Phase 4 - Transaction Listing / Detail / Payment Listing / Detail =
+for DE (Customer and Staff)</span> <span class=3D"aui-lozenge aui-lozenge-s=
+ubtle             aui-lozenge-success
+     jira-macro-single-issue-export-pdf">Done</span> </span> )&nbsp;</span>=
+</p>
+<p><br></p>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-KeyDecisions"><span>Key=
+ Decisions</span></h2>
+<p><span>&nbsp;</span></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 80.=
+485954%;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0=
+">
+<colgroup>
+<col style=3D"width: 1.415094%;">
+<col style=3D"width: 47.0283%;">
+<col style=3D"width: 36.650944%;">
+<col style=3D"width: 14.858491%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"numberingColumn confluenceTh" scope=3D"col" contenteditable=3D=
+"false" data-mce-resize=3D"false"><br></th>
+<th scope=3D"col" class=3D"confluenceTh">Decision</th>
+<th scope=3D"col" class=3D"confluenceTh">Outcome</th>
+<th scope=3D"col" class=3D"confluenceTh">By</th>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">1</td>
+<td class=3D"confluenceTd">Do we introduce a new endpoint for DE payments o=
+n the EXP api and Payment Initiation API since this follows a new PAIN001 v=
+ersion</td>
+<td class=3D"confluenceTd">No, Payment Initiation API V1 can map the existi=
+ng version of the schema to the 10x version. No new endpoint needed</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"M061387" =
+href=3D"/display/~M061387" data-linked-resource-id=3D"1359044573" data-link=
+ed-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-=
+url=3D"https://confluence.srv.westpac.com.au">Thomas Van Deun</a> , <a clas=
+s=3D"confluence-userlink user-mention" data-username=3D"M062091" href=3D"/d=
+isplay/~M062091" data-linked-resource-id=3D"1504078445" data-linked-resourc=
+e-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"htt=
+ps://confluence.srv.westpac.com.au">Amandeep Singh</a>&nbsp;</p>
+</div></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">2</td>
+<td class=3D"confluenceTd">Do we always show DE payment method in dropdown =
+list incase it is allowed based on BSB Service level lookup (this would mea=
+n alongside the highest priority NPP method)</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>See <span class=3D"jira-issue resolved" data-jira-key=3D"ART-39187"> <a =
+href=3D"https://jira.srv.westpac.com.au/browse/ART-39187" class=3D"jira-iss=
+ue-key"><img class=3D"icon" src=3D"https://jira.srv.westpac.com.au:8444/ima=
+ges/icons/issuetypes/story.svg">ART-39187</a> - <span class=3D"summary">(US=
+) [DE3] Uplift Payment Details (input details) Page - DE UI</span> <span cl=
+ass=3D"aui-lozenge aui-lozenge-subtle             aui-lozenge-success
+     jira-macro-single-issue-export-pdf">Done</span> </span></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"M061387" =
+href=3D"/display/~M061387" data-linked-resource-id=3D"1359044573" data-link=
+ed-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-=
+url=3D"https://confluence.srv.westpac.com.au">Thomas Van Deun</a> &nbsp;</p=
+>
+</div></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">3</td>
+<td class=3D"confluenceTd">&nbsp;All Business validation happens in 10x and=
+ we handle RJCT accordingly in the UI. (Eg available funds, account state w=
+ont be check in channels)</td>
+<td class=3D"confluenceTd">Agreed</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"M061387" =
+href=3D"/display/~M061387" data-linked-resource-id=3D"1359044573" data-link=
+ed-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-=
+url=3D"https://confluence.srv.westpac.com.au">Thomas Van Deun</a> , Ellen</=
+p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-Non-FunctionalRequireme=
+ntsTraceability">Non-Functional Requirements Traceability</h3>
+<p>Please refer to the below page for further details on Non-Functional req=
+uirements:</p>
+<p><a href=3D"https://confluence.srv.westpac.com.au/display/ARTC/ART-15153+=
+Detailed+Non-functional+requirements" rel=3D"nofollow">ART-15153 Detailed N=
+on-functional requirements - Westpac One Core - Westpac Enterprise Confluen=
+ce</a></p>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-HighLevelRequirements">=
+<strong>High Level Requirements</strong></h2>
+<p><a href=3D"/display/ARTC/ART-15153%3A+Detailed+Requirements+-+Phase+3+-+=
+DE+Singles">ART-15153: Detailed Requirements - Phase 3 - DE Singles</a></p>
+<p><br></p>
+<h1 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-Solution"><span>Solutio=
+n</span></h1>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-GalaxyPaymentChanges:">=
+Galaxy Payment Changes:</h2>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable" data-snooker-col-series=3D"numbers=
+" data-snooker-locked-cols=3D"0">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"numberingColumn confluenceTh" scope=3D"col" contenteditable=3D=
+"false" data-mce-resize=3D"false"><br></th>
+<th scope=3D"col" class=3D"confluenceTh">Change</th>
+<th scope=3D"col" class=3D"confluenceTh">Summary</th>
+<th scope=3D"col" class=3D"confluenceTh">Details</th>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">1</td>
+<td class=3D"confluenceTd"><p>Allow for Payment Method DE - uplift to servi=
+ce level lookup</p></td>
+<td class=3D"confluenceTd">The Service Level Lookup endpoint will now retur=
+n DE eligibility. The EXP API logic needs to be updated to allow DE method =
+to be returned alongside the current prioritisation for Fast Payment / Osko=
+.</td>
+<td class=3D"confluenceTd"><p><a href=3D"/display/ARTC/03.+SD%3A+Lookup+Sch=
+eme+eligibility+for+BSBs">03. SD: Lookup NPP Business Services for BSB's</a=
+> <span style=3D"color: rgb(255,0,0);">(Not updated yet - 19/02/2025)</span=
+></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">2</td>
+<td class=3D"confluenceTd"><p>Filter out input fields and change validation=
+ rules&nbsp;</p></td>
+<td class=3D"confluenceTd">Certain description input fields are not applica=
+ble in a DE scenario. The UI needs to hide them and not send them with the =
+API request to the EXP when a DE payment is submitted.&nbsp;</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>Covered in the user stories:&nbsp; <span class=3D"jira-issue resolved" d=
+ata-jira-key=3D"ART-17026"> <a href=3D"https://jira.srv.westpac.com.au/brow=
+se/ART-17026" class=3D"jira-issue-key"><img class=3D"icon" src=3D"https://j=
+ira.srv.westpac.com.au:8444/images/icons/issuetypes/epic.svg">ART-17026</a>=
+ - <span class=3D"summary">DEL: DE3 - Portal uplift to capture and submit D=
+E payments</span> <span class=3D"aui-lozenge aui-lozenge-subtle            =
+ aui-lozenge-success
+     jira-macro-single-issue-export-pdf">Done</span> </span></p>
+</div></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">3</td>
+<td class=3D"confluenceTd">UI - EXP API POST /payments mapping update&nbsp;=
+</td>
+<td class=3D"confluenceTd"><p>New fields need to be send to exp api when DE=
+ is selected</p><p>Some fields need to be added to the EXP API swagger</p><=
+p><br></p><p>All the fields need to be hooked up to the CAP API integration=
+ (but naming of the values is the same, so its a 1:1 mapping)</p></td>
+<td class=3D"confluenceTd"><p><span><a href=3D"/pages/viewpage.action?pageI=
+d=3D1946687460">Make a Payment / Transfer UI - EXP API Mapping [ERM 25E4 - =
+August 2025]</a></span></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">4</td>
+<td class=3D"confluenceTd">Handle new errorstatus reasons</td>
+<td class=3D"confluenceTd"><p>All the validation will happen in 10x, so we =
+can expect:</p><p style=3D"text-align: left;">&nbsp;201: ACSC or RJCT</p><p=
+ style=3D"text-align: left;">202: PNDG and ACSP</p><p style=3D"text-align: =
+left;"><br></p><p style=3D"text-align: left;">For RJCT there will be new co=
+des, analysis TBC on which ones we need to show</p></td>
+<td class=3D"confluenceTd"><p><span>TBC</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-SequenceDiagram"><span>=
+Sequence Diagram</span></h2>
+<p><span><a href=3D"/pages/viewpage.action?pageId=3D1864176910">W1C Channel=
+ Transfer and Payment Journeys [ERM 25E3 - May 2025]</a> - May version stil=
+l valid&nbsp;</span></p>
+<p><br></p>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-IntegrationDiagram">Int=
+egration Diagram</h2>
+<p><br></p>
+<p><br></p>
+<p>&nbsp;(this is based on FIS implementation - but same applies for 10x fo=
+r DE handling because of the ISO standard)<br><br><br></p>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<p class=3D"title conf-macro-render">Difference from diagram below</p><span=
+ class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-informati=
+on-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><span style=3D"color: rgb(0,0,0);text-decoration: none;" data-teams=3D"t=
+rue">DE returns always 202 ACSP for a success posting</span></p>
+<p>It will never return a 201 with <span style=3D"color: rgb(0,0,0);text-de=
+coration: none;" data-teams=3D"true">ACSC</span> status. Only 201 - RJCT is=
+ the possible combination</p>
+<p><span style=3D"color: rgb(0,0,0);text-decoration: none;" data-teams=3D"t=
+rue"><span>&nbsp;</span></span></p>
+</div>
+</div>
+<p><br></p>
+<p><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluenc=
+e-embedded-image cp-img panning confluence-external-resource" draggable=3D"=
+false" alt=3D"paymentresponse.drawio (6).png" src=3D"https://confluence.srv=
+.westpac.com.au/download/attachments/1462745587/paymentresponse.drawio%20%2=
+86%29.png?version=3D1&amp;modificationDate=3D1701987919603&amp;api=3Dv2" da=
+ta-image-src=3D"https://confluence.srv.westpac.com.au/download/attachments/=
+1462745587/paymentresponse.drawio%20%286%29.png?version=3D1&amp;modificatio=
+nDate=3D1701987919603&amp;api=3Dv2"></span></p>
+<p></p>
+<h3 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-DetailedIntegrationImpa=
+cts">Detailed Integration Impacts</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 337.0px;">
+<col class=3D"" style=3D"width: 188.0px;">
+<col class=3D"" style=3D"width: 330.0px;">
+<col class=3D"" style=3D"width: 181.0px;">
+<col class=3D"" style=3D"width: 725.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Source Ap=
+plication/System</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Integrati=
+on Type </strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Destinati=
+on Application/System</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Frequency=
+</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Impact De=
+tails</strong></p></th>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Galaxy-Payments</=
+p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>HTTPS</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Payment Initiatio=
+n API</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>On Submit Payment=
+</p><p>On receipt number generation&nbsp;</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<ul class=3D"ak-ul">
+<li><p></p></li>
+</ul><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-ErrorHandling"><span st=
+yle=3D"letter-spacing: -0.008em;">Error Handling</span></h2>
+<p><br></p>
+<p><span style=3D"letter-spacing: -0.008em;">Possible DE payment error code=
+s: <a href=3D"/display/BANKPT/Sandbox">Sandbox</a></span></p>
+<p><br></p>
+<p><br></p>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-Data&amp;InformationMod=
+el">Data &amp; Information Model&nbsp;&nbsp;</h2>
+<p>&nbsp;</p>
+<h3 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-DataMappings">Data Mapp=
+ings</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 281.0px;">
+<col class=3D"" style=3D"width: 238.0px;">
+<col class=3D"" style=3D"width: 1244.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" colspan=3D"1" rowspan=3D"1" class=3D"conflu=
+enceTh"><p><strong>From Component</strong></p></th>
+<th style=3D"text-align: left;" colspan=3D"1" rowspan=3D"1" class=3D"conflu=
+enceTh"><p><strong>To Component</strong></p></th>
+<th style=3D"text-align: left;" colspan=3D"1" rowspan=3D"1" class=3D"conflu=
+enceTh"><p><strong>Data Mapping Link</strong></p></th>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" colspan=3D"1" rowspan=3D"1" class=3D"conflu=
+enceTd"><p></p></td>
+<td style=3D"text-align: left;" colspan=3D"1" rowspan=3D"1" class=3D"conflu=
+enceTd"><p></p></td>
+<td style=3D"text-align: left;" colspan=3D"1" rowspan=3D"1" class=3D"conflu=
+enceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-OperationalImpacts">Ope=
+rational Impacts</h2>
+<p></p>
+<h1 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-References">References<=
+/h1>
+<p></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup class=3D"">
+<col class=3D"">
+<col class=3D"">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">Document Type</th>
+<th class=3D"confluenceTh">Document Link/Location</th>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Downstream SD</td>
+<td class=3D"confluenceTd"><a href=3D"/display/ARTC/01.+SD%3A++Payments+DE+=
+Phase+3">01. SD: Process Single Outward DE Credit Payment</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h1 id=3D"id-03.SD:MakingaDEPayment[ERM24E4Aug2024]-Glossary">Glossary</h1>
+<p></p>
+<p><a href=3D"https://confluence.srv.westpac.com.au/display/ARTC/Program+Gl=
+ossary" rel=3D"nofollow">Cash Platform Glossary.</a></p>
+    </div>
+</body>
+</html>
+------=_Part_115940_1576760333.1773920478953--

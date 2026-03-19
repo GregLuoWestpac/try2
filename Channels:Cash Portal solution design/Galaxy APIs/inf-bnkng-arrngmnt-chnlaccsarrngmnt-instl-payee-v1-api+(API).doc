@@ -1,0 +1,1796 @@
+Date: Thu, 19 Mar 2026 22:54:38 +1100 (AEDT)
+Message-ID: <952767037.116016.1773921278425@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116015_238832517.1773921278425"
+
+------=_Part_116015_238832517.1773921278425
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1-api (API)</ti=
+tle>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1-api (API)</h1>
+    <div class=3D"Section1">
+        <p></p>
+<h3 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1api(API)-APIOverview"=
+><span style=3D"color: rgb(0,0,0);">API Overview</span></h3>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 110=
+2.47px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><span style=3D"color=
+: rgb(0,0,0);">API Name</span></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>wdp-inf-bnkng-arr=
+ngmnt-chnlaccsarrngmnt-instl-payee-v1-api</p></td>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 357.0px;">
+<col class=3D"" style=3D"width: 745.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><span style=3D"color=
+: rgb(0,0,0);">Base URL</span></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><pre class=3D"base-u=
+rl">/inf/bnkng/arrngmnt/chnlaccsarrngmnt/instl/payee/v1</pre></td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><span style=3D"color=
+: rgb(0,0,0);">API Description &nbsp; &nbsp;</span></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd">This INF API interac=
+ts with the payee data store in Mesh</td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh">API Layer&nbsp;</th>
+<td style=3D"text-align: left;" class=3D"confluenceTd">INF</td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><span style=3D"color=
+: rgb(0,0,0);">Swagger Location</span></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.
+  ~
+  ~ All rights reserved.
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.
+  ~ Use, duplication or dissemination is forbidden and is subject to prior
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --> <!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.=20
+  ~
+  ~ All rights reserved.=20
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.=20
+  ~ Use, duplication or dissemination is forbidden and is subject to prior=
+=20
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --></p>
+<div class=3D"file-macro-container include4confluence include4confluence-co=
+ntent">
+<div class=3D"include4confluence-panel panel" id=3D"include4confluence-bord=
+er">
+<div class=3D"">
+<div class=3D"include4confluence-header">
+<a href=3D"https://bitbucket.srv.westpac.com.au/projects/WDP/repos/wdp-inf-=
+bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1-api" target=3D"_blank" rel=
+=3D"noreferrer">WDP / wdp-inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v=
+1-api /</a> <b> <a href=3D"https://bitbucket.srv.westpac.com.au/projects/WD=
+P/repos/wdp-inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1-api/browse/o=
+penapi.yaml?at=3Drefs/heads/swagger-review" target=3D"_blank" rel=3D"norefe=
+rrer">openapi.yaml</a> </b>
+<div class=3D"include4confluence-no-wrap include4confluence-meta-branch-tag=
+-info">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-devtools-branch"></span=
+> swagger-review
+</div>
+<div style=3D"clear:both"></div>
+</div>
+</div>
+<div class=3D"include4confluence-panel-content-container ">
+<div class=3D"include4confluence-code-content">
+<pre style=3D"font-size: 12px;">openapi: 3.0.3
+
+###########################################################################=
+#####
+#                       API Information                                    =
+    #
+###########################################################################=
+#####
+info:
+  title: Payee Address Book
+  contact:
+    url: "https://mesh.westpac.com.au/components/apis/inf-bnkng-arrngmnt-ch=
+nlaccsarrngmnt-instl-payee-v1"
+  description: |
+    This INF API interacts with the inf-bnkng-arrngmnt-chnlaccsarrngmnt-ins=
+tl-payee-v1. Following operations are allowed:
+    1. Get Payees by Group Id
+    2. Create Group with Payees
+  version: 1.0.0
+  x-baseTypesVersion: 0.12.0 # The version of the base type on which the sp=
+ec is based
+
+servers:
+  - url: "/inf/bnkng/arrngmnt/chnlaccsarrngmnt/instl/payee/v1"
+
+security:
+  - BasicAuth: []
+
+tags:
+  - name: Get Payees by Group Id
+  - name: Create Payee
+  - name: HealthCheck
+
+###########################################################################=
+#####
+#                                   Paths                                 #
+###########################################################################=
+#####
+paths:
+  /healthcheck:
+    get:
+      tags:
+        - HealthCheck
+      description: retrieves HealthCheck Summary of API.
+      operationId: getHealthCheckStatus
+      responses:
+        "200":
+          $ref: "https://schema.mesh.westpac.com.au/platform/contracts/0.12=
+.0/openapi-base.yaml#/components/responses/200healthCheckStatusResponse"
+
+  /groups/{id}/payees:
+    get:
+      tags:
+        - Get Payees by Group Id
+      description: &gt;
+        Retrieve all the payees in a specific group
+      operationId: getPayees
+      parameters:
+        - $ref: "https://schema.mesh.westpac.com.au/platform/contracts/0.12=
+.0/openapi-base.yaml#/components/parameters/x-userId"
+        - $ref: "https://schema.mesh.westpac.com.au/platform/contracts/0.12=
+.0/openapi-base.yaml#/components/parameters/x-userIdScheme"
+        - $ref: "https://schema.mesh.westpac.com.au/platform/contracts/0.12=
+.0/openapi-base.yaml#/components/parameters/x-originatingBSB"
+        - $ref: "#/components/parameters/id"
+
+      responses:
+        "200":
+          $ref: "#/components/responses/200GetPayeesResponse"
+        "400":
+          $ref: "#/components/responses/400GetPayeesErrorResponse"
+        "500":
+          $ref: "#/components/responses/500ErrorResponse"
+
+    post:
+      tags:
+        - Create Payee
+      description: Create a new group with Payees
+      operationId: createPayees
+      parameters:
+        - $ref: "https://schema.mesh.westpac.com.au/platform/contracts/0.12=
+.0/openapi-base.yaml#/components/parameters/x-userId"
+        - $ref: "https://schema.mesh.westpac.com.au/platform/contracts/0.12=
+.0/openapi-base.yaml#/components/parameters/x-userIdScheme"
+        - $ref: "https://schema.mesh.westpac.com.au/platform/contracts/0.12=
+.0/openapi-base.yaml#/components/parameters/x-originatingBSB"
+        - $ref: "#/components/parameters/id"
+      requestBody:
+        description: List of Payees to be added to the group
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreatePayeesRequest"
+      responses:
+        "200":
+          $ref: "#/components/responses/201CreatePayeesResponse"
+        "400":
+          $ref: "#/components/responses/400CreatePayeesErrorResponse"
+        "500":
+          $ref: "#/components/responses/500ErrorResponse"
+
+components:
+  #########################################################################=
+#######
+  #                                   Parameters                           =
+      #
+  #########################################################################=
+#######
+  parameters:
+    id:
+      name: id
+      in: path
+      description: Unique identifier of the payee group.
+      required: true
+      schema:
+        type: string
+        pattern: ^[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}$
+
+  #########################################################################=
+#######
+  #                           Responses                                    =
+      #
+  #########################################################################=
+#######
+  #Success Responses
+  responses:
+    200GetPayeesResponse:
+      description: |
+        __OK__
+
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/GetPayeesResponse"
+
+    201CreatePayeesResponse:
+      description: Created
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/CreatePayeesResponse"
+
+    # Client Error Responses
+    400GetPayeesErrorResponse:
+      description: |
+        __Bad Request__
+
+          Possible errors:
+          &lt;table&gt;
+            &lt;tr&gt;
+              &lt;td&gt;Error Code&lt;/td&gt;
+              &lt;td&gt;Error Message&lt;/td&gt;
+              &lt;td&gt;Error Description&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;1001&lt;/td&gt;
+              &lt;td&gt;Missing request parameter&lt;/td&gt;
+              &lt;td&gt;The [{parameterName}] is missing in the request.&lt=
+;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;1002&lt;/td&gt;
+              &lt;td&gt;Invalid request parameter&lt;/td&gt;
+              &lt;td&gt;The given [{parameterName}] has invalid value of [{=
+parameterValue}].&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;table&gt;
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          example:
+            result:
+              errors:
+                - code: 1001
+                  message: Missing request parameter
+                  details: The [id] is missing in the request.
+
+    400CreatePayeesErrorResponse:
+      description: |
+        __Bad Request__
+
+          Possible errors:
+          &lt;table&gt;
+            &lt;tr&gt;
+              &lt;td&gt;Error Code&lt;/td&gt;
+              &lt;td&gt;Error Message&lt;/td&gt;
+              &lt;td&gt;Error Description&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;1001&lt;/td&gt;
+              &lt;td&gt;Missing request parameter&lt;/td&gt;
+              &lt;td&gt;The [{parameterName}] is missing in the request.&lt=
+;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;1002&lt;/td&gt;
+              &lt;td&gt;Invalid request parameter&lt;/td&gt;
+              &lt;td&gt;The given [{parameterName}] has invalid value of [{=
+parameterValue}].&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;table&gt;
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          example:
+            result:
+              errors:
+                - code: 1001
+                  message: Missing request parameter
+                  details: The [id] is missing in the request.
+
+    404ErrorResponse:
+      description: |
+        __Resource not found__
+         Possible errors:
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Error Code&lt;/td&gt;
+            &lt;td&gt;Error Message&lt;/td&gt;
+            &lt;td&gt;Error Description&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;n&lt;/td&gt;
+            &lt;td&gt;A concise description of the error&lt;/td&gt;
+            &lt;td&gt;Detailed information about the error.  Be careful whe=
+n exposing provider errors that sensitive information is not revealed.&lt;/=
+td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;2&lt;/td&gt;
+            &lt;td&gt;Sample resource not found&lt;/td&gt;
+            &lt;td&gt;A sample resource with the specified resourceId could=
+ not be found &lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+
+    500ErrorResponse:
+      description: |
+        __Internal Server Error__
+        Possible errors:
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Error Code&lt;/td&gt;
+            &lt;td&gt;Error Message&lt;/td&gt;
+            &lt;td&gt;Error Description&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;10001&lt;/td&gt;
+            &lt;td&gt;Host Unavailable&lt;/td&gt;
+            &lt;td&gt;The downstream system failed to accept the request&lt=
+;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;10002&lt;/td&gt;
+            &lt;td&gt;Provider Timeout&lt;/td&gt;
+            &lt;td&gt;The downstream system failed to respond within the ex=
+pected time periods&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;10003&lt;/td&gt;
+            &lt;td&gt;Provider System Error&lt;/td&gt;
+            &lt;td&gt;[{Provider name}] system error: {Error message}]&lt;/=
+td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;10004&lt;/td&gt;
+            &lt;td&gt;Technical Error&lt;/td&gt;
+            &lt;td&gt;Unknown/Runtime Exception occurred during the API exe=
+cution&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          example:
+            result:
+              errors:
+                - code: 10004
+                  message: Technical Error
+                  details: Unknown/Runtime Exception occurred during the AP=
+I execution
+
+  #########################################################################=
+#######
+  #                           Definitions                                  =
+      #
+  #########################################################################=
+#######
+  schemas:
+    GetPayeesResponse:
+      type: object
+      properties:
+        data:
+          type: object
+          properties:
+            payees:
+              type: array
+              items:
+                $ref: "#/components/schemas/Payee"
+
+    Payee:
+      description: Payee object
+      type: object
+      required:
+        - payeeId
+      properties:
+        payeeId:
+          description: Unique Identifier of a payee
+          type: string
+          pattern: ^[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}$
+          example: 6577d3d6-0a37-49ca-9a2a-2368b257085f
+        nickname:
+          description: Nickname of the payee
+          type: string
+          pattern: ^.+$
+          example: "Finance - Pear Tree Limited"
+        description:
+          description: Description of the payee
+          type: string
+          pattern: ^.*$
+          example: "Pear Tree Ltd Dividend Account"
+        payeeType:
+          description: Payee type
+          type: string
+          enum:
+            - DOMESTIC
+            - BILLER
+            - INTERNATIONAL
+          example: DOMESTIC
+        creationDate:
+          description: dateTime when payee was created
+          type: string
+          format: date-time
+          example: "2024-02-23T07:26:42.876Z"
+        domestic:
+          $ref: "#/components/schemas/Domestic"
+
+    Domestic:
+      description: Domestic
+      type: object
+      properties:
+        payeeAccountType:
+          type: string
+          enum:
+            - ACCOUNTID
+            - PAYID
+        accountName:
+          type: string
+          example: "Pear Tree"
+          pattern: ^.*$
+        accountId:
+          $ref: "#/components/schemas/AccountId"
+        payId:
+          $ref: "#/components/schemas/PayId"
+
+    AccountId:
+      description: Account
+      type: object
+      required:
+        - BSB
+        - accountNumber
+      properties:
+        BSB:
+          type: string
+          pattern: '^\d{6}$'
+          example: "035845"
+        accountNumber:
+          type: string
+          pattern: "^[a-zA-Z0-9.]{1,28}$"
+          example: "10235674897"
+
+    PayId:
+      title: PayID
+      required:
+        - identification
+        - type
+      type: object
+      properties:
+        identification:
+          type: string
+          pattern: ^.+$
+          example: jon.doe@dummyhostname.com
+        type:
+          type: string
+          enum:
+            - MOBILE
+            - EMAIL
+            - PHONE
+            - ABN
+            - ORGANISATIONID
+          example: EMAIL
+
+    CreatePayeesRequest:
+      description: List of Payees to be added
+      type: object
+      properties:
+        payees:
+          description: Array of payees
+          type: array
+          items:
+            $ref: "#/components/schemas/CreatePayee"
+
+    CreatePayee:
+      type: object
+      required:
+        - nickname
+        - payeeType
+        - domestic
+      properties:
+        nickname:
+          description: Nickname of Payee
+          type: string
+          pattern: ^.+$
+          example: "Finance - Pear Tree Limited"
+        description:
+          description: Description
+          type: string
+          pattern: ^.*$
+          example: "Pear Tree Ltd Dividend Account"
+        payeeType:
+          description: Payee type
+          type: string
+          enum:
+            - DOMESTIC
+            - BILLER
+            - INTERNATIONAL
+          example: DOMESTIC
+        domestic:
+          $ref: "#/components/schemas/CreateDomestic"
+
+    CreateDomestic:
+      description: domestic
+      type: object
+      required:
+        - payeeAccountType
+      properties:
+        payeeAccountType:
+          type: string
+          enum:
+            - ACCOUNTID
+            - PAYID
+        accountName:
+          type: string
+          pattern: ^.+$
+          example: "Pear Tree"
+        accountId:
+          $ref: "#/components/schemas/AccountId"
+        payId:
+          $ref: "#/components/schemas/PayId"
+
+    CreatePayeesResponse:
+      type: object
+      properties:
+        data:
+          type: object
+          properties:
+            groupId:
+              type: string
+              pattern: ^[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}$
+              example: 1308e0fb-66f0-4684-87d2-83822ab4fe0b
+            payeeIds:
+              type: array
+              items:
+                type: string
+                pattern: ^[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}$
+              example: ["7c7a6104-3018-463a-adf5-bea4acdf21b4"]
+    Error:
+      required:
+        - code
+        - message
+      type: object
+      properties:
+        code:
+          type: integer
+          description: Error Code.
+          format: int32
+        message:
+          type: string
+          description: Error Message
+        details:
+          type: string
+          description: Detailed information about the error
+      description: Represent an individual error.
+    ErrorResponse:
+      type: object
+      properties:
+        result:
+          $ref: "#/components/schemas/ErrorResult"
+    ErrorResult:
+      type: object
+      properties:
+        errors:
+          type: array
+          items:
+            $ref: "#/components/schemas/Error"
+
+  #########################################################################=
+#######
+  #                                  Security                              =
+      #
+  #########################################################################=
+#######
+  securitySchemes:
+    BasicAuth:
+      $ref: "https://schema.mesh.westpac.com.au/platform/contracts/0.12.0/o=
+penapi-base.yaml#/components/securitySchemes/BasicAuth"
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p></p>
+</div></td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><span style=3D"color=
+: rgb(0,0,0);">Document Status</span></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">OK</span></=
+p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div><br>
+<p></p>
+<h3 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1api(API)-1.Retrieving=
+thelistofbeneficiaries"><span class=3D"fabric-text-color-mark">1. Retrievin=
+g the list of beneficiaries</span></h3>
+<h4 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1api(API)-1.1.GET/grou=
+ps/{id}/payees">1.1. GET <span><span class=3D"ui-provider a b c d e f g h i=
+ j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak">/groups/{id}=
+/payees</span></span></h4>
+<p>This endpoint retrieves all beneficiaries that the user is entitled to.<=
+/p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 168=
+9.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 243.0px;">
+<col class=3D"" style=3D"width: 107.0px;">
+<col class=3D"" style=3D"width: 124.0px;">
+<col class=3D"" style=3D"width: 119.0px;">
+<col class=3D"" style=3D"width: 318.0px;">
+<col class=3D"" style=3D"width: 777.0px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong><span cla=
+ss=3D"fabric-editor-annotation">HTTP Param Name</span></strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong><span cla=
+ss=3D"fabric-editor-annotation">HTTP Location</span></strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Data Type=
+</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Required<=
+/strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Example D=
+ata</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Descripti=
+on</strong></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-messageId</p></=
+th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong>YES</stro=
+ng></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>4ce6bab0-fec1-11e=
+a-adc1-0242ac120002</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a href=3D"https:=
+//one.dev1.ui.westpac.com.au/npm/docs/ui-framework/1.7.3/core/api-client/in=
+dex.html" class=3D"external-link" style=3D"text-align: left;" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a><span style=3D"color: rgb(23,43,77);">h=
+elper will create a random uuidv4 generated for every request.</span></p></=
+td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-appCorrelationI=
+d</p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong>YES</stro=
+ng></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>4ce6bab0-fec1-11e=
+a-adc1-0242ac120002</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a style=3D"text-=
+align: left;" href=3D"https://one.dev1.ui.westpac.com.au/npm/docs/ui-framew=
+ork/1.7.3/core/api-client/index.html" class=3D"external-link" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a><span style=3D"color: rgb(23,43,77);">h=
+elper will create a random uuidv4 generated for every request.</span></p></=
+td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-<span><span cla=
+ss=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bs=
+t bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl b=
+tm btn">organisationId</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong>YES</stro=
+ng></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>WPAC</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a class=3D"exter=
+nal-link" href=3D"https://one.dev1.ui.westpac.com.au/npm/docs/ui-framework/=
+1.7.3/core/api-client/index.html#:~:text=3Dfor%20the%20request-,injectAutho=
+rizationHeaders,-Function%20to%20allow" style=3D"text-align: left;" rel=3D"=
+nofollow">ApiClient<span>&nbsp;</span></a><span style=3D"color: rgb(23,43,7=
+7);">helper will inject the brand ID based on the user's role(s) extracted =
+from the JWT token claim or JWT token</span></p></td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-originatingSyst=
+emId</p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong>YES</stro=
+ng></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(80,80,80);">A014A6</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a href=3D"https:=
+//one.dev1.ui.westpac.com.au/npm/docs/ui-framework/1.7.3/core/api-client/in=
+dex.html" style=3D"text-align: left;" class=3D"external-link" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a><span style=3D"color: rgb(59,65,81);">h=
+elper will inject this header parameter.</span></p></td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-<span><span cla=
+ss=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bs=
+t bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl b=
+tm btn">consumerType</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong>YES</stro=
+ng></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(255,0,0);">Internal</span></strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-<span><span cla=
+ss=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bs=
+t bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl b=
+tm btn">userId</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>NO</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(255,0,0);"><span style=3D"color: rgb(80,80,80);">55275606<=
+/span></span></strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;"><a href=3D"https://one.dev1.ui.westpac.com.au/npm/docs/ui-framew=
+ork/1.7.3/core/api-client/index.html" class=3D"external-link" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a>helper will inject this header paramete=
+r.</p></td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><span><span class=
+=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bst =
+bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl btm=
+ btn">x-userIdScheme</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">NO</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(255,0,0);"><span style=3D"color: rgb(80,80,80);">CustomerN=
+umber</span></span></strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;"><a class=3D"external-link" href=3D"https://one.dev1.ui.westpac.c=
+om.au/npm/docs/ui-framework/1.7.3/core/api-client/index.html" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a>helper will inject this header paramete=
+r.</p></td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><span><span class=
+=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bst =
+bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl btm=
+ btn">x-originatingBSB</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>NO</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(255,0,0);"><span style=3D"color: rgb(80,80,80);">112-879</=
+span></span></strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;"><a href=3D"https://one.dev1.ui.westpac.com.au/npm/docs/ui-framew=
+ork/1.7.3/core/api-client/index.html" class=3D"external-link" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a>helper will inject this header paramete=
+r.</p></td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><span><span class=
+=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bst =
+bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl btm=
+ btn">brandSilo</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Query</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>NO</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(255,0,0);"><span style=3D"color: rgb(80,80,80);">WPAC</spa=
+n></span></strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<ol style=3D"text-align: left;">
+<li>Get res.locals.brandSilo at the controller</li>
+<li>Set the CAP request header with that.</li>
+</ol></td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>id</p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Path</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>YES</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(255,0,0);"><span style=3D"color: rgb(80,80,80);">9f194fa6-=
+06a3-40b4-b185</span></span></strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;">This refers to the 'organisation' under which the beneficiaries =
+are stored</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Example CURL (dev1):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl --=
+location --request GET "https://gw.dev1.api.srv.westpac.com.au/inf/bnkng/ar=
+rngmnt/chnlaccsarrngmnt/instl/payee/v1/group/9f194fa6-06a3-40b4-b185/payees=
+?brandSilo=3DWPAC" --header 'x-messageId: 43546' --header 'x-appCorrelation=
+Id: grp165' --header 'x-organisationId: WPAC' --header 'x-originatingSystem=
+Id: A014A6' --header 'x-consumerType: Customer' --header 'x-userId: 5527560=
+6' --header 'x-userIdScheme: CustomerNumber' --header 'x-originatingBSB: 11=
+2879' --header 'X-brandSilo: WPAC' --header 'Content-Type: application/json=
+' --header 'Authorization: Basic MzI0ODkxYjAtNTYxOS00ODU4LWJiMGEtNDVjNmZhND=
+RhMGJiOmY0YTg2NTgxLTYzZmQtNDkzNS05MDdkLWYxMDBjMDQyMDYzYg=3D=3D' --header 'C=
+ookie: N-ISD-A008E0-443-CK=3D1253270538.47873.0000'</pre>
+</div>
+</div>
+<p><br></p>
+<h4 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1api(API)-1.2.Response=
+s"><span class=3D"fabric-text-color-mark" style=3D"color: rgb(0,0,0);">1.2.=
+ Responses</span></h4>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 172=
+2.0px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Response =
+Code</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Error Code</p></t=
+h>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Error Message</p>=
+</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Error Description=
+</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Example</p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 182.0px;">
+<col style=3D"width: 296.0px;">
+<col class=3D"" style=3D"width: 296.0px;">
+<col style=3D"width: 257.0px;">
+<col style=3D"width: 690.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-cztx6i"><span class=3D"css-1et8=
+jlg">200 (With data)</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>NA</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>NA</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>NA</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Conf=
+luence">{
+  "data": {
+    "payees": [
+      {
+        "payeeId": "6577d3d6-0a37-49ca-9a2a-2368b257085f",
+        "nickname": "Pear Tree",
+        "description": "Pear Tree Ltd Dividend Account",
+        "payeeType": "DOMESTIC",
+        "creationDate": "2024-02-23T07:26:42.876Z",
+        "domestic": {
+          "payeeAccountType": "ACCOUNTID",
+          "accountName": "Finance - Pear Tree Limited",
+          "accountId": {
+            "BSB": "035845",
+            "accountNumber": "10235674897"
+          },
+          "payId": {
+            "identification": "jon.doe@dummyhostname.com",
+            "type": "EMAIL"
+          }
+        }
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1u=
+hdn">200 (No data)</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>NA</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>NA</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>NA</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Conf=
+luence">{
+&nbsp;&nbsp;&nbsp;&nbsp;"data":&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"payees":&nbsp;[]
+&nbsp;&nbsp;&nbsp;&nbsp;}
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" rowspan=3D"2" class=3D"confluenceTd"><p><sp=
+an class=3D"status-lozenge-span css-0"><span class=3D"css-zsg42k"><span cla=
+ss=3D"css-1i1uhdn"><br></span></span></span></p><p><span class=3D"status-lo=
+zenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1uhdn">40=
+0</span></span></span></p><br><p><span class=3D"status-lozenge-span css-0">=
+<span class=3D"css-zsg42k"><span class=3D"css-1i1uhdn"><br></span></span></=
+span></p><p><span class=3D"status-lozenge-span css-0"><span class=3D"css-zs=
+g42k"><span class=3D"css-1i1uhdn"><br></span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(0,0,0);">1001</span></p></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);">Missing x-mes=
+sageId parameter</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>{error details}</=
+p></td>
+<td style=3D"text-align: left;" rowspan=3D"2" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Conf=
+luence">{
+  "result": {
+    "errors": [
+      {
+        "code": 1001,
+        "message": "Missing x-messageId parameter",
+        "details": "x-messageId must not be null."
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+</div></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(0,0,0);">1002</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Input validation =
+error from provider</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>{error details}</=
+p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" rowspan=3D"4" class=3D"confluenceTd"><p><sp=
+an class=3D"status-lozenge-span css-0"><span class=3D"css-zsg42k"><span cla=
+ss=3D"css-1i1uhdn">500</span></span></span></p><br><p><span class=3D"status=
+-lozenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1uhdn"=
+><br></span></span></span></p><p><span class=3D"status-lozenge-span css-0">=
+<span class=3D"css-zsg42k"><span class=3D"css-1i1uhdn"><br></span></span></=
+span></p><p><span class=3D"status-lozenge-span css-0"><span class=3D"css-zs=
+g42k"><span class=3D"css-1i1uhdn"><br></span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>10001</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Host Unavailable<=
+/p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>The downstream sy=
+stem failed to accept the request</p></td>
+<td style=3D"text-align: left;" rowspan=3D"4" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Conf=
+luence">{
+  "result": {
+    "errors": [
+      {
+        "code": 10003,
+        "message": "Provider System Error",
+        "details": "Some error message"
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>10002</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Provider Timeout<=
+/p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>The downstream sy=
+stem failed to respond within the expected time periods</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>10003</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Provider System E=
+rror</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>{error details}</=
+p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>10004</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Unexpected Error<=
+/p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>{error details}</=
+p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h3 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1api(API)-2.Createagro=
+upofbeneficiaries"><span class=3D"fabric-text-color-mark">2. Create a group=
+ of beneficiaries</span></h3>
+<p><br></p>
+<h4 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1api(API)-2.1POST/grou=
+ps/{id}/payees"><span class=3D"fabric-text-color-mark">2.1 POST<span><span =
+class=3D"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab=
+ ac ae af ag ah ai aj ak"> /groups/{id}/payees</span></span></span></h4>
+<p>This endpoint retrieves all beneficiaries that the user is entitled to.<=
+/p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 168=
+9.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 218.0px;">
+<col class=3D"" style=3D"width: 99.0px;">
+<col class=3D"" style=3D"width: 105.0px;">
+<col class=3D"" style=3D"width: 110.0px;">
+<col class=3D"" style=3D"width: 552.0px;">
+<col class=3D"" style=3D"width: 604.0px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong><span cla=
+ss=3D"fabric-editor-annotation">HTTP Param Name</span></strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong><span cla=
+ss=3D"fabric-editor-annotation">HTTP Location</span></strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Data Type=
+</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Required<=
+/strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Example D=
+ata</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Descripti=
+on</strong></p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-messageId</p></=
+th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong>YES</stro=
+ng></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>4ce6bab0-fec1-11e=
+a-adc1-0242ac120002</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a class=3D"exter=
+nal-link" style=3D"text-align: left;" href=3D"https://one.dev1.ui.westpac.c=
+om.au/npm/docs/ui-framework/1.7.3/core/api-client/index.html" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a><span style=3D"color: rgb(23,43,77);">h=
+elper will create a random uuidv4 generated for every request.</span></p></=
+td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-appCorrelationI=
+d</p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong>YES</stro=
+ng></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>4ce6bab0-fec1-11e=
+a-adc1-0242ac120002</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a href=3D"https:=
+//one.dev1.ui.westpac.com.au/npm/docs/ui-framework/1.7.3/core/api-client/in=
+dex.html" class=3D"external-link" style=3D"text-align: left;" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a><span style=3D"color: rgb(23,43,77);">h=
+elper will create a random uuidv4 generated for every request.</span></p></=
+td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-<span><span cla=
+ss=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bs=
+t bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl b=
+tm btn">organisationId</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong>YES</stro=
+ng></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>WPAC</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a style=3D"text-=
+align: left;" class=3D"external-link" href=3D"https://one.dev1.ui.westpac.c=
+om.au/npm/docs/ui-framework/1.7.3/core/api-client/index.html#:~:text=3Dfor%=
+20the%20request-,injectAuthorizationHeaders,-Function%20to%20allow" rel=3D"=
+nofollow">ApiClient<span>&nbsp;</span></a><span style=3D"color: rgb(23,43,7=
+7);">helper will inject the brand ID based on the user's role(s) extracted =
+from the JWT token claim or JWT token</span></p></td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-originatingSyst=
+emId</p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong>YES</stro=
+ng></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><a style=3D"text-=
+align: left;" class=3D"external-link" href=3D"https://one.dev1.ui.westpac.c=
+om.au/npm/docs/ui-framework/1.7.3/core/api-client/index.html" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a><span style=3D"color: rgb(59,65,81);">h=
+elper will inject this header parameter.</span></p></td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-<span><span cla=
+ss=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bs=
+t bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl b=
+tm btn">consumerType</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong>YES</stro=
+ng></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(255,0,0);">Internal</span></strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>x-<span><span cla=
+ss=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bs=
+t bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl b=
+tm btn">userId</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>NO</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(255,0,0);"><br></span></strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;"><a class=3D"external-link" href=3D"https://one.dev1.ui.westpac.c=
+om.au/npm/docs/ui-framework/1.7.3/core/api-client/index.html" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a>helper will inject this header paramete=
+r.</p></td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><span><span class=
+=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bst =
+bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl btm=
+ btn">x-userIdScheme</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>NO</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(255,0,0);"><br></span></strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;"><a href=3D"https://one.dev1.ui.westpac.com.au/npm/docs/ui-framew=
+ork/1.7.3/core/api-client/index.html" class=3D"external-link" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a>helper will inject this header paramete=
+r.</p></td>
+</tr>
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><span><span class=
+=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bst =
+bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl btm=
+ btn">x-originatingBSB</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Header</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>NO</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(0,0,0);"><strong>123-456</strong></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;"><a class=3D"external-link" href=3D"https://one.dev1.ui.westpac.c=
+om.au/npm/docs/ui-framework/1.7.3/core/api-client/index.html" rel=3D"nofoll=
+ow">ApiClient<span>&nbsp;</span></a>helper will inject this header paramete=
+r.</p></td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><span><span class=
+=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bst =
+bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl btm=
+ btn">brandSilo</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(0,0,0);">Query</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(0,0,0);">String</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>NO</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(0,0,0);"><strong>WPAC</strong></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<ol style=3D"text-align: left;">
+<li><span style=3D"color: rgb(0,0,0);">Get res.locals.brandSilo at the cont=
+roller</span></li>
+<li><span style=3D"color: rgb(0,0,0);">Set the CAP request header with that=
+.</span></li>
+</ol></td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><span><span class=
+=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bst =
+bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl btm=
+ btn">id</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Path Param</p></t=
+d>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>String</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved conf-macro out=
+put-inline" style=3D"text-decoration: none;"><strong>YES</strong></span></p=
+>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(255,0,0);">&nbsp;"7236b615-a299-4bcf-a7f1-e5fd49a0356c",</=
+span></strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;"><br></p></td>
+</tr>
+<tr>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><span><span class=
+=3D"ui-provider ed bsh bnk bsi bsj bsk bsl bsm bsn bso bsp bsq bsr bss bst =
+bsu bsv bsw bsx bsy bsz bta btb btc btd bte btf btg bth bti btj btk btl btm=
+ btn">Request body</span></span></p></th>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>body</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>JSON</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>YES</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Conf=
+luence">{
+  "payees": [
+    {
+      "nickname": "Pear Tree",
+=09"name":"PTY",
+      "description": "Pear Tree Ltd Dividend Account",
+      "payeeType": "DOMESTIC",
+      "domestic": {
+        "payeeAccountType": "ACCOUNTID",
+        "accountName": "Finance - Pear Tree Limited",
+        "accountId": {
+          "BSB": "035845",
+          "accountNumber": "10235674897"
+        }
+      }
+    }
+  ]
+}</pre>
+</div>
+</div>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;"><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>example cURL</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: text; gutter: false; theme: Confluence" data-theme=3D"Confluence">TBC</pr=
+e>
+</div>
+</div>
+<h4 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1api(API)-2.2.Response=
+s"><span class=3D"fabric-text-color-mark" style=3D"color: rgb(0,0,0);">2.2.=
+ Responses</span></h4>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 172=
+2.0px;">
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Response =
+Code</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Error Code</p></t=
+h>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Error Message</p>=
+</th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Error Description=
+</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Example</p></th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 282.0px;">
+<col class=3D"" style=3D"width: 280.0px;">
+<col class=3D"" style=3D"width: 246.0px;">
+<col class=3D"" style=3D"width: 249.0px;">
+<col class=3D"" style=3D"width: 664.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span class=3D"st=
+atus-lozenge-span css-0"><span class=3D"css-cztx6i"><span class=3D"css-1et8=
+jlg">200 (With data)</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div id=3D"expander-90659144" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-90659144" cla=
+ss=3D"expand-control"><button type=3D"button" id=3D"expand-button-90659144"=
+ class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-expand=
+ed=3D"true" aria-controls=3D"expander-content-90659144"><span class=3D"expa=
+nd-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hidden=3D"t=
+rue"></span><span class=3D"expand-control-text conf-macro-render">Click her=
+e to expand...</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-90659144" class=3D"expand-conte=
+nt" aria-labelledby=3D"expand-button-90659144">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  "data": {
+    "groupId": "7236b615-a299-4bcf-a7f1-e5fd49a0356c",
+    "payees": [
+ &nbsp; &nbsp; &nbsp;"9f194fa6-06a3-40b4-b184-47eeec543677",
+       "9f194fa6-06a3-40b4-b184-47eeec543673"
+    ]
+  }
+}</pre>
+</div>
+</div>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" rowspan=3D"2" class=3D"confluenceTd"><p><sp=
+an class=3D"status-lozenge-span css-0"><span class=3D"css-zsg42k"><span cla=
+ss=3D"css-1i1uhdn"><br></span></span></span></p><p><span class=3D"status-lo=
+zenge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1uhdn">40=
+0</span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">1001</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Missing request body=
+ parameter</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">At least one payee s=
+hould be provided.</td>
+<td style=3D"text-align: left;" rowspan=3D"2" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Conf=
+luence">{
+    "result": {
+        "errors": [
+            {
+                "code": 1002,
+                "message": "Invalid x-consumerType",
+                "details": "x-consumerType must match"
+            }
+        ]
+    }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">1002</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Invalid request body=
+ parameter</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">The given {parameter=
+Name} has missing/invalid value of {parameterValue}</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" rowspan=3D"4" class=3D"confluenceTd"><p><sp=
+an class=3D"status-lozenge-span css-0"><span class=3D"css-zsg42k"><span cla=
+ss=3D"css-1i1uhdn">500</span></span></span></p><p><span class=3D"status-loz=
+enge-span css-0"><span class=3D"css-zsg42k"><span class=3D"css-1i1uhdn"><br=
+></span></span></span></p><p><span class=3D"status-lozenge-span css-0"><spa=
+n class=3D"css-zsg42k"><span class=3D"css-1i1uhdn"><br></span></span></span=
+></p><p><span class=3D"status-lozenge-span css-0"><span class=3D"css-zsg42k=
+"><span class=3D"css-1i1uhdn"><br></span></span></span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>10001</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Host Unavailable<=
+/p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>The downstream sy=
+stem failed to accept the request</p></td>
+<td style=3D"text-align: left;" rowspan=3D"4" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Conf=
+luence">{
+  "result": {
+    "errors": [
+      {
+        "code": 10003,
+        "message": "Provider System Error",
+        "details": "Some error message"
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>10002</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Provider Timeout<=
+/p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>The downstream sy=
+stem failed to respond within the expected time periods</p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>10003</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Provider System E=
+rror</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>{error details}</=
+p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>10004</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Unexpected Error<=
+/p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>{error details}</=
+p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h3 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1api(API)-3.References=
+">3. References</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 65.=
+2837%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 16.2381%;">
+<col class=3D"" style=3D"width: 42.8686%;">
+<col class=3D"" style=3D"width: 40.8932%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">Document Type</th>
+<th class=3D"confluenceTh">Document Title</th>
+<th class=3D"confluenceTh">Document Link/Location</th>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">API Error Handling</=
+td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"/display/=
+MESH/API+Error+Handling">API Error Handling</a></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Common Data Types</t=
+d>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><a href=3D"/display/=
+MESH/Common+Data+Types">Common Data Types</a></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_116015_238832517.1773921278425--

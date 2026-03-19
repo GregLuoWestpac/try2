@@ -1,0 +1,4077 @@
+Date: Thu, 19 Mar 2026 22:50:03 +1100 (AEDT)
+Message-ID: <127554538.115990.1773921003400@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_115989_1340679955.1773921003399"
+
+------=_Part_115989_1340679955.1773921003399
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Authorisations UI - Exp API Mapping for Beneficiaries</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Authorisations UI - Exp API Mapping for Beneficiaries</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1773921003269 {padding: 0px;}
+div.rbtoc1773921003269 ul {margin-left: 0px;}
+div.rbtoc1773921003269 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1773921003269">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AuthorisationsUIExpAPIMappingforBeneficiaries-Authorisation=
+Status:&quot;Foryoutoauthorise&quot;view(Checkerview)-ExpAPIMapping">Author=
+isation Status: "For you to authorise" view(Checker view) - Exp API Mapping=
+</a></li>
+<li><a href=3D"#AuthorisationsUIExpAPIMappingforBeneficiaries-Authorisation=
+s:&quot;Trackauthorisations&quot;view(makerview)-ExpAPIMapping">Authorisati=
+ons: "Track authorisations" view(maker view) - Exp API Mapping</a></li>
+<li><a href=3D"#AuthorisationsUIExpAPIMappingforBeneficiaries-Authorisation=
+s-BeneficiaryDetailsviewforMaker/CheckerUI-ExpAPIMapping">Authorisations - =
+Beneficiary Details view for Maker/Checker UI - Exp API Mapping</a></li>
+</ul>
+</div>
+<p></p>
+<h2 id=3D"AuthorisationsUIExpAPIMappingforBeneficiaries-AuthorisationStatus=
+:&quot;Foryoutoauthorise&quot;view(Checkerview)-ExpAPIMapping">Authorisatio=
+n Status: "For you to authorise" view(Checker view) - Exp API Mapping</h2>
+<p>Authorisation UX:<span> <a href=3D"https://dstsb2.axshare.com/#id=3Dordz=
+m1&amp;p=3D4_0_beneficiaries&amp;g=3D1" class=3D"external-link" rel=3D"nofo=
+llow">https://dstsb2.axshare.com/#id=3Dordzm1&amp;p=3D4_0_beneficiaries&amp=
+;g=3D1</a></span></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 127=
+.79%;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0">
+<thead class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false"><br></t=
+h>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+UI Section</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Field Name</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Example Value</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Exp API Endpoint</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Exp API Request</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Exp API Response</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Processing Condition/Logic</th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 1.44698%;">
+<col class=3D"" style=3D"width: 4.86347%;">
+<col class=3D"" style=3D"width: 4.42134%;">
+<col class=3D"" style=3D"width: 3.57727%;">
+<col class=3D"" style=3D"width: 8.88287%;">
+<col class=3D"" style=3D"width: 10.3299%;">
+<col class=3D"" style=3D"width: 13.3846%;">
+<col class=3D"" style=3D"width: 53.0963%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">1</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>On Load of Beneficiary Listing page, load "Authorisations" tab with "For=
+ you to authorise" as the default view. Construct the Checker Request Paylo=
+ad<strong><span>&nbsp;</span></strong><span style=3D"color: rgb(0,0,0);">to=
+ display service requests/tasks under "For you to authorise" view</span></p=
+><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br><=
+/p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br=
+></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><=
+br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p=
+><br></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"3" class=3D"=
+confluenceTd"><p><a href=3D"/display/ARTC/galaxy-maker-checker-widget-exp-v=
+1#galaxymakercheckerwidgetexpv1-POST/approvalWorkflowList">galaxy-maker-che=
+cker-widget-exp-v1#POST/approvalWorkflowList</a></p><p><span style=3D"color=
+: rgb(0,0,0);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"3" class=3D"=
+confluenceTd">
+<div class=3D"content-wrapper">
+<p><u><strong><span style=3D"color: rgb(0,0,0);">Checker Request Payload</s=
+pan></strong></u></p>
+<p><span style=3D"color: rgb(0,0,0);">To fetch Checker workflow requests, U=
+I should construct the following request payload&nbsp; and send it to the E=
+xp API</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "searchBy": "approver",
+  "approverStatus": [
+    "ApprovalPending",
+ &nbsp; &nbsp;"Rejected"=20
+&nbsp; &nbsp;],
+  &nbsp;"workflowStatus": [
+        "ApprovalPending",
+        "Rejected"
+    ],
+&nbsp; "types": [
+    "w1cbeneficiary"
+  ],
+  "subTypes": [
+    "addbeneficiary",
+    "amendbeneficiary",
+    "archivebeneficiary"
+  ],
+   "requestGroup": "Customer",
+   "approvalChannel": "W1C-Customer"
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+<p style=3D"text-align: left;"><span style=3D"color: rgb(23,43,77);">Mappin=
+g logic for approverUserId(Checker)</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Conf=
+luence">//When calling DSR CAP API to search for maker or checker workflow =
+requests, Exp API will have to fetch the required UserID from either x-user=
+id request header or from x-access-token request header and then pass the r=
+equired userid accordingly
+ =20
+ =20
+if(request.searchBy =3D=3D=3D "approverUserId")
+{
+   var approverUserId=3D apiHeaders['x-userId'] //or read userId from apiHe=
+aders['x-access-token']
+   // Map the above approverUserId to DSR request.approverUserId when calli=
+ng DSR CAP API to search for checker workflow requests
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+<p style=3D"text-align: left;"><u style=3D"text-align: left;"><strong>Query=
+ String:</strong></u><span style=3D"color: rgb(23,43,77);"><span>&nbsp;<u s=
+tyle=3D"text-align: left;"><strong>Query String:</strong></u><span>&nbsp;<s=
+trong style=3D"text-align: left;">pageSize =3D 1000</strong></span></span><=
+/span></p>
+<p style=3D"text-align: left;"><span style=3D"color: rgb(23,43,77);">The AP=
+I also accepts the pagination query string parameters<span>&nbsp;</span></s=
+pan><strong style=3D"text-align: left;">pageSize<span>&nbsp;</span></strong=
+><span style=3D"color: rgb(23,43,77);">&amp;<span>&nbsp;</span></span><stro=
+ng style=3D"text-align: left;">nextPageKey</strong></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p><br>
+<p><strong><span style=3D"color: rgb(0,0,0);">&nbsp;</span></strong></p>
+<p><strong><span style=3D"color: rgb(0,0,0);">&nbsp;</span></strong></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+    "entities": {
+        "approvalWorkflowList": [
+            {
+                "approvalWorkflowId": "string",
+                "approvalWorkflowExternalReferenceId": "string",
+                "brandSilo": "WPAC",
+                "brand": "WBC",
+                "type": "string",
+                "typeDescrption": "string",
+                "subType": "string",
+                "subTypeVariation": "string",
+                "requestGroup": "MEDB",
+                "serviceRequestId": "string",
+                "serviceRequestCategory": "SimpleServiceRequest",
+                "externalRequestId": "string",
+                "workflowStatus": "ApprovalPending",
+                "approvalWorkflowComments": "string",
+                "expiryDatetime": "2025-04-18T01:49:50Z",
+                "requestedDateTime": "2025-04-13T01:49:50Z",
+                "createdDateTime": "2025-04-13T01:49:50Z",
+                "approvalData": {
+                    "overallMinNumOfApprovalsRequired": 0,
+                    "overallNumberOfApprovalsReceived": 0,
+                    "approvalCounters": [
+                        {
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "partyType": "Involved",
+                            "minNumOfApprovalsRequired": 0,
+                            "numberOfApprovalsReceived": 0
+                        }
+                    ],
+                    "approvers": [
+                        {
+                            "userId": "a58Wd",
+                            "userIdScheme": "CustomerInternalId",
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "digitalIdentityId": "8jtqPsInKmOWX9kophpOounIe=
+0VjFF10ZC9HcXkMKsCcI",
+                            "partyType": "Involved",
+                            "isDirector": true,
+                            "roleType": "Approver",
+                            "firstName": "string",
+                            "lastName": "string",
+                            "emailAddress": "string",
+                            "mobileNumber": "610049206",
+                            "type": "Digital_Consent",
+                            "method": "Click_to_accept",
+                            "status": "ApprovalPending",
+                            "captureDateTime": "2025-07-17T08:23:34.787Z",
+                            "notes": "string",
+                            "documents": {
+                                "isRequired": false,
+                                "isRedactionRequired": false,
+                                "files": [
+                                    {
+                                        "name": "string",
+                                        "category": "string",
+                                        "documentId": "string",
+                                        "repositoryId": "string",
+                                        "documentType": "string",
+                                        "consumerId": "string",
+                                        "productClass": "8",
+                                        "uploadedDateTime": "2025-07-17T08:=
+23:34.788Z"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "createdBy": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "initiator": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "onBehalfOfUser": {
+                    "id": "79045520063",
+                    "idScheme": "CustomerInternalId",
+                    "customerType": "Individual",
+                    "network": {
+                        "id": "12345678",
+                        "networkType": "Advanced"
+                    },
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                // Exp API will deserialise the json string payload to the =
+respective object model based on the subType(AddBeneficiary, AmendBeneficia=
+ry &amp; ArchiveBeneficiary)
+                "payloadObject": {
+                    "beneficiaries": [
+                        {
+                            "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+                            "nickname": "ABC company",
+                            "currency": "AUD",
+                            "type": "BSB_AND_ACC",
+                            "account": {
+                                "accountId": {
+                                    "BSB": "014111",
+                                    "accountNumber": "084765"
+                                },
+                                "bankName": "ANZ Bank",
+                                "accountName": "ANZ Joint"
+                            }
+                        }
+                    ]
+                },
+                "payloadString": "Exp API transaction payload in json strin=
+g",
+                "entitlementsPayload": "Entitlements payload in json string=
+"
+            },
+            {
+                "approvalWorkflowId": "string",
+                "approvalWorkflowExternalReferenceId": "string",
+                "brandSilo": "WPAC",
+                "brand": "WBC",
+                "type": "string",
+                "typeDescrption": "string",
+                "subType": "string",
+                "subTypeVariation": "string",
+                "requestGroup": "MEDB",
+                "serviceRequestId": "string",
+                "serviceRequestCategory": "SimpleServiceRequest",
+                "externalRequestId": "string",
+                "workflowStatus": "ApprovalPending",
+                "approvalWorkflowComments": "string",
+                "expiryDatetime": "2025-04-18T01:49:50Z",
+                "requestedDateTime": "2025-04-13T01:49:50Z",
+                "createdDateTime": "2025-04-13T01:49:50Z",
+                "approvers": [
+                    {
+                        "userId": "string",
+                        "userIdScheme": "CustomerInternalId",
+                        "digitalIdentityId": "string",
+                        "partyType": "Involved",
+                        "roleType": "Approver",
+                        "firstName": "string",
+                        "lastName": "string",
+                        "email": "string",
+                        "mobile": "string",
+                        "type": "Digital_Consent",
+                        "method": "Click_to_accept",
+                        "status": "ApprovalPending",
+                        "captureDateTime": "2025-05-04T23:28:46.625Z",
+                        "notes": "string",
+                        "documents": {
+                            "isRequired": false,
+                            "isRedactionRequired": false,
+                            "files": [
+                                {
+                                    "name": "string",
+                                    "category": "string",
+                                    "uploadedDateTime": "2025-05-04T23:28:4=
+6.625Z"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "createdBy": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "initiator": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "onBehalfOfUser": {
+                    "id": "79045520063",
+                    "idScheme": "CustomerInternalId",
+                    "customerType": "Individual",
+                    "network": {
+                        "id": "12345678",
+                        "networkType": "Advanced"
+                    },
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                // Exp API will deserialise the json string payload to the =
+respective object model based on the subType(AddBeneficiary, AmendBeneficia=
+ry &amp; ArchiveBeneficiary)
+                "payloadObject": {
+                    "beneficiaries": {
+                        "id": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d",
+                        "externalId": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d=
+",
+                        "nickname": "ABC company",
+                        "currency": "AUD",
+                        "type": "BSB_AND_ACC",
+                        "account": {
+                            "accountId": {
+                                "BSB": "014111",
+                                "accountNumber": "084765"
+                            },
+                            "bankName": "ANZ Bank",
+                            "accountName": "ANZ Joint"
+                        }
+                    }
+                },
+                "payloadString": "Exp API request payload in json string",
+                "entitlementsPayload": "Entitlements payload in json string=
+"
+            }
+        ],
+        "paging": {
+            "count": 0,
+            "pageSize": 0,
+            "nextPageKey": "string",
+            "previousPageKey": "string"
+        }
+    }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(0,0,0);"><u><strong>Checker:</strong></u> As p=
+er the Checker request, the API will return the list of workflow requests a=
+waiting approval from the logged in Checker.&nbsp;</span></p>
+<p><br></p>
+<p><u><strong><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(=
+23,43,77);">Exp API Response processing</span></span></strong></u></p>
+<p><span style=3D"color: rgb(0,0,0);"><span style=3D"color: rgb(23,43,77);"=
+>The Exp API will loop through the service Request list and deserialise the=
+ API Json string to the respective object</span></span></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">//When calling DSR CAP API to search for maker or checker workflow r=
+equests, Exp API will have to fetch the required UserID from either x-useri=
+d request header or from x-access-token request header and then pass the re=
+quired userid accordingly
+ =20
+ =20
+if(request.searchBy =3D=3D=3D "approverUserId")
+{
+   var approverUserId=3D apiHeaders['x-userId'] //or read userId from apiHe=
+aders['x-access-token']
+   // Map the above approverUserId to DSR request.approverUserId when calli=
+ng DSR CAP API to search for checker workflow requests
+}
+
+
+//The DSR API response will be as below,&nbsp;
+
+{
+    "data": [
+        {
+            "approvalWorkflowId": "string",
+            "approvalWorkflowExternalReferenceId": "string",
+            "brandSilo": "WPAC",
+            "brand": "WBC",
+            "type": "string",
+            "typeDescrption": "string",
+            "subType": "string",
+            "subTypeVariation": "string",
+            "requestGroup": "MEDB",
+            "serviceRequestId": "string",
+            "serviceRequestCategory": "SimpleServiceRequest",
+            "externalRequestId": "string",
+            "workflowStatus": "ApprovalPending",
+            "approvalWorkflowComments": "string",
+            // additionalInformation will hold the transactionPayload(Exp A=
+PI payload) &amp; entitlementsPayload as Json string
+            "additionalInformation": {
+                "entitlementPayload": "{\r\n  \"key\" : \"ThisIsTheActualKe=
+yValueButShouldBeAKeyId\",\r\n  \"hash\" : \"ff53498acdca2cc4e937b827875744=
+fdc56ddf2daab0b70466582d7b4e1f7874\",\r\n  \"alg\" : \"HMAC-SHA256\",\r\n  =
+\"makerRequest\" : {\r\n    \"header\" : {\r\n      \"Accept\" : [ \"applic=
+ation/json\" ],\r\n      \"Connection\" : [ \"keep-alive\" ],\r\n      \"Co=
+ntent-Length\" : [ \"2016\" ],\r\n      \"Content-Type\" : [ \"application/=
+json\" ],\r\n      \"Host\" : [ \"localhost:3000\" ],\r\n      \"User-Agent=
+\" : [ \"Apache-HttpClient/4.5.7 (Java/1.8.0_341)\" ],\r\n      \"X-Forward=
+ed-For\" : [ \"172.17.0.1\" ],\r\n      \"protected-orgId\" : [ \"32896172\=
+" ]\r\n    },\r\n    \"payload\" : {\r\n    \"beneficiaries\": [\r\n       =
+ {\r\n            \"id\": \"d0868661-b955-4e76-9f15-d97626f7df6b\",\r\n    =
+        \"nickname\": \"ABC company\",\r\n            \"currency\": \"AUD\"=
+,\r\n            \"type\": \"BSB_AND_ACC\",\r\n            \"account\": {\r=
+\n                \"accountId\": {\r\n                    \"BSB\": \"014111=
+\",\r\n                    \"accountNumber\": \"084765\"\r\n               =
+ },\r\n                \"bankName\": \"ANZ Bank\",\r\n                \"acc=
+ountName\": \"ANZ Joint\"\r\n            }\r\n        }\r\n    ]\r\n},\r\n =
+   \"id\" : \"232234242ASDFASfS\",\r\n    \"type\" : \"w1cpayments\",\r\n  =
+  \"subType\" : \"payments\",\r\n    \"workflowIds\" : [ ],\r\n    \"action=
+\" : \"INITIATE_PAYMENT\",\r\n    \"method\" : \"POST\",\r\n    \"orgId\" :=
+ \"32896172\",\r\n    \"status\" : \"NEW\",\r\n    \"requestGroup\" : \"Cus=
+tomer\",\r\n    \"requestedAt\" : \"2025-07-30T12:25:20.789610285Z\",\r\n  =
+  \"requestedBy\" : {\r\n      \"user\" : {\r\n        \"Id\" : \"463621100=
+15\",\r\n        \"IdScheme\" : \"CustomerInternalId\",\r\n        \"firstN=
+ame\" : \"John\",\r\n        \"lastName\" : \"Citizen\"\r\n      }\r\n    }=
+,\r\n    \"initiatedBy\" : {\r\n      \"user\" : {\r\n        \"Id\" : \"46=
+362110015\",\r\n        \"IdScheme\" : \"CustomerInternalId\",\r\n        \=
+"firstName\" : \"John\",\r\n        \"lastName\" : \"Citizen\"\r\n      }\r=
+\n    },\r\n    \"authorityModels\" : [ {\r\n      \"authorityModel\" : {\r=
+\n        \"id\" : \"8325f807-c4f2-463c-a3c5-8b9b4eb005ae\",\r\n        \"n=
+ame\" : \"Payment - Dual Approvers\",\r\n        \"steps\" : [ {\r\n       =
+   \"step\" : {\r\n            \"id\" : \"4b4ae8f1-a460-4b1d-a409-e587998e8=
+36b\",\r\n            \"name\" : \"First approvers\",\r\n            \"minA=
+uthorisers\" : 1,\r\n            \"status\" : \"NEW\",\r\n            \"cre=
+atedAt\" : \"2025-07-30T12:25:20.789610285Z\",\r\n            \"authoriserG=
+roups\" : [ {\r\n              \"authoriserGroup\" : {\r\n                \=
+"id\" : \"b49ab8c0-c958-4d4d-96a3-5d68149687b2\",\r\n                \"name=
+\" : \"Base Approvers\",\r\n                \"authorisers\" : [ {\r\n      =
+            \"authoriser\" : {\r\n                    \"taskStatus\" : \"PE=
+NDING\",\r\n                    \"user\" : {\r\n                      \"Id\=
+" : \"46362110018\",\r\n                      \"IdScheme\" : \"CustomerInte=
+rnalId\",\r\n                      \"firstName\" : \"Priyanka\",\r\n       =
+               \"lastName\" : \"Patel\"\r\n                    }\r\n       =
+           }\r\n                }, {\r\n                  \"authoriser\" : =
+{\r\n                    \"taskStatus\" : \"PENDING\",\r\n                 =
+   \"user\" : {\r\n                      \"Id\" : \"46362110017\",\r\n     =
+                 \"IdScheme\" : \"CustomerInternalId\",\r\n                =
+      \"firstName\" : \"Sanjay\",\r\n                      \"lastName\" : \=
+"Sharma\"\r\n                    }\r\n                  }\r\n              =
+  }, {\r\n                  \"authoriser\" : {\r\n                    \"tas=
+kStatus\" : \"PENDING\",\r\n                    \"user\" : {\r\n           =
+           \"Id\" : \"46362110016\",\r\n                      \"IdScheme\" =
+: \"CustomerInternalId\",\r\n                      \"firstName\" : \"Bhavya=
+\",\r\n                      \"lastName\" : \"P\"\r\n                    }\=
+r\n                  }\r\n                }, {\r\n                  \"autho=
+riser\" : {\r\n                    \"taskStatus\" : \"PENDING\",\r\n       =
+             \"user\" : {\r\n                      \"Id\" : \"46362110015\"=
+,\r\n                      \"IdScheme\" : \"CustomerInternalId\",\r\n      =
+                \"firstName\" : \"Durgabhavani\",\r\n                      =
+\"lastName\" : \"Chikatla\"\r\n                    }\r\n                  }=
+\r\n                }, {\r\n                  \"authoriser\" : {\r\n       =
+             \"taskStatus\" : \"PENDING\",\r\n                    \"user\" =
+: {\r\n                      \"Id\" : \"68298145\",\r\n                    =
+  \"IdScheme\" : \"CustomerInternalId\",\r\n                      \"firstNa=
+me\" : \"Shawn\",\r\n                      \"lastName\" : \"Lockman\"\r\n  =
+                  }\r\n                  }\r\n                }, {\r\n     =
+             \"authoriser\" : {\r\n                    \"taskStatus\" : \"P=
+ENDING\",\r\n                    \"user\" : {\r\n                      \"Id=
+\" : \"31370215\",\r\n                      \"IdScheme\" : \"CustomerIntern=
+alId\",\r\n                      \"firstName\" : \"Jenny\",\r\n            =
+          \"lastName\" : \"Grimes\"\r\n                    }\r\n           =
+       }\r\n                }, {\r\n                  \"authoriser\" : {\r\=
+n                    \"taskStatus\" : \"PENDING\",\r\n                    \=
+"user\" : {\r\n                      \"Id\" : \"72577096\",\r\n            =
+          \"IdScheme\" : \"CustomerInternalId\",\r\n                      \=
+"firstName\" : \"Carol\",\r\n                      \"lastName\" : \"Hills\"=
+\r\n                    }\r\n                  }\r\n                } ]\r\n=
+              }\r\n            } ]\r\n          }\r\n        } ]\r\n      }=
+\r\n    } ],\r\n    \"URL\" : \"https://localhost:3000/exp/customer/galaxy/=
+payment/v2/payments\"\r\n  }\r\n}"
+            },
+            "expiryDatetime": "2025-04-18T01:49:50Z",
+            "requestedDateTime": "2025-04-13T01:49:50Z",
+            "createdDateTime": "2025-04-13T01:49:50Z",
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "approvalData": {
+                    "overallMinNumOfApprovalsRequired": 0,
+                    "overallNumberOfApprovalsReceived": 0,
+                    "approvalCounters": [
+                        {
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "partyType": "Involved",
+                            "minNumOfApprovalsRequired": 0,
+                            "numberOfApprovalsReceived": 0
+                        }
+                    ],
+                    "approvers": [
+                        {
+                            "userId": "a58Wd",
+                            "userIdScheme": "CustomerInternalId",
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "digitalIdentityId": "8jtqPsInKmOWX9kophpOounIe=
+0VjFF10ZC9HcXkMKsCcI",
+                            "partyType": "Involved",
+                            "isDirector": true,
+                            "roleType": "Approver",
+                            "firstName": "string",
+                            "lastName": "string",
+                            "emailAddress": "string",
+                            "mobileNumber": "610049206",
+                            "type": "Digital_Consent",
+                            "method": "Click_to_accept",
+                            "status": "ApprovalPending",
+                            "captureDateTime": "2025-07-17T08:23:34.787Z",
+                            "notes": "string",
+                            "documents": {
+                                "isRequired": false,
+                                "isRedactionRequired": false,
+                                "files": [
+                                    {
+                                        "name": "string",
+                                        "category": "string",
+                                        "documentId": "string",
+                                        "repositoryId": "string",
+                                        "documentType": "string",
+                                        "consumerId": "string",
+                                        "productClass": "8",
+                                        "uploadedDateTime": "2025-07-17T08:=
+23:34.788Z"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "createdBy": {
+                "id": "string",
+                "idScheme": "StaffSalaryNumber",
+                "roleType": "Member",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            },
+            "initiator": {
+                "id": "string",
+                "idScheme": "StaffSalaryNumber",
+                "roleType": "Member",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            },
+            "onBehalfOfUser": {
+                "id": "79045520063",
+                "idScheme": "CustomerInternalId",
+                "customerType": "Individual",
+                "network": {
+                    "id": "12345678",
+                    "networkType": "Advanced"
+                },
+                "roleType": "Approver",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            }
+        },
+        {
+            "approvalWorkflowId": "string",
+            "approvalWorkflowExternalReferenceId": "string",
+            "brandSilo": "WPAC",
+            "brand": "WBC",
+            "type": "string",
+            "typeDescrption": "string",
+            "subType": "string",
+            "subTypeVariation": "string",
+            "requestGroup": "MEDB",
+            "serviceRequestId": "string",
+            "serviceRequestCategory": "SimpleServiceRequest",
+            "externalRequestId": "string",
+            "workflowStatus": "ApprovalPending",
+            "approvalWorkflowComments": "string",
+            // additionalInformation will hold the transactionPayload(Exp A=
+PI payload) &amp; entitlementsPayload as Json string
+            "additionalInformation": {
+                "entitlementPayload": "{\r\n  \"key\" : \"ThisIsTheActualKe=
+yValueButShouldBeAKeyId\",\r\n  \"hash\" : \"ff53498acdca2cc4e937b827875744=
+fdc56ddf2daab0b70466582d7b4e1f7874\",\r\n  \"alg\" : \"HMAC-SHA256\",\r\n  =
+\"makerRequest\" : {\r\n    \"header\" : {\r\n      \"Accept\" : [ \"applic=
+ation/json\" ],\r\n      \"Connection\" : [ \"keep-alive\" ],\r\n      \"Co=
+ntent-Length\" : [ \"2016\" ],\r\n      \"Content-Type\" : [ \"application/=
+json\" ],\r\n      \"Host\" : [ \"localhost:3000\" ],\r\n      \"User-Agent=
+\" : [ \"Apache-HttpClient/4.5.7 (Java/1.8.0_341)\" ],\r\n      \"X-Forward=
+ed-For\" : [ \"172.17.0.1\" ],\r\n      \"protected-orgId\" : [ \"32896172\=
+" ]\r\n    },\r\n    \"payload\" : {\r\n                    \"beneficiaries=
+\": {\r\n                        \"id\": \"d5a8761c-8062-4b88-9cb6-46afb2a5=
+ec5d\",\r\n                        \"externalId\": \"d5a8761c-8062-4b88-9cb=
+6-46afb2a5ec5d\",\r\n                        \"nickname\": \"ABC company\",=
+\r\n                        \"currency\": \"AUD\",\r\n                     =
+   \"type\": \"BSB_AND_ACC\",\r\n                        \"account\": {\r\n=
+                            \"accountId\": {\r\n                           =
+     \"BSB\": \"014111\",\r\n                                \"accountNumbe=
+r\": \"084765\"\r\n                            },\r\n                      =
+      \"bankName\": \"ANZ Bank\",\r\n                            \"accountN=
+ame\": \"ANZ Joint\"\r\n                        }\r\n                    }\=
+r\n                },\r\n    \"id\" : \"232234242ASDFASfS\",\r\n    \"type\=
+" : \"w1cpayments\",\r\n    \"subType\" : \"payments\",\r\n    \"workflowId=
+s\" : [ ],\r\n    \"action\" : \"INITIATE_PAYMENT\",\r\n    \"method\" : \"=
+POST\",\r\n    \"orgId\" : \"32896172\",\r\n    \"status\" : \"NEW\",\r\n  =
+  \"requestGroup\" : \"Customer\",\r\n    \"requestedAt\" : \"2025-07-30T12=
+:25:20.789610285Z\",\r\n    \"requestedBy\" : {\r\n      \"user\" : {\r\n  =
+      \"Id\" : \"46362110015\",\r\n        \"IdScheme\" : \"CustomerInterna=
+lId\",\r\n        \"firstName\" : \"John\",\r\n        \"lastName\" : \"Cit=
+izen\"\r\n      }\r\n    },\r\n    \"initiatedBy\" : {\r\n      \"user\" : =
+{\r\n        \"Id\" : \"46362110015\",\r\n        \"IdScheme\" : \"Customer=
+InternalId\",\r\n        \"firstName\" : \"John\",\r\n        \"lastName\" =
+: \"Citizen\"\r\n      }\r\n    },\r\n    \"authorityModels\" : [ {\r\n    =
+  \"authorityModel\" : {\r\n        \"id\" : \"8325f807-c4f2-463c-a3c5-8b9b=
+4eb005ae\",\r\n        \"name\" : \"Payment - Dual Approvers\",\r\n        =
+\"steps\" : [ {\r\n          \"step\" : {\r\n            \"id\" : \"4b4ae8f=
+1-a460-4b1d-a409-e587998e836b\",\r\n            \"name\" : \"First approver=
+s\",\r\n            \"minAuthorisers\" : 1,\r\n            \"status\" : \"N=
+EW\",\r\n            \"createdAt\" : \"2025-07-30T12:25:20.789610285Z\",\r\=
+n            \"authoriserGroups\" : [ {\r\n              \"authoriserGroup\=
+" : {\r\n                \"id\" : \"b49ab8c0-c958-4d4d-96a3-5d68149687b2\",=
+\r\n                \"name\" : \"Base Approvers\",\r\n                \"aut=
+horisers\" : [ {\r\n                  \"authoriser\" : {\r\n               =
+     \"taskStatus\" : \"PENDING\",\r\n                    \"user\" : {\r\n =
+                     \"Id\" : \"46362110018\",\r\n                      \"I=
+dScheme\" : \"CustomerInternalId\",\r\n                      \"firstName\" =
+: \"Priyanka\",\r\n                      \"lastName\" : \"Patel\"\r\n      =
+              }\r\n                  }\r\n                }, {\r\n         =
+         \"authoriser\" : {\r\n                    \"taskStatus\" : \"PENDI=
+NG\",\r\n                    \"user\" : {\r\n                      \"Id\" :=
+ \"46362110017\",\r\n                      \"IdScheme\" : \"CustomerInterna=
+lId\",\r\n                      \"firstName\" : \"Sanjay\",\r\n            =
+          \"lastName\" : \"Sharma\"\r\n                    }\r\n           =
+       }\r\n                }, {\r\n                  \"authoriser\" : {\r\=
+n                    \"taskStatus\" : \"PENDING\",\r\n                    \=
+"user\" : {\r\n                      \"Id\" : \"46362110016\",\r\n         =
+             \"IdScheme\" : \"CustomerInternalId\",\r\n                    =
+  \"firstName\" : \"Bhavya\",\r\n                      \"lastName\" : \"P\"=
+\r\n                    }\r\n                  }\r\n                }, {\r\=
+n                  \"authoriser\" : {\r\n                    \"taskStatus\"=
+ : \"PENDING\",\r\n                    \"user\" : {\r\n                    =
+  \"Id\" : \"46362110015\",\r\n                      \"IdScheme\" : \"Custo=
+merInternalId\",\r\n                      \"firstName\" : \"Durgabhavani\",=
+\r\n                      \"lastName\" : \"Chikatla\"\r\n                  =
+  }\r\n                  }\r\n                }, {\r\n                  \"a=
+uthoriser\" : {\r\n                    \"taskStatus\" : \"PENDING\",\r\n   =
+                 \"user\" : {\r\n                      \"Id\" : \"68298145\=
+",\r\n                      \"IdScheme\" : \"CustomerInternalId\",\r\n     =
+                 \"firstName\" : \"Shawn\",\r\n                      \"last=
+Name\" : \"Lockman\"\r\n                    }\r\n                  }\r\n   =
+             }, {\r\n                  \"authoriser\" : {\r\n              =
+      \"taskStatus\" : \"PENDING\",\r\n                    \"user\" : {\r\n=
+                      \"Id\" : \"31370215\",\r\n                      \"IdS=
+cheme\" : \"CustomerInternalId\",\r\n                      \"firstName\" : =
+\"Jenny\",\r\n                      \"lastName\" : \"Grimes\"\r\n          =
+          }\r\n                  }\r\n                }, {\r\n             =
+     \"authoriser\" : {\r\n                    \"taskStatus\" : \"PENDING\"=
+,\r\n                    \"user\" : {\r\n                      \"Id\" : \"7=
+2577096\",\r\n                      \"IdScheme\" : \"CustomerInternalId\",\=
+r\n                      \"firstName\" : \"Carol\",\r\n                    =
+  \"lastName\" : \"Hills\"\r\n                    }\r\n                  }\=
+r\n                } ]\r\n              }\r\n            } ]\r\n          }=
+\r\n        } ]\r\n      }\r\n    } ],\r\n    \"URL\" : \"https://localhost=
+:3000/exp/customer/galaxy/payment/v2/payments\"\r\n  }\r\n}"
+            },
+            "expiryDatetime": "2025-04-18T01:49:50Z",
+            "requestedDateTime": "2025-04-13T01:49:50Z",
+            "createdDateTime": "2025-04-13T01:49:50Z",
+            "approvers": [
+                {
+                    "userId": "string",
+                    "userIdScheme": "CustomerInternalId",
+                    "digitalIdentityId": "string",
+                    "partyType": "Involved",
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string",
+                    "type": "Digital_Consent",
+                    "method": "Click_to_accept",
+                    "status": "ApprovalPending",
+                    "captureDateTime": "2025-05-04T23:28:46.625Z",
+                    "notes": "string",
+                    "documents": {
+                        "isRequired": false,
+                        "isRedactionRequired": false,
+                        "files": [
+                            {
+                                "name": "string",
+                                "category": "string",
+                                "uploadedDateTime": "2025-05-04T23:28:46.62=
+5Z"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "createdBy": {
+                "id": "string",
+                "idScheme": "StaffSalaryNumber",
+                "roleType": "Member",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            },
+            "initiator": {
+                "id": "string",
+                "idScheme": "StaffSalaryNumber",
+                "roleType": "Member",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            },
+            "onBehalfOfUser": {
+                "id": "79045520063",
+                "idScheme": "CustomerInternalId",
+                "customerType": "Individual",
+                "network": {
+                    "id": "12345678",
+                    "networkType": "Advanced"
+                },
+                "roleType": "Approver",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            }
+        }
+    ],
+    "paging": {
+        "count": 0,
+        "pageSize": 0,
+        "nextPageKey": "string",
+        "previousPageKey": "string"
+    }
+}
+
+
+
+
+// Exp Api will read the DSR response and deserialise the payload json obje=
+ct held within the data[i].additionalInformation.entitlementPayload.makerRe=
+quest.payload to the respective Exp API request payload(payments/beneficiar=
+y payload). The transformed Widget Exp API response will be as below.=20
+
+// Note: The above deserialisation approach will have to be adopted only fo=
+r Payments and Beneficiary type/subtype, for any other type/subtype(to supp=
+ort staff requirements), the Exp API will not deserialise the payload json =
+object held within the data[i].additionalInformation.entitlementPayload.mak=
+erRequest.payload, instead it will just return the Exp API request payload =
+mapped against "payloadString" attribute in the Exp API response
+&nbsp;
+
+{
+    "entities": {
+        "approvalWorkflowList": [
+            {
+                "approvalWorkflowId": "string",
+                "approvalWorkflowExternalReferenceId": "string",
+                "brandSilo": "WPAC",
+                "brand": "WBC",
+                "type": "string",
+                "typeDescrption": "string",
+                "subType": "string",
+                "subTypeVariation": "string",
+                "requestGroup": "MEDB",
+                "serviceRequestId": "string",
+                "serviceRequestCategory": "SimpleServiceRequest",
+                "externalRequestId": "string",
+                "workflowStatus": "ApprovalPending",
+                "approvalWorkflowComments": "string",
+                "expiryDatetime": "2025-04-18T01:49:50Z",
+                "requestedDateTime": "2025-04-13T01:49:50Z",
+                "createdDateTime": "2025-04-13T01:49:50Z",
+                "approvers": [
+                    {
+                        "userId": "string",
+                        "userIdScheme": "CustomerInternalId",
+                        "digitalIdentityId": "string",
+                        "partyType": "Involved",
+                        "roleType": "Approver",
+                        "firstName": "string",
+                        "lastName": "string",
+                        "email": "string",
+                        "mobile": "string",
+                        "type": "Digital_Consent",
+                        "method": "Click_to_accept",
+                        "status": "ApprovalPending",
+                        "captureDateTime": "2025-05-04T23:28:46.625Z",
+                        "notes": "string",
+                        "documents": {
+                            "isRequired": false,
+                            "isRedactionRequired": false,
+                            "files": [
+                                {
+                                    "name": "string",
+                                    "category": "string",
+                                    "uploadedDateTime": "2025-05-04T23:28:4=
+6.625Z"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "createdBy": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "initiator": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "onBehalfOfUser": {
+                    "id": "79045520063",
+                    "idScheme": "CustomerInternalId",
+                    "customerType": "Individual",
+                    "network": {
+                        "id": "12345678",
+                        "networkType": "Advanced"
+                    },
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                // Exp API will deserialise the json string payload to the =
+respective object model based on the subType(AddBeneficiary, AmendBeneficia=
+ry &amp; ArchiveBeneficiary)
+                "payloadObject": {
+                    "beneficiaries": [
+                        {
+                            "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+                            "nickname": "ABC company",
+                            "currency": "AUD",
+                            "type": "BSB_AND_ACC",
+                            "account": {
+                                "accountId": {
+                                    "BSB": "014111",
+                                    "accountNumber": "084765"
+                                },
+                                "bankName": "ANZ Bank",
+                                "accountName": "ANZ Joint"
+                            }
+                        }
+                    ]
+                },
+                "payloadString": "Exp API request payload in json string(ma=
+pped from data[i].additionalInformation.entitlementPayload.makerRequest.pay=
+load from DSR response)",
+                "entitlementsPayload": "Entitlements payload in json string=
+(mapped from data[i].additionalInformation.entitlementPayload from DSR resp=
+onse)"
+            },
+            {
+                "approvalWorkflowId": "string",
+                "approvalWorkflowExternalReferenceId": "string",
+                "brandSilo": "WPAC",
+                "brand": "WBC",
+                "type": "string",
+                "typeDescrption": "string",
+                "subType": "string",
+                "subTypeVariation": "string",
+                "requestGroup": "MEDB",
+                "serviceRequestId": "string",
+                "serviceRequestCategory": "SimpleServiceRequest",
+                "externalRequestId": "string",
+                "workflowStatus": "ApprovalPending",
+                "approvalWorkflowComments": "string",
+                "expiryDatetime": "2025-04-18T01:49:50Z",
+                "requestedDateTime": "2025-04-13T01:49:50Z",
+                "createdDateTime": "2025-04-13T01:49:50Z",
+                "approvers": [
+                    {
+                        "userId": "string",
+                        "userIdScheme": "CustomerInternalId",
+                        "digitalIdentityId": "string",
+                        "partyType": "Involved",
+                        "roleType": "Approver",
+                        "firstName": "string",
+                        "lastName": "string",
+                        "email": "string",
+                        "mobile": "string",
+                        "type": "Digital_Consent",
+                        "method": "Click_to_accept",
+                        "status": "ApprovalPending",
+                        "captureDateTime": "2025-05-04T23:28:46.625Z",
+                        "notes": "string",
+                        "documents": {
+                            "isRequired": false,
+                            "isRedactionRequired": false,
+                            "files": [
+                                {
+                                    "name": "string",
+                                    "category": "string",
+                                    "uploadedDateTime": "2025-05-04T23:28:4=
+6.625Z"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "createdBy": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "initiator": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "onBehalfOfUser": {
+                    "id": "79045520063",
+                    "idScheme": "CustomerInternalId",
+                    "customerType": "Individual",
+                    "network": {
+                        "id": "12345678",
+                        "networkType": "Advanced"
+                    },
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                // Exp API will deserialise the json string payload to the =
+respective object model based on the subType(AddBeneficiary, AmendBeneficia=
+ry &amp; ArchiveBeneficiary)
+                "payloadObject": {
+                    "beneficiaries": {
+                        "id": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d",
+                        "externalId": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d=
+",
+                        "nickname": "ABC company",
+                        "currency": "AUD",
+                        "type": "BSB_AND_ACC",
+                        "account": {
+                            "accountId": {
+                                "BSB": "014111",
+                                "accountNumber": "084765"
+                            },
+                            "bankName": "ANZ Bank",
+                            "accountName": "ANZ Joint"
+                        }
+                    }
+                },
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "payloadString": "E=
+xp API request payload in json string(mapped from data[i].additionalInforma=
+tion.entitlementPayload.makerRequest.payload from DSR response)",
+                "entitlementsPayload": "Entitlements payload in json string=
+(mapped from data[i].additionalInformation.entitlementPayload from DSR resp=
+onse)"
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+        ],
+        "paging": {
+            "count": 0,
+            "pageSize": 0,
+            "nextPageKey": "string",
+            "previousPageKey": "string"
+        }
+    }
+}</pre>
+</div>
+</div>
+<p><br></p>
+</div></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">2</td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"2" class=3D"=
+confluenceTd"><p>Common Banner above the Authorisations List view</p><p><br=
+></p><p><br></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(23,43,77);">"Authorisation required" count</span>=
+</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+5</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(0,0,0);"><strong>&nbsp;</strong></span></p><sp=
+an style=3D"color: rgb(255,0,0);"><strong style=3D"text-align: left;">Not i=
+n scope for August 2025 release</strong></span>
+</div></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">3</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(23,43,77);">"Partially authorised" count</span></=
+td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+12</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(0,0,0);"><strong>&nbsp;</strong></span></p><sp=
+an style=3D"color: rgb(255,0,0);"><strong style=3D"text-align: left;">Not i=
+n scope for August 2025 release</strong></span>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">4</td>
+<td class=3D"highlight-#b3d4ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"7" data-highlight-colour=3D"#b3d4ff"><p><stron=
+g>FOR EACH WORKFLOW IN&nbsp;<span style=3D"color: rgb(163,21,21);">entities=
+.workflows</span>, DISPLAY THE WORKFLOW REQUEST UNDER "For you to authorise=
+" LIST VIEW</strong></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">5</td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"7" class=3D"=
+confluenceTd">"For you to authorise" List row item</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><span style=3D"color: rgb(24,27,37);">Create=
+d<span>&nbsp;</span></span><span style=3D"color: rgb(24,27,37);">date</span=
+></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>28 Feb 2025</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"7" class=3D"=
+confluenceTd"><a href=3D"/display/ARTC/galaxy-maker-checker-widget-exp-v1#g=
+alaxymakercheckerwidgetexpv1-POST/approvalWorkflowList">galaxy-maker-checke=
+r-widget-exp-v1#POST/approvalWorkflowList</a><br><p><span style=3D"color: r=
+gb(0,0,0);"><br></span><span style=3D"color: rgb(0,0,0);"><br></span><span =
+style=3D"color: rgb(0,0,0);"><br></span><span style=3D"color: rgb(0,0,0);">=
+<br></span><span style=3D"color: rgb(0,0,0);">&nbsp;</span><br><span style=
+=3D"color: rgb(0,0,0);"><br></span><span style=3D"color: rgb(0,0,0);"><br><=
+/span><span style=3D"color: rgb(0,0,0);"><br></span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"7" class=3D"=
+confluenceTd"><br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">entities.approvalWorkflowList[i].req=
+uestedDateTime</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;">Format to<span>&nbsp;</span><strong>AEST<spa=
+n>&nbsp;</span></strong>date/time</p><p style=3D"text-align: left;"><span>2=
+7 May 2024 (DD&nbsp;<span style=3D"color: rgb(82,82,82);">MON&nbsp;</span>Y=
+YYY)</span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">6</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">Beneficiary nickname</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>Payroll A/C Apple Tree Ltd</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">Refer to the "Processing Conditio=
+n/Logic" column for mapping details</span></p><p><br></p><p><br></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attribute to display on the UI
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "addbeneficiary") the=
+n
+{&nbsp;
+&nbsp; entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].nick=
+name
+}
+
+
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "amendbeneficiary") |=
+| (entities.approvalWorkflowList[i].subType =3D=3D=3D "archivebeneficiary")=
+ then
+{&nbsp;
+&nbsp; entities.approvalWorkflowList[i].payloadObject.beneficiary.nickname
+}</pre>
+</div>
+</div>
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">7</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>Beneficiary details</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>Westpac Joint</span></p><p><span>032-000 111111111</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">Refer to the "Processing Conditio=
+n/Logic" column for mapping details</span></p><p><br></p><p><br></p><p><br>=
+</p><p><br></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attributes to display on the UI
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "addbeneficiary") the=
+n
+{       =20
+ &nbsp;entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].acco=
+unt.accountName
+&nbsp; entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].acco=
+unt.bsb
+&nbsp; entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].acco=
+unt.accountNumber
+
+}
+
+
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "amendbeneficiary") |=
+| (entities.approvalWorkflowList[i].subType =3D=3D=3D "archivebeneficiary")=
+ then
+{&nbsp;
+&nbsp;entities.approvalWorkflowList[i].payloadObject.beneficiary.account.ac=
+countName
+&nbsp;entities.approvalWorkflowList[i].payloadObject.beneficiary.account.bs=
+b
+&nbsp;entities.approvalWorkflowList[i].payloadObject.beneficiary.account.ac=
+countNumber
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">8</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><span style=3D"color: rgb(24,27,37);">Type</=
+span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>BSB &amp; account number</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">Refer to the "Processing Condition/L=
+ogic" column for mapping details</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attribute to display on the UI
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "addbeneficiary") the=
+n
+{=20
+ &nbsp;if (entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].=
+type =3D=3D=3D BSB)    then
+     // Display BSB &amp; account number on the UI
+  else if(entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].t=
+ype =3D=3D=3D PayId) then
+&nbsp;   // Display PayID on the UI
+}
+
+
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "amendbeneficiary") |=
+| (entities.approvalWorkflowList[i].subType =3D=3D=3D "archivebeneficiary")=
+ then
+{&nbsp;
+&nbsp; if (entities.approvalWorkflowList[i].payloadObject.beneficiary.type =
+=3D=3D=3D BSB)    then
+     // Display BSB &amp; account number on the UI
+  else if(entities.approvalWorkflowList[i].payloadObject.beneficiary.type =
+=3D=3D=3D PayId) then
+    // Display PayID on the UI
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">9</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><span style=3D"color: rgb(24,27,37);">Author=
+isation Type</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>New beneficiary</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">entities.approvalWorkflowList[i].sub=
+Type</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper"><br>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">10</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><span style=3D"color: rgb(24,27,37);">Status=
+</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>Submitted</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">entities.approvalWorkflowList[i].wor=
+kflowStatus</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;"><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">11</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><span style=3D"color: rgb(24,27,37);">Action=
+s</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>...</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">&nbsp;</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;">For Maker, display the following menu items =
+on click of ... Actions button,</p>
+<ul>
+<li>View Payment Details</li>
+</ul>
+<p style=3D"text-align: left;"><br></p>
+<p style=3D"text-align: left;">For Checker, display the following menu item=
+s on click of ... Actions button,</p>
+<ul>
+<li>Authorise or reject payment</li>
+</ul>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">12</td>
+<td class=3D"highlight-#b3d4ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"7" data-highlight-colour=3D"#b3d4ff"><strong t=
+itle=3D"">Checker Action - On click of "<span>Authorise or reject payment</=
+span>"</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">13</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><span style=3D"color: rgb(24,27,37);">&nbsp;=
+</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>On click of "Authorise or reject payment" Action</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">entities.approvalWorkflowList[i].app=
+rovalWorkflowId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>On click of "Authorise or reject payment", load Payment Details Page by =
+passing&nbsp;<span> <span style=3D"color: rgb(163,21,21);">entities.approva=
+lWorkflowList[i].approvalWorkflowId</span></span><span>&nbsp;</span>&amp;<s=
+pan>&nbsp;</span><span style=3D"color: rgb(163,21,21);">viewType =3D Checke=
+r<span>&nbsp;</span></span>as route parameters</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+<h2 id=3D"AuthorisationsUIExpAPIMappingforBeneficiaries-Authorisations:&quo=
+t;Trackauthorisations&quot;view(makerview)-ExpAPIMapping">Authorisations: "=
+Track authorisations" view(maker view) - Exp API Mapping</h2>
+<p>Authorisation UX:<span> <a href=3D"https://dstsb2.axshare.com/#id=3Dordz=
+m1&amp;p=3D4_0_beneficiaries&amp;g=3D1" class=3D"external-link" rel=3D"nofo=
+llow">https://dstsb2.axshare.com/#id=3Dordzm1&amp;p=3D4_0_beneficiaries&amp=
+;g=3D1</a></span></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 121=
+.627%;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0">
+<thead class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false"><br></t=
+h>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+UI Section</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Field Name</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Example Value</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Exp API Endpoint</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Exp API Request</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Exp API Response</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Processing Condition/Logic</th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col style=3D"width: 0.905135%;">
+<col class=3D"" style=3D"width: 4.88703%;">
+<col class=3D"" style=3D"width: 5.57221%;">
+<col class=3D"" style=3D"width: 4.50909%;">
+<col class=3D"" style=3D"width: 11.1994%;">
+<col class=3D"" style=3D"width: 13.234%;">
+<col class=3D"" style=3D"width: 16.8816%;">
+<col class=3D"" style=3D"width: 42.818%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">1</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>On click of "Track authorisations" toggle button, get the workflow reque=
+sts for the logged in maker and display the same under "Track authorisation=
+s" list view</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><=
+br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p=
+><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>=
+<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></=
+p><p><br></p><p><br></p><p><br></p><p><br></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"3" class=3D"=
+confluenceTd"><p><a href=3D"/display/ARTC/galaxy-maker-checker-widget-exp-v=
+1#galaxymakercheckerwidgetexpv1-POST/approvalWorkflowList">galaxy-maker-che=
+cker-widget-exp-v1#POST/approvalWorkflowList</a></p><p><span style=3D"color=
+: rgb(0,0,0);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"3" class=3D"=
+confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong style=3D"text-align: left;"><span style=3D"color: rgb(0,0,0);">M=
+aker Request Payload to display workflow requests under "Track authorisatio=
+ns" view</span></strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+    "searchBy": "createdBy",
+    "createdByUserId": "4566789",
+    "workflowStatus": [
+        "ApprovalPending",
+        "Rejected"
+    ],
+    "types": [
+        "w1cbeneficiary"
+    ],
+    "subTypes": [
+        "addbeneficiary",
+        "amendbeneficiary",
+        "archivebeneficiary"
+    ],
+ &nbsp; &nbsp;"requestGroup": "Customer",
+    "approvalChannel": "W1C-Customer"
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+<p style=3D"text-align: left;"><br></p>
+<pre data-bidi-marker=3D"true">Mapping logic for createdByUserId(maker)</pr=
+e>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Conf=
+luence">//When calling DSR CAP API to search for maker or checker workflow =
+requests, Exp API will have to fetch the required UserID from either x-user=
+id request header or from x-access-token request header and then pass the r=
+equired userid accordingly
+ =20
+if(request.searchBy =3D=3D=3D "createdByUserId")
+{
+   var createdByUserId =3D apiHeaders['x-userId'] //or read userId from api=
+Headers['x-access-token']
+   // Map the above createdByUserId to DSR request.createdByUserId when cal=
+ling DSR CAP API to search for maker workflow requests
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+<p style=3D"text-align: left;"><u style=3D"text-align: left;"><strong>Query=
+ String:</strong></u><span style=3D"color: rgb(23,43,77);"><span>&nbsp;<str=
+ong style=3D"text-align: left;">pageSize =3D 1000</strong></span></span></p=
+>
+<p style=3D"text-align: left;"><span style=3D"color: rgb(23,43,77);">The AP=
+I also accepts the pagination query string parameters<span>&nbsp;</span></s=
+pan><strong style=3D"text-align: left;">pageSize<span>&nbsp;</span></strong=
+><span style=3D"color: rgb(23,43,77);">&amp;<span>&nbsp;</span></span><stro=
+ng style=3D"text-align: left;">nextPageKey</strong></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><strong><span style=3D"color: rgb(0,0,0);">&nbsp;</span></strong></p>
+<p><strong><span style=3D"color: rgb(0,0,0);">&nbsp;</span></strong></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+    "entities": {
+        "approvalWorkflowList": [
+            {
+                "approvalWorkflowId": "string",
+                "approvalWorkflowExternalReferenceId": "string",
+                "brandSilo": "WPAC",
+                "brand": "WBC",
+                "type": "string",
+                "typeDescrption": "string",
+                "subType": "string",
+                "subTypeVariation": "string",
+                "requestGroup": "MEDB",
+                "serviceRequestId": "string",
+                "serviceRequestCategory": "SimpleServiceRequest",
+                "externalRequestId": "string",
+                "workflowStatus": "ApprovalPending",
+                "approvalWorkflowComments": "string",
+                "expiryDatetime": "2025-04-18T01:49:50Z",
+                "requestedDateTime": "2025-04-13T01:49:50Z",
+                "createdDateTime": "2025-04-13T01:49:50Z",
+                "approvers": [
+                    {
+                        "userId": "string",
+                        "userIdScheme": "CustomerInternalId",
+                        "digitalIdentityId": "string",
+                        "partyType": "Involved",
+                        "roleType": "Approver",
+                        "firstName": "string",
+                        "lastName": "string",
+                        "email": "string",
+                        "mobile": "string",
+                        "type": "Digital_Consent",
+                        "method": "Click_to_accept",
+                        "status": "ApprovalPending",
+                        "captureDateTime": "2025-05-04T23:28:46.625Z",
+                        "notes": "string",
+                        "documents": {
+                            "isRequired": false,
+                            "isRedactionRequired": false,
+                            "files": [
+                                {
+                                    "name": "string",
+                                    "category": "string",
+                                    "uploadedDateTime": "2025-05-04T23:28:4=
+6.625Z"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "createdBy": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "initiator": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "onBehalfOfUser": {
+                    "id": "79045520063",
+                    "idScheme": "CustomerInternalId",
+                    "customerType": "Individual",
+                    "network": {
+                        "id": "12345678",
+                        "networkType": "Advanced"
+                    },
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                // Exp API will deserialise the json string payload to the =
+respective object model based on the subType(AddBeneficiary, AmendBeneficia=
+ry &amp; ArchiveBeneficiary)
+                "payloadObject": {
+                    "beneficiaries": [
+                        {
+                            "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+                            "nickname": "ABC company",
+                            "currency": "AUD",
+                            "type": "BSB_AND_ACC",
+                            "account": {
+                                "accountId": {
+                                    "BSB": "014111",
+                                    "accountNumber": "084765"
+                                },
+                                "bankName": "ANZ Bank",
+                                "accountName": "ANZ Joint"
+                            }
+                        }
+                    ],
+                    "entitlements": {
+                        "authorisation": {
+                            "channelRequestId": "d0868661-b955-4e76-9f15-d9=
+7626f7df6b" //  uuid generated by UI as beneficiary id=20
+                        }
+                    }
+                },
+                "payloadString": "Exp API request payload in json string",
+                "entitlementsPayload": "Entitlements payload in json string=
+"
+            },
+            {
+                "approvalWorkflowId": "string",
+                "approvalWorkflowExternalReferenceId": "string",
+                "brandSilo": "WPAC",
+                "brand": "WBC",
+                "type": "string",
+                "typeDescrption": "string",
+                "subType": "string",
+                "subTypeVariation": "string",
+                "requestGroup": "MEDB",
+                "serviceRequestId": "string",
+                "serviceRequestCategory": "SimpleServiceRequest",
+                "externalRequestId": "string",
+                "workflowStatus": "ApprovalPending",
+                "approvalWorkflowComments": "string",
+                "expiryDatetime": "2025-04-18T01:49:50Z",
+                "requestedDateTime": "2025-04-13T01:49:50Z",
+                "createdDateTime": "2025-04-13T01:49:50Z",
+                "approvalData": {
+                    "overallMinNumOfApprovalsRequired": 0,
+                    "overallNumberOfApprovalsReceived": 0,
+                    "approvalCounters": [
+                        {
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "partyType": "Involved",
+                            "minNumOfApprovalsRequired": 0,
+                            "numberOfApprovalsReceived": 0
+                        }
+                    ],
+                    "approvers": [
+                        {
+                            "userId": "a58Wd",
+                            "userIdScheme": "CustomerInternalId",
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "digitalIdentityId": "8jtqPsInKmOWX9kophpOounIe=
+0VjFF10ZC9HcXkMKsCcI",
+                            "partyType": "Involved",
+                            "isDirector": true,
+                            "roleType": "Approver",
+                            "firstName": "string",
+                            "lastName": "string",
+                            "emailAddress": "string",
+                            "mobileNumber": "610049206",
+                            "type": "Digital_Consent",
+                            "method": "Click_to_accept",
+                            "status": "ApprovalPending",
+                            "captureDateTime": "2025-07-17T08:23:34.787Z",
+                            "notes": "string",
+                            "documents": {
+                                "isRequired": false,
+                                "isRedactionRequired": false,
+                                "files": [
+                                    {
+                                        "name": "string",
+                                        "category": "string",
+                                        "documentId": "string",
+                                        "repositoryId": "string",
+                                        "documentType": "string",
+                                        "consumerId": "string",
+                                        "productClass": "8",
+                                        "uploadedDateTime": "2025-07-17T08:=
+23:34.788Z"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "createdBy": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "initiator": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "onBehalfOfUser": {
+                    "id": "79045520063",
+                    "idScheme": "CustomerInternalId",
+                    "customerType": "Individual",
+                    "network": {
+                        "id": "12345678",
+                        "networkType": "Advanced"
+                    },
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                // Exp API will deserialise the json string payload to the =
+respective object model based on the subType(AddBeneficiary, AmendBeneficia=
+ry &amp; ArchiveBeneficiary)
+                "payloadObject": {
+                    "beneficiaries": {
+                        "id": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d",
+                        "externalId": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d=
+",
+                        "nickname": "ABC company",
+                        "currency": "AUD",
+                        "type": "BSB_AND_ACC",
+                        "account": {
+                            "accountId": {
+                                "BSB": "014111",
+                                "accountNumber": "084765"
+                            },
+                            "bankName": "ANZ Bank",
+                            "accountName": "ANZ Joint"
+                        }
+                    }
+                },
+                "payloadString": "Exp API request payload in json string",
+                "entitlementsPayload": "Entitlements payload in json string=
+"
+            }
+        ],
+        "paging": {
+            "count": 0,
+            "pageSize": 0,
+            "nextPageKey": "string",
+            "previousPageKey": "string"
+        }
+    }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(0,0,0);"><u><strong>Maker:</strong></u><strong=
+> </strong>As per the Maker request, the API will return the list of workfl=
+owsc created by the logged in Maker.&nbsp;</span></p>
+<p><br></p>
+<p><br></p>
+<p><u><strong><span style=3D"color: rgb(23,43,77);">Exp API Response proces=
+sing</span></strong></u></p>
+<p><span style=3D"color: rgb(23,43,77);">The Exp API will loop through the =
+service Request list and deserialise the API Json string to the respective =
+object</span></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence; collapse: true" data-theme=3D"Confl=
+uence">//When calling DSR CAP API to search for maker or checker workflow r=
+equests, Exp API will have to fetch the required UserID from either x-useri=
+d request header or from x-access-token request header and then pass the re=
+quired userid accordingly
+ =20
+if(request.searchBy =3D=3D=3D "createdByUserId")
+{
+   var createdByUserId =3D apiHeaders['x-userId'] //or read userId from api=
+Headers['x-access-token']
+   // Map the above createdByUserId to DSR request.createdByUserId when cal=
+ling DSR CAP API to search for maker workflow requests
+}
+
+
+//The DSR API response will be as below,
+
+{
+    "data": [
+        {
+            "approvalWorkflowId": "string",
+            "approvalWorkflowExternalReferenceId": "string",
+            "brandSilo": "WPAC",
+            "brand": "WBC",
+            "type": "string",
+            "typeDescrption": "string",
+            "subType": "string",
+            "subTypeVariation": "string",
+            "requestGroup": "MEDB",
+            "serviceRequestId": "string",
+            "serviceRequestCategory": "SimpleServiceRequest",
+            "externalRequestId": "string",
+            "workflowStatus": "ApprovalPending",
+            "approvalWorkflowComments": "string",
+            // additionalInformation will hold the Exp API request payload =
+&amp; entitlementsPayload as Json string
+            "additionalInformation": {
+                "entitlementPayload": "{\r\n  \"key\" : \"ThisIsTheActualKe=
+yValueButShouldBeAKeyId\",\r\n  \"hash\" : \"ff53498acdca2cc4e937b827875744=
+fdc56ddf2daab0b70466582d7b4e1f7874\",\r\n  \"alg\" : \"HMAC-SHA256\",\r\n  =
+\"makerRequest\" : {\r\n    \"header\" : {\r\n      \"Accept\" : [ \"applic=
+ation/json\" ],\r\n      \"Connection\" : [ \"keep-alive\" ],\r\n      \"Co=
+ntent-Length\" : [ \"2016\" ],\r\n      \"Content-Type\" : [ \"application/=
+json\" ],\r\n      \"Host\" : [ \"localhost:3000\" ],\r\n      \"User-Agent=
+\" : [ \"Apache-HttpClient/4.5.7 (Java/1.8.0_341)\" ],\r\n      \"X-Forward=
+ed-For\" : [ \"172.17.0.1\" ],\r\n      \"protected-orgId\" : [ \"32896172\=
+" ]\r\n    },\r\n    \"payload\" : {\r\n    \"beneficiaries\": [\r\n       =
+ {\r\n            \"id\": \"d0868661-b955-4e76-9f15-d97626f7df6b\",\r\n    =
+        \"nickname\": \"ABC company\",\r\n            \"currency\": \"AUD\"=
+,\r\n            \"type\": \"BSB_AND_ACC\",\r\n            \"account\": {\r=
+\n                \"accountId\": {\r\n                    \"BSB\": \"014111=
+\",\r\n                    \"accountNumber\": \"084765\"\r\n               =
+ },\r\n                \"bankName\": \"ANZ Bank\",\r\n                \"acc=
+ountName\": \"ANZ Joint\"\r\n            }\r\n        }\r\n    ]\r\n},\r\n =
+   \"id\" : \"232234242ASDFASfS\",\r\n    \"type\" : \"w1cpayments\",\r\n  =
+  \"subType\" : \"payments\",\r\n    \"workflowIds\" : [ ],\r\n    \"action=
+\" : \"INITIATE_PAYMENT\",\r\n    \"method\" : \"POST\",\r\n    \"orgId\" :=
+ \"32896172\",\r\n    \"status\" : \"NEW\",\r\n    \"requestGroup\" : \"Cus=
+tomer\",\r\n    \"requestedAt\" : \"2025-07-30T12:25:20.789610285Z\",\r\n  =
+  \"requestedBy\" : {\r\n      \"user\" : {\r\n        \"Id\" : \"463621100=
+15\",\r\n        \"IdScheme\" : \"CustomerInternalId\",\r\n        \"firstN=
+ame\" : \"John\",\r\n        \"lastName\" : \"Citizen\"\r\n      }\r\n    }=
+,\r\n    \"initiatedBy\" : {\r\n      \"user\" : {\r\n        \"Id\" : \"46=
+362110015\",\r\n        \"IdScheme\" : \"CustomerInternalId\",\r\n        \=
+"firstName\" : \"John\",\r\n        \"lastName\" : \"Citizen\"\r\n      }\r=
+\n    },\r\n    \"authorityModels\" : [ {\r\n      \"authorityModel\" : {\r=
+\n        \"id\" : \"8325f807-c4f2-463c-a3c5-8b9b4eb005ae\",\r\n        \"n=
+ame\" : \"Payment - Dual Approvers\",\r\n        \"steps\" : [ {\r\n       =
+   \"step\" : {\r\n            \"id\" : \"4b4ae8f1-a460-4b1d-a409-e587998e8=
+36b\",\r\n            \"name\" : \"First approvers\",\r\n            \"minA=
+uthorisers\" : 1,\r\n            \"status\" : \"NEW\",\r\n            \"cre=
+atedAt\" : \"2025-07-30T12:25:20.789610285Z\",\r\n            \"authoriserG=
+roups\" : [ {\r\n              \"authoriserGroup\" : {\r\n                \=
+"id\" : \"b49ab8c0-c958-4d4d-96a3-5d68149687b2\",\r\n                \"name=
+\" : \"Base Approvers\",\r\n                \"authorisers\" : [ {\r\n      =
+            \"authoriser\" : {\r\n                    \"taskStatus\" : \"PE=
+NDING\",\r\n                    \"user\" : {\r\n                      \"Id\=
+" : \"46362110018\",\r\n                      \"IdScheme\" : \"CustomerInte=
+rnalId\",\r\n                      \"firstName\" : \"Priyanka\",\r\n       =
+               \"lastName\" : \"Patel\"\r\n                    }\r\n       =
+           }\r\n                }, {\r\n                  \"authoriser\" : =
+{\r\n                    \"taskStatus\" : \"PENDING\",\r\n                 =
+   \"user\" : {\r\n                      \"Id\" : \"46362110017\",\r\n     =
+                 \"IdScheme\" : \"CustomerInternalId\",\r\n                =
+      \"firstName\" : \"Sanjay\",\r\n                      \"lastName\" : \=
+"Sharma\"\r\n                    }\r\n                  }\r\n              =
+  }, {\r\n                  \"authoriser\" : {\r\n                    \"tas=
+kStatus\" : \"PENDING\",\r\n                    \"user\" : {\r\n           =
+           \"Id\" : \"46362110016\",\r\n                      \"IdScheme\" =
+: \"CustomerInternalId\",\r\n                      \"firstName\" : \"Bhavya=
+\",\r\n                      \"lastName\" : \"P\"\r\n                    }\=
+r\n                  }\r\n                }, {\r\n                  \"autho=
+riser\" : {\r\n                    \"taskStatus\" : \"PENDING\",\r\n       =
+             \"user\" : {\r\n                      \"Id\" : \"46362110015\"=
+,\r\n                      \"IdScheme\" : \"CustomerInternalId\",\r\n      =
+                \"firstName\" : \"Durgabhavani\",\r\n                      =
+\"lastName\" : \"Chikatla\"\r\n                    }\r\n                  }=
+\r\n                }, {\r\n                  \"authoriser\" : {\r\n       =
+             \"taskStatus\" : \"PENDING\",\r\n                    \"user\" =
+: {\r\n                      \"Id\" : \"68298145\",\r\n                    =
+  \"IdScheme\" : \"CustomerInternalId\",\r\n                      \"firstNa=
+me\" : \"Shawn\",\r\n                      \"lastName\" : \"Lockman\"\r\n  =
+                  }\r\n                  }\r\n                }, {\r\n     =
+             \"authoriser\" : {\r\n                    \"taskStatus\" : \"P=
+ENDING\",\r\n                    \"user\" : {\r\n                      \"Id=
+\" : \"31370215\",\r\n                      \"IdScheme\" : \"CustomerIntern=
+alId\",\r\n                      \"firstName\" : \"Jenny\",\r\n            =
+          \"lastName\" : \"Grimes\"\r\n                    }\r\n           =
+       }\r\n                }, {\r\n                  \"authoriser\" : {\r\=
+n                    \"taskStatus\" : \"PENDING\",\r\n                    \=
+"user\" : {\r\n                      \"Id\" : \"72577096\",\r\n            =
+          \"IdScheme\" : \"CustomerInternalId\",\r\n                      \=
+"firstName\" : \"Carol\",\r\n                      \"lastName\" : \"Hills\"=
+\r\n                    }\r\n                  }\r\n                } ]\r\n=
+              }\r\n            } ]\r\n          }\r\n        } ]\r\n      }=
+\r\n    } ],\r\n    \"URL\" : \"https://localhost:3000/exp/customer/galaxy/=
+payment/v2/payments\"\r\n  }\r\n}"
+            },
+            "expiryDatetime": "2025-04-18T01:49:50Z",
+            "requestedDateTime": "2025-04-13T01:49:50Z",
+            "createdDateTime": "2025-04-13T01:49:50Z",
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "approvalData": {
+                    "overallMinNumOfApprovalsRequired": 0,
+                    "overallNumberOfApprovalsReceived": 0,
+                    "approvalCounters": [
+                        {
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "partyType": "Involved",
+                            "minNumOfApprovalsRequired": 0,
+                            "numberOfApprovalsReceived": 0
+                        }
+                    ],
+                    "approvers": [
+                        {
+                            "userId": "a58Wd",
+                            "userIdScheme": "CustomerInternalId",
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "digitalIdentityId": "8jtqPsInKmOWX9kophpOounIe=
+0VjFF10ZC9HcXkMKsCcI",
+                            "partyType": "Involved",
+                            "isDirector": true,
+                            "roleType": "Approver",
+                            "firstName": "string",
+                            "lastName": "string",
+                            "emailAddress": "string",
+                            "mobileNumber": "610049206",
+                            "type": "Digital_Consent",
+                            "method": "Click_to_accept",
+                            "status": "ApprovalPending",
+                            "captureDateTime": "2025-07-17T08:23:34.787Z",
+                            "notes": "string",
+                            "documents": {
+                                "isRequired": false,
+                                "isRedactionRequired": false,
+                                "files": [
+                                    {
+                                        "name": "string",
+                                        "category": "string",
+                                        "documentId": "string",
+                                        "repositoryId": "string",
+                                        "documentType": "string",
+                                        "consumerId": "string",
+                                        "productClass": "8",
+                                        "uploadedDateTime": "2025-07-17T08:=
+23:34.788Z"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "createdBy": {
+                "id": "string",
+                "idScheme": "StaffSalaryNumber",
+                "roleType": "Member",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            },
+            "initiator": {
+                "id": "string",
+                "idScheme": "StaffSalaryNumber",
+                "roleType": "Member",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            },
+            "onBehalfOfUser": {
+                "id": "79045520063",
+                "idScheme": "CustomerInternalId",
+                "customerType": "Individual",
+                "network": {
+                    "id": "12345678",
+                    "networkType": "Advanced"
+                },
+                "roleType": "Approver",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            }
+        },
+        {
+            "approvalWorkflowId": "string",
+            "approvalWorkflowExternalReferenceId": "string",
+            "brandSilo": "WPAC",
+            "brand": "WBC",
+            "type": "string",
+            "typeDescrption": "string",
+            "subType": "string",
+            "subTypeVariation": "string",
+            "requestGroup": "MEDB",
+            "serviceRequestId": "string",
+            "serviceRequestCategory": "SimpleServiceRequest",
+            "externalRequestId": "string",
+            "workflowStatus": "ApprovalPending",
+            "approvalWorkflowComments": "string",
+            // additionalInformation will hold the Exp API payload &amp; en=
+titlementsPayload as Json string
+            "additionalInformation": {
+                "entitlementPayload": "{\r\n  \"key\" : \"ThisIsTheActualKe=
+yValueButShouldBeAKeyId\",\r\n  \"hash\" : \"ff53498acdca2cc4e937b827875744=
+fdc56ddf2daab0b70466582d7b4e1f7874\",\r\n  \"alg\" : \"HMAC-SHA256\",\r\n  =
+\"makerRequest\" : {\r\n    \"header\" : {\r\n      \"Accept\" : [ \"applic=
+ation/json\" ],\r\n      \"Connection\" : [ \"keep-alive\" ],\r\n      \"Co=
+ntent-Length\" : [ \"2016\" ],\r\n      \"Content-Type\" : [ \"application/=
+json\" ],\r\n      \"Host\" : [ \"localhost:3000\" ],\r\n      \"User-Agent=
+\" : [ \"Apache-HttpClient/4.5.7 (Java/1.8.0_341)\" ],\r\n      \"X-Forward=
+ed-For\" : [ \"172.17.0.1\" ],\r\n      \"protected-orgId\" : [ \"32896172\=
+" ]\r\n    },\r\n    \"payload\" : {\r\n                    \"beneficiaries=
+\": {\r\n                        \"id\": \"d5a8761c-8062-4b88-9cb6-46afb2a5=
+ec5d\",\r\n                        \"externalId\": \"d5a8761c-8062-4b88-9cb=
+6-46afb2a5ec5d\",\r\n                        \"nickname\": \"ABC company\",=
+\r\n                        \"currency\": \"AUD\",\r\n                     =
+   \"type\": \"BSB_AND_ACC\",\r\n                        \"account\": {\r\n=
+                            \"accountId\": {\r\n                           =
+     \"BSB\": \"014111\",\r\n                                \"accountNumbe=
+r\": \"084765\"\r\n                            },\r\n                      =
+      \"bankName\": \"ANZ Bank\",\r\n                            \"accountN=
+ame\": \"ANZ Joint\"\r\n                        }\r\n                    }\=
+r\n                },\r\n    \"id\" : \"232234242ASDFASfS\",\r\n    \"type\=
+" : \"w1cpayments\",\r\n    \"subType\" : \"payments\",\r\n    \"workflowId=
+s\" : [ ],\r\n    \"action\" : \"INITIATE_PAYMENT\",\r\n    \"method\" : \"=
+POST\",\r\n    \"orgId\" : \"32896172\",\r\n    \"status\" : \"NEW\",\r\n  =
+  \"requestGroup\" : \"Customer\",\r\n    \"requestedAt\" : \"2025-07-30T12=
+:25:20.789610285Z\",\r\n    \"requestedBy\" : {\r\n      \"user\" : {\r\n  =
+      \"Id\" : \"46362110015\",\r\n        \"IdScheme\" : \"CustomerInterna=
+lId\",\r\n        \"firstName\" : \"John\",\r\n        \"lastName\" : \"Cit=
+izen\"\r\n      }\r\n    },\r\n    \"initiatedBy\" : {\r\n      \"user\" : =
+{\r\n        \"Id\" : \"46362110015\",\r\n        \"IdScheme\" : \"Customer=
+InternalId\",\r\n        \"firstName\" : \"John\",\r\n        \"lastName\" =
+: \"Citizen\"\r\n      }\r\n    },\r\n    \"authorityModels\" : [ {\r\n    =
+  \"authorityModel\" : {\r\n        \"id\" : \"8325f807-c4f2-463c-a3c5-8b9b=
+4eb005ae\",\r\n        \"name\" : \"Payment - Dual Approvers\",\r\n        =
+\"steps\" : [ {\r\n          \"step\" : {\r\n            \"id\" : \"4b4ae8f=
+1-a460-4b1d-a409-e587998e836b\",\r\n            \"name\" : \"First approver=
+s\",\r\n            \"minAuthorisers\" : 1,\r\n            \"status\" : \"N=
+EW\",\r\n            \"createdAt\" : \"2025-07-30T12:25:20.789610285Z\",\r\=
+n            \"authoriserGroups\" : [ {\r\n              \"authoriserGroup\=
+" : {\r\n                \"id\" : \"b49ab8c0-c958-4d4d-96a3-5d68149687b2\",=
+\r\n                \"name\" : \"Base Approvers\",\r\n                \"aut=
+horisers\" : [ {\r\n                  \"authoriser\" : {\r\n               =
+     \"taskStatus\" : \"PENDING\",\r\n                    \"user\" : {\r\n =
+                     \"Id\" : \"46362110018\",\r\n                      \"I=
+dScheme\" : \"CustomerInternalId\",\r\n                      \"firstName\" =
+: \"Priyanka\",\r\n                      \"lastName\" : \"Patel\"\r\n      =
+              }\r\n                  }\r\n                }, {\r\n         =
+         \"authoriser\" : {\r\n                    \"taskStatus\" : \"PENDI=
+NG\",\r\n                    \"user\" : {\r\n                      \"Id\" :=
+ \"46362110017\",\r\n                      \"IdScheme\" : \"CustomerInterna=
+lId\",\r\n                      \"firstName\" : \"Sanjay\",\r\n            =
+          \"lastName\" : \"Sharma\"\r\n                    }\r\n           =
+       }\r\n                }, {\r\n                  \"authoriser\" : {\r\=
+n                    \"taskStatus\" : \"PENDING\",\r\n                    \=
+"user\" : {\r\n                      \"Id\" : \"46362110016\",\r\n         =
+             \"IdScheme\" : \"CustomerInternalId\",\r\n                    =
+  \"firstName\" : \"Bhavya\",\r\n                      \"lastName\" : \"P\"=
+\r\n                    }\r\n                  }\r\n                }, {\r\=
+n                  \"authoriser\" : {\r\n                    \"taskStatus\"=
+ : \"PENDING\",\r\n                    \"user\" : {\r\n                    =
+  \"Id\" : \"46362110015\",\r\n                      \"IdScheme\" : \"Custo=
+merInternalId\",\r\n                      \"firstName\" : \"Durgabhavani\",=
+\r\n                      \"lastName\" : \"Chikatla\"\r\n                  =
+  }\r\n                  }\r\n                }, {\r\n                  \"a=
+uthoriser\" : {\r\n                    \"taskStatus\" : \"PENDING\",\r\n   =
+                 \"user\" : {\r\n                      \"Id\" : \"68298145\=
+",\r\n                      \"IdScheme\" : \"CustomerInternalId\",\r\n     =
+                 \"firstName\" : \"Shawn\",\r\n                      \"last=
+Name\" : \"Lockman\"\r\n                    }\r\n                  }\r\n   =
+             }, {\r\n                  \"authoriser\" : {\r\n              =
+      \"taskStatus\" : \"PENDING\",\r\n                    \"user\" : {\r\n=
+                      \"Id\" : \"31370215\",\r\n                      \"IdS=
+cheme\" : \"CustomerInternalId\",\r\n                      \"firstName\" : =
+\"Jenny\",\r\n                      \"lastName\" : \"Grimes\"\r\n          =
+          }\r\n                  }\r\n                }, {\r\n             =
+     \"authoriser\" : {\r\n                    \"taskStatus\" : \"PENDING\"=
+,\r\n                    \"user\" : {\r\n                      \"Id\" : \"7=
+2577096\",\r\n                      \"IdScheme\" : \"CustomerInternalId\",\=
+r\n                      \"firstName\" : \"Carol\",\r\n                    =
+  \"lastName\" : \"Hills\"\r\n                    }\r\n                  }\=
+r\n                } ]\r\n              }\r\n            } ]\r\n          }=
+\r\n        } ]\r\n      }\r\n    } ],\r\n    \"URL\" : \"https://localhost=
+:3000/exp/customer/galaxy/payment/v2/payments\"\r\n  }\r\n}"
+            },
+            "expiryDatetime": "2025-04-18T01:49:50Z",
+            "requestedDateTime": "2025-04-13T01:49:50Z",
+            "createdDateTime": "2025-04-13T01:49:50Z",
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "approvalData": {
+                    "overallMinNumOfApprovalsRequired": 0,
+                    "overallNumberOfApprovalsReceived": 0,
+                    "approvalCounters": [
+                        {
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "partyType": "Involved",
+                            "minNumOfApprovalsRequired": 0,
+                            "numberOfApprovalsReceived": 0
+                        }
+                    ],
+                    "approvers": [
+                        {
+                            "userId": "a58Wd",
+                            "userIdScheme": "CustomerInternalId",
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "digitalIdentityId": "8jtqPsInKmOWX9kophpOounIe=
+0VjFF10ZC9HcXkMKsCcI",
+                            "partyType": "Involved",
+                            "isDirector": true,
+                            "roleType": "Approver",
+                            "firstName": "string",
+                            "lastName": "string",
+                            "emailAddress": "string",
+                            "mobileNumber": "610049206",
+                            "type": "Digital_Consent",
+                            "method": "Click_to_accept",
+                            "status": "ApprovalPending",
+                            "captureDateTime": "2025-07-17T08:23:34.787Z",
+                            "notes": "string",
+                            "documents": {
+                                "isRequired": false,
+                                "isRedactionRequired": false,
+                                "files": [
+                                    {
+                                        "name": "string",
+                                        "category": "string",
+                                        "documentId": "string",
+                                        "repositoryId": "string",
+                                        "documentType": "string",
+                                        "consumerId": "string",
+                                        "productClass": "8",
+                                        "uploadedDateTime": "2025-07-17T08:=
+23:34.788Z"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "createdBy": {
+                "id": "string",
+                "idScheme": "StaffSalaryNumber",
+                "roleType": "Member",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            },
+            "initiator": {
+                "id": "string",
+                "idScheme": "StaffSalaryNumber",
+                "roleType": "Member",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            },
+            "onBehalfOfUser": {
+                "id": "79045520063",
+                "idScheme": "CustomerInternalId",
+                "customerType": "Individual",
+                "network": {
+                    "id": "12345678",
+                    "networkType": "Advanced"
+                },
+                "roleType": "Approver",
+                "firstName": "string",
+                "lastName": "string",
+                "email": "string",
+                "mobile": "string"
+            }
+        }
+    ],
+    "paging": {
+        "count": 0,
+        "pageSize": 0,
+        "nextPageKey": "string",
+        "previousPageKey": "string"
+    }
+}
+
+
+
+// Exp Api will read the DSR response and deserialise the payload json obje=
+ct held within the data[i].additionalInformation.entitlementPayload.makerRe=
+quest.payload to the respective Exp API request payload(payments/beneficiar=
+y payload). The transformed Widget Exp API response will be as below.=20
+
+// Note: The above deserialisation approach will have to be adopted only fo=
+r Payments and Beneficiary type/subtype, for any other type/subtype(to supp=
+ort staff requirements), the Exp API will not deserialise the payload json =
+object held within the data[i].additionalInformation.entitlementPayload.mak=
+erRequest.payload, instead it will just return the Exp API request payload =
+mapped against "payloadString" attribute in the Exp API response
+&nbsp;
+{
+    "entities": {
+        "approvalWorkflowList": [
+            {
+                "approvalWorkflowId": "string",
+                "approvalWorkflowExternalReferenceId": "string",
+                "brandSilo": "WPAC",
+                "brand": "WBC",
+                "type": "string",
+                "typeDescrption": "string",
+                "subType": "string",
+                "subTypeVariation": "string",
+                "requestGroup": "MEDB",
+                "serviceRequestId": "string",
+                "serviceRequestCategory": "SimpleServiceRequest",
+                "externalRequestId": "string",
+                "workflowStatus": "ApprovalPending",
+                "approvalWorkflowComments": "string",
+                "expiryDatetime": "2025-04-18T01:49:50Z",
+                "requestedDateTime": "2025-04-13T01:49:50Z",
+                "createdDateTime": "2025-04-13T01:49:50Z",
+                "approvers": [
+                    {
+                        "userId": "string",
+                        "userIdScheme": "CustomerInternalId",
+                        "digitalIdentityId": "string",
+                        "partyType": "Involved",
+                        "roleType": "Approver",
+                        "firstName": "string",
+                        "lastName": "string",
+                        "email": "string",
+                        "mobile": "string",
+                        "type": "Digital_Consent",
+                        "method": "Click_to_accept",
+                        "status": "ApprovalPending",
+                        "captureDateTime": "2025-05-04T23:28:46.625Z",
+                        "notes": "string",
+                        "documents": {
+                            "isRequired": false,
+                            "isRedactionRequired": false,
+                            "files": [
+                                {
+                                    "name": "string",
+                                    "category": "string",
+                                    "uploadedDateTime": "2025-05-04T23:28:4=
+6.625Z"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "createdBy": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "initiator": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "onBehalfOfUser": {
+                    "id": "79045520063",
+                    "idScheme": "CustomerInternalId",
+                    "customerType": "Individual",
+                    "network": {
+                        "id": "12345678",
+                        "networkType": "Advanced"
+                    },
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                // Exp API will deserialise the json string payload to the =
+respective object model based on the subType(AddBeneficiary, AmendBeneficia=
+ry &amp; ArchiveBeneficiary)
+                "payloadObject": {
+                    "beneficiaries": [
+                        {
+                            "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+                            "nickname": "ABC company",
+                            "currency": "AUD",
+                            "type": "BSB_AND_ACC",
+                            "account": {
+                                "accountId": {
+                                    "BSB": "014111",
+                                    "accountNumber": "084765"
+                                },
+                                "bankName": "ANZ Bank",
+                                "accountName": "ANZ Joint"
+                            }
+                        }
+                    ]
+                },
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "payloadString": "E=
+xp API request payload in json string(mapped from data[i].additionalInforma=
+tion.entitlementPayload.makerRequest.payload from DSR response)",
+                "entitlementsPayload": "Entitlements payload in json string=
+(mapped from data[i].additionalInformation.entitlementPayload from DSR resp=
+onse)"
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; },
+            {
+                "approvalWorkflowId": "string",
+                "approvalWorkflowExternalReferenceId": "string",
+                "brandSilo": "WPAC",
+                "brand": "WBC",
+                "type": "string",
+                "typeDescrption": "string",
+                "subType": "string",
+                "subTypeVariation": "string",
+                "requestGroup": "MEDB",
+                "serviceRequestId": "string",
+                "serviceRequestCategory": "SimpleServiceRequest",
+                "externalRequestId": "string",
+                "workflowStatus": "ApprovalPending",
+                "approvalWorkflowComments": "string",
+                "expiryDatetime": "2025-04-18T01:49:50Z",
+                "requestedDateTime": "2025-04-13T01:49:50Z",
+                "createdDateTime": "2025-04-13T01:49:50Z",
+                "approvers": [
+                    {
+                        "userId": "string",
+                        "userIdScheme": "CustomerInternalId",
+                        "digitalIdentityId": "string",
+                        "partyType": "Involved",
+                        "roleType": "Approver",
+                        "firstName": "string",
+                        "lastName": "string",
+                        "email": "string",
+                        "mobile": "string",
+                        "type": "Digital_Consent",
+                        "method": "Click_to_accept",
+                        "status": "ApprovalPending",
+                        "captureDateTime": "2025-05-04T23:28:46.625Z",
+                        "notes": "string",
+                        "documents": {
+                            "isRequired": false,
+                            "isRedactionRequired": false,
+                            "files": [
+                                {
+                                    "name": "string",
+                                    "category": "string",
+                                    "uploadedDateTime": "2025-05-04T23:28:4=
+6.625Z"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "createdBy": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "initiator": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "onBehalfOfUser": {
+                    "id": "79045520063",
+                    "idScheme": "CustomerInternalId",
+                    "customerType": "Individual",
+                    "network": {
+                        "id": "12345678",
+                        "networkType": "Advanced"
+                    },
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                // Exp API will deserialise the json string payload to the =
+respective object model based on the subType(AddBeneficiary, AmendBeneficia=
+ry &amp; ArchiveBeneficiary)
+                "payloadObject": {
+                    "beneficiaries": {
+                        "id": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d",
+                        "externalId": "d5a8761c-8062-4b88-9cb6-46afb2a5ec5d=
+",
+                        "nickname": "ABC company",
+                        "currency": "AUD",
+                        "type": "BSB_AND_ACC",
+                        "account": {
+                            "accountId": {
+                                "BSB": "014111",
+                                "accountNumber": "084765"
+                            },
+                            "bankName": "ANZ Bank",
+                            "accountName": "ANZ Joint"
+                        }
+                    }
+                },
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "payloadString": "E=
+xp API request payload in json string(mapped from data[i].additionalInforma=
+tion.entitlementPayload.makerRequest.payload from DSR response)",
+                "entitlementsPayload": "Entitlements payload in json string=
+(mapped from data[i].additionalInformation.entitlementPayload from DSR resp=
+onse)"
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+        ],
+        "paging": {
+            "count": 0,
+            "pageSize": 0,
+            "nextPageKey": "string",
+            "previousPageKey": "string"
+        }
+    }
+}</pre>
+</div>
+</div>
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" rowspan=3D"2" contenteditable=3D"false" data-mce-resize=3D"=
+false">2</td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"2" class=3D"=
+confluenceTd"><p>Common Banner above the Authorisations List view</p><p><br=
+></p><p><br></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(23,43,77);">"Authorisation required" count</span>=
+</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+5</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(0,0,0);"><strong>&nbsp;</strong></span></p><sp=
+an style=3D"color: rgb(255,0,0);"><strong style=3D"text-align: left;">Not i=
+n scope for August 2025 release</strong></span>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" data-mce-resize=3D"fals=
+e" class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">"Partially =
+authorised" count</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+12</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(0,0,0);"><strong>&nbsp;</strong></span></p><sp=
+an style=3D"color: rgb(255,0,0);"><strong style=3D"text-align: left;">Not i=
+n scope for August 2025 release</strong></span>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">3</td>
+<td class=3D"highlight-#b3d4ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"7" data-highlight-colour=3D"#b3d4ff"><p style=
+=3D"text-align: left;"><strong>FOR EACH SERVICE REQUEST IN <span style=3D"c=
+olor: rgb(163,21,21);">data.serviceRequests</span>, DISPLAY THE SERVICE REQ=
+UEST IN "Track authorisations" LIST VIEW&nbsp;</strong></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" rowspan=3D"7" contenteditable=3D"false" data-mce-resize=3D"=
+false">4</td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"7" class=3D"=
+confluenceTd">"Track authorisations" List row item</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><span style=3D"color: rgb(24,27,37);">Create=
+d<span>&nbsp;</span></span><span style=3D"color: rgb(24,27,37);">date</span=
+></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>28 Feb 2025</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"7" class=3D"=
+confluenceTd"><a href=3D"/display/ARTC/galaxy-maker-checker-widget-exp-v1#g=
+alaxymakercheckerwidgetexpv1-POST/approvalWorkflowList">galaxy-maker-checke=
+r-widget-exp-v1#POST/approvalWorkflowList</a><br><p><span style=3D"color: r=
+gb(0,0,0);"><br></span><span style=3D"color: rgb(0,0,0);"><br></span><span =
+style=3D"color: rgb(0,0,0);"><br></span><span style=3D"color: rgb(0,0,0);">=
+<br></span><span style=3D"color: rgb(0,0,0);">&nbsp;</span><br><span style=
+=3D"color: rgb(0,0,0);"><br></span><span style=3D"color: rgb(0,0,0);"><br><=
+/span><span style=3D"color: rgb(0,0,0);"><br></span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"7" class=3D"=
+confluenceTd"><br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">entities.approvalWorkflowList[i].req=
+uestedDateTime</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;">Format to<span>&nbsp;</span><strong>AEST<spa=
+n>&nbsp;</span></strong>date/time</p><p style=3D"text-align: left;"><span>2=
+7 May 2024 (DD&nbsp;<span style=3D"color: rgb(82,82,82);">MON&nbsp;</span>Y=
+YYY)</span></p></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" data-mce-resize=3D"fals=
+e" class=3D"confluenceTd"><span style=3D"color: rgb(24,27,37);">Beneficiary=
+ nickname</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>Payroll A/C Apple Tree Ltd</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">Refer to the "Processing Conditio=
+n/Logic" column for mapping details</span></p><p><br></p><p><br></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attribute to display on the UI
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "addbeneficiary") the=
+n
+{&nbsp;
+&nbsp; entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].nick=
+name
+}
+
+
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "amendbeneficiary") |=
+| (entities.approvalWorkflowList[i].subType =3D=3D=3D "archivebeneficiary")=
+ then
+{&nbsp;
+&nbsp; entities.approvalWorkflowList[i].payloadObject.beneficiary.nickname
+}</pre>
+</div>
+</div>
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" data-mce-resize=3D"fals=
+e" class=3D"confluenceTd"><p><span>Beneficiary details</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>Westpac Joint</span></p><p><span>032-000 111111111</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">Refer to the "Processing Conditio=
+n/Logic" column for mapping details</span></p><p><br></p><p><br></p><p><br>=
+</p><p><br></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attributes to display on the UI
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "addbeneficiary") the=
+n
+{       =20
+ &nbsp;entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].acco=
+unt.accountName
+&nbsp; entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].acco=
+unt.bsb
+&nbsp; entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].acco=
+unt.accountNumber
+
+}
+
+
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "amendbeneficiary") |=
+| (entities.approvalWorkflowList[i].subType =3D=3D=3D "archivebeneficiary")=
+ then
+{&nbsp;
+&nbsp;entities.approvalWorkflowList[i].payloadObject.beneficiary.account.ac=
+countName
+&nbsp;entities.approvalWorkflowList[i].payloadObject.beneficiary.account.bs=
+b
+&nbsp;entities.approvalWorkflowList[i].payloadObject.beneficiary.account.ac=
+countNumber
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" data-mce-resize=3D"fals=
+e" class=3D"confluenceTd"><p style=3D"text-align: left;"><span style=3D"col=
+or: rgb(24,27,37);">Type</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>BSB &amp; account number</p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">Refer to the "Processing Condition/L=
+ogic" column for mapping details</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attribute to display on the UI
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "addbeneficiary") the=
+n
+{=20
+ &nbsp;if (entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].=
+type =3D=3D=3D BSB)    then
+     // Display BSB &amp; account number on the UI
+  else if(entities.approvalWorkflowList[i].payloadObject.beneficiaries[0].t=
+ype =3D=3D=3D PayId) then
+&nbsp;   // Display PayID on the UI
+}
+
+
+if(entities.approvalWorkflowList[i].subType =3D=3D=3D "amendbeneficiary") |=
+| (entities.approvalWorkflowList[i].subType =3D=3D=3D "archivebeneficiary")=
+ then
+{&nbsp;
+&nbsp; if (entities.approvalWorkflowList[i].payloadObject.beneficiary.type =
+=3D=3D=3D BSB)    then
+     // Display BSB &amp; account number on the UI
+  else if(entities.approvalWorkflowList[i].payloadObject.beneficiary.type =
+=3D=3D=3D PayId) then
+    // Display PayID on the UI
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" data-mce-resize=3D"fals=
+e" class=3D"confluenceTd"><p style=3D"text-align: left;"><span style=3D"col=
+or: rgb(24,27,37);">Authorisation Type</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>New beneficiary</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">entities.approvalWorkflowList[i].sub=
+Type</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper"><br>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" data-mce-resize=3D"fals=
+e" class=3D"confluenceTd"><p style=3D"text-align: left;"><span style=3D"col=
+or: rgb(24,27,37);">Status</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>Submitted</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">entities.approvalWorkflowList[i].wor=
+kflowStatus</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;"><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;vertical-align: top;" data-mce-resize=3D"fals=
+e" class=3D"confluenceTd"><p style=3D"text-align: left;"><span style=3D"col=
+or: rgb(24,27,37);">Actions</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>...</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">&nbsp;</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;">For Maker, display the following menu items =
+on click of ... Actions button,</p>
+<ul>
+<li>View Payment Details</li>
+</ul>
+<p style=3D"text-align: left;"><br></p>
+<p style=3D"text-align: left;">For Checker, display the following menu item=
+s on click of ... Actions button,</p>
+<ul>
+<li>Authorise or reject payment</li>
+</ul>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">5</td>
+<td class=3D"highlight-#b3d4ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"7" data-highlight-colour=3D"#b3d4ff"><strong t=
+itle=3D"">Maker Action - On click of "View beneficiary details"</strong></t=
+d>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">6</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><span style=3D"color: rgb(24,27,37);">&nbsp;=
+</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>On click of "View beneficiary details" Action</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(163,21,21);">entities.approvalWorkflowList[i].app=
+rovalWorkflowId</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;">On click of "View Payment Details", load Pay=
+ment Details Page by passing <span style=3D"color: rgb(163,21,21);">entitie=
+s.approvalWorkflowList[i].approvalWorkflowId</span>&nbsp;&amp;<span>&nbsp;<=
+/span><span style=3D"color: rgb(163,21,21);">viewType =3D Maker </span>as r=
+oute parameters</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"AuthorisationsUIExpAPIMappingforBeneficiaries-Authorisations-Bene=
+ficiaryDetailsviewforMaker/CheckerUI-ExpAPIMapping">Authorisations - Benefi=
+ciary Details view for Maker/Checker UI - Exp API Mapping</h2>
+<p>Authorisation Details view: <a href=3D"https://dstsb2.axshare.com/#id=3D=
+ordzm1&amp;p=3D4_0_beneficiaries&amp;g=3D1" class=3D"external-link" rel=3D"=
+nofollow">https://dstsb2.axshare.com/#id=3Dordzm1&amp;p=3D4_0_beneficiaries=
+&amp;g=3D1</a></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 275=
+9.84px;" data-snooker-col-series=3D"numbers" data-snooker-locked-cols=3D"0"=
+>
+<thead class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false"><br></t=
+h>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+UI Section</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Field Name</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Example Value</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Exp API Endpoint</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Exp API Request</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Exp API Response</th>
+<th style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTh">=
+Processing Condition/Logic</th>
+</tr>
+</thead>
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 36.0px;">
+<col class=3D"" style=3D"width: 156.0px;">
+<col class=3D"" style=3D"width: 106.0px;">
+<col class=3D"" style=3D"width: 110.0px;">
+<col class=3D"" style=3D"width: 413.0px;">
+<col class=3D"" style=3D"width: 310.0px;">
+<col class=3D"" style=3D"width: 435.0px;">
+<col class=3D"" style=3D"width: 1193.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">1</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p>On Load of "Beneficiary details" page</p><p><br></p><p>User will land on=
+ "Beneficiary Details" page from Authorisations view for either Maker or Ch=
+ecker(as per above), so the "Beneficiary Details" page will receive the rou=
+te parameter values <span style=3D"color: rgb(0,0,0);">serviceRequestId &am=
+p; viewType from the parent page(Authorisatios tab view)</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"9" class=3D"=
+confluenceTd"><p><a href=3D"/display/ARTC/galaxy-maker-checker-widget-exp-v=
+1#galaxymakercheckerwidgetexpv1-GET/approvalWorkflowDetails">galaxy-maker-c=
+hecker-widget-exp-v1#GET/approvalWorkflowDetails</a></p><p><br></p><p><br><=
+/p><p><br></p><p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p><p><sp=
+an style=3D"color: rgb(0,0,0);">&nbsp;</span></p><p><br></p><p><span style=
+=3D"color: rgb(0,0,0);">&nbsp;</span></p><p><span style=3D"color: rgb(0,0,0=
+);">&nbsp;</span></p><p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p=
+><p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p><p><span style=3D"c=
+olor: rgb(0,0,0);">&nbsp;</span></p><br>
+ &nbsp;<p style=3D"text-align: left;"><br></p></td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"9" class=3D"=
+confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;"><span style=3D"color: rgb(23,43,77);">Pass t=
+he approvalWorkflow</span><span style=3D"color: rgb(0,0,0);">Id as a query =
+string parameter</span></p>
+<p><br></p>
+<p style=3D"text-align: left;"><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+    "entities": {
+        "approvalWorkflowDetails": [
+            {
+                "approvalWorkflowId": "string",
+                "approvalExternalReferenceId": "string",
+                "brandSilo": "WPAC",
+                "brand": "WBC",
+                "originatingApplicationId": "A0033F",
+                "channelType": "Online",
+                "channelTypeNotes": "string",
+                "type": "string",
+                "typeDescrption": "string",
+                "subType": "string",
+                "subTypeVariation": "string",
+                "requestGroup": "MEDB",
+                "serviceRequestId": "string",
+                "serviceRequestCategory": "SimpleServiceRequest",
+                "externalReferenceId": "string",
+                "linkedServiceRequestId": "string",
+                "linkedExternalReferenceId": "string",
+                "externalRequestId": "string",
+                "processingSystem": "WOGO",
+                "workflowStatus": "ApprovalPending",
+                "createdDateTime": "string",
+                "modifiedDateTime": "string",
+                "requestedDateTime": "2025-04-13T01:49:50Z",
+                "expiryDatetime": "2025-04-18T01:49:50Z",
+                "SLA": "string",
+                "approvalWorkflowComments": "string",
+                "createdBy": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "initiator": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Member",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "modifiedBy": {
+                    "id": "string",
+                    "idScheme": "StaffSalaryNumber",
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "onBehalfOfUser": {
+                    "id": "79045520063",
+                    "idScheme": "CustomerInternalId",
+                    "customerType": "Individual",
+                    "network": {
+                        "id": "12345678",
+                        "networkType": "Advanced"
+                    },
+                    "roleType": "Approver",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "email": "string",
+                    "mobile": "string"
+                },
+                "entity": {
+                    "entityType": "Arrangement",
+                    "entityTypeNotes": "string",
+                    "entityTypeValue1": "03200054578939",
+                    "entityTypeValue2": "7dc53df5703e49b38670b1c468f47f1f",
+                    "entityTypeValue3": "578939",
+                    "entityTypeValue4": "54578939"
+                },
+                "approvalData": {
+                    "overallMinNumOfApprovalsRequired": 0,
+                    "overallNumberOfApprovalsReceived": 0,
+                    "approvalCounters": [
+                        {
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "partyType": "Involved",
+                            "minNumOfApprovalsRequired": 0,
+                            "numberOfApprovalsReceived": 0
+                        }
+                    ],
+                    "approvers": [
+                        {
+                            "userId": "a58Wd",
+                            "userIdScheme": "CustomerInternalId",
+                            "approvalType": "Customer",
+                            "approvalSequence": 1,
+                            "digitalIdentityId": "8jtqPsInKmOWX9kophpOounIe=
+0VjFF10ZC9HcXkMKsCcI",
+                            "partyType": "Involved",
+                            "isDirector": true,
+                            "roleType": "Approver",
+                            "firstName": "string",
+                            "lastName": "string",
+                            "emailAddress": "string",
+                            "mobileNumber": "610049206",
+                            "type": "Digital_Consent",
+                            "method": "Click_to_accept",
+                            "status": "ApprovalPending",
+                            "captureDateTime": "2025-07-17T08:23:34.787Z",
+                            "notes": "string",
+                            "documents": {
+                                "isRequired": false,
+                                "isRedactionRequired": false,
+                                "files": [
+                                    {
+                                        "name": "string",
+                                        "category": "string",
+                                        "documentId": "string",
+                                        "repositoryId": "string",
+                                        "documentType": "string",
+                                        "consumerId": "string",
+                                        "productClass": "8",
+                                        "uploadedDateTime": "2025-07-17T08:=
+23:34.788Z"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "documents": {
+                    "isRequired": false,
+                    "isRedactionRequired": false,
+                    "files": [
+                        {
+                            "name": "string",
+                            "category": "string",
+                            "uploadedDateTime": "2025-05-06T04:36:48.236Z"
+                        }
+                    ]
+                },
+                "payloadObject": {
+                    "beneficiaries": [
+                        {
+                            "id": "d0868661-b955-4e76-9f15-d97626f7df6b",
+                            "nickname": "ABC company",
+                            "currency": "AUD",
+                            "type": "BSB_AND_ACC",
+                            "account": {
+                                "accountId": {
+                                    "BSB": "014111",
+                                    "accountNumber": "084765"
+                                },
+                                "bankName": "ANZ Bank",
+                                "accountName": "ANZ Joint"
+                            }
+                        }
+                    ]
+                },
+                "payloadString": "Exp API request payload in json string",
+                "entitlementsPayload": "Entitlements payload in json string=
+",
+                "approvalWorkflowsAudit": [
+                    {
+                        "approvalWorkflowAuditId": "string",
+                        "approvalWorkflowId": "string",
+                        "action": {
+                            "type": "Creation",
+                            "status": "Created",
+                            "dateTime": "2025-05-06T04:36:48.236Z"
+                        },
+                        "actionedBy": {
+                            "id": "string",
+                            "idScheme": "StaffSalaryNumber",
+                            "roleType": "Member",
+                            "firstName": "string",
+                            "lastName": "string",
+                            "email": "string",
+                            "mobile": "string"
+                        },
+                        "actionedOnBehalfOfUser": {
+                            "id": "string",
+                            "idScheme": "CustomerInternalId",
+                            "roleType": "Approver",
+                            "firstName": "string",
+                            "lastName": "string",
+                            "email": "string",
+                            "mobile": "string"
+                        },
+                        "comments": "string",
+                        "eventName": "string",
+                        "eventMetaData": {
+                            "additionalProp1": {}
+                        },
+                        "reasons": [
+                            "string"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">2</td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"5" class=3D"=
+confluenceTd"><p><span style=3D"color: rgb(31,28,79);">Beneficiary summary<=
+/span></p><p><span style=3D"color: rgb(31,28,79);">&nbsp;</span></p><p><spa=
+n style=3D"color: rgb(31,28,79);">&nbsp;</span></p><br><p><span style=3D"co=
+lor: rgb(31,28,79);">&nbsp;</span></p><p><span style=3D"color: rgb(31,28,79=
+);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">Beneficiary nickname</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">Payroll A/C Apple Tree Ltd</span></td=
+>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">Refer to the "Processing Conditio=
+n/Logic" column for mapping details</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(0,0,0);"><strong>&nbsp;</strong></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attribute to display on the UI
+if(entities.approvalWorkflowDetails[0].subType =3D=3D=3D "addbeneficiary") =
+then
+{&nbsp;
+&nbsp; entities.approvalWorkflowDetails[0].payloadObject.beneficiaries[0].n=
+ickname
+}
+
+
+if(entities.approvalWorkflowDetails[0].subType =3D=3D=3D "amendbeneficiary"=
+) || (entities.approvalWorkflowDetails[0].subType =3D=3D=3D "archivebenefic=
+iary") then
+{&nbsp;
+&nbsp; entities.approvalWorkflowDetails[0].payloadObject.beneficiary.nickna=
+me
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">3</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span>Account name</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">Apple Tree</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">Refer to the "Processing Conditio=
+n/Logic" column for mapping details</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attributes to display on the UI
+if(entities.approvalWorkflowDetails[0].subType =3D=3D=3D "addbeneficiary") =
+then
+{&nbsp;
+&nbsp; entities.approvalWorkflowDetails[0].payloadObject.beneficiaries[0].a=
+ccount.accountName
+}
+
+
+if(entities.approvalWorkflowDetails[0].subType =3D=3D=3D "amendbeneficiary"=
+) || (entities.approvalWorkflowDetails[0].subType =3D=3D=3D "archivebenefic=
+iary") then
+{&nbsp;
+&nbsp;entities.approvalWorkflowDetails[0].payloadObject.beneficiary.account=
+.accountName
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">4</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">BSB</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">062-948</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">Refer to the "Processing Conditio=
+n/Logic" column for mapping details</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(0,0,0);"><strong>&nbsp;</strong></span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attributes to display on the UI
+if(entities.approvalWorkflowDetails[0].subType =3D=3D=3D "addbeneficiary") =
+then
+{&nbsp;
+&nbsp; entities.approvalWorkflowDetails[0].payloadObject.beneficiaries[0].a=
+ccount.bsb
+&nbsp;&nbsp;
+}
+
+
+if(entities.approvalWorkflowDetails[0].subType =3D=3D=3D "amendbeneficiary"=
+) || (entities.approvalWorkflowDetails[0].subType =3D=3D=3D "archivebenefic=
+iary") then
+{ &nbsp;
+&nbsp;entities.approvalWorkflowDetails[0].payloadObject.beneficiary.account=
+.bsb
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">5</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">Account number</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">222221111</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">&nbsp;Refer to the "Processing Co=
+ndition/Logic" column for mapping details</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attributes to display on the UI
+if(entities.approvalWorkflowDetails[0].subType =3D=3D=3D "addbeneficiary") =
+then
+{ &nbsp;&nbsp;
+&nbsp; entities.approvalWorkflowDetails[0].payloadObject.beneficiaries[0].a=
+ccount.accountNumber
+}
+
+
+if(entities.approvalWorkflowDetails[0].subType =3D=3D=3D "amendbeneficiary"=
+) || (entities.approvalWorkflowDetails[0].subType =3D=3D=3D "archivebenefic=
+iary") then
+{ &nbsp;
+&nbsp;entities.approvalWorkflowDetails[0].payloadObject.beneficiary.account=
+.accountNumber
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">6</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">Status</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);"><span style=3D"color: rgb(197,59,0);"=
+>Authorisation required</span></span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">&nbsp;entities.approvalWorkflowDe=
+tails[0].workflowStatus</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">7</td>
+<td style=3D"text-align: left;vertical-align: top;" rowspan=3D"2" class=3D"=
+confluenceTd"><p><span style=3D"color: rgb(31,28,79);">Other details</span>=
+</p><p><span style=3D"color: rgb(31,28,79);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">Category</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(24,27,37);">Expenses</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">Not in scope for Aug release</spa=
+n></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span style=3D"color: rgb(0,0,0);"><strong>&nbsp;</strong></span></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">8</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(24,27,37);">Beneficiary type</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(24,27,37);">BSB &amp; account number</span></p=
+></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(163,21,21);">Refer to the "Processing Conditio=
+n/Logic" column for mapping details</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Use th=
+e following attribute to display on the UI
+if(entities.approvalWorkflowDetails[0].subType =3D=3D=3D "addbeneficiary") =
+then
+{=20
+ &nbsp;if (entities.approvalWorkflowDetails[0].payloadObject.beneficiaries[=
+0].type =3D=3D=3D BSB)    then
+    // Display BSB &amp; account number on the UI
+  else if(entities.approvalWorkflowDetails[0].payloadObject.beneficiaries[0=
+].type =3D=3D=3D PayId) then
+&nbsp;  // Display PayID on the UI
+}
+
+
+if(entities.approvalWorkflowDetails[0].subType =3D=3D=3D "amendbeneficiary"=
+) || (entities.approvalWorkflowDetails[0].subType =3D=3D=3D "archivebenefic=
+iary") then
+{&nbsp;
+&nbsp; if (entities.approvalWorkflowDetails[0].payloadObject.beneficiary.ty=
+pe =3D=3D=3D BSB)    then
+    // Display BSB &amp; account number on the UI
+  else if(entities.approvalWorkflowDetails[0].payloadObject.beneficiary.typ=
+e =3D=3D=3D PayId) then
+   // Display PayID on the UI
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">9</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+&nbsp;<span style=3D"color: rgb(31,28,79);">Beneficiary </span><span style=
+=3D"color: rgb(31,28,79);">history</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+&nbsp;<span style=3D"color: rgb(24,27,37);">Created</span></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+&nbsp;<p><span>28 May 2024, 11:30am (AEST)</span></p><p><span>Tom Kelley</s=
+pan></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><span style=3D"color: rgb(163,21,21);">Refer=
+ to the "Processing Condition/Logic" column</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">var creat=
+edByAuditDetails =3D entities.approvalWorkflowDetails[0].approvalWorkflowsA=
+udit.filter(workflowAudit =3D&gt; workflowAudit.eventName =3D=3D=3D "Servic=
+eRequestAuthorisationRequested")
+=20
+//Display the following details on the UI
+"Sent for authorisation"   createdByAuditDetails.action.dateTime //Convert =
+and display the DateTime in AEST format
+                           createdByAuditDetails.actionedBy.firstName  crea=
+tedByAuditDetails.actionedBy.lastName
+=20
+var rejectedByAuditDetails =3D entities.approvalWorkflowDetails[0].approval=
+WorkflowsAudit.filter(workflowAudit =3D&gt; workflowAudit.eventName =3D=3D=
+=3D "ServiceRequestAuthorisationRequestRejected")
+
+if(rejectedByAuditDetails.length &gt; 0)
+{
+   "Rejected"  rejectedByAuditDetails.action.dateTime //Convert and display=
+ the DateTime in AEST format
+               rejectedByAuditDetails.actionedBy.firstName  rejectedByAudit=
+Details.actionedBy.lastName
+}
+=20
+var approvedByAuditDetails =3D entities.approvalWorkflowDetails[0].approval=
+WorkflowsAudit.filter(workflowAudit =3D&gt; workflowAudit.eventName =3D=3D=
+=3D "ServiceRequestAuthorisationReceived")
+
+if(approvedByAuditDetails.length &gt; 0)
+{
+   "Approved"  approvedByAuditDetails.action.dateTime //Convert and display=
+ the DateTime in AEST format
+               approvedByAuditDetails.actionedBy.firstName  approvedByAudit=
+Details.actionedBy.lastName
+}</pre>
+</div>
+</div>
+</div></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">10</td>
+<td class=3D"highlight-#b3d4ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" title=3D"Background colour : Light blue 100%" colspan=3D"=
+7" data-highlight-colour=3D"#b3d4ff"><strong title=3D"">Logic to display la=
+st mile action buttons for Maker &amp; Checker</strong></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">11</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+Display "Authorise", "Reject" and/or "Cancel" buttons based on maker or che=
+cker</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+"Authorise", "Reject"&nbsp; "Cancel"</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><span style=3D"color: rgb(0,0,0);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper"><br>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;"><span style=3D"color: rgb(163,21,21);">If th=
+e viewType is for a Checker(viewType=3D=3D=3DChecker) and the workflow is s=
+till awaiting checker(logged in user) approval, then display</span></p><p s=
+tyle=3D"text-align: left;"><span style=3D"color: rgb(163,21,21);">"Authoris=
+e", "Reject" &amp; "Cancel" action buttons on the UI</span></p><p style=3D"=
+text-align: left;"><br></p><p style=3D"text-align: left;"><span style=3D"co=
+lor: rgb(163,21,21);">If the viewType is for a maker(viewType=3D=3D=3DMaker=
+), then display</span></p><p style=3D"text-align: left;"><span style=3D"col=
+or: rgb(163,21,21);">"Cancel" action button on the UI</span></p><p style=3D=
+"text-align: left;"><br></p><p style=3D"text-align: left;"><span style=3D"c=
+olor: rgb(163,21,21);">Refer to the "Processing Condition/Logic" column for=
+ mapping details/logic</span></p><p style=3D"text-align: left;"><br></p></t=
+d>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// For ma=
+ker, display the "Cancel" button alone as per the below logic,
+if viewType =3D=3D=3D Maker then
+Display "Cancel" button on the UI
+
+// For Checker, display the last mile action buttons as per the below logic=
+,
+if viewType =3D=3D=3D Checker &amp;&amp; (entities.approvalWorkflowDetails[=
+0].workflowStatus =3D=3D=3D "ApprovalPending" &amp;&amp; entities.approvalW=
+orkflowDetails[0].approvalData.approvers.filter(approver =3D&gt; approver.u=
+serId =3D=3D=3D logged in userId &amp;&amp; approver.userIdScheme =3D=3D=3D=
+  "CustomerInternalId" &amp;&amp; approver.status =3D=3D=3D "ApprovalPendin=
+g").length &gt; 0)) then
+{
+ &nbsp; &nbsp;Display "Authorise", "Reject" and "Cancel" button on the UI
+}
+else
+{
+ &nbsp; &nbsp;Display "Cancel" button on the UI
+}
+=09</pre>
+</div>
+</div>
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">12</td>
+<td class=3D"highlight-#b3d4ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"7" data-highlight-colour=3D"#b3d4ff">&nbsp;<st=
+rong>Beneficiary</strong><strong style=3D"text-align: left;" title=3D"">&nb=
+sp;Details - Maker Actions</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">13</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(31,28,79);">On click of "Cancel" button</span></t=
+d>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+&nbsp;<strong style=3D"text-align: left;">Close Beneficiary details screen =
+and take the user to "Authorisation status" List view for maker</strong></t=
+d>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">14</td>
+<td class=3D"highlight-#b3d4ff confluenceTd" style=3D"text-align: left;vert=
+ical-align: top;" colspan=3D"7" data-highlight-colour=3D"#b3d4ff">&nbsp;&nb=
+sp;<strong>Beneficiary</strong><strong style=3D"text-align: left;" title=3D=
+""> Details - Checker Actions</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">15</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(31,28,79);">On click of "Authorise" button</span>=
+</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper"><a href=3D"/display/ARTC/galaxy-maker-checke=
+r-widget-exp-v1#galaxymakercheckerwidgetexpv1-POST/approvalWorkflowConsent"=
+>galaxy-maker-checker-widget-exp-v1#POST/approvalWorkflowConsent</a><br>
+<p style=3D"text-align: left;"><u><strong><span style=3D"color: rgb(0,0,0);=
+">Request Body</span></strong></u></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+    "approvalWorkflowConsent": {
+        "approvalWorkflowId": entities.approvalWorkflowDetails[0].approvalW=
+orkflowId,
+        "status": "Map from UI as per user action(Approved)",
+        "entitlementsPayload": entities.approvalWorkflowDetails[0].entitlem=
+entsPayload
+    }
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+<p style=3D"text-align: left;"><br></p>
+<p><u><strong>Request Header</strong></u></p>
+<p>x-channelRequestId =3D&nbsp;</p>
+<pre>entities.approvalWorkflowDetails[0].entitlementsPayload.makerRequest.i=
+d</pre>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;"><u><strong><span style=3D"color: rgb(163,21,=
+21);">PDP will return the following response</span></strong></u></p>
+<ul style=3D"text-align: left;">
+<li>If all authorisation received(approved at all levels) <code class=3D"sq=
+l color1" style=3D"text-align: left;">and</code><span style=3D"color: rgb(5=
+1,51,51);"><span>&nbsp;</span></span><code class=3D"sql plain" style=3D"tex=
+t-align: left;">the underlying target API(Payments/Bene Exp API) call<span>=
+&nbsp;</span></code><code class=3D"sql keyword" style=3D"text-align: left;"=
+>is</code><span style=3D"color: rgb(51,51,51);"><span>&nbsp;</span></span><=
+code class=3D"sql plain" style=3D"text-align: left;">successful</code>
+<ul>
+<li>Status code: 200=20
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "approvalWorkflowConsent": [
+      {
+        "code": 8120,
+        "message": "Authorisation Completed",
+        "details": "Exp API success response returned as json string"
+      }
+    ]
+  }
+}</pre>
+</div>
+</div></li>
+</ul></li>
+</ul>
+<p><br></p>
+<ul>
+<li><span style=3D"letter-spacing: 0.0px;">If authorisation required from n=
+ext level of authorisers</span>
+<ul>
+<li>Status code: 401=20
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+    "result": {
+        "errors": [
+            {
+                "code": 8125,
+                "message": "Authoriser Approval Required",
+                "details": "The request is pending approval &lt;workflowId&=
+gt;"
+            }
+        ]
+    }
+}</pre>
+</div>
+</div></li>
+</ul></li>
+</ul>
+<ul>
+<li><span style=3D"color: rgb(23,43,77);">After all authorisations received=
+, if request failed when submitted for processing to the exp API</span>
+<ul>
+<li>Status code: 4XX/5XX or 403(entitlements lost midway)=20
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+    "result": {
+        "errors": [
+            {
+                "code":  8140,
+                "message": "Target Api error",
+                "details": "Exp API error response returned as json string"
+            }
+        ]
+    }
+}</pre>
+</div>
+</div></li>
+</ul></li>
+<li><span style=3D"color: rgb(23,43,77);">Any error in the maker-checker au=
+thorisation orchestration process(error in PDP/DSR)</span>
+<ul style=3D"text-align: left;">
+<li>Status code: 400/500=20
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+    "result": {
+        "errors": [
+            {
+                "code": 8135,
+                "message": "Pluto Orchestration failed",
+                "details": "Error from downstream"
+            }
+        ]
+    }
+}</pre>
+</div>
+</div></li>
+</ul></li>
+</ul>
+<p><br></p>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;">Display the success/error message as per the=
+ UX</p><p style=3D"text-align: left;"><br></p><p style=3D"text-align: left;=
+"><strong><span style=3D"color: rgb(0,128,0);">if(status code =3D=3D=3D 200=
+ &amp;&amp; entities.approvalWorkflows[0].</span><span style=3D"color: rgb(=
+0,128,0);">code=3D 8120</span><span style=3D"color: rgb(0,128,0);">)</span>=
+</strong></p><p style=3D"text-align: left;"><span style=3D"color: rgb(0,128=
+,0);"><strong>You have authorised<span>&nbsp;</span><span style=3D"color: r=
+gb(0,128,0);">the beneficiary&nbsp;</span><span style=3D"color: rgb(0,128,0=
+);">{Beneficiary Name}</span>.&nbsp;</strong></span></p><p style=3D"text-al=
+ign: left;"><br></p><p style=3D"text-align: left;"><strong><span style=3D"c=
+olor: rgb(0,128,0);">if(status code =3D=3D=3D 401 &amp;&amp; result.errors[=
+0].code=3D8125)</span></strong></p><p style=3D"text-align: left;"><strong><=
+span style=3D"color: rgb(0,128,0);">You have authorised</span><span style=
+=3D"color: rgb(0,128,0);"><span>&nbsp;</span></span><span style=3D"color: r=
+gb(0,128,0);">the beneficiary&nbsp;</span><span style=3D"color: rgb(0,128,0=
+);">{Beneficiary Name}</span><span style=3D"color: rgb(0,128,0);">. This be=
+neficiary is<span>&nbsp;partially authorised</span></span><span style=3D"co=
+lor: rgb(0,128,0);">.</span></strong></p><p style=3D"text-align: left;"><br=
+></p><p style=3D"text-align: left;"><strong><span style=3D"color: rgb(0,128=
+,0);">if(result.errors[0].code=3D 8140 &amp;&amp; (status code =3D=3D=3D 5X=
+X || status code =3D=3D=3D 4XX))</span></strong></p><p style=3D"text-align:=
+ left;"><span style=3D"color: rgb(0,128,0);"><strong>Beneficiary request au=
+thorised but could not be processed error(or as per the UX)</strong></span>=
+</p><p style=3D"text-align: left;"><br></p><p style=3D"text-align: left;"><=
+strong><span style=3D"color: rgb(0,128,0);">if(status code =3D=3D=3D 403(fi=
+ne grain entitlements error) )</span></strong></p><p style=3D"text-align: l=
+eft;"><span style=3D"color: rgb(0,128,0);"><strong>Show insufficient permis=
+sion error as per the UX</strong></span></p><p style=3D"text-align: left;">=
+<br></p><p style=3D"text-align: left;"><strong><span style=3D"color: rgb(0,=
+128,0);">if(result.errors[0].code=3D 8135 &amp;&amp; status code =3D=3D=3D =
+500)</span></strong></p><p style=3D"text-align: left;"><span style=3D"color=
+: rgb(0,128,0);"><strong>Something went wrong. Please try again later.</str=
+ong></span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">16</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(31,28,79);">On click of "Reject" button</span></t=
+d>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p><u><span style=3D"color: rgb(24,27,37);">Optional</span></u></p>
+<ul style=3D"text-align: left;">
+<li><span style=3D"color: rgb(24,27,37);">Select the "Reason for rejecting"=
+ from the drop down&nbsp;</span></li>
+<li><span style=3D"color: rgb(24,27,37);">Enter Reject reason in the text a=
+rea(upto 2500 characters)</span></li>
+</ul></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper"><a href=3D"/display/ARTC/galaxy-maker-checke=
+r-widget-exp-v1#galaxymakercheckerwidgetexpv1-POST/approvalWorkflowConsent"=
+>galaxy-maker-checker-widget-exp-v1#POST/approvalWorkflowConsent</a><br>
+<p style=3D"text-align: left;"><u><strong><span style=3D"color: rgb(0,0,0);=
+">Request Body</span></strong></u></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+&nbsp; &nbsp; "approvalWorkflowConsent": {
+&nbsp; &nbsp; &nbsp; &nbsp; "approvalWorkflowId": entities.approvalWorkflow=
+Details[0].approvalWorkflowId,
+&nbsp; &nbsp; &nbsp; &nbsp; "status": "Map from UI as per user action(Rejec=
+ted)",
+&nbsp; &nbsp; &nbsp; &nbsp; "comment": {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "reason": "Map from Reject reason=
+ dropdown from the UI",
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "description": "Map from Reject c=
+omments from the UI",
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "documentId": "Not is scope for A=
+ugust 2025"
+&nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; },
+&nbsp; &nbsp; "entitlementsPayload": entities.approvalWorkflowDetails[0].en=
+titlementsPayload
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+<p><u><strong>Request Header</strong></u></p>
+<p>x-channelRequestId =3D&nbsp;</p>
+<pre>entities.approvalWorkflowDetails[0].entitlementsPayload.makerRequest.i=
+d</pre>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p style=3D"text-align: left;"><u><strong><span style=3D"color: rgb(163,21,=
+21);">PDP will return the following response</span></strong></u></p>
+<p style=3D"text-align: left;">Status code: 200</p>
+<p style=3D"text-align: left;">Response Body:&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+  "data": {
+    "approvalWorkflowConsent": [
+      {
+        "code": 8130,
+        "message": "Authoriser Rejected",
+        "details": "string"
+      }
+    ]
+  }
+}</pre>
+</div>
+</div>
+<p style=3D"text-align: left;"><br></p>
+<p style=3D"text-align: left;">Any error in the maker-checker authorisation=
+ orchestration process(error in PDP/DSR)</p>
+<p style=3D"text-align: left;">Status code: 400/500</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+<b class=3D"code-title"></b><span class=3D"collapse-source expand-control" =
+style=3D"display:none;"><span class=3D"expand-control-icon icon">&nbsp;</sp=
+an><span class=3D"expand-control-text">Expand source</span></span><span cla=
+ss=3D"collapse-spinner-wrapper"></span>
+</div>
+<div class=3D"codeContent panelContent pdl hide-toolbar">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Midnight; collapse: true" data-theme=3D"Midnig=
+ht">{
+    "result": {
+        "errors": [
+            {
+                "code": 8135,
+                "message": "Pluto Orchestration failed",
+                "details": "Error from downstream"
+            }
+        ]
+    }
+}</pre>
+</div>
+</div>
+</div></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<p style=3D"text-align: left;">Display the success/error message as per the=
+ UX</p><p style=3D"text-align: left;"><br></p><p style=3D"text-align: left;=
+"><strong><span style=3D"color: rgb(0,128,0);">if(status code =3D=3D=3D 200=
+ &amp;&amp; entities.approvalWorkflows[0].code=3D8130)</span></strong></p><=
+p style=3D"text-align: left;"><span style=3D"color: rgb(0,128,0);"><strong>=
+You have rejected<span>&nbsp;</span><span style=3D"color: rgb(0,128,0);">th=
+e beneficiary&nbsp;</span><span style=3D"color: rgb(0,128,0);">{<span style=
+=3D"color: rgb(24,27,37);">Beneficiary Name</span>}</span>.&nbsp;</strong><=
+/span></p><p style=3D"text-align: left;"><br></p><p style=3D"text-align: le=
+ft;"><strong style=3D"text-align: left;"><span style=3D"color: rgb(0,128,0)=
+;">if(result.errors[0].code=3D 8135 &amp;&amp; status code =3D=3D=3D 500)</=
+span></strong></p><p style=3D"text-align: left;"><span style=3D"color: rgb(=
+0,128,0);"><strong>Something went wrong. Please try again later.</strong></=
+span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" style=3D"text-align: left;vertic=
+al-align: top;" contenteditable=3D"false" data-mce-resize=3D"false">17</td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<span style=3D"color: rgb(31,28,79);">On click of "Cancel" button</span></t=
+d>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+<br></td>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">=
+&nbsp;<strong style=3D"text-align: left;">Close Beneficiary details screen =
+and take the user to "Authorisation status" List view for checkers("For you=
+ to authorise" tab)</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_115989_1340679955.1773921003399--

@@ -1,0 +1,557 @@
+Date: Thu, 19 Mar 2026 23:19:04 +1100 (AEDT)
+Message-ID: <1090061314.116207.1773922744445@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116206_1196120949.1773922744445"
+
+------=_Part_116206_1196120949.1773922744445
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Partial Success</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Partial Success</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"PartialSuccess-PartialSuccess">Partial Success</h3>
+<p>It is possible for an API to respond with a partial success, with the re=
+sponse body containing both a data block and error block (and a pagination =
+block if applicable).</p>
+<p>The two use cases for a partial success are:</p>
+<ul>
+<li>The API accepts a list of items to operate on, and only some of the ite=
+ms were successfully processed. The list of successful items should be retu=
+rned in the data block. The error block should A list of errors with a corr=
+elationKey referencing the items that failed.</li>
+<li>The API executes a process that contains multiple stages, but fails dur=
+ing one of the stages. In this case, a data block may not be returned (just=
+ a success HTTP code), but there must be an error block explaining the erro=
+r.</li>
+</ul>
+<p><br></p>
+<p>Status</p>
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-success">ENDORSED</s=
+pan>&nbsp;</p>
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1773922744416 {padding: 0px;}
+div.rbtoc1773922744416 ul {margin-left: 0px;}
+div.rbtoc1773922744416 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1773922744416">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#PartialSuccess-ProblemStatement">Problem Statement</a></li>
+<li><a href=3D"#PartialSuccess-Approach">Approach</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#PartialSuccess-Examplesuccessresponse">Example success resp=
+onse</a></li>
+<li><a href=3D"#PartialSuccess-Examplefailureresponse">Example failure resp=
+onse</a></li>
+<li><a href=3D"#PartialSuccess-Examplepartialsuccessresponse">Example parti=
+al success response</a></li>
+</ul></li>
+<li><a href=3D"#PartialSuccess-Specialcasepartialsuccessresponse">Special c=
+ase partial success response</a></li>
+<li><a href=3D"#PartialSuccess-PartialSuccesswithpaging">Partial Success wi=
+th paging</a></li>
+</ul>
+</div>
+<p></p>
+<h1 id=3D"PartialSuccess-ProblemStatement">Problem Statement</h1>
+<p>An API call can be partially successful for a number of reasons (one or =
+more downstream systems are unavailable, poor cross-system data integrity, =
+code defect, invalid user supplied input). &nbsp;A consumer of the API need=
+s to be able to determine when there has been a partial success and react a=
+ccordingly.</p>
+<p>It is important to recognise that partial success is not a common use ca=
+se and in most cases the API either succeeds or fails completely. &nbsp;A g=
+ood example of a use case for partial success is an API which accepts a lis=
+t of input objects, such as an account balance enquiry API which accepts a =
+list of account numbers, and the processing of some of these objects might =
+fail.</p>
+<h1 id=3D"PartialSuccess-Approach">Approach</h1>
+<p>Current design patterns support success (2xx response codes) and failure=
+ (4xx and 5xx response codes).&nbsp; &nbsp;</p>
+<h2 id=3D"PartialSuccess-Examplesuccessresponse">Example success response</=
+h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;"><b>Success</b>
+</div>
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">HTTP/1.1 =
+200 Ok
+{
+=09data: {
+=09=09"field1" : "value1",
+=09=09"field2" : "value2",
+=09=09...
+=09}
+} </pre>
+</div>
+</div>
+<h2 id=3D"PartialSuccess-Examplefailureresponse">Example failure response</=
+h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;"><b>Failure</b>
+</div>
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">HTTP/1.1 =
+400 Bad Request
+{
+=09result: {
+=09=09errors: [{
+=09=09=09"code": 45,
+        =09"description": "invalid input field provided",
+        =09"details": "Status must be one of Active, Inactive"
+=09=09}]
+=09}
+} </pre>
+</div>
+</div>
+<h2 id=3D"PartialSuccess-Examplepartialsuccessresponse">Example partial suc=
+cess response</h2>
+<p><br><strong>Partial Success</strong></p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: yml; gutter: false; theme: Confluence" data-theme=3D"Confluence">HTTP/1.1=
+ 200 Ok
+{
+&nbsp;&nbsp;&nbsp;&nbsp;data: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"items": [ {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fi=
+eld1"&nbsp;:&nbsp;"value1",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fi=
+eld2"&nbsp;:&nbsp;"value2"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fi=
+eld1"&nbsp;:&nbsp;"value1",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fi=
+eld2"&nbsp;:&nbsp;"value2"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;result: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;errors: [{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"co=
+de": 45,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"de=
+scription":&nbsp;"invalid account number provided",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"de=
+tails":&nbsp;"Account could not be found in XYZ system",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"co=
+rrelationKey"&nbsp;: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;"accountNumber"&nbsp;:&nbsp;"12345678",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;"BSB"&nbsp;:&nbsp;"032733"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]
+&nbsp;&nbsp;&nbsp;&nbsp;}
+}</pre>
+</div>
+</div>
+<p><br></p>
+<p>Note. The error object contained within the result object includes a new=
+ optional field 'correlationKey' which is intended to be used to relate the=
+ error to a specific object/entity, usually provided in the request to the =
+API, which caused the error. &nbsp;Using the example of an account balance =
+API which accepts a list of account numbers the correlationKey would contai=
+n the account number which caused the error.</p>
+<h1 id=3D"PartialSuccess-Specialcasepartialsuccessresponse">Special case pa=
+rtial success response</h1>
+<p>There is a special case of partial success whereby there is no meaningfu=
+l information to return for successfully processed items (eg. bulk update s=
+cenario) but we do want to return information about the failures, including=
+ the specific items which could not be processed.</p>
+<p>If all processing completes successfully and there is no meaningful info=
+rmation to return then the API must return a HTTP response code 204 (No Con=
+tent).</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable" style=3D"text-align: left;">
+<colgroup>
+<col>
+</colgroup>
+<tbody style=3D"text-align: left;">
+<tr style=3D"text-align: left;">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;"><code class=3D"sql plain" style=3D"text-align: left;">HTTP/1.1 2=
+04<span>&nbsp;</span></code><code class=3D"sql keyword" style=3D"text-align=
+: left;">No</code><span>&nbsp;</span><code class=3D"sql plain" style=3D"tex=
+t-align: left;">Content</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>If no processing is successful (ie. a complete failure) then the API mus=
+t return a HTTP response code 500 (Internal Server Error) with associated '=
+result' object, as per our design standards.</p>
+<p>If some processing is successful and some unsuccessful then the API must=
+ return a 200 (Ok) with the associated 'result' object but no 'data' object=
+ as there is no meaningful information to return.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: yml; gutter: false; theme: Confluence" data-theme=3D"Confluence">HTTP/1.1=
+ 200 Ok
+{
+&nbsp;&nbsp;&nbsp;&nbsp;result: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;errors: [{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"co=
+de": 15002,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"de=
+scription":&nbsp;"Failed to send SMS",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"de=
+tails":&nbsp;"Online banking registration completed successfully however fa=
+iled to send SMS due to {provider error}",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]
+&nbsp;&nbsp;&nbsp;&nbsp;}
+}</pre>
+</div>
+</div>
+<p><br></p>
+<h1 id=3D"PartialSuccess-PartialSuccesswithpaging">Partial Success with pag=
+ing</h1>
+<p class=3D"paragraph-353" style=3D"text-align: left;">In some cases , we n=
+eed to support partial success with paging.</p>
+<p class=3D"paragraph-353" style=3D"text-align: left;">The endpoint accepts=
+ a list of ids (some values) as input. The result of this would be a list f=
+or each of the supplied values. And for some of the values the records coul=
+d be too many.&nbsp;</p>
+<p class=3D"paragraph-353" style=3D"text-align: left;">We can use paging wi=
+th partial success in such situations .</p>
+<p class=3D"paragraph-353" style=3D"text-align: left;">The total number of =
+records will be the total records across the list of values passed. Partial=
+ success does seem valid too as the values passed in may be invalid (ie. ac=
+count does not exist) . The partial success block would only be returned on=
+ the first page of results.&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: yml; gutter: false; theme: Confluence" data-theme=3D"Confluence">HTTP/1.1=
+ 200 Ok
+{
+&nbsp;&nbsp;&nbsp;&nbsp;data: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"items": [ {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fi=
+eld1"&nbsp;:&nbsp;"value1",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fi=
+eld2"&nbsp;:&nbsp;"value2"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fi=
+eld1"&nbsp;:&nbsp;"value1",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fi=
+eld2"&nbsp;:&nbsp;"value2"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;paging:
+&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"count":&nbsp;integer, //total number&nbsp;of=
+&nbsp;items available across the list&nbsp;of&nbsp;id's passed
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"pageSize":&nbsp;integer, // number&nbsp;of&n=
+bsp;items per page
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"nextPageKey": string, //&nbsp;key&nbsp;for&n=
+bsp;start&nbsp;of&nbsp;next&nbsp;page
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"previousPageKey": string //&nbsp;key&nbsp;fo=
+r&nbsp;start&nbsp;of&nbsp;previous page
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;result: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;errors: [{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"co=
+de": 45,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"de=
+scription":&nbsp;"invalid account number provided",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"de=
+tails":&nbsp;"Account could not be found in XYZ system",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"co=
+rrelationKey"&nbsp;: {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;"accountNumber"&nbsp;:&nbsp;"12345678",
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;"BSB"&nbsp;:&nbsp;"032733"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]
+&nbsp;&nbsp;&nbsp;&nbsp;}
+}</pre>
+</div>
+</div>
+<p></p>
+<h3 id=3D"PartialSuccess-UsingHeaderstoavoidexposingsensitiveinformationint=
+heURIandquerystrings">Using Headers to avoid exposing sensitive information=
+ in the URI and query strings&nbsp;</h3>
+<p><span style=3D"color: rgb(49,49,49);">PII should not be included in the =
+Query String or path parameter where there is a risk that it may be stored =
+in logs or on proxy servers.&nbsp; As such, where PII is included within a =
+query string or path parameter, it is recommended that the string itself be=
+ moved to a header where it will not be cached or logged&nbsp;</span></p>
+<p>Example Use cases</p>
+<ol>
+<li>Sending Credit Card # in the path&nbsp;</li>
+<li>Sending Customer email address / Phone Number as a query parameter&nbsp=
+;</li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;"><b>Example</b>
+</div>
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: yml; gutter: false; theme: Confluence" data-theme=3D"Confluence">Example =
+1 -  Sensitive Path Parameter=20
+=20
+GET /creditCardArrangements/arrangementId
+Headers:
+    protected-arrangementId: 1234
+=20
+Would be the equivalent of GET /creditCardArrangements/{arrangementId}
+=20
+Example 2 -Sensitive Query Parameter
+=20
+GET /customers
+Headers:
+    protected-phoneNumber: 1234
+    protected-emailAddress: abc@email.com
+=20
+Would be the equivalent of GET /customers?phoneNumber =3D"1234" &amp;&amp; =
+emailAddress=3D"abc@email.com"</pre>
+</div>
+</div>
+<p><br></p>
+<p><strong>Further reading:</strong> &nbsp;<a href=3D"/display/MESH/Pattern=
++19%3A+API+Endpoint+Design+Patterns#Pattern19:APIEndpointDesignPatterns-Pat=
+tern19.3.5-UsingHeaderstoavoidexposingsensitiveinformationintheURIandquerys=
+trings">Pattern 19: API Endpoint Design Patterns#Pattern19.3.5-UsingHeaders=
+toavoidexposingsensitiveinformationintheURIandquerystrings</a>&nbsp;</p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_116206_1196120949.1773922744445--

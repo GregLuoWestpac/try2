@@ -1,0 +1,427 @@
+Date: Thu, 19 Mar 2026 23:13:02 +1100 (AEDT)
+Message-ID: <1344906941.116167.1773922382773@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116166_1673877514.1773922382772"
+
+------=_Part_116166_1673877514.1773922382772
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>TPS  - Frequently Asked Questions</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>TPS  - Frequently Asked Questions</h1>
+    <div class=3D"Section1">
+        <p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1773922382741 {padding: 0px;}
+div.rbtoc1773922382741 ul {margin-left: 0px;}
+div.rbtoc1773922382741 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1773922382741">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#TPSFrequentlyAskedQuestions-IfanAPIissetto1TPS,doesitmeanth=
+atonlyonerequestcanbereceivedbyAPIeverysecond?Alladditionalrequestswillbete=
+rminatedbythegateway?">If an API is set to 1 TPS, does it mean that only on=
+e request can be received by API every second? All additional requests will=
+ be terminated by the gateway ?</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-Doesitconsiderthatthecurrentreq=
+uestisprocessedandaresponsereturnedbeforeacceptinganynewrequestORitonlycons=
+idersrequestspersecond?Inotherwordswhatdoes=E2=80=9CTransaction=E2=80=9DinT=
+PSrefertoaRequestonlyorRequest&amp;ResponsemakesaTransaction.">Does it cons=
+ider that the current request is processed and a response returned before a=
+ccepting any new request OR it only considers requests per second? In other=
+ words what does =E2=80=9CTransaction=E2=80=9D in TPS refer to a Request on=
+ly or Request &amp; Response makes a Transaction.</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-IsTimeoutsettinglinkedtoTPSorit=
+scompletelyindependent?">Is Timeout setting linked to TPS or its completely=
+ independent?</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-WhereisTPSenforcedforapplicatio=
+nscallingAPIs?IsTPSenforcedper-consumerorfortheservice?">Where is TPS enfor=
+ced for applications calling APIs? Is TPS enforced per-consumer or for the =
+service?</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-WhereisTPSenforcedforapplicatio=
+nscallingserviceproxies?IsTPSenforcedper-consumerorfortheservice?">Where is=
+ TPS enforced for applications calling service proxies? Is TPS enforced per=
+-consumer or for the service?</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-IsTPSenforcedforAPIscallingAPIs=
+orserviceproxies?">Is TPS enforced for APIs calling APIs or service proxies=
+?</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-WhatisMaxTPS?">What is MaxTPS ?=
+</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-Iftheconsumerneedstocaterformor=
+econcurrenttransactionsdotheyrequiretoaskformoreTPS?">If the consumer needs=
+ to cater for more concurrent transactions do they require to ask for more =
+TPS ?</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-IfanAPIissetto1TPS,theconsumerw=
+illeffectivelyget4TPSbecauseofthe4APIcontainersrunninginthebackground.Isthi=
+scorrect?">If an API is set to 1 TPS, the consumer will effectively get 4 T=
+PS because of the 4 API containers running in the background. Is this corre=
+ct ?</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-IftheTPSissetto5TPSthenisitnece=
+ssarythatyouwillgetonly5TPSinproductionandSVP?">If the TPS is set to 5 TPS =
+then is it necessary that you will get only 5 TPS in production and SVP?</a=
+></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-IstheTPSlimitappliestotheentire=
+APIorforeachEnd-point?">Is the TPS limit applies to the entire API or for e=
+ach End-point ?</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-IftheTPSlimitreachedandIreceive=
+da429error,doIhavetowaitforcertainperiod?OraslongastheTPSdropsbelowthelimit=
+,thecallswillsuccess?">If the TPS limit reached and I received a 429 error,=
+ do I have to wait for certain period? Or as long as the TPS drops below th=
+e limit, the calls will success?</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-Wantedtoknowdoweuselocal_cacheo=
+rdistributed_cacheforratelimitonAPIGateway?andwhatisconfiguredinProduction.=
+.">Wanted to know do we use local_cache or distributed_cache for rate limit=
+ on API Gateway ? and what is configured in Production..</a></li>
+<li><a href=3D"#TPSFrequentlyAskedQuestions-HowdoestheTPSlimitworksonanAPI?=
+Doesitconsidertheactivethreadsfromprevioussecond?">How does the TPS limit w=
+orks on an API? Does it consider the active threads from previous second?</=
+a></li>
+</ul>
+</div>
+<p></p>
+<p><br></p>
+<p>Detailed documentation is here: <a href=3D"https://confluence.srv.westpa=
+c.com.au/x/7StQW" rel=3D"nofollow">Rate Limiting in Mesh Gateways (Axway an=
+d Kong)</a></p>
+<p><br></p>
+<p><strong>What is TPS&nbsp;</strong></p>
+<p><span style=3D"color: rgb(34,34,34);">TPS (Transaction per Second)&nbsp;=
+</span><span style=3D"color: rgb(34,34,34);">is the overall limit of calls =
+your back end can process per second. Both the Kong gateway (for APIs) and =
+the Axway gateway (for proxies) treat TPS as transactions =E2=80=98processe=
+d=E2=80=99 per second (request &amp; response).</span></p>
+<p><br></p>
+<p><strong><span style=3D"color: rgb(34,34,34);">Frequently Asked Questions=
+&nbsp;</span></strong></p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-IfanAPIissetto1TPS,doesitmeanthatonly=
+onerequestcanbereceivedbyAPIeverysecond?Alladditionalrequestswillbeterminat=
+edbythegateway?">If an API is set to 1 TPS, does it mean that only one requ=
+est can be received by API every second? All additional requests will be te=
+rminated by the gateway ?</h4>
+<p>Ans&nbsp; - the rate limit or quota is on the number of new requests acc=
+epted within each one-second window. If you have a TPS limit of say 1 TPS a=
+ second call within the same second will be rejected.The consumers&nbsp; wi=
+ll get a 429 =E2=80=93 Too many requests.<br><br>
+ You should&nbsp;<em>not</em> assume any special behaviour for very long-ru=
+nning requests.</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-Doesitconsiderthatthecurrentrequestis=
+processedandaresponsereturnedbeforeacceptinganynewrequestORitonlyconsidersr=
+equestspersecond?Inotherwordswhatdoes=E2=80=9CTransaction=E2=80=9DinTPSrefe=
+rtoaRequestonlyorRequest&amp;ResponsemakesaTransaction.">Does it consider t=
+hat the current request is processed and a response returned before accepti=
+ng any new request OR it only considers requests per second? In other words=
+ what does =E2=80=9CTransaction=E2=80=9D in TPS refer to a Request only or =
+Request &amp; Response makes a Transaction.</h4>
+<p>Ans:&nbsp; Transaction in TPS refers to Request and Response. ie&nbsp;<s=
+pan style=3D"color: rgb(34,34,34);">transactions =E2=80=98processed=E2=80=
+=99 per second.&nbsp;</span></p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-IsTimeoutsettinglinkedtoTPSoritscompl=
+etelyindependent?">Is Timeout setting linked to TPS or its completely indep=
+endent?</h4>
+<p>Ans: No it is not linked to TPS</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-WhereisTPSenforcedforapplicationscall=
+ingAPIs?IsTPSenforcedper-consumerorfortheservice?">Where is TPS enforced fo=
+r applications calling APIs? Is TPS enforced per-consumer or for the servic=
+e?</h4>
+<p>Ans: For application to API calls, TPS is enforced in <strong>Kong</stro=
+ng> and a limit is applied for the&nbsp;<strong>service</strong>. The limit=
+ is calculated as the sum of individual consumer limits by default, and can=
+ be set explicitly using <code>resources.yaml</code>.&nbsp;</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-WhereisTPSenforcedforapplicationscall=
+ingserviceproxies?IsTPSenforcedper-consumerorfortheservice?">Where is TPS e=
+nforced for applications calling service proxies? Is TPS enforced per-consu=
+mer or for the service?</h4>
+<p>Ans: For application to service proxy calls, TPS is enforced in <strong>=
+Axway</strong> and a limit is applied for each consuming <strong>applicatio=
+n</strong>. This is the limit allowed by the consumption grants process.</p=
+>
+<h4 id=3D"TPSFrequentlyAskedQuestions-IsTPSenforcedforAPIscallingAPIsorserv=
+iceproxies?">Is TPS enforced for APIs calling APIs or service proxies?</h4>
+<p>Ans: No. Currently the servicemesh does not support a suitable rate limi=
+ter.</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-WhatisMaxTPS?"><span style=3D"letter-=
+spacing: -0.003em;">What is MaxTPS ?</span></h4>
+<p>Ans:&nbsp; &nbsp;At the moment, the value in the service-level.yaml is f=
+or documentation purpose only. The <strong>enforced </strong>rate limit for=
+ Kong is in resources.yaml. For Axway, rate limits are enforced per-consume=
+r instead.</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-Iftheconsumerneedstocaterformoreconcu=
+rrenttransactionsdotheyrequiretoaskformoreTPS?">If the consumer needs to ca=
+ter for more concurrent transactions do they require to ask for more TPS ?&=
+nbsp;&nbsp;</h4>
+<p>Ans: Yes. Always. For Axway this may directly impact the consumer. For K=
+ong, this contributes to the total default rate limit for the service.</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-IfanAPIissetto1TPS,theconsumerwilleff=
+ectivelyget4TPSbecauseofthe4APIcontainersrunninginthebackground.Isthiscorre=
+ct?">If an API is set to 1 TPS, the consumer will effectively get 4 TPS bec=
+ause of the 4 API containers running in the background. Is this correct ?&n=
+bsp;</h4>
+<p>Ans: No. TPS is not defined at container level instead it is more define=
+s at the gateway level. This is true for both Kong and Axway.</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-IftheTPSissetto5TPSthenisitnecessaryt=
+hatyouwillgetonly5TPSinproductionandSVP?">If the TPS is set to 5 TPS then i=
+s it necessary that you will get only 5 TPS in production and SVP?</h4>
+<p>Ans: No. In Kong and in Axway, we are not using shared rate limits. Each=
+ gateway instance is maintaining a local rate limit instead. It is always r=
+ecommended to not rely on those TPS setting for any strict enforcing at gat=
+eway.</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-IstheTPSlimitappliestotheentireAPIorf=
+oreachEnd-point?">Is the TPS limit applies to the entire API or for each En=
+d-point ?</h4>
+<p>Ans: The TPS applies to all the endpoints in the API.&nbsp;</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-IftheTPSlimitreachedandIreceiveda429e=
+rror,doIhavetowaitforcertainperiod?OraslongastheTPSdropsbelowthelimit,theca=
+llswillsuccess?">If the TPS limit reached and I received a 429 error, do I =
+have to wait for certain period? Or as long as the TPS drops below the limi=
+t, the calls will success?</h4>
+<p>Ans:&nbsp; You will get 429 only when the consumer exceeded the limit. T=
+he calls will be successful automatically if the consumer drops the number =
+of calls. Rate limit counters reset every second. You only need to consider=
+ a backoff delay in specific cases such as processing events from Kafka top=
+ics or queues.</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-Wantedtoknowdoweuselocal_cacheordistr=
+ibuted_cacheforratelimitonAPIGateway?andwhatisconfiguredinProduction..">Wan=
+ted to know do we use local_cache or distributed_cache&nbsp;&nbsp;for rate =
+limit on API Gateway ? and what is configured in Production..</h4>
+<p>Ans:&nbsp;We aren't actually using a cache for rate limiting.</p>
+<p>We are focusing on local rate limiting (per gateway) as basic overload p=
+rotection only. In practice the actual maximum throughput will vary based o=
+n many factors including how evenly load is spread by consuming application=
+s.</p>
+<h4 id=3D"TPSFrequentlyAskedQuestions-HowdoestheTPSlimitworksonanAPI?Doesit=
+considertheactivethreadsfromprevioussecond?">How does the TPS limit works o=
+n an API? Does it consider the active threads from previous second?</h4>
+<p>In Kong, rate limits reset every second, and so active requests from a p=
+revious second are not considered.</p>
+<p>In Axway, it appears based on our testing that counters also reset, alth=
+ough the product documentation appears to say otherwise.</p>
+<p><strong>Reference</strong></p>
+<p><a href=3D"https://confluence.srv.westpac.com.au/x/7StQW" rel=3D"nofollo=
+w">Rate Limiting in Mesh Gateways (Axway and Kong)</a></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_116166_1673877514.1773922382772--

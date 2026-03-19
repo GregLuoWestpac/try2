@@ -1,0 +1,640 @@
+Date: Thu, 19 Mar 2026 22:54:50 +1100 (AEDT)
+Message-ID: <816332774.116018.1773921290132@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116017_1804485545.1773921290131"
+
+------=_Part_116017_1804485545.1773921290131
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1-datastore (Me=
+sh Data Store)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1-datastore (Mesh =
+Data Store)</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th scope=3D"col" class=3D"confluenceTh">Item</th>
+<th scope=3D"col" class=3D"confluenceTh">Description</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Mesh Connect</td>
+<td class=3D"confluenceTd"><a class=3D"external-link" href=3D"https://mesh.=
+westpac.com.au/components/datastores/inf-bnkng-arrngmnt-chnlaccsarrngmnt-in=
+stl-payee-v1" rel=3D"nofollow">https://mesh.westpac.com.au/components/datas=
+tores/inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1</a></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Type</td>
+<td class=3D"confluenceTd">Mesh Cassandra datastore</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Bitbucket</td>
+<td class=3D"confluenceTd"><strong><a href=3D"https://bitbucket.srv.westpac=
+.com.au/projects/WDP/repos/wdp-inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-pa=
+yee-v1-datastore/browse" class=3D"external-link" rel=3D"nofollow">https://b=
+itbucket.srv.westpac.com.au/projects/WDP/repos/wdp-inf-bnkng-arrngmnt-chnla=
+ccsarrngmnt-instl-payee-v1-datastore/browse</a></strong></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Use case</td>
+<td class=3D"confluenceTd">Store and retrieve Beneficiary details for W1C C=
+hannels</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1datastore(MeshDataSto=
+re)-DatastoreOverview">Datastore Overview</h1>
+<p><span style=3D"color: rgb(23,43,77);">This datastore used to store &amp;=
+ retrieve Financial Relief details.</span></p>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 960=
+.359px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 90.0469px;">
+<col class=3D"" style=3D"width: 869.312px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><span style=3D"co=
+lor: rgb(23,43,77);">Datastore Name</span></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><h2 class=3D"title" =
+style=3D"text-align: left;" id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpaye=
+ev1datastore(MeshDataStore)-W1CBeneficiaryDatastore">W1C Beneficiary Datast=
+ore</h2><p>inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1-datastore</p>=
+</th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><span style=3D"color=
+: rgb(23,43,77);">Change Set Location</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.
+  ~
+  ~ All rights reserved.
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.
+  ~ Use, duplication or dissemination is forbidden and is subject to prior
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --> <!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.=20
+  ~
+  ~ All rights reserved.=20
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.=20
+  ~ Use, duplication or dissemination is forbidden and is subject to prior=
+=20
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --></p>
+<div class=3D"file-macro-container include4confluence include4confluence-co=
+ntent">
+<div class=3D"include4confluence-panel panel" id=3D"include4confluence-bord=
+er">
+<div class=3D" include4confluence-border-bottom ">
+<div class=3D"include4confluence-header">
+<a href=3D"https://bitbucket.srv.westpac.com.au/projects/WDP/repos/wdp-inf-=
+bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1-datastore" target=3D"_blank"=
+ rel=3D"noreferrer">WDP / wdp-inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-pay=
+ee-v1-datastore /</a> <b> <a href=3D"https://bitbucket.srv.westpac.com.au/p=
+rojects/WDP/repos/wdp-inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1-da=
+tastore/browse/changesets?at=3Drefs/heads/master" target=3D"_blank" rel=3D"=
+noreferrer">changesets</a> </b>
+<div class=3D"include4confluence-no-wrap include4confluence-meta-branch-tag=
+-info">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-devtools-branch"></span=
+> master
+</div>
+<div style=3D"clear:both"></div>
+</div>
+</div>
+<div class=3D"include4confluence-panel-content-container ">
+<div class=3D"include4confluence-code-content">
+<pre style=3D"font-size: 12px;">100644 blob e41852eed752c315c19e5f28d1b4e0b=
+dac0b733b=09000_mesh_header_cassandra.cql
+100644 blob da72a35a44aaaa3c6dd0c64ef9b1b6da5eb69ea4=09001_initial.cql
+100644 blob 84bbcdf402add7c81177c2205990e6175cafe992=09002_droptable_and_re=
+create.cql
+100644 blob aeca324379b9ec1cdee9620c8af110a1ff736993=09003__alter_beneficia=
+ry_table.cql
+</pre>
+</div>
+</div>
+</div>
+</div>
+<p></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h3 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1datastore(MeshDataSto=
+re)-Consumers">Consumers</h3>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 103=
+2.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 98.0px;">
+<col class=3D"" style=3D"width: 165.0px;">
+<col class=3D"" style=3D"width: 598.0px;">
+<col class=3D"" style=3D"width: 90.0px;">
+<col class=3D"" style=3D"width: 80.0px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Application ID</p=
+></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Application Name =
+in Application Inventory</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Consumer Interfac=
+es</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Transport Protoco=
+l</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Message Format</p=
+></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(221,97,39);">A014A6</span><span style=3D"color: rgb(221,97,39);"><=
+span>&nbsp;</span></span><span style=3D"color: rgb(221,97,39);">| CCMP</spa=
+n></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><h2 class=3D"sc-fBWQ=
+Rz bcznAZ sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCpGa styles__HeaderTi=
+tleContainer-sc-6fjswq-0 euFLjq" style=3D"text-align: left;" id=3D"infbnkng=
+arrngmntchnlaccsarrngmntinstlpayeev1datastore(MeshDataStore)-inf-bnkng-arrn=
+gmnt-chnlaccsarrngmnt-instl-payee-v1">inf-bnkng-arrngmnt-chnlaccsarrngmnt-i=
+nstl-payee-v1</h2><p><a href=3D"/pages/viewpage.action?pageId=3D1499162014"=
+>inf-bnkng-arrngmnt-chnlaccsarrngmnt-instl-payee-v1-api (API)</a></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><h4 id=3D"infbnkngar=
+rngmntchnlaccsarrngmntinstlpayeev1datastore(MeshDataStore)-GET/group/{group=
+Id}/beneficiaries">&nbsp;GET /group/{groupId}/beneficiaries</h4><h4 id=3D"i=
+nfbnkngarrngmntchnlaccsarrngmntinstlpayeev1datastore(MeshDataStore)-GET/gro=
+up/{groupId}/beneficiaries/{beneficiaryId}"><span class=3D"fabric-text-colo=
+r-mark">GET<span>&nbsp;</span></span>/group/{groupId}/beneficiaries/{benefi=
+ciaryId}</h4><h4 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1datastor=
+e(MeshDataStore)-POST/group/beneficiaries"><span class=3D"fabric-text-color=
+-mark">POST<span>&nbsp;</span><a class=3D"nostyle" rel=3D"nofollow"><span>/=
+group/beneficiaries</span></a></span></h4></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">HTTPS</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>JSON</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h1 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1datastore(MeshDataSto=
+re)-TableDetails">Table Details</h1>
+<p>The section defines the mapping and other table requirements</p>
+<h2 id=3D"infbnkngarrngmntchnlaccsarrngmntinstlpayeev1datastore(MeshDataSto=
+re)-Table:beneficiaries_by_group">Table:<span>&nbsp;<strong>beneficiaries_b=
+y_group</strong></span></h2>
+<p>This tables contains the hardship request details&nbsp;</p>
+<div class=3D"table-wrap">
+<table class=3D"fixed-width wrapped confluenceTable" style=3D"width: 104.37=
+3%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 12.0272%;">
+<col class=3D"" style=3D"width: 14.3506%;">
+<col class=3D"" style=3D"width: 22.0042%;">
+<col class=3D"" style=3D"width: 10.3871%;">
+<col class=3D"" style=3D"width: 5.19355%;">
+<col class=3D"" style=3D"width: 11.6171%;">
+<col class=3D"" style=3D"width: 11.3438%;">
+<col class=3D"" style=3D"width: 12.9839%;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Column</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Column Name</p></=
+th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Data Type</p></th=
+>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Nullable</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>PK</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Comment</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Creatable<br>
+ (Y/N)</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p>Created By (Custo=
+mer/ Staff/ System Process / Service)</p></th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">Beneficiary ID</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">beneficiary_id</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">no</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">PK</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Generated by API</td=
+>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">Group ID</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">group_id</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">no</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">PK</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">Nickname</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">nickname</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">no</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Description</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">description</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">no</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Beneficiary Type</td=
+>
+<td style=3D"text-align: left;" class=3D"confluenceTd">beneficiary_type</td=
+>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">no</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Created Date</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">created_date</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">timestamp</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">no</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Generated by API</td=
+>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Beneficiary Account =
+Type</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">beneficiary_account_=
+type</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">no</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Account Name</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">account_name</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">no</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>Bsb<span class=3D"status-macro aui-lozenge aui-lozenge-moved">FEB25</spa=
+n></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">bsb</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>yes</strong>=
+</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>Accout Number <span class=3D"status-macro aui-lozenge aui-lozenge-moved"=
+>FEB25</span></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">account_number</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>yes</strong>=
+</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>Name<span class=3D"status-macro aui-lozenge aui-lozenge-moved">FEB25</sp=
+an></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">name</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">no</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>AliasID&nbsp;<span class=3D"status-macro aui-lozenge aui-lozenge-moved">=
+FEB25</span></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">alias_id</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">text</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>yes</strong>=
+</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">Mesh Header</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">mesh_header</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>UDT</p>frozen&lt;=
+mesh_header&gt;</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">No</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Header object of mes=
+h platform for audit purpose as per platform standards.</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Y</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Customer (from reque=
+st)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+<p>Reference implementation: <a href=3D"https://bitbucket.srv.westpac.com.a=
+u/projects/WDP/repos/wdp-inf-bnkng-resrcitm-logclitcmpnt-refdatastr-v1-data=
+store/browse" class=3D"external-link" rel=3D"nofollow">https://bitbucket.sr=
+v.westpac.com.au/projects/WDP/repos/wdp-inf-bnkng-resrcitm-logclitcmpnt-ref=
+datastr-v1-datastore/browse</a></p>
+    </div>
+</body>
+</html>
+------=_Part_116017_1804485545.1773921290131--

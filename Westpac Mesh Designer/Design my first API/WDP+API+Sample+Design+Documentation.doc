@@ -1,0 +1,1029 @@
+Date: Thu, 19 Mar 2026 23:12:40 +1100 (AEDT)
+Message-ID: <1961523489.116161.1773922360540@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116160_584560712.1773922360540"
+
+------=_Part_116160_584560712.1773922360540
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>WDP API Sample Design Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>WDP API Sample Design Documentation</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Page Status</th>
+<th class=3D"confluenceTh">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DRAFT</span><=
+/p>
+</div></th>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Template Version</th>
+<td class=3D"confluenceTd">1.1</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>Template Link</strong></td=
+>
+<td colspan=3D"1" class=3D"confluenceTd"><a href=3D"https://confluence.srv.=
+westpac.com.au/display/WDPREGO/Template-+WDP+API+Design+Documentation" rel=
+=3D"nofollow">Template- Westpac Mesh API Design Documentation</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1773922360446 {padding: 0px;}
+div.rbtoc1773922360446 ul {list-style: decimal !important;margin-left: 0px;=
+}
+div.rbtoc1773922360446 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1773922360446">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#WDPAPISampleDesignDocumentation-APIOverview">API Overview</=
+a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#WDPAPISampleDesignDocumentation-Providers">Providers</a></l=
+i>
+</ul></li>
+<li><a href=3D"#WDPAPISampleDesignDocumentation-Operations">Operations</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#WDPAPISampleDesignDocumentation-POST/customerSearch">POST /=
+customerSearch</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#WDPAPISampleDesignDocumentation-UseCases">Use Cases</a></li=
+>
+<li><a href=3D"#WDPAPISampleDesignDocumentation-SequenceDiagram">Sequence D=
+iagram</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<p></p>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"WDPAPISampleDesignDocumentation-APIOverview">API Overview</h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 152.0px;">
+<col style=3D"width: 474.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">API Name</th>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0,0);"><span st=
+yle=3D"color: rgb(0,0,0);">Customer Demographic Profile API</span><em><br><=
+/em></span></p></td>
+</tr>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">Base URL</th>
+<td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0=
+);">Inf/bnkng/party/custdemogrprof<br></span></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">Swagger Location</th>
+<td class=3D"confluenceTd"><a href=3D"/download/attachments/1203279413/DEMO=
+-wdp-inf-bnkng-party-custdemogrprof-v1-api.yaml?version=3D1&amp;modificatio=
+nDate=3D1663571090103&amp;api=3Dv2" data-linked-resource-id=3D"1203279416" =
+data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachment"=
+ data-linked-resource-default-alias=3D"DEMO-wdp-inf-bnkng-party-custdemogrp=
+rof-v1-api.yaml" data-linked-resource-content-type=3D"application/octet-str=
+eam" data-linked-resource-container-id=3D"1203279413" data-linked-resource-=
+container-version=3D"3">DEMO-wdp-inf-bnkng-party-custdemogrprof-v1-api.yaml=
+</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"WDPAPISampleDesignDocumentation-Providers">Providers</h3>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Application ID</th>
+<th class=3D"confluenceTh">Application Name in Application Inventory</th>
+<th colspan=3D"1" class=3D"confluenceTh">Provider Interfaces</th>
+<th class=3D"confluenceTh">Transport Protocol</th>
+<th class=3D"confluenceTh">Message Format</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">CV-002</td>
+<td class=3D"confluenceTd">Group Customer Master</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>UCM142 - searchIndividualByDeta=
+ilsV1</p><p>UCM143 - searchOrganizationByDetailsV1</p></td>
+<td class=3D"confluenceTd"><p>HTTPS</p></td>
+<td class=3D"confluenceTd">SOAP</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<hr>
+<h2 id=3D"WDPAPISampleDesignDocumentation-Operations">Operations</h2>
+<h3 id=3D"WDPAPISampleDesignDocumentation-POST/customerSearch"><a rel=3D"no=
+follow">POST /customerSearch</a></h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>Provider Service Name</p></th>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);">UCM143 - sear=
+chIndividualByDetailsV1</span></td>
+</tr>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">Provider Header Mapping</th>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh">Provider Documentation Ref</th>
+<td class=3D"confluenceTd"><p>UCM142 - SearchByIndividualDetailsv1</p><span=
+ style=3D"color: rgb(255,0,0);">UCM143 - SearchOrganizationByDetailsV1</spa=
+n></td>
+</tr>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh">Provider Samples</th>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"WDPAPISampleDesignDocumentation-UseCases">Use Cases</h4>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Ref</th>
+<th class=3D"confluenceTh">Description</th>
+<th class=3D"confluenceTh">Precondition</th>
+<th class=3D"confluenceTh">Post condition</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">UC1</td>
+<td class=3D"confluenceTd">Search for Individual Customer with Name and DOB=
+</td>
+<td class=3D"confluenceTd">Individual Customer Exists in OCH, First name, L=
+ast Name and DOB is known</td>
+<td class=3D"confluenceTd">Individual customer search results are returned<=
+/td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">UC2</td>
+<td colspan=3D"1" class=3D"confluenceTd">Seach for Organisational Customer =
+with Name and ABN</td>
+<td colspan=3D"1" class=3D"confluenceTd">Organisational Customer Exists in =
+OCH, Name and ABN is known</td>
+<td colspan=3D"1" class=3D"confluenceTd">Organisational customer search res=
+ults are returned</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"WDPAPISampleDesignDocumentation-SequenceDiagram">Sequence Diagram=
+</h4>
+<p><map id=3D"gliffy-map-1203279415-3810" name=3D"gliffy-map-1203279415-381=
+0"></map></p>
+<table width=3D"100%" class=3D"gliffy-macro-table">
+<tbody>
+<tr>
+<td>
+<table class=3D"gliffy-macro-inner-table">
+<caption align=3D"bottom">
+</caption>
+<tbody>
+<tr>
+<td><img style=3D"border: none; width: 601px;" usemap=3D"#gliffy-map-120327=
+9415-3810" src=3D"e71709b66b522ad4404200303b1ed15561fb1cea83a399a6487ecb732=
+2381302" alt=3D"" class=3D"gliffy-macro-image" width=3D"468" height=3D"257"=
+></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<hr>
+<h5 id=3D"WDPAPISampleDesignDocumentation-DesignDecisions">Design Decisions=
+</h5>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 70.=
+6741%;">
+<colgroup>
+<col style=3D"width: 21.1467%;">
+<col style=3D"width: 28.6171%;">
+<col style=3D"width: 50.2493%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Decision</th>
+<th class=3D"confluenceTh">Problem Domain</th>
+<th class=3D"confluenceTh">Rationale</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Expose a CustomerType for routi=
+ng</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>SOR is new and only has Individ=
+ual Customers at this time. Strategically will be all Customers</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>SoR is strategic for all custom=
+ers and as the information is for summary of name etc made decision to mode=
+l at Customer level to minimize rework</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h5 id=3D"WDPAPISampleDesignDocumentation-RoutingLogic">Routing Logic</h5>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Field / Parameter</th>
+<th class=3D"confluenceTh">Logic</th>
+<th class=3D"confluenceTh">Route to</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">SearchCriteria</td>
+<td class=3D"confluenceTd">If 'individualCustomerSearchCriteria' exists</td=
+>
+<td class=3D"confluenceTd">UCM142 - SearchIndividualByDetailsV1</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">SearchCriteria</td>
+<td colspan=3D"1" class=3D"confluenceTd">if 'organisationCustomerSearchCrit=
+eria' exists</td>
+<td colspan=3D"1" class=3D"confluenceTd">UCM143 - SearchOrganizationByDetai=
+lsV1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h5 id=3D"WDPAPISampleDesignDocumentation-Filtering">Filtering</h5>
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 46.=
+3655%;">
+<colgroup>
+<col style=3D"width: 32.1071%;">
+<col style=3D"width: 67.9655%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Field to Filter</th>
+<th class=3D"confluenceTh">Description of filtering</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">N/A</td>
+<td class=3D"confluenceTd">No requirements to filter response in API</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h5 id=3D"WDPAPISampleDesignDocumentation-Paging">Paging</h5>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 26.=
+4319%;">
+<colgroup>
+<col style=3D"width: 100.083%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Pagination Logic</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">N/A</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h5 id=3D"WDPAPISampleDesignDocumentation-Sorting">Sorting</h5>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 55.=
+1911%;">
+<colgroup>
+<col style=3D"width: 21.2989%;">
+<col style=3D"width: 17.0156%;">
+<col style=3D"width: 61.7486%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Field to Sort</th>
+<th class=3D"confluenceTh">Sort Order</th>
+<th colspan=3D"1" class=3D"confluenceTh">Comments</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">N/A</td>
+<td class=3D"confluenceTd">N/A</td>
+<td colspan=3D"1" class=3D"confluenceTd">No requirements to sort response</=
+td>
+</tr>
+</tbody>
+</table>
+</div>
+<h5 id=3D"WDPAPISampleDesignDocumentation-RequestValidation">Request Valida=
+tion</h5>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Field / Parameter</th>
+<th class=3D"confluenceTh">Logic</th>
+<th class=3D"confluenceTh">Result if failed</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>searchCriteria</p></td>
+<td class=3D"confluenceTd">Check that either individualCustomerSerachCriter=
+ia or organisationalCustomerSearchCriteria is present and mutually exclusiv=
+e</td>
+<td class=3D"confluenceTd">Return 400 - error code 2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h5 id=3D"WDPAPISampleDesignDocumentation-Requestmapping">Request mapping</=
+h5>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">&nbsp;Field Name</th>
+<th colspan=3D"1" class=3D"confluenceTh"><p>Field Location</p><p>(path/quer=
+y/body/header)</p></th>
+<th class=3D"confluenceTh">Logic</th>
+<th class=3D"confluenceTh">Provider Field</th>
+<th colspan=3D"1" class=3D"confluenceTh">Comments</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">firstName</td>
+<td colspan=3D"1" class=3D"confluenceTd">&nbsp;body</td>
+<td colspan=3D"1" class=3D"confluenceTd">IF Present and lastName present co=
+ncate 'firstName'+' '+'lastName</td>
+<td colspan=3D"1" class=3D"confluenceTd">firstName</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">lastName</td>
+<td colspan=3D"1" class=3D"confluenceTd">body</td>
+<td colspan=3D"1" class=3D"confluenceTd">IF Present and lastName present co=
+ncate 'firstName'+' '+'lastName'</td>
+<td colspan=3D"1" class=3D"confluenceTd">lastName</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">dateOfBirth</td>
+<td colspan=3D"1" class=3D"confluenceTd">body</td>
+<td colspan=3D"1" class=3D"confluenceTd">IF Present MOV</td>
+<td colspan=3D"1" class=3D"confluenceTd">birthDate</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h5 id=3D"WDPAPISampleDesignDocumentation-PositiveResponseMapping">Positive=
+ Response Mapping</h5>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>Provider Field Name</p><p><br></p></th>
+<th colspan=3D"1" class=3D"confluenceTh"><p>Provider Field location</p><p>(=
+body/header)</p></th>
+<th class=3D"confluenceTh">Logic</th>
+<th class=3D"confluenceTh">Response Field Name</th>
+<th class=3D"confluenceTh">Comments</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">CISKey</td>
+<td colspan=3D"1" class=3D"confluenceTd">body</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Create 'key' document,</p><p>SE=
+T id equal to value of CISKey</p><p>SET idScheme =3D CISKey</p><p>Add 'key'=
+ to 'keys' array</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">[keys]</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">PartyType</td>
+<td colspan=3D"1" class=3D"confluenceTd">body</td>
+<td colspan=3D"1" class=3D"confluenceTd">Move value</td>
+<td colspan=3D"1" class=3D"confluenceTd">customerType</td>
+<td colspan=3D"1" class=3D"confluenceTd">Used to qualify if individual</td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">fullName</td>
+<td colspan=3D"1" class=3D"confluenceTd">body</td>
+<td colspan=3D"1" class=3D"confluenceTd">MOVE value of 'fullName' to fullNa=
+me</td>
+<td colspan=3D"1" class=3D"confluenceTd">fullName</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">givenName</td>
+<td colspan=3D"1" class=3D"confluenceTd">body</td>
+<td colspan=3D"1" class=3D"confluenceTd">MOVE value of 'givenName' to 'firs=
+tName'</td>
+<td colspan=3D"1" class=3D"confluenceTd">firstName</td>
+<td colspan=3D"1" class=3D"confluenceTd">Only applicable for individuals</t=
+d>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">lastName</td>
+<td colspan=3D"1" class=3D"confluenceTd">body</td>
+<td colspan=3D"1" class=3D"confluenceTd">MOVE value of 'lastName' to 'lastN=
+ame'</td>
+<td colspan=3D"1" class=3D"confluenceTd">lastName</td>
+<td colspan=3D"1" class=3D"confluenceTd">Only applicable for individuals</t=
+d>
+</tr>
+</tbody>
+</table>
+</div>
+<h5 id=3D"WDPAPISampleDesignDocumentation-PartialSuccessBehaviour">Partial =
+Success Behaviour</h5>
+<p>This operation does not support partial success</p>
+<h5 id=3D"WDPAPISampleDesignDocumentation-ErrorMapping">Error Mapping</h5>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Provider Error Code</th>
+<th class=3D"confluenceTh">Provider Error Message/Description</th>
+<th colspan=3D"1" class=3D"confluenceTh">Error Type</th>
+<th class=3D"confluenceTh">HTTP Response Code</th>
+<th colspan=3D"1" class=3D"confluenceTh">Error Code</th>
+<th colspan=3D"1" class=3D"confluenceTh">Error Message</th>
+<th colspan=3D"1" class=3D"confluenceTh">Error Details</th>
+<th colspan=3D"1" class=3D"confluenceTh">Comments</th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
+,0);"><span style=3D"color: rgb(0,51,102);">SBL-ERR_991</span></span><em><s=
+pan style=3D"color: rgb(255,0,0);"><br></span></em></p></td>
+<td colspan=3D"1" class=3D"confluenceTd">UCM EIM Interface Unavailable Prov=
+ider Error</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(255,0,0)=
+;"><span style=3D"color: rgb(0,0,0);">Technical</span></span></td>
+<td colspan=3D"1" class=3D"confluenceTd">500</td>
+<td colspan=3D"1" class=3D"confluenceTd">10000</td>
+<td colspan=3D"1" class=3D"confluenceTd">set to "Unexpected Provider Error"=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd">set to "Unexpected Provider Error"=
+</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd">Business - invalid search criteria=
+ parameter</td>
+<td colspan=3D"1" class=3D"confluenceTd">400</td>
+<td colspan=3D"1" class=3D"confluenceTd">1</td>
+<td colspan=3D"1" class=3D"confluenceTd">set to "Invalid search criteria"</=
+td>
+<td colspan=3D"1" class=3D"confluenceTd">Set to "Either Individual or Organ=
+isational Search Criteria is required"</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_116160_584560712.1773922360540
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/e71709b66b522ad4404200303b1ed15561fb1cea83a399a6487ecb7322381302
+
+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
+------=_Part_116160_584560712.1773922360540--

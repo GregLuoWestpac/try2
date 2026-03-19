@@ -1,0 +1,441 @@
+Date: Thu, 19 Mar 2026 23:02:16 +1100 (AEDT)
+Message-ID: <1539921703.116119.1773921736753@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116118_44469093.1773921736752"
+
+------=_Part_116118_44469093.1773921736752
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>UI Coding Standards</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>UI Coding Standards</h1>
+    <div class=3D"Section1">
+        <p><br></p>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image confluence-external-resour=
+ce" draggable=3D"false" alt=3D"WDPUI Flow Diagram.jpg" height=3D"400" src=
+=3D"https://confluence.srv.westpac.com.au/download/attachments/1203279551/W=
+DPUI%20Flow%20Diagram.jpg?version=3D1&amp;modificationDate=3D1663571122867&=
+amp;api=3Dv2" data-image-src=3D"https://confluence.srv.westpac.com.au/downl=
+oad/attachments/1203279551/WDPUI%20Flow%20Diagram.jpg?version=3D1&amp;modif=
+icationDate=3D1663571122867&amp;api=3Dv2"></span></p>
+<p><br></p>
+<p>UI Code can be generally divided into 3 sections as shown above</p>
+<p><br></p>
+<h2 id=3D"UICodingStandards-NamingConventions">Naming Conventions</h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 68.=
+0923%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 27.2126%;">
+<col class=3D"" style=3D"width: 33.8296%;">
+<col class=3D"" style=3D"width: 28.6187%;">
+<col class=3D"" style=3D"width: 10.4218%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">Type</th>
+<th class=3D"confluenceTh">Recommended File Name</th>
+<th class=3D"confluenceTh">Recommended Component Name</th>
+<th class=3D"confluenceTh">Notes</th>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Page Component</p></td>
+<td class=3D"confluenceTd">xxx<strong>Page</strong>.tsx</td>
+<td class=3D"confluenceTd">xxx<strong>Page</strong></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Layout Component&nbsp;&nbsp;</p></td>
+<td class=3D"confluenceTd">xxx<strong>Layout</strong>.tsx</td>
+<td class=3D"confluenceTd">xxx<strong>Layout</strong></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Container Component</p></td>
+<td class=3D"confluenceTd">xxx<strong>Container</strong>.tsx</td>
+<td class=3D"confluenceTd">xxx<strong>Container</strong></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Connects to Redux Store</li>
+<li>Delegate rendering to Presentational components</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Functional/Renderer Component</p></td>
+<td class=3D"confluenceTd">xxx.tsx</td>
+<td class=3D"confluenceTd">xxx</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Reusable Component</p></td>
+<td class=3D"confluenceTd">xxx.tsx</td>
+<td class=3D"confluenceTd">xxx</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Tests</p></td>
+<td class=3D"confluenceTd">xxx.<strong>test</strong>.tsx</td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd">Unit Tests</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Styles</p></td>
+<td class=3D"confluenceTd"><p>src/common/<strong>styles</strong>.tsx</p><p>=
+src/containers/xxxContainer.<strong>style</strong>.tsx (page level, not reu=
+sable)</p><p>eg: PageHeader.<strong>style</strong>.tsx</p></td>
+<td class=3D"confluenceTd"><strong>Styled</strong>xxx</td>
+<td class=3D"confluenceTd">Style Component Style definitions</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Types</p></td>
+<td class=3D"confluenceTd"><p>src/common/<strong>types</strong>.ts - local =
+types</p><p>src/types/<strong>index</strong>.ts - imported packages</p><p>s=
+rc/containers/xxxContainer.<strong>type</strong>.ts (page level, not reusab=
+le)</p></td>
+<td class=3D"confluenceTd">xxx<strong>Type</strong></td>
+<td class=3D"confluenceTd">TypeScript <strong>type</strong> definitions, no=
+t <strong>interface</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Constants</p></td>
+<td class=3D"confluenceTd"><p>src/common/<strong>constants</strong>.ts</p><=
+p>src/containers/xxxContainer.<strong>constant</strong>.ts (page level, not=
+ reusable)</p></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Utils</p></td>
+<td class=3D"confluenceTd"><p>src/common/<strong>utils</strong>.ts</p><p>sr=
+c/common/Date.util.ts, src/common/URL.util.ts</p><p>src/containers/xxxConta=
+iner.<strong>util</strong>.ts (page level, not reusable)</p></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"UICodingStandards-OtherRecommendations">Other Recommendations</h2=
+>
+<ul>
+<li>All references or checks against string values should be via constant/e=
+num</li>
+<li>Improve existing code when you change it</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<h2 id=3D"UICodingStandards-Logging">Logging</h2>
+<p>Please think carefully before you log. Make sure you log enough informat=
+ion to debug via splunk in case a production issue occurs (error/exception)=
+. At the same time be mindful to not log excessively as it causes performan=
+ce issues, noisy log (splunk gets costly too) etc. Also NEVER log data, esp=
+ecially if it contains PII (Personally Identifiable Data).</p>
+<p>MESH Node (EXP API) Log Levels: <a class=3D"external-link" href=3D"https=
+://one.dev1.ui.westpac.com.au/library/docs/mep-node-framework/1.22.2/core/l=
+ogging-provider/index.html" rel=3D"nofollow">https://one.dev1.ui.westpac.co=
+m.au/library/docs/mep-node-framework/1.22.2/core/logging-provider/index.htm=
+l</a></p>
+<p><br></p>
+<p><br></p>
+<h2 id=3D"UICodingStandards-"><span class=3D"confluence-embedded-file-wrapp=
+er confluence-embedded-manual-size"><img class=3D"confluence-embedded-image=
+ confluence-external-resource" draggable=3D"false" width=3D"1413" src=3D"ht=
+tps://www.typescriptlang.org/static/TypeScript%20Types-ae199d69aeecf7d4a270=
+4a528d0fd3f9.png" data-image-src=3D"https://www.typescriptlang.org/static/T=
+ypeScript%20Types-ae199d69aeecf7d4a2704a528d0fd3f9.png"></span></h2>
+<h4 id=3D"UICodingStandards-UsefulReferences:">Useful References:</h4>
+<p><a href=3D"https://confluence.srv.westpac.com.au/display/MD/WDP+UI+Code+=
+Review+Process+and+Guidelines" rel=3D"nofollow">WDP UI Code Review Process =
+and Guidelines - Mesh Delivery - Westpac Enterprise Confluence</a></p>
+<p><a href=3D"https://confluence.srv.westpac.com.au/pages/viewpage.action?p=
+ageId=3D1203279537" rel=3D"nofollow">4. Development best practices &amp; pa=
+tterns - Westpac Mesh - Westpac Enterprise Confluence</a></p>
+<p class=3D"p1"><span class=3D"s1"><a href=3D"https://github.com/microsoft/=
+TypeScript/wiki/Coding-guidelines" class=3D"external-link" rel=3D"nofollow"=
+>https://github.com/microsoft/TypeScript/wiki/Coding-guidelines</a></span><=
+/p>
+<p class=3D"p1"><br></p>
+<h4 id=3D"UICodingStandards-GITCommitmessagingconventions">GIT Commit messa=
+ging conventions</h4>
+<p><a class=3D"external-link" href=3D"https://conventionalcommits.org/" rel=
+=3D"nofollow">https://conventionalcommits.org/</a></p>
+<p><a class=3D"external-link" href=3D"https://github.com/angular/angular/bl=
+ob/master/CONTRIBUTING.md#commit" rel=3D"nofollow">https://github.com/angul=
+ar/angular/blob/master/CONTRIBUTING.md#commit</a><br><br><br><br><span><spa=
+n class=3D"ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z =
+ab ac ae af ag ah ai aj ak"><br><strong><span class=3D"confluence-anchor-li=
+nk" id=3D"UICodingStandards-vscodeextensions"></span> <a href=3D"#UICodingS=
+tandards-vscodeextensions">Commonly used VSCode extensions &amp; tools&nbsp=
+;</a></strong><br><br></span></span></p>
+<p><span><span class=3D"ui-provider a b c d e f g h i j k l m n o p q r s t=
+ u v w x y z ab ac ae af ag ah ai aj ak">Refer this for the extensions reco=
+mmended by MESH along with the correct config for consistency:<br><a href=
+=3D"/display/MESH/2.5+Tools">2.5 Tools</a><br></span></span></p>
+<p><br></p>
+<p><span><span class=3D"ui-provider a b c d e f g h i j k l m n o p q r s t=
+ u v w x y z ab ac ae af ag ah ai aj ak">Other VS code extensions&nbsp;used=
+ commonly and recommended by the team:</span></span></p>
+<p><span><span class=3D"ui-provider a b c d e f g h i j k l m n o p q r s t=
+ u v w x y z ab ac ae af ag ah ai aj ak">Github copilot<br>
+ Auto Rename Tag<br>
+ change-case<br>
+ Code Spell Checker<br>
+ Coverage Gutters<br>
+ CSS Modules<br>
+ DotENV<br>
+ EditorConfig for VS Code<br>
+ Error lens<br>
+ ES7 React/Redux/GraphQL/React-Native snippets<br>
+ ESLint<br>
+ Git Blame<br>
+ Git Graph<br>
+ Git History<br>
+ GitHub Copilot Chat<br>
+ GitLens - Git suppercharged<br>
+ Highlight Matching Tag<br>
+ Import Cost<br>
+ IntelliCode<br>
+ IntelliCode API Usage Examples<br>
+ IntelliSense for CSS class names in HTML<br>
+ Jest Runner<br>
+ Live Preview<br>
+ Material Icon Theme<br>
+ Multiple cursor case preserve<br>
+ npm Intellisense<br>
+ npm Outdated<br>
+ Nx Console<br>
+ Path Intellisense<br>
+ PostCSS Language Support<br>
+ Prettier - Code formatter<br>
+ Snyk Security<br>
+ TabOut<br>
+ Tailwind CSS IntelliSense<br>
+ VSCode React Refactor<br>
+ vscode-icons<br><br></span></span></p>
+    </div>
+</body>
+</html>
+------=_Part_116118_44469093.1773921736752--

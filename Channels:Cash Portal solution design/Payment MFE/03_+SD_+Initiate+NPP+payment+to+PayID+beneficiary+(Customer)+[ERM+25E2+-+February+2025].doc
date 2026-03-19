@@ -1,0 +1,1593 @@
+Date: Thu, 19 Mar 2026 22:40:58 +1100 (AEDT)
+Message-ID: <1778896983.115937.1773920458669@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_115936_1306745872.1773920458669"
+
+------=_Part_115936_1306745872.1773920458669
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>03: SD: Initiate NPP payment to PayID beneficiary (Customer) [ER=
+M 25E2 - February 2025]</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>03: SD: Initiate NPP payment to PayID beneficiary (Customer) [ERM 2=
+5E2 - February 2025]</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"2" scope=3D"colgroup" class=3D"confluenceTh"><h1 id=3D"id-03=
+:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2February2025]-ERM=
+25E2-February2025"><strong><span> ERM 25E2 - February 2025</span></strong><=
+/h1></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div class=3D"panel" style=3D"border-width: 1px;">
+<div class=3D"panelHeader" style=3D"border-bottom-width: 1px;"><b>Version n=
+ame</b>
+</div>
+<div class=3D"panelContent">
+<p><strong><span>Release: ERM 25E2 - February 2025</span></strong></p>
+<p><strong><span>Program:</span></strong>&nbsp; Corporate Cash Management P=
+latform</p>
+<p><strong><span>Project:</span></strong> Corporate Cash Management Platfor=
+m Tech <strong><span>Project ID:</span></strong> PR223065 <strong><span>Pro=
+ject Cost Centre:</span></strong> 163344 <strong><span>Investment ID: </spa=
+n></strong>INS223056</p>
+<p><strong>Status: <span class=3D"status-macro aui-lozenge aui-lozenge-succ=
+ess">DONE</span>&nbsp;</strong>&nbsp;</p>
+<p><strong><span>Confidentiality Classification: General Business</span></s=
+trong></p>
+<p><span><strong>Issue Date: <time datetime=3D"2024-06-13" class=3D"date-pa=
+st">13 Jun 2024</time>&nbsp;</strong></span></p>
+<p><span><strong>Issued By: <a class=3D"confluence-userlink user-mention" d=
+ata-username=3D"M061387" href=3D"/display/~M061387" data-linked-resource-id=
+=3D"1359044573" data-linked-resource-version=3D"1" data-linked-resource-typ=
+e=3D"userinfo" data-base-url=3D"https://confluence.srv.westpac.com.au">Thom=
+as Van Deun</a>&nbsp;</strong></span></p>
+<p><strong>JIRA: <span class=3D"jira-issue resolved" data-jira-key=3D"ART-1=
+0265"> <a href=3D"https://jira.srv.westpac.com.au/browse/ART-10265" class=
+=3D"jira-issue-key"><img class=3D"icon" src=3D"https://jira.srv.westpac.com=
+.au:8444/images/icons/issuetypes/epic.svg">ART-10265</a> - <span class=3D"s=
+ummary">ENABLER: Solution Design for Initiate NPP payment to PayID benefici=
+ary (Customer Portal)</span> <span class=3D"aui-lozenge aui-lozenge-subtle =
+            aui-lozenge-success
+     jira-macro-single-issue-export-pdf">Done</span> </span> </strong></p>
+<p><strong>ACD: </strong>N/A</p>
+</div>
+</div>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<div id=3D"expander-440659834" class=3D"expand-container">
+<div role=3D"heading" aria-level=3D"6" id=3D"expander-control-440659834" cl=
+ass=3D"expand-control"><button type=3D"button" id=3D"expand-button-44065983=
+4" class=3D"aui-button aui-button-link aui-button-link-icon-text" aria-expa=
+nded=3D"true" aria-controls=3D"expander-content-440659834"><span class=3D"e=
+xpand-icon aui-icon aui-icon-small aui-iconfont-chevron-down" aria-hidden=
+=3D"true"></span><span class=3D"expand-control-text conf-macro-render">Tabl=
+e of Contents...</span></button>
+</div>
+<div role=3D"region" id=3D"expander-content-440659834" class=3D"expand-cont=
+ent" aria-labelledby=3D"expand-button-440659834">
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1773920458602 {padding: 0px;}
+div.rbtoc1773920458602 ul {margin-left: 0px;}
+div.rbtoc1773920458602 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1773920458602">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-ERM25E2-February2025">ERM 25E2 - February 2025</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-RACI">RACI</a></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-ImpactedSystemSummary">Impacted System Summary</a></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-RAID-Risk,Assumptions,IssuesandDependencies">RAID - Risk,=
+ Assumptions, Issues and Dependencies</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-Constraints&amp;Dependencies">Constraints &amp; Dependenc=
+ies</a></li>
+</ul></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-KeyDecisions">Key Decisions</a></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-UserStoryTraceability">User Story Traceability</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-Non-FunctionalRequirementsTraceability">Non-Functional Re=
+quirements Traceability</a></li>
+</ul></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-TechnicalDebt">Technical Debt</a></li>
+</ul></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-Solution">Solution</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-SolutionOverview">Solution Overview</a></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-SequenceDiagram">Sequence Diagram</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-1AliasLookup">1 Alias Lookup</a></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-2.PaymentInitiation">2. Payment Initiation</a></li>
+</ul></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-IntegrationDiagram">Integration Diagram</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-DetailedIntegrationImpacts">Detailed Integration Impacts<=
+/a></li>
+</ul></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-SecurityAspects">Security Aspects</a></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-Userinterfaces">User interfaces</a></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-ErrorHandling">Error Handling</a></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-Data&amp;InformationModel">Data &amp; Information Model</=
+a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-DataMappings">Data Mappings</a></li>
+</ul></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-OperationalImpacts">Operational Impacts</a></li>
+</ul></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-References">References</a></li>
+<li><a href=3D"#id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM=
+25E2February2025]-Glossary">Glossary</a></li>
+</ul>
+</div>
+<p></p>
+</div>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-RACI">R<span class=3D"inline-comment-marker" data-ref=3D"5b6d02=
+3c-6f74-4cc5-adf8-1ecbde3b9ac4">ACI</span></h2>
+<p></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 95.=
+5568%;">
+<colgroup>
+<col class=3D"" style=3D"width: 20.9256%;">
+<col class=3D"" style=3D"width: 27.9743%;">
+<col class=3D"" style=3D"width: 51.1025%;">
+</colgroup>
+<tbody>
+<tr class=3D"">
+<th class=3D"confluenceTh">RACI</th>
+<th class=3D"confluenceTh">Role</th>
+<th class=3D"confluenceTh">Channel</th>
+</tr>
+<tr class=3D"">
+<td rowspan=3D"2" class=3D"confluenceTd tf-rowspan-2 tf-colspan-1">Responsi=
+ble</td>
+<td class=3D"confluenceTd"><p>Solution Designer</p></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1422212448" =
+role=3D"group">
+<li data-inline-task-id=3D"40" role=3D"checkbox" aria-checked=3D"false" tab=
+index=3D"0"><span class=3D"placeholder-inline-tasks">Edmond Tso</span></li>
+<li data-inline-task-id=3D"95" role=3D"checkbox" aria-checked=3D"false" tab=
+index=3D"0">Ellen Hallgren</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Development Lead</p></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1422212448" =
+role=3D"group">
+<li data-inline-task-id=3D"96" role=3D"checkbox" aria-checked=3D"false" tab=
+index=3D"0">Anthony Johnson</li>
+<li data-inline-task-id=3D"97" role=3D"checkbox" aria-checked=3D"false" tab=
+index=3D"0">Oliver Wu</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td rowspan=3D"2" class=3D"confluenceTd tf-rowspan-2 tf-colspan-1">Approval=
+ and signing off</td>
+<td class=3D"confluenceTd"><p>Architect</p><p><br></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"placeholder-inline-tasks">The =
+relevant one according to who's been the main responsible for the AIA/ACD f=
+or the feature.</span></p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1422212448" =
+role=3D"group">
+<li data-inline-task-id=3D"48" role=3D"checkbox" aria-checked=3D"false" tab=
+index=3D"0"><span class=3D"placeholder-inline-tasks">Ave Cahyadi</span></li=
+>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Integration Architect</p></td>
+<td class=3D"confluenceTd"><p><span class=3D"placeholder-inline-tasks">&nbs=
+p;</span></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">Consulted</td>
+<td class=3D"confluenceTd"><p>Delivery Lead</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Zoe Shirley</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td rowspan=3D"2" class=3D"confluenceTd tf-rowspan-2 tf-colspan-1">Consulte=
+d if Applicable</td>
+<td class=3D"confluenceTd"><p>Information Architect</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Design</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Nga Duong</li>
+<li>Dean Borstrock</li>
+<li><span class=3D"placeholder-inline-tasks"><span data-teams=3D"true">Cisi=
+lia Goh</span></span></li>
+<li><span class=3D"placeholder-inline-tasks"><span data-teams=3D"true">Anku=
+sh Gokarn</span></span></li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td rowspan=3D"9" class=3D"confluenceTd tf-rowspan-9 tf-colspan-1">Informed=
+</td>
+<td class=3D"confluenceTd"><p>Program Director</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Lipsa Patnaik</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Operational team</p></td>
+<td class=3D"confluenceTd">TBA</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Finance BA</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Engineering team</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Anthony Johnson</li>
+<li>Oliver Wu</li>
+</ul></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;vertical-align: top;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>Service Management (Observability and Monitoring)</p>
+</div></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">
+<ul>
+<li>Release management</li>
+<li>Production readiness team</li>
+</ul></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Testing team</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Bhavya Panchotia - Test Lead Channel</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>SVP Testing&nbsp;</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Kripashankar Mishra</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>ISG</p></td>
+<td class=3D"confluenceTd">
+<ul>
+<li>Raj Vaishya&nbsp;</li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td rowspan=3D"3" class=3D"confluenceTd tf-rowspan-3 tf-colspan-1">Reviewed=
+</td>
+<td class=3D"confluenceTd"><p>Business Analyst</p></td>
+<td class=3D"confluenceTd"><p><span class=3D"placeholder-inline-tasks">The =
+Business analyst that defined the user stories:</span></p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1422212448" =
+role=3D"group">
+<li data-inline-task-id=3D"101" role=3D"checkbox" aria-checked=3D"false" ta=
+bindex=3D"0"><span class=3D"placeholder-inline-tasks">Colin Yau</span></li>
+<li data-inline-task-id=3D"99" role=3D"checkbox" aria-checked=3D"false" tab=
+index=3D"0"><span class=3D"placeholder-inline-tasks">Andrea For</span></li>
+<li data-inline-task-id=3D"102" role=3D"checkbox" aria-checked=3D"false" ta=
+bindex=3D"0"><span class=3D"placeholder-inline-tasks">Anindita Gosh</span><=
+/li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Product Owner</p></td>
+<td class=3D"confluenceTd"><p>One of the following:</p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1422212448" =
+role=3D"group">
+<li data-inline-task-id=3D"103" role=3D"checkbox" aria-checked=3D"false" ta=
+bindex=3D"0">Mel Jamieson</li>
+<li data-inline-task-id=3D"104" role=3D"checkbox" aria-checked=3D"false" ta=
+bindex=3D"0"><span class=3D"placeholder-inline-tasks">Anindita Gosh</span><=
+/li>
+</ul></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>Solution designer</p></td>
+<td class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"1422212448" =
+role=3D"group">
+<li data-inline-task-id=3D"46" role=3D"checkbox" aria-checked=3D"false" tab=
+index=3D"0">At least one Solution designers for peer review</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-ImpactedSystemSummary"><span>Impacted System Summary</span></h2=
+>
+<p><span></span></p>
+<p></p>
+<p></p>
+<div class=3D"plugin-tabmeta-details">
+<div class=3D"table-wrap">
+<table class=3D"wrapped relative-table confluenceTable" style=3D"width: 50.=
+5965%;">
+<colgroup>
+<col style=3D"width: 12.0486%;">
+<col style=3D"width: 3.25637%;">
+<col style=3D"width: 84.6951%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh"><p>Cash Platform (<span><span class=3D"ui-provid=
+er gs b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah a=
+i aj ak">A014A6</span></span>)</p></th>
+<td class=3D"confluenceTd"><p>=E2=AD=90</p></td>
+<td class=3D"confluenceTd"><p><strong>Payments MFE - EXP API :plus:&nbsp;</=
+strong></p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li><u>New </u>Alias Resolution for NPP PayID endpoint =3D&gt;&nbsp; see <a=
+ href=3D"/display/ARTC/exp-galaxy-payment-v2#expgalaxypaymentv2-8.Capabilit=
+y:LookupaPayIDAlias">exp-galaxy-payment-v2#8.Capability:LookupaPayIDAlias</=
+a></li>
+</ul></li>
+</ul><p><strong>Payments MFE - EXP API :plus:&nbsp;</strong></p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>POST /payments<br>
+<ul>
+<li>Upgrade to V2 Payment API downstream</li>
+<li>Including new request fields for PayID</li>
+<li>See: <a href=3D"/pages/viewpage.action?pageId=3D1812389994">Make a paym=
+ent UI - EXP API Mapping [ERM 25E2 - February 2025]</a>&nbsp;</li>
+<li>No long submit debtorAccount Name</li>
+</ul></li>
+<li>GET /payees=20
+<ul>
+<li>Changes in schema to align PayID Alias Types</li>
+<li>See <a href=3D"/display/ARTC/Payment+Experience+API+-+Source+Systems+Ma=
+pping#PaymentExperienceAPISourceSystemsMapping-GET/Payees">Payment Experien=
+ce API - Source Systems Mapping#GET/Payees</a></li>
+</ul></li>
+<li>POST /paymentDetails<br>
+<ul>
+<li>PayId Alias fields</li>
+<li>See <a href=3D"/display/ARTC/Payment+Experience+API+-+Source+Systems+Ma=
+pping#PaymentExperienceAPISourceSystemsMapping-POST/paymentDetails">Payment=
+ Experience API - Source Systems Mapping#POST/paymentDetails</a></li>
+</ul></li>
+<li>POST /paymentListing<br>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>PayId Alias fields</li>
+<li><a href=3D"/display/ARTC/Payment+Experience+API+-+Source+Systems+Mappin=
+g#PaymentExperienceAPISourceSystemsMapping-POST/paymentListing">Payment Exp=
+erience API - Source Systems Mapping#POST/paymentListing</a></li>
+</ul></li>
+</ul></li>
+<li>New consumption <a class=3D"external-link" href=3D"https://mesh.westpac=
+.com.au/components/apis/payment-alias-resolution-v2" rel=3D"nofollow">payme=
+nt-alias-resolution-v2</a> (not requested )</li>
+<li>New consumption <em style=3D"text-align: left;">cap-prodsvcfulflmnt-pym=
+ntprocsng-pymntinit-v2 </em>(not requested )</li>
+</ul></li>
+</ul><p><strong>Payments MFE - UI</strong></p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>Implement PayID Alias resolution API and validations</li>
+<li>Support PayId Alias in Payment Initiation screens <strong>:plus:&nbsp;<=
+/strong></li>
+<li>Support PayId Alias in Payment Listing View</li>
+<li>Support PayId Alias in Payment Details View</li>
+</ul></li>
+</ul><p><strong>Accounts MFE - EXP API</strong></p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>POST /transactionDetails=20
+<ul>
+<li>Update mapping to add Alias Values to Creditor response object</li>
+<li>Support acc/bsb for Staff incase of PayID</li>
+</ul></li>
+</ul></li>
+</ul><p><strong>Accounts MFE - UI&nbsp;</strong></p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li>Support PayId Alias Transaction Detail UI=20
+<ul>
+<li>Support for staff fied (bsb+acc)</li>
+<li>See&nbsp;<a href=3D"/pages/viewpage.action?pageId=3D1812394665">Archive=
+d Transaction Details UI Data Mapping [ERM 25E2 - Feb 2025]</a></li>
+</ul></li>
+</ul></li>
+</ul><p><strong>Payee Address Book - INF API :plus:&nbsp;</strong></p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li><span>All endpoints - </span><strong>CreatePayee </strong><span>Scheme =
+changes</span><br>
+<ul>
+<li><span>LegalName</span></li>
+<li><span>Alias Types</span></li>
+</ul></li>
+<li><span>Component.yaml update</span></li>
+<li><span>=3D&gt; See Swagger-review-feb25 branch</span></li>
+</ul></li>
+</ul><p><strong><span>Payee Address Book - Data Store :plus:&nbsp;</span></=
+strong></p>
+<ul>
+<li style=3D"list-style-type: none;">
+<ul>
+<li><span>Scheme changes</span><br>
+<ul>
+<li><span>LegalName</span></li>
+<li><span>Alias Types</span></li>
+</ul></li>
+<li><span>Component.yaml update</span></li>
+<li><span>Swagger-review-feb25 branch</span></li>
+</ul></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class=3D"panel" style=3D"border-width: 1px;">
+<div class=3D"panelHeader" style=3D"border-bottom-width: 1px;"><b>Impacted =
+System Images</b>
+</div>
+<div class=3D"panelContent">
+<p>=E2=AD=90 - Change&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; =F0=9F=9F=A9 - New&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span c=
+lass=3D"fabric-text-color-mark">=F0=9F=94=B5 </span>- Existing Implementati=
+on &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :cross: - Decommission<=
+/p>
+</div>
+</div>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-RAID-Risk,Assumptions,IssuesandDependencies">RAID - Risk, Assum=
+ptions, Issues and Dependencies</h2>
+<p></p>
+<p></p>
+<p><br></p>
+<h3 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-Constraints&amp;Dependencies">Constraints &amp; Dependencies</h=
+3>
+<p></p>
+<p></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 364.0px;">
+<col class=3D"" style=3D"width: 372.0px;">
+<col class=3D"" style=3D"width: 480.0px;">
+<col class=3D"" style=3D"width: 361.0px;">
+<col class=3D"" style=3D"width: 184.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Ref #</st=
+rong></p><p>[C-###, D-###]</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Considera=
+tions Type</strong></p><p>[Constraints, Dependencies]</p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Descripti=
+on</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Notes</st=
+rong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Date</str=
+ong></p></th>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>C-JIRAFEATURE-00X=
+</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Constraint</p></t=
+d>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>D-JIRAFEATURE-00X=
+</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Dependency</p></t=
+d>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-KeyDecisions"><span>Key Decisions</span></h2>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 114=
+7.0px;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 74.0px;">
+<col class=3D"" style=3D"width: 71.0px;">
+<col class=3D"" style=3D"width: 101.0px;">
+<col class=3D"" style=3D"width: 300.0px;">
+<col class=3D"" style=3D"width: 309.0px;">
+<col class=3D"" style=3D"width: 86.0px;">
+<col class=3D"" style=3D"width: 285.0px;">
+</colgroup>
+<thead class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>ID</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>Status</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>Date of Decisio=
+n&nbsp;</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>Decision</p></t=
+h>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>Decision taken<=
+/p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>Who</p></th>
+<th style=3D"text-align: center;" class=3D"confluenceTh"><p>Commentary</p><=
+/th>
+</tr>
+</thead>
+<tbody class=3D"">
+<tr class=3D"">
+<td style=3D"text-align: center;" class=3D"confluenceTd">1</td>
+<td style=3D"text-align: center;" class=3D"confluenceTd">Closed</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><time datetime=3D"2024-06-17" class=3D"date-past">17 Jun 2024</time>&nbs=
+p;</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Should Channel preve=
+nt any high-volume lookup of an PayID Alias for a given session in a specif=
+ic time window</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">For Feb 24 ERM: no&n=
+bsp;</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><a class=3D"confluence-userlink user-mention" data-username=3D"M058573" =
+href=3D"/display/~M058573" data-linked-resource-id=3D"1125291984" data-link=
+ed-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base-=
+url=3D"https://confluence.srv.westpac.com.au">Ave Cahyadi</a> <a class=3D"c=
+onfluence-userlink user-mention" data-username=3D"M061387" href=3D"/display=
+/~M061387" data-linked-resource-id=3D"1359044573" data-linked-resource-vers=
+ion=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://c=
+onfluence.srv.westpac.com.au">Thomas Van Deun</a>&nbsp;</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-UserStoryTraceability"><span>User Story Traceability</span></h2=
+>
+<p><a href=3D"/display/ARTC/BR%3A++ART-7235%3A+Send+an+NPP+payment+to+PayID=
++beneficiary+from+Portal">BR: ART-7235: Send an NPP payment to PayID benefi=
+ciary from Portal</a></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup class=3D"">
+<col class=3D"">
+<col class=3D"">
+<col>
+<col>
+<col>
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">BR#</th>
+<th class=3D"confluenceTh">Status</th>
+<th class=3D"confluenceTh">BR Summary</th>
+<th class=3D"confluenceTh">Documented in this SD</th>
+<th class=3D"confluenceTh">Completed</th>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>BR.01</p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(23,43,77);">The abi=
+lity to send an NPP Payment to an existing PayID beneficiary:</span></p>
+<ul style=3D"list-style-type: square;">
+<li>Show Payee PayID details</li>
+<li>Alias Lookup and error handling</li>
+</ul></td>
+<td class=3D"confluenceTd"><p><strong>:tick:</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>&nbsp;</strong></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">BR.02</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">The abilit=
+y to add PayId payees to the adress book</span></td>
+<td class=3D"confluenceTd"><strong>:tick:</strong></td>
+<td class=3D"confluenceTd"><strong>:tick:</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">BR.03</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd">Do expose BSB and Account Number of a Alias look=
+up to Customer and Staff</td>
+<td class=3D"confluenceTd"><strong>:tick:</strong></td>
+<td class=3D"confluenceTd"><strong>&nbsp;</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p>BR.04</p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">The Pay ID=
+ submitted from the Channel must align to formatting rules</span></p></td>
+<td class=3D"confluenceTd"><p><strong>:tick:</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>&nbsp;</strong></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">BR.05</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd">Where Pay ID is referred to in the channel: the&=
+nbsp;branding<span style=3D"color: rgb(23,43,77);">&nbsp;should be "PayID" =
+with no logo, just text</span></td>
+<td class=3D"confluenceTd"><strong>:cross:</strong></td>
+<td class=3D"confluenceTd"><strong>&nbsp;</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><p><s>BR.06</s></p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge">N/A</span></p>
+</div></td>
+<td class=3D"confluenceTd"><p>N/A</p></td>
+<td class=3D"confluenceTd"><p><strong>:cross:</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>&nbsp;</strong></p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">BR.07</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd">Channel API should populate the correct fields t=
+o enable a PayID NPP Payment</td>
+<td class=3D"confluenceTd"><strong>:tick:</strong></td>
+<td class=3D"confluenceTd"><strong>&nbsp;</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">BR.08</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd">Implement various error scenario handling</td>
+<td class=3D"confluenceTd"><strong>:tick:</strong></td>
+<td class=3D"confluenceTd"><strong>&nbsp;</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">BR.09</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge">N/A</span></p>
+</div></td>
+<td class=3D"confluenceTd">Event related BR</td>
+<td class=3D"confluenceTd"><strong>:cross:</strong></td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey" ti=
+tle=3D"Background colour :"><strong title=3D"">&nbsp;</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">BR.10</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge">N/A</span></p>
+</div></td>
+<td class=3D"confluenceTd">Event related BR</td>
+<td class=3D"confluenceTd"><strong>:cross:</strong></td>
+<td class=3D"confluenceTd"><strong>&nbsp;</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">BR.11</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge">N/A</span></p>
+</div></td>
+<td class=3D"confluenceTd">Event related BR</td>
+<td class=3D"confluenceTd"><strong>:cross:</strong></td>
+<td class=3D"confluenceTd"><strong>&nbsp;</strong></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">BR.12</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><span style=3D"color=
+: rgb(23,43,77);">Read-only staff cannot submit PayID payments</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>:tick:</stro=
+ng></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">BR.13</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Performance&nbsp;<sp=
+an style=3D"color: rgb(23,43,77);">- Non-Functional Requirement</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>:tick:</stro=
+ng></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>:tick:</stro=
+ng></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">BR.14</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Volume&nbsp;<span st=
+yle=3D"color: rgb(23,43,77);">- Non-Functional Requirement</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>:tick:</stro=
+ng></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>:tick:</stro=
+ng></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">BR.15</td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">Availability<span st=
+yle=3D"color: rgb(23,43,77);">- Non-Functional Requirement</span></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>:tick:</stro=
+ng></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><strong>:tick:</stro=
+ng></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">BR.16</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Show outbo=
+und NPP PayID payments in transaction listing</span></td>
+<td class=3D"confluenceTd"><strong>:tick:</strong></td>
+<td class=3D"confluenceTd"><strong>&nbsp;</strong></td>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">BR.17</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Update the=
+ beneficiary section of the transaction detail page to show a PayID benefic=
+iary</span></td>
+<td class=3D"confluenceTd"><strong>:tick:</strong></td>
+<td class=3D"confluenceTd"><strong>&nbsp;</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">BR.18</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Update the=
+ beneficiary/to account field of the payment listing to show PayID details:=
+</span></td>
+<td class=3D"confluenceTd"><strong>:tick:</strong></td>
+<td class=3D"confluenceTd"><strong>&nbsp;</strong></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">BR.19</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">OPEN</span></=
+p>
+</div></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(23,43,77);">Update the=
+ beneficiary section of the payment detail page to show PayID details</span=
+></td>
+<td class=3D"confluenceTd"><strong>:tick:</strong></td>
+<td class=3D"confluenceTd"><strong>&nbsp;</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-Non-FunctionalRequirementsTraceability">Non-Functional Requirem=
+ents Traceability</h3>
+<p>FEATURE SPECIFIC NFR: <a href=3D"/display/ARTC/ART-7235+Non-Functional+R=
+equirements">ART-7235 Non-Functional Requirements</a></p>
+<p><span style=3D"color: rgb(23,43,77);">Overall&nbsp; NFRs:<span>&nbsp;</s=
+pan></span><a href=3D"https://confluence.srv.westpac.com.au/display/ARTC/No=
+n-Functional+Requirements+for+Beta+February+-+Channels+Squad" rel=3D"nofoll=
+ow">Non-Functional Requirements for Beta February - Channels Squad</a></p>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-TechnicalDebt">Technical Debt</h2>
+<p>&nbsp;&nbsp;</p>
+<h1 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-Solution"><span>Solution</span></h1>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-SolutionOverview"><span>Solution Overview</span></h2>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th scope=3D"col" class=3D"confluenceTh">Implementations</th>
+<th scope=3D"col" class=3D"confluenceTh">Steps</th>
+<th scope=3D"col" class=3D"confluenceTh">Details</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Updating Payee Addresbook with new Payee (with P=
+ayID details)</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>Use existing Payee INF endpoint</li>
+<li>Use existing payee group ID.&nbsp;</li>
+<li>Create new payload for payees to add</li>
+</ol></td>
+<td class=3D"confluenceTd">Refer to <a href=3D"/display/ARTC/Archived+01.+S=
+D%3A+Beneficiary+%28Payee%29+Address+Book">Archived 01. SD: Beneficiary (Pa=
+yee) Address Book</a> for group ID mapping&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Resolving the Payee PayID details using Alias Lo=
+okup</td>
+<td class=3D"confluenceTd">
+<ol>
+<li>Implement Alias Resultion APIPOST&nbsp; <span class=3D"opblock-summary-=
+path" style=3D"color: rgb(59,65,81);"><a class=3D"nostyle" style=3D"text-de=
+coration: inherit;" rel=3D"nofollow"><span>/alias/lookup</span></a></span><=
+/li>
+<li>Filter out creditor bsb + accountNumber in EXP Response</li>
+<li>Possible scenarios:=20
+<ol>
+<li>PayID resolves, matches Payee name =3D <span style=3D"color: rgb(51,153=
+,102);">no&nbsp; UI message, enable submit button</span></li>
+<li>PayID resolves,&nbsp; does not matches Payee name&nbsp; =3D<span style=
+=3D"color: rgb(255,102,0);"> show </span><span style=3D"color: rgb(51,153,1=
+02);"><span style=3D"color: rgb(255,102,0);">UI message</span>, enable subm=
+it button</span></li>
+<li><span style=3D"color: rgb(51,153,102);"><span style=3D"color: rgb(0,0,0=
+);">PayID does not resolve, due to technical 4xx/5xx <span style=3D"color: =
+rgb(51,51,51);">erro</span></span><span style=3D"color: rgb(51,51,51);">r</=
+span> =3D </span><span style=3D"color: rgb(255,102,0);">show </span><span s=
+tyle=3D"color: rgb(51,153,102);"><span style=3D"color: rgb(255,102,0);">UI =
+message</span>, <span style=3D"color: rgb(255,102,0);"><strong>disable </st=
+rong>submit button</span></span></li>
+<li>PayID does not resolve, because it is not registered<span style=3D"colo=
+r: rgb(51,153,102);"><span style=3D"color: rgb(255,102,0);"> =3D&nbsp;</spa=
+n></span><span style=3D"color: rgb(255,102,0);">show </span><span style=3D"=
+color: rgb(51,153,102);"><span style=3D"color: rgb(255,102,0);">UI message<=
+/span>, <span style=3D"color: rgb(255,102,0);"><strong>disable </strong>sub=
+mit button</span></span></li>
+</ol></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>Pseudo to match Selected Payee name and Alias name:</p>
+<p><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">entities=
+.payees[x].name =3D=3D entities.lookup[0].name</pre>
+</div>
+</div>
+<p><br></p>
+</div></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Submitting a Payment Initiation using Alias</td>
+<td class=3D"confluenceTd"><p>After a successful PayID resolution, populate=
+ the following values in the POST /Payments payload</p><p><br></p><p><stron=
+g>See mapping here: <a href=3D"/pages/viewpage.action?pageId=3D1812389994">=
+Make a payment UI - EXP API Mapping [ERM 25E2 - February 2025]</a></strong>=
+</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Handling a Payment Initiation using Alias respon=
+se scenarios</td>
+<td class=3D"confluenceTd"><strong>TBD - Pending Payment Initation API upda=
+te</strong></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Display Alias information in transaction listing=
+ / details</td>
+<td class=3D"confluenceTd"><strong>TBD - Pending Payment Enquiry API update=
+</strong></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">Display Alias information in payment listing / d=
+etails</td>
+<td class=3D"confluenceTd"><strong>TBD - Pending Payment Enquiry&nbsp; API =
+update</strong></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-SequenceDiagram"><span>Sequence Diagram</span></h2>
+<h3 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-1AliasLookup">1 Alias Lookup</h3>
+<p><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluenc=
+e-embedded-image confluence-external-resource" draggable=3D"false" alt=3D"0=
+1_AliasResolve-2024-05-31.png" src=3D"https://confluence.srv.westpac.com.au=
+/download/attachments/1635218171/01_AliasResolve-2024-05-31.png?version=3D2=
+&amp;modificationDate=3D1717135109533&amp;api=3Dv2" data-image-src=3D"https=
+://confluence.srv.westpac.com.au/download/attachments/1635218171/01_AliasRe=
+solve-2024-05-31.png?version=3D2&amp;modificationDate=3D1717135109533&amp;a=
+pi=3Dv2"></span></p>
+<h3 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-2.PaymentInitiation">2. Payment Initiation</h3>
+<p>Existing implementation =E2=86=92&nbsp; <a href=3D"/pages/viewpage.actio=
+n?pageId=3D1462745587">01. SD: Transfers &amp; payments to existing benefic=
+iary [ERM 24E4 Aug 2024]</a></p>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-IntegrationDiagram">Integration Diagram</h2>
+<p></p>
+<h3 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-DetailedIntegrationImpacts">Detailed Integration Impacts</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 337.0px;">
+<col class=3D"" style=3D"width: 330.0px;">
+<col style=3D"width: 725.0px;">
+<col class=3D"" style=3D"width: 725.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Source Ap=
+plication/System</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Destinati=
+on Application/System</strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Changes</=
+strong></p></th>
+<th style=3D"text-align: left;" class=3D"confluenceTh"><p><strong>Impact De=
+tails</strong></p></th>
+</tr>
+<tr class=3D"">
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">NEW</span><=
+/p>
+<p>Galaxy Payments MFE</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Galaxy Payments E=
+XP API - <strong>POST PayId Alias Lookup</strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>UI =E2=86=92 EXP =
+API</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Downstream API ca=
+ll to Alias Lookup</p><p><br></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">NEW</span><=
+/p>
+<p>Galaxy Payments EXP API</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p class=3D"sc-fBWQR=
+z iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCpGa styles__ApiHeader=
+Subtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;">payment-alias-reso=
+lution-v2</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>EXP =E2=86=92 INF=
+ API</p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">CHANGE</span>=
+</p>
+<p>Galaxy Payments MFE</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p class=3D"sc-fBWQR=
+z iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCpGa styles__ApiHeader=
+Subtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;">Galaxy Payments EX=
+P API - <strong>POST Initiate Payment</strong></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><strong><span sty=
+le=3D"color: rgb(23,43,77);">Change to include fields:</span></strong></p><=
+p><span style=3D"color: rgb(23,43,77);">Alias Value</span></p><p><span styl=
+e=3D"color: rgb(23,43,77);">Alias Type</span></p><p><s><span style=3D"color=
+: rgb(23,43,77);">Alias Registration Date</span></s></p><p><s><span style=
+=3D"color: rgb(23,43,77);">Alias Status</span></s></p><p><s><span style=3D"=
+color: rgb(23,43,77);">Alias Resolved Date Time</span></s></p><p><span styl=
+e=3D"color: rgb(23,43,77);">Alias (creditor) Name</span></p><p><s><span sty=
+le=3D"color: rgb(23,43,77);">Account Servicer Identifier</span></s></p><p><=
+s><span style=3D"color: rgb(23,43,77);">Scheme Name Issuers</span></s></p><=
+p><s><span style=3D"color: rgb(23,43,77);">Account Owner Name</span></s></p=
+><p><br></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p>Downstream API to=
+ submit payment order</p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>INF Payments Enquiry (PODS)</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+"><span class=3D"status-macro aui-lozenge aui-lozenge-moved">CHANGE</span><=
+/p>
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+">Galaxy Payments EXP API - <strong>POST PaymentListing</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p style=3D"text-ali=
+gn: left;">The beneficiary/to account field of the payment listing to show =
+PayID details:</p>
+<ul style=3D"text-align: left;">
+<li>PayID name<span>&nbsp;</span><span style=3D"color: rgb(23,43,77);">(at =
+the time of the payment)</span></li>
+<li>PayID value</li>
+</ul></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>INF Payments Enquiry (PODS)</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+"><span class=3D"status-macro aui-lozenge aui-lozenge-moved">CHANGE</span><=
+/p>
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+">Galaxy Payments EXP API - <strong>POST PaymentDetails</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(23,43,77);">The beneficiary section of the payment detail page to =
+show PayID details</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>INF Payments Enquiry (PODS)</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+"><span class=3D"status-macro aui-lozenge aui-lozenge-moved">CHANGE</span><=
+/p>
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+">Galaxy Accounts EXP API - <strong>POST TransactionListing</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(23,43,77);">Show outbound NPP PayID payments in transaction listin=
+g</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>INF Payments Enquiry (PODS)</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+"><span class=3D"status-macro aui-lozenge aui-lozenge-moved">CHANGE</span><=
+/p>
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+">Galaxy Payments EXP API - <strong>POST Transaction Details</strong></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(23,43,77);">The beneficiary section of the transaction detail page=
+ to show a PayID beneficiary</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>Westpac OneCore Payee Datastore</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+"><span class=3D"status-macro aui-lozenge aui-lozenge-moved">CHANGE</span><=
+/p>
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+">Westpac OneCore Payee API -all endponts</p>
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+"><br></p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(23,43,77);">Schema:</span></p><p><span style=3D"color: rgb(23,43,7=
+7);">aliasID</span></p><p><span style=3D"color: rgb(23,43,77);">Types</span=
+></p><p><span style=3D"color: rgb(23,43,77);">Name</span></p><p><br></p></t=
+d>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p>Westpac OneCore Payee API -all endponts</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+"><span class=3D"status-macro aui-lozenge aui-lozenge-moved">CHANGE</span><=
+/p>
+<p class=3D"sc-fBWQRz iOOOgt sc-uVWWZ jGcugE sc-hCPjZK doywQS sc-Nxspf bwCp=
+Ga styles__ApiHeaderSubtitle-sc-dm5i84-1 iGyJTt" style=3D"text-align: left;=
+">Galaxy Accounts EXP API&nbsp; - Payees</p>
+</div></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><span style=3D"co=
+lor: rgb(23,43,77);">&nbsp;</span></p></td>
+<td style=3D"text-align: left;" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-SecurityAspects">Security Aspects</h2>
+<p></p>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-Userinterfaces"><span>User interfaces</span></h2>
+<p><span></span></p>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-ErrorHandling"><span style=3D"letter-spacing: -0.008em;">Error =
+Handling</span></h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 284.0px;">
+<col class=3D"" style=3D"width: 265.0px;">
+<col class=3D"" style=3D"width: 149.0px;">
+<col class=3D"" style=3D"width: 153.0px;">
+<col class=3D"" style=3D"width: 346.0px;">
+<col class=3D"" style=3D"width: 361.0px;">
+<col class=3D"" style=3D"width: 201.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTh"><p><strong>Error Scenario</strong></p></th>
+<th colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTh"><p><strong>Description</strong></p></th>
+<th colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTh"><p><strong>Failure Point</strong></p></th>
+<th colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTh"><p><strong>Severity</strong></p></th>
+<th colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTh"><p><strong>Behaviour</strong></p></th>
+<th colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTh"><p><strong>Remediation</strong></p></th>
+<th colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTh"><p><strong>Alert Mechanism</strong></p></th>
+</tr>
+<tr class=3D"">
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-Data&amp;InformationModel">Data &amp; Information Model&nbsp;&n=
+bsp;</h2>
+<p>&nbsp;</p>
+<h3 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-DataMappings">Data Mappings</h3>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 281.0px;">
+<col class=3D"" style=3D"width: 238.0px;">
+<col class=3D"" style=3D"width: 1244.0px;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTh"><p><strong>From Component</strong></p></th>
+<th colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTh"><p><strong>To Component</strong></p></th>
+<th colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTh"><p><strong>Data Mapping Link</strong></p></th>
+</tr>
+<tr class=3D"">
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><p></p></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><p></p></td>
+<td colspan=3D"1" rowspan=3D"1" style=3D"text-align: left;" class=3D"conflu=
+enceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-OperationalImpacts">Operational Impacts</h2>
+<p></p>
+<h1 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-References">References</h1>
+<p></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup class=3D"">
+<col class=3D"">
+<col class=3D"">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">Document Type</th>
+<th class=3D"confluenceTh">Document Link/Location</th>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h1 id=3D"id-03:SD:InitiateNPPpaymenttoPayIDbeneficiary(Customer)[ERM25E2Fe=
+bruary2025]-Glossary">Glossary</h1>
+<p></p>
+<p><a href=3D"https://confluence.srv.westpac.com.au/display/ARTC/Program+Gl=
+ossary" rel=3D"nofollow">Cash Platform Glossary.</a></p>
+    </div>
+</body>
+</html>
+------=_Part_115936_1306745872.1773920458669--

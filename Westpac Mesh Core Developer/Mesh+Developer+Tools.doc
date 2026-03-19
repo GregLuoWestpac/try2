@@ -1,0 +1,1822 @@
+Date: Thu, 19 Mar 2026 23:28:01 +1100 (AEDT)
+Message-ID: <2139475043.116275.1773923281620@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_116274_867210442.1773923281620"
+
+------=_Part_116274_867210442.1773923281620
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Mesh Developer Tools</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Mesh Developer Tools</h1>
+    <div class=3D"Section1">
+        <p><br></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation"><span class=3D"aui-icon aui-icon-small aui-iconfont-info confluen=
+ce-information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>The Mesh Developer Tools are a set of command-line tools designed to pro=
+vide a set of basic capabilities to enable development of Components (APIs,=
+ Proxies, Listeners, etc.) to run in the Mesh Platform.</p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<p class=3D"title conf-macro-render">On-boarding to Artifactory, Bitbucket =
+&amp; Bamboo</p><span class=3D"aui-icon aui-icon-small aui-iconfont-warning=
+ confluence-information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>This page assumes you are already registered as a user of Artifactory, B=
+itbucket &amp; Bamboo. If this is not the case, please read the guide at <a=
+ href=3D"/display/MESH/Developer+Prerequisites">Developer Prerequisites</a>=
+ before you proceed to the steps below.</p>
+</div>
+</div>
+<p><br></p>
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1773923281318 {padding: 0px;}
+div.rbtoc1773923281318 ul {margin-left: 0px;}
+div.rbtoc1773923281318 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1773923281318">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#MeshDeveloperTools-InitialSetup">Initial Setup</a></li>
+<li><a href=3D"#MeshDeveloperTools-prerequisitesPre-requisiteTools">Pre-req=
+uisite Tools</a></li>
+<li><a href=3D"#MeshDeveloperTools-Installation">Installation</a></li>
+<li><a href=3D"#MeshDeveloperTools-GettingStartedGuide">Getting Started Gui=
+de</a></li>
+<li><a href=3D"#MeshDeveloperTools-UsageInstructions">Usage Instructions</a=
+></li>
+<li><a href=3D"#MeshDeveloperTools-MavenChecklist">Maven Checklist</a></li>
+</ul>
+</div>
+<p></p>
+<h2 id=3D"MeshDeveloperTools-InitialSetup">Initial Setup</h2>
+<p>Once you are registered as a user of Artifactory and Bitbucket, run the =
+following command on Windows command prompt or powershell</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">powershe=
+ll.exe -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System=
+.Net.WebClient).DownloadString('https://bitbucket.srv.westpac.com.au/projec=
+ts/WDP2/repos/mesh-developer-wsl/raw/Get-Tokens.ps1'))"</pre>
+</div>
+</div>
+<p>For Mac, you need to run the following</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">bash -c =
+"$(curl -fsSL https://bitbucket.srv.westpac.com.au/projects/WDP2/repos/mesh=
+-developer-wsl/raw/get-tokens.sh)"</pre>
+</div>
+</div>
+<p>These scripts will create required environment variables for your user p=
+rofile such as ARTIFACTORY_ACCESS_TOKEN, BITBUCKET_ACCESS_TOKEN, PIP_INDEX_=
+URL, NPM_CONFIG_REGISTRY etc</p>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e"><span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-i=
+nformation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>The above scripts need to be rerun, when ARTIFACTORY_ACCESS_TOKEN and BI=
+TBUCKET_ACCESS_TOKEN expire- to refresh the local environment variables.</p=
+>
+</div>
+</div>
+<p><br></p>
+<h2 id=3D"MeshDeveloperTools-prerequisitesPre-requisiteTools"><span class=
+=3D"confluence-anchor-link" id=3D"MeshDeveloperTools-prerequisites"></span>=
+Pre-requisite Tools</h2>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation"><span class=3D"aui-icon aui-icon-small aui-iconfont-info confluen=
+ce-information-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>For Mac setup we suggest brew instead of choco, see the page&nbsp;<a hre=
+f=3D"/display/MESH/Homebrew">Homebrew</a></p>
+</div>
+</div>
+<p><br></p>
+<p><!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.
+  ~
+  ~ All rights reserved.
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.
+  ~ Use, duplication or dissemination is forbidden and is subject to prior
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --> <!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.=20
+  ~
+  ~ All rights reserved.=20
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.=20
+  ~ Use, duplication or dissemination is forbidden and is subject to prior=
+=20
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --></p>
+<div class=3D"file-macro-container include4confluence include4confluence-co=
+ntent">
+<div class=3D"include4confluence-panel panel" id=3D"include4confluence-bord=
+er">
+<div class=3D"include4confluence-panel-content-container ">
+<div id=3D"include4confluence-markdown" class=3D"include4confluence-panel-c=
+ontent">
+<h1 id=3D"user-content-tools-installation-guide-for-developer-workstation-s=
+et-up">Tools installation guide for developer workstation set-up</h1>
+<p>This guide describes how to install tools required for the set-up of a d=
+eveloper's workstation (with Windows 10 or 11).</p>
+<h3 id=3D"user-content-chocolatey-installation">Chocolatey Installation</h3=
+>
+<p>To install the Mesh Developer Tool prerequisites we recommend using Choc=
+olatey (a package manager for Windows).<br>
+ To install Chocolatey please follow the below steps:</p>
+<ul>
+<li><p>Launch a command prompt window (Win + r) and write <code>cmd</code> =
+and press Enter.</p></li>
+<li><p>Paste the following line into the cmd window and press enter to inst=
+all and configure chocolatey.</p><pre><code class=3D"language-powershell" d=
+ata-language=3D"powershell">@"%SystemRoot%\\System32\\WindowsPowerShell\\v1=
+.0\\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass ^
+-Command "iex ((New-Object System.Net.WebClient).DownloadString('https://bi=
+tbucket.srv.westpac.com.au/projects/WDP2/repos/wdp-developer-setup/raw/Powe=
+rshell/InstallChocolatey.ps1'))"  &amp;&amp; ^
+SET "PATH=3D%PATH%;%PROGRAMDATA%\chocoportable\bin"
+</code></pre></li>
+<li><p>(Optional) Execute the following command on your cmd window to refre=
+sh the environment variables on your window: <code>refreshenv</code></p></l=
+i>
+</ul>
+<h5 id=3D"user-content-note">Note:</h5>
+<p>If you face errors running the above powershell command with an error st=
+ating <code>The request was aborted: Could not create SSL/TLS secure channe=
+l</code> then you are either missing the Westpac CA certificates from your =
+user profile (which is concerning...) or you are running a build of Windows=
+ 10 that is defaulting to use a version of powershell which doesn't speak T=
+LS1.2 by default.</p>
+<p>To get around this you can run the following (significantly longer and n=
+otably less secure) command to perform the initial chocolatey setup (You're=
+ going to want this to all be on one line, so you may need to copy and past=
+e this into notepad first):</p>
+<pre><code class=3D"language-powershell" data-language=3D"powershell">@"%Sy=
+stemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -NoProfile -I=
+nputFormat None -ExecutionPolicy Bypass -Command "add-type 'using System.Ne=
+t;using System.Security.Cryptography.X509Certificates; public class TrustAl=
+lCertsPolicy : ICertificatePolicy {public bool CheckValidationResult(Servic=
+ePoint srvPoint, X509Certificate certificate,WebRequest request, int certif=
+icateProblem) {return true;}}'; [System.Net.ServicePointManager]::Certifica=
+tePolicy =3D New-Object TrustAllCertsPolicy; [System.Net.ServicePointManage=
+r]::SecurityProtocol =3D [System.Net.SecurityProtocolType]'Ssl3,Tls,Tls11,T=
+ls12'; iex ((New-Object System.Net.WebClient).DownloadString('https://bitbu=
+cket.srv.westpac.com.au/projects/WDP2/repos/wdp-developer-setup/raw/Powersh=
+ell/InstallChocolatey.ps1'))" &amp;&amp; SET "PATH=3D%PATH%;%PROGRAMDATA%\c=
+hocoportable\bin"
+</code></pre>
+<h4 id=3D"user-content-prerequisites-installation">Prerequisites installati=
+on</h4>
+<p>Several prerequisite components need to be installed before using Mesh D=
+eveloper Tools. These are:</p>
+<table>
+<thead>
+<tr>
+<th>Prerequisite</th>
+<th>Chocolatey package name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Git 2.x</td>
+<td>git</td>
+</tr>
+<tr>
+<td>Python 3.12</td>
+<td>python312</td>
+</tr>
+<tr>
+<td>OpenSSL 1.0.2</td>
+<td>openssl</td>
+</tr>
+<tr>
+<td>Apache Maven 3.9</td>
+<td>maven</td>
+</tr>
+<tr>
+<td>Redhat OpenJDK 21</td>
+<td>openjdk21</td>
+</tr>
+<tr>
+<td>Redhat OpenJDk 11</td>
+<td>openjdk</td>
+</tr>
+<tr>
+<td>Node.js 20.12.2</td>
+<td>nodejs</td>
+</tr>
+<tr>
+<td>Postman 7.36.1</td>
+<td>postman</td>
+</tr>
+<tr>
+<td>jq 1.5</td>
+<td>jq</td>
+</tr>
+</tbody>
+</table>
+<p>The following command (either from command/powershell prompt) will insta=
+ll all prerequisites:</p>
+<p>Note : The installation process takes quite a long time(on an average 30=
+ minutes to install all tools).</p>
+<pre><code>choco install -s=3Dartifactory openjdk21 maven git openssl pytho=
+n312 nodejs postman jq
+</code></pre>
+<p>To install an individual tool, set the corresponding 'Chocolatey package=
+ name' listed above.</p>
+<pre><code>choco install -s=3Dartifactory &lt;package&gt;
+</code></pre>
+<p>For example, to install jdk11</p>
+<pre><code>choco install -s=3Dartifactory openjdk
+</code></pre>
+<p><em>Note:</em> Alternatively to install Chocolatey from a powershell pro=
+mpt</p>
+<ul>
+<li>Right click this <a href=3D"https://bitbucket.srv.westpac.com.au/projec=
+ts/WDP2/repos/wdp-developer-setup/raw/installchocolatey.ps1?at=3Drefs/heads=
+/master" rel=3D"nofollow">link</a> and select "Save target as" or "Save lin=
+k as..." to save the file into a directory on your system.</li>
+<li>Open PowerShell in the above directory and execute the script</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p></p>
+<h3 id=3D"MeshDeveloperTools-SpectralInstallation(ContractLinting)">Spectra=
+l Installation (Contract Linting)</h3>
+<p>It is recommended to install NodeJS and install Spectral CLI as a node m=
+odules package irrespective of the developer profile (Java or NodeJS) as th=
+e Mesh Developer tools requires Spectral to run Contract validations.</p>
+<p>Spectral is a contract linting integrated with Mesh developer tools. Ref=
+er <a href=3D"/display/MD/Contract+linting"> here </a>for more information =
+on spectral and installation guidelines.&nbsp;</p>
+<h2 id=3D"MeshDeveloperTools-Installation">Installation</h2>
+<p><!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.
+  ~
+  ~ All rights reserved.
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.
+  ~ Use, duplication or dissemination is forbidden and is subject to prior
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --> <!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.=20
+  ~
+  ~ All rights reserved.=20
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.=20
+  ~ Use, duplication or dissemination is forbidden and is subject to prior=
+=20
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --></p>
+<div class=3D"file-macro-container include4confluence include4confluence-co=
+ntent">
+<div class=3D"include4confluence-panel panel" id=3D"include4confluence-bord=
+er">
+<div class=3D"include4confluence-panel-content-container ">
+<div id=3D"include4confluence-markdown" class=3D"include4confluence-panel-c=
+ontent">
+<h3 id=3D"user-content-mesh-developer-tools-installation">Mesh Developer To=
+ols installation</h3>
+<h4 id=3D"user-content-prerequisites">Prerequisites</h4>
+<ul>
+<li>Windows laptop (if you have a Mac please follow instructions here inste=
+ad: <a href=3D"https://confluence.srv.westpac.com.au/display/MD/Mac+OS+Setu=
+p" rel=3D"nofollow">https://confluence.srv.westpac.com.au/display/MD/Mac+OS=
++Setup</a>)</li>
+<li>Please follow the Readme.md file located in the <a href=3D"https://bitb=
+ucket.srv.westpac.com.au/projects/WDP2/repos/wdp-developer-setup/browse" re=
+l=3D"nofollow">wdp-developer-setup Bitbucket repository</a> to install the =
+prerequisite components.</li>
+</ul>
+<h4 id=3D"user-content-to-install-mesh-developer-tools">To install Mesh Dev=
+eloper Tools</h4>
+<pre><code class=3D"language-" data-language=3D"">pip install mesh-dev-tool=
+s
+
+</code></pre>
+<h4 id=3D"user-content-to-update-mesh-developer-tools-to-the-latest-version=
+">To update Mesh Developer Tools to the latest version</h4>
+<pre><code class=3D"language-" data-language=3D"">mesh update
+
+</code></pre>
+<h4 id=3D"user-content-to-uninstall-mesh-developer-tools">To uninstall Mesh=
+ Developer Tools</h4>
+<pre><code class=3D"language-bash" data-language=3D"bash">pip uninstall mes=
+h-dev-tools
+</code></pre>
+<p><em><strong>Note : All the above commands should be executed from a comm=
+and prompt or a git bash terminal</strong></em></p>
+</div>
+</div>
+</div>
+</div>
+<p></p>
+<h2 id=3D"MeshDeveloperTools-GettingStartedGuide">Getting Started Guide</h2=
+>
+<p><!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.
+  ~
+  ~ All rights reserved.
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.
+  ~ Use, duplication or dissemination is forbidden and is subject to prior
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --> <!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.=20
+  ~
+  ~ All rights reserved.=20
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.=20
+  ~ Use, duplication or dissemination is forbidden and is subject to prior=
+=20
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --></p>
+<div class=3D"file-macro-container include4confluence include4confluence-co=
+ntent">
+<div class=3D"include4confluence-panel panel" id=3D"include4confluence-bord=
+er">
+<div class=3D"include4confluence-panel-content-container ">
+<div id=3D"include4confluence-markdown" class=3D"include4confluence-panel-c=
+ontent">
+<h3 id=3D"user-content-kickstarting-an-apilistener-component">Kickstarting =
+an API/Listener Component:</h3>
+<p>The basic flow to setup an API or listener component is: (Refer <a href=
+=3D"https://bitbucket.srv.westpac.com.au/projects/WDP2/repos/pypi-mesh-dev-=
+tools/browse/Usage.md?at=3Drefs/heads/master" rel=3D"nofollow">Usage</a> fo=
+r instructions on the mesh commands)</p>
+<ol>
+<li><p>Install Mesh Developer tools if you have not done so (<a href=3D"htt=
+ps://confluence.srv.westpac.com.au/display/MESH/Mesh+Developer+Tools" rel=
+=3D"nofollow">Development Prerequisite)</a></p></li>
+<li><p>Start a Windows or git-bash command prompt in your preferred local w=
+orking directory.</p></li>
+<li><p>Use 'mesh incubate' to create a incubator component or 'git clone' t=
+o clone a real component repo you want to work on</p></li>
+<li><p>Change directory to the newly cloned component directory.</p></li>
+<li><p>Specify the API metadata and contract in the <code>swagger.yaml</cod=
+e> or <code>webservice.wsdl</code></p></li>
+<li><p>For API components only, generate the code using <code>mesh gencode<=
+/code> - this supports Java and Node.js (not required for MQ Listener)</p><=
+/li>
+<li><p><code>mesh run</code> the code locally</p></li>
+<li><p>Import the swagger spec to <a href=3D"https://confluence.srv.westpac=
+.com.au/display/MESH/Test+the+Deployed+API+Using+Postman" rel=3D"nofollow">=
+Postman</a> to test the running API</p></li>
+<li><p>For <a href=3D"https://confluence.srv.westpac.com.au/display/MESH/In=
+cubator+Environment" rel=3D"nofollow">Incubator</a> components you can <cod=
+e>mesh deploy</code> to the environment. Other components will deploy to de=
+v automatically when changes are merged to master.</p></li>
+</ol>
+<p><em>Note: For usage of mesh commands such as <code>mesh incubate</code>,=
+ <code>mesh gencode</code>, <code>mesh run</code> etc refer <a href=3D"http=
+s://bitbucket.srv.westpac.com.au/projects/WDP2/repos/pypi-mesh-dev-tools/br=
+owse/Usage.md?at=3Drefs/heads/master" rel=3D"nofollow">Usage</a></em></p>
+<p>If you are getting below error while executing any of the mesh dev tools=
+ commands , please follow the below instructions.</p>
+<p><code>Error loading URL https://bitbucket.srv.westpac.com.au/projects/WD=
+P2/repos/pypi-wdp-common/raw/wdp_common/wdp_config.yaml?at=3Drefs%2Fheads%2=
+Fconfig%2Fv1.5: HTTPSConnectionPool(host=3D'bitbucket.srv.westpac.com.au', =
+port=3D443): Max retries exceeded with url: /projects/WDP2/repos/pypi-wdp-c=
+ommon/raw/wdp_common/wdp_config.yaml?at=3Drefs%2Fheads%2Fconfig%2Fv1.5 (Cau=
+sed by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate v=
+erify failed (_ssl.c:852)'),))</code></p>
+<p>Either reinstall the python package using below choco commands</p>
+<pre><code>choco uninstall -s=3Dartifactory python
+
+choco install -s=3Dartifactory python
+</code></pre>
+<p>or Run the following powershell commands</p>
+<pre><code class=3D"language-powershell" data-language=3D"powershell">    $=
+caPath =3D Join-Path $env:ProgramData 'cacert.pem'
+    Invoke-WebRequest -Uri 'https://artifactory.srv.westpac.com.au/artifact=
+ory/wdp-001_generic/au/com/westpac/security/certificates/20241001/cacert-20=
+241001.pem' -OutFile $caPath -UseBasicParsing -ErrorAction 'Continue'
+    [Environment]::SetEnvironmentVariable('CURL_CA_BUNDLE', $caPath, [Envir=
+onmentVariableTarget]::User)
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<p></p>
+<h2 id=3D"MeshDeveloperTools-UsageInstructions">Usage Instructions</h2>
+<p><!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.
+  ~
+  ~ All rights reserved.
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.
+  ~ Use, duplication or dissemination is forbidden and is subject to prior
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --> <!--
+  ~ Copyright (c) 2014 by Mibex Software GmbH, Zurich, Switzerland.=20
+  ~
+  ~ All rights reserved.=20
+  ~
+  ~ This product is the proprietary and sole property of Mibex Software Gmb=
+H.=20
+  ~ Use, duplication or dissemination is forbidden and is subject to prior=
+=20
+  ~ written consent of Mibex Software GmbH (office@mibex.ch).
+  --></p>
+<div class=3D"file-macro-container include4confluence include4confluence-co=
+ntent">
+<div class=3D"include4confluence-panel panel" id=3D"include4confluence-bord=
+er">
+<div class=3D"include4confluence-panel-content-container ">
+<div id=3D"include4confluence-markdown" class=3D"include4confluence-panel-c=
+ontent">
+<h3 id=3D"user-content-commands">Commands</h3>
+<p>Mesh Developer Tools provides a way to create and work with a Mesh Compo=
+nent. Mesh Developer tools commands can be executed from any Command Prompt=
+ or Git Bash terminal.</p>
+<p><em><strong>Note</strong></em>: <em>All mesh commands for a component mu=
+st be executed from within the component git repository</em></p>
+<p>Mesh Developer Tools has the following set of commands and options that =
+developers can run:</p>
+<h4 id=3D"user-content-global-options">Global Options:</h4>
+<p>These are standard global options that can be used with any mesh command=
+:</p>
+<ul>
+<li><strong>--version</strong> Show the version and exit.</li>
+<li><strong>-h</strong>, <strong>--help</strong> Show this message and exit=
+.</li>
+</ul>
+<h4 id=3D"user-content-common-command-options">Common Command Options:</h4>
+<p>Most mesh commands support these common options that must be placed <str=
+ong>after</strong> the command name:</p>
+<ul>
+<li><p><strong>-v</strong>, <strong>--verbose</strong> Enable verbose loggi=
+ng (can be used multiple times for increased verbosity). This option sets t=
+he logging level automatically when used.</p>
+<ul>
+<li><strong>Usage:</strong> <code>mesh deploy --verbose --build_number 123<=
+/code> or <code>mesh deploy -vv --build_number 123</code> (extra verbose)</=
+li>
+</ul></li>
+<li><p><strong>-q</strong>, <strong>--quiet</strong> Skip yes/no confirmati=
+on prompts (assumes default response). This affects commands like deploy, u=
+ndeploy, secrets, gencode, sync apply, and others that ask for yes/no confi=
+rmation. Other interactive prompts (user input, selections) are not affecte=
+d.</p>
+<ul>
+<li><strong>Usage:</strong> <code>mesh deploy --quiet --build_number 123</c=
+ode></li>
+</ul></li>
+</ul>
+<p>Both options work automatically without requiring function parameters an=
+d are available on most mesh commands.</p>
+<h3 id=3D"user-content-list-of-commands">List of commands:</h3>
+<ul>
+<li><strong><a href=3D"#incubate">incubate</a></strong> Initialise a Incuba=
+tor Component Repository for the Mesh Platform</li>
+<li><strong><a href=3D"#gencode">gencode</a></strong> Generate skeleton cod=
+e using the gencode utilities</li>
+<li><strong><a href=3D"#gencode">genclient-contract</a></strong> Generate t=
+he client contract for openapi.yaml</li>
+<li><strong><a href=3D"#enable">enable</a></strong> Enable capabilities for=
+ the Mesh Platform</li>
+<li><strong><a href=3D"#validate">validate</a></strong> Validate configurat=
+ion files in the component</li>
+<li><strong><a href=3D"#run">run</a></strong> Run component locally (using =
+mvn or npm for java or node components respectively)</li>
+<li><strong><a href=3D"#secrets">secrets</a></strong> Manage encryption of =
+the secrets in your repository</li>
+<li><strong><a href=3D"#build">build</a></strong> Trigger custom build</li>
+<li><strong><a href=3D"#deploy">deploy</a></strong> Deploy the component</l=
+i>
+<li><strong><a href=3D"#undeploy">undeploy</a></strong> Undeploy the compon=
+ent from a virtual swimlane</li>
+<li><strong><a href=3D"#status">status</a></strong> Show status of current =
+component</li>
+<li><strong><a href=3D"#update">update</a></strong> Update Mesh Developer T=
+ools to the latest version</li>
+<li><strong><a href=3D"#swimlane">swimlane</a></strong> Enrol or unenrol a =
+virtual swimlane from the component repository</li>
+<li><strong><a href=3D"#prodfix">prodfix</a></strong> Create a prodfix bran=
+ch for non-trunk development</li>
+<li><strong><a href=3D"#sync">sync</a></strong> Manage deployment synchroni=
+zation manifests across environments=20
+<ul>
+<li><strong><a href=3D"#sync_import">sync import</a></strong> Import curren=
+t deployment state into a sync manifest</li>
+<li><strong><a href=3D"#sync_resolve">sync resolve</a></strong> Resolve 'la=
+test' versions to actual deployed versions</li>
+<li><strong><a href=3D"#sync_plan">sync plan</a></strong> Show what changes=
+ would be made by applying a manifest</li>
+<li><strong><a href=3D"#sync_apply">sync apply</a></strong> Apply a sync ma=
+nifest to deploy/undeploy components</li>
+<li><strong><a href=3D"#sync_release">sync release</a></strong> Create a pr=
+od1 change request from a sync manifest</li>
+<li><strong><a href=3D"#sync_validate">sync validate</a></strong> Validate =
+a sync manifest against the schema</li>
+</ul></li>
+<li><strong><a href=3D"#config">config</a></strong> Manage mesh configurati=
+on file=20
+<ul>
+<li><strong><a href=3D"#config_show">config show</a></strong> Display curre=
+nt configuration settings</li>
+<li><strong><a href=3D"#config_set">config set</a></strong> Set a configura=
+tion value</li>
+<li><strong><a href=3D"#config_init">config init</a></strong> Create a defa=
+ult configuration file</li>
+</ul></li>
+<li><strong><a href=3D"#connect">connect</a></strong> Open a component page=
+ in Mesh Connect</li>
+</ul>
+<h3 id=3D"user-content-incubate">incubate<a rel=3D"nofollow"></a></h3>
+<p>The incubate command is used to initialise an Incubator Component Reposi=
+tory(earlier known as 'Certification') for the Mesh Platform. All arguments=
+ are optional. A prompt will be presented to request any required values th=
+at have not been supplied, or to correct any supplied values that are not v=
+alid.</p>
+<p><a href=3D"https://confluence.srv.westpac.com.au/display/MESH/Incubator+=
+Environment" rel=3D"nofollow">Incubator</a> components can be created eithe=
+r by not entering a name and following the prompts to select the incubator =
+domain, or by specifying a component name that includes a domain name of "<=
+strong>incubator-[staff id]</strong>".</p>
+<h4 id=3D"user-content-usage">Usage</h4>
+<p>The incubator command takes in a number of optional arguments.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-n, --name</td>
+<td>Component name. Must conform to the <a href=3D"https://confluence.srv.w=
+estpac.com.au/display/MESH/Naming+Standards" rel=3D"nofollow">Mesh naming s=
+tandards</a>.</td>
+<td>-p wdp-layer-domain-subdomain-subdomain-name-v1-api</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h5 id=3D"user-content-valid-typecontractlanguage-combinations">VALID TYPE/=
+CONTRACT/LANGUAGE COMBINATIONS</h5>
+<p>mesh incubate -n (Defaults with: -c api -a rest -i java)</p>
+<h5 id=3D"user-content-examples">EXAMPLES</h5>
+<p><code>mesh incubate</code> (Will be prompted for all options)</p>
+<p><code>mesh incubate -n wdp-cap-incubator-l012345-test-v1-api</code></p>
+<h3 id=3D"user-content-enable">enable<a rel=3D"nofollow"></a></h3>
+<p>The enable command is used to overlay a new capability onto the existing=
+ api/listener. Make sure you execute this command from within the component=
+ repository.</p>
+<h4 id=3D"user-content-usage-1">Usage</h4>
+<pre><code>mesh enable [-a &lt;capability&gt;]
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-a, --capability</td>
+<td>(Optional) Overlay capability to the existing api/listener</td>
+<td>-a kafkaProducer</td>
+</tr>
+</tbody>
+</table>
+<h3 id=3D"user-content-gencode">gencode<a rel=3D"nofollow"></a></h3>
+<p>The gencode command is used to generate the source code along with the h=
+ealthcheck from the swagger.yaml for the Mesh API's which have implementati=
+on type as java or node. Make sure you execute this command from within the=
+ component repository. By default, gencode supports Java 11, Tomcat 9. All =
+related dependencies will be added to generated POM.</p>
+<h4 id=3D"user-content-usage-2">Usage</h4>
+<pre><code>mesh gencode [-i &lt;implementation&gt;]
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-i, --implementation</td>
+<td>Implementation (supported types are 'jaxrs' (default) or 'spring' for j=
+avaweb and 'web' (default) or 'webflux' for springboot)</td>
+<td>-i spring</td>
+</tr>
+</tbody>
+</table>
+<p><a href=3D"https://confluence.srv.westpac.com.au/display/MESH/How+to+upg=
+rade+APIs+to+Tomcat9" rel=3D"nofollow">Click Here</a></p>
+<h3 id=3D"user-content-genclient-contract">genclient-contract<a rel=3D"nofo=
+llow"></a></h3>
+<p>This command generates the client contract for your openapi.yaml, which =
+includes the Mesh platform headers. It will be generated from the most rece=
+nt build, not your local copy of the contract.</p>
+<h4 id=3D"user-content-usage-3">Usage</h4>
+<pre><code>mesh genclient-contract =20
+</code></pre>
+<h3 id=3D"user-content-run">run<a rel=3D"nofollow"></a></h3>
+<p>The run command is used to execute the API on your local machine and val=
+idate the implementation. You can also check the healthcheck to make sure y=
+our API is healthy on your local environment.</p>
+<p>Make sure you execute this command from within the component repository.=
+</p>
+<h4 id=3D"user-content-usage-4">Usage</h4>
+<pre><code>mesh run [-m &lt;True&gt;]
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-m, --mocks_enabled</td>
+<td>(Optional) Run the api instance connecting to mockoon localhost in 3010=
+ port</td>
+<td>-m True</td>
+</tr>
+</tbody>
+</table>
+<h3 id=3D"user-content-secrets">secrets<a rel=3D"nofollow"></a></h3>
+<p>The secrets command is used to encrypt all the secrets of your component=
+. It will use the platform keys to encrypt your secrets and secrets will be=
+ made available in the container inside your secrets directory.</p>
+<p>Refer the <a href=3D"https://confluence.srv.westpac.com.au/display/MESH/=
+How+to+Encrypt+Secrets+Before+Uploading+Files+to+Bitbucket" rel=3D"nofollow=
+">how to guide</a> for the detailed steps.</p>
+<p>Make sure you execute this command from within the component repository.=
+</p>
+<h4 id=3D"user-content-usage-5">Usage</h4>
+<pre><code>mesh secrets
+</code></pre>
+<h3 id=3D"user-content-build">build<a rel=3D"nofollow"></a></h3>
+<p>The build command is used to trigger a custom build of your component. I=
+t is only valid for "api" and "listener" components. If no revision is spec=
+ified then the latest code from the current branch will be used.</p>
+<p>Make sure you execute this command from within the component repository.=
+</p>
+<p>For incubator projects only - Components with a remote repository in the=
+ Bitbucket incubator project (wdpcert) will have their latest codebase on m=
+aster built and deployed to the incubator environment. No command line argu=
+ments are required.</p>
+<h4 id=3D"user-content-usage-6">Usage</h4>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-n, --component_name</td>
+<td>Component Name (defaults to component checked out in current directory)=
+</td>
+<td>-n exp-dream-core-v1</td>
+</tr>
+<tr>
+<td>-t, --component_type</td>
+<td>Component Type (will infer from name if not provided, and prompt if amb=
+iguous)</td>
+<td>-t api</td>
+</tr>
+<tr>
+<td>-b, --revision</td>
+<td>Branch, tag or commit id for build (defaults to upstream of current bra=
+nch)</td>
+<td>-b feature/new-thing</td>
+</tr>
+<tr>
+<td>-d, --target</td>
+<td>Deploy target (environment or swimlane) to sequentially deploy to (allo=
+ws multiple)</td>
+<td>-t dev1</td>
+</tr>
+<tr>
+<td>-h, --help</td>
+<td>Shows the usage help message</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Additionally supports common options: <code>-v/--verbose</code> and <cod=
+e>-q/--quiet</code></p>
+<h5 id=3D"user-content-examples-1">EXAMPLES</h5>
+<p>Build feature branch of provided component</p>
+<p><code>mesh build --component_name exp-dream-core-v1 -component_type api =
+--revision feature/new</code></p>
+<p>Build default branch of provided component with implicit type</p>
+<p><code>mesh build --component_name exp-dream-core-v1</code></p>
+<p>Build default branch of current component</p>
+<p><code>mesh build</code></p>
+<p>Build default branch of current component and deploy to multiple environ=
+ments</p>
+<p><code>mesh build --target dev1 --target sit1 --target dev-swimlane</code=
+></p>
+<h3 id=3D"user-content-deploy">deploy<a rel=3D"nofollow"></a></h3>
+<p>The deploy command is used to deploy your component to a target environm=
+ent or swimlane.</p>
+<p>This command must be executed from within the repository corresponding t=
+o the component that will be deployed.</p>
+<p>The build number must be specified along with an optional config build n=
+umber and/or secrets build number. The deployment target (environment or sw=
+imlane) must also be specified.</p>
+<h4 id=3D"user-content-usage-7">Usage</h4>
+<p>The deploy command takes in a number of arguments (only required for non=
+ incubator deployments).</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-n, --component_name</td>
+<td>Component Name (defaults to component checked out in current directory)=
+</td>
+<td>-n exp-dream-core-v1</td>
+</tr>
+<tr>
+<td>-t, --component_type</td>
+<td>Component Type (will infer from name if not provided, and prompt if amb=
+iguous)</td>
+<td>-t api</td>
+</tr>
+<tr>
+<td>-b, --build_number</td>
+<td>Component build number</td>
+<td>-b 10</td>
+</tr>
+<tr>
+<td>-c, --config_version</td>
+<td>Config build number (default is component build number)</td>
+<td>-c 10</td>
+</tr>
+<tr>
+<td>-p, --secret_version</td>
+<td>Secrets build number (default is component build number)</td>
+<td>-p 10</td>
+</tr>
+<tr>
+<td>-e, --environment</td>
+<td>Target environment (required if you don't specify a swimlane)</td>
+<td>-e dev1</td>
+</tr>
+<tr>
+<td>-d, --target</td>
+<td>Deploy target (environment or swimlane) to sequentially deploy to (allo=
+ws multiple)</td>
+<td>-t dev1</td>
+</tr>
+<tr>
+<td>-s, --swimlane</td>
+<td>Target swimlane (required if you don't specify an environment)</td>
+<td>-s sit-swimlane</td>
+</tr>
+<tr>
+<td>-h, --help</td>
+<td>Shows the usage help message</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Additionally supports common options: <code>-v/--verbose</code> and <cod=
+e>-q/--quiet</code></p>
+<h5 id=3D"user-content-examples-2">EXAMPLES</h5>
+<p>Deploy build number 10 of provided component to sit1</p>
+<p><code>mesh deploy --component_name exp-dream-core-v1 -component_type api=
+ --build_number 10 --environment sit1</code></p>
+<p>Deploy build number 10 of provided component to dev-swimlane1 with impli=
+cit type</p>
+<p><code>mesh deploy --component_name exp-dream-core-v1 --build_number 10 -=
+-swimlane dev-swimlane1</code></p>
+<p>Deploy build number 10 of current component with config and secrets from=
+ build 11 to uat1</p>
+<p><code>mesh deploy --build_number 10 --config_version 11 --secret_version=
+ 11 --environment uat1</code></p>
+<p>Deploy build number 10 of current component with config and secrets from=
+ build 11 to sit1, uat1 and sit-test1 swimlane</p>
+<p><code>mesh deploy --build_number 10 --config_version 11 --secret_version=
+ 11 --target sit1 --target uat1 --target sit-test1</code></p>
+<h3 id=3D"user-content-undeploy">undeploy<a rel=3D"nofollow"></a></h3>
+<p>The undeploy command is used to undeploy an api component from a virtual=
+ swimlane.</p>
+<p>This command must be executed from within the repository corresponding t=
+o the component that will be undeployed.</p>
+<p>Undeploy is not applicable for proxy components. The command cannot be u=
+sed to undeploy a component from a default (non-swimlane) environment.</p>
+<h4 id=3D"user-content-usage-8">Usage</h4>
+<pre><code>mesh undeploy -s &lt;target swimlane name&gt;
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-s, --swimlane</td>
+<td>Target swimlane</td>
+<td>-s sit-swimlane</td>
+</tr>
+<tr>
+<td>-h, --help</td>
+<td>Shows the usage help message</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Additionally supports common options: <code>-v/--verbose</code> and <cod=
+e>-q/--quiet</code></p>
+<h3 id=3D"user-content-status">status<a rel=3D"nofollow"></a></h3>
+<p>Display status information about current component</p>
+<p>Make sure you execute this command from within the component repository.=
+</p>
+<h4 id=3D"user-content-usage-9">Usage</h4>
+<pre><code>mesh status
+</code></pre>
+<h3 id=3D"user-content-validate">validate<a rel=3D"nofollow"></a></h3>
+<p>The validate command validates a yaml against a given schema or default =
+schema. Run validate from within component repository to validate the yaml =
+files associated with the component.</p>
+<h4 id=3D"user-content-usage-10">Usage</h4>
+<pre><code>mesh validate
+</code></pre>
+<h3 id=3D"user-content-swimlane">swimlane<a rel=3D"nofollow"></a></h3>
+<p>The swimlane command enrols or enrols a virtual swimlane to/from a compo=
+nent repository.</p>
+<p>Virtual swimlanes allow multiple instances of a Mesh component to be dep=
+loyed independently and in parallel within a single environment.</p>
+<p>The swimlanes for a component are stored in the resources.yaml file in t=
+he master branch of a component repository.</p>
+<p>The swimlane name must be in the following format: (eng|dev|sit|uat)-&lt=
+;name&gt;. The name is alphanumeric lower-case only, starts with alpha and =
+minimum of 3 characters and maximum of 8 characters. The name cannot be nam=
+ed as 'default' as this is a reserved keyword. E.g. dev-john1</p>
+<h4 id=3D"user-content-usage-11">Usage</h4>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-e, --enrol</td>
+<td>Enrol in selected swimlane</td>
+<td>--enrol</td>
+</tr>
+<tr>
+<td>-u, --unenrol</td>
+<td>Unenrol in selected swimlane</td>
+<td>--unenrol</td>
+</tr>
+<tr>
+<td>-n, --name</td>
+<td>The swimlane name in the format -</td>
+<td>-n sit-swimlane</td>
+</tr>
+<tr>
+<td>-h, --help</td>
+<td>Shows the usage help message</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Additionally supports common options: <code>-v/--verbose</code> and <cod=
+e>-q/--quiet</code></p>
+<h5 id=3D"user-content-valid-commands">VALID COMMANDS:</h5>
+<pre><code>mesh swimlane --enrol
+mesh swimlane --enrol --name &lt;swimlane name&gt;
+mesh swimlane --unenrol
+mesh swimlane --unenrol --name &lt;swimlane name&gt;
+</code></pre>
+<h5 id=3D"user-content-examples-3">EXAMPLES:</h5>
+<pre><code>mesh swimlane --enrol
+mesh swimlane --enrol --name dev-john1
+mesh swimlane --unenrol
+mesh swimlane --unenrol --name sit-bob1
+</code></pre>
+<h4 id=3D"user-content-examples-4">EXAMPLES:</h4>
+<pre><code>mesh incubate
+mesh swimlane
+mesh build
+mesh deploy
+</code></pre>
+<h3 id=3D"user-content-prodfix">prodfix<a rel=3D"nofollow"></a></h3>
+<p>The prodfix command is used to create a prodfix branch for non-trunk dev=
+elopment.</p>
+<p>This command may be executed from within the repository corresponding to=
+ the component that requires the prodfix branch to be created, or the compo=
+nent can be selected using the --component_name, --component_type or --repo=
+_uri options.</p>
+<h4 id=3D"user-content-usage-12">Usage</h4>
+<p>The prodfix command takes in a number of arguments. More detailed inform=
+ation on the usage of this command can be found here: More detailed instruc=
+tions and prerequisites for using swimlanes can be found here: <a href=3D"h=
+ttps://confluence.srv.westpac.com.au/display/MESH/How+to+guide+on+Non+Trunk=
++Development" rel=3D"nofollow">https://confluence.srv.westpac.com.au/displa=
+y/MESH/How+to+guide+on+Non+Trunk+Development</a></p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-n, --component_name</td>
+<td>Component Name (defaults to component checked out in current directory)=
+</td>
+<td>-n exp-dream-core-v1</td>
+</tr>
+<tr>
+<td>-t, --component_type</td>
+<td>Component Type (will infer from name if not provided, and prompt if amb=
+iguous)</td>
+<td>-t api</td>
+</tr>
+<tr>
+<td>-b, --build_number</td>
+<td>Component build number from which we you want to cut-off your prodfix b=
+ranch</td>
+<td>-b 10</td>
+</tr>
+<tr>
+<td>-bn, --branch_name</td>
+<td>Prodfix branch name to be created</td>
+<td>-bn fix-problem</td>
+</tr>
+<tr>
+<td>-r, --repo_uri</td>
+<td>Repository uri of the component either with ssh or https</td>
+<td>-r {repo-url}</td>
+</tr>
+<tr>
+<td>-e, --environment</td>
+<td>Environment from which you want to cut-off your prodfix branch. If envi=
+ronment is not provided , the command takes prod1 as default environment fo=
+r prodfix branch cut-off</td>
+<td>-e uat1</td>
+</tr>
+<tr>
+<td>-h, --help</td>
+<td>Shows the usage help message</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Additionally supports common options: <code>-v/--verbose</code> and <cod=
+e>-q/--quiet</code></p>
+<h5 id=3D"user-content-valid-commands-1">VALID COMMANDS:</h5>
+<pre><code>mesh prodfix
+mesh prodfix -bn fix-problem-in-uat -e uat1
+mesh prodfix -b 256
+mesh prodfix -b 256 -bn fix-problem
+mesh prodfix -bn fix-new-problem
+mesh prodfix -bn fix-new-problem -r {repo-url}
+mesh prodfix -bn fix-new-problem -r {repo-url} -b 256
+</code></pre>
+<h5 id=3D"user-content-examples-5">EXAMPLES</h5>
+<p>Create prodfix branch using build number 10 of provided component</p>
+<p><code>mesh prodfix --component_name exp-dream-core-v1 --component_type a=
+pi --build_number 10 </code></p>
+<p>Create prodfix to fix a problem that has been found on svp1 and cutting-=
+of from the latest deploy on that environment</p>
+<p><code>mesh deploy -e svp1 -bn fix-svp-problem</code></p>
+<h3 id=3D"user-content-sync">sync<a rel=3D"nofollow"></a></h3>
+<p>The sync command provides deployment synchronization functionality to ma=
+nage manifests describing desired deployment states across environments. Th=
+is is useful for coordinated deployments across multiple components and env=
+ironments.</p>
+<h4 id=3D"user-content-usage-13">Usage</h4>
+<pre><code>mesh sync &lt;subcommand&gt; [options]
+</code></pre>
+<h4 id=3D"user-content-subcommands">Subcommands</h4>
+<h5 id=3D"user-content-import">import<a rel=3D"nofollow"></a></h5>
+<p>Import current deployment state for an application and generate a sync m=
+anifest.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-a, --application_id</td>
+<td>Application ID (format: A12345)</td>
+<td>-a A12ABC</td>
+</tr>
+<tr>
+<td>-o, --output</td>
+<td>Output file path (defaults to &lt;application_id&gt;-sync-manifest.json=
+)</td>
+<td>-o my-manifest.json</td>
+</tr>
+<tr>
+<td>-d, --deployments</td>
+<td>Include deployment information: environments, swimlanes, all</td>
+<td>-d all</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Examples:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash">mesh sync import =
+-a A12ABC                    # Basic import, creates a12abc-sync-manifest.j=
+son
+mesh sync import -a A12ABC -o manifest.json  # Custom output filename
+mesh sync import -a A12ABC -d all           # Include current deployments
+</code></pre>
+<h5 id=3D"user-content-resolve">resolve<a rel=3D"nofollow"></a></h5>
+<p>Resolve 'latest' versions in a sync manifest to actual deployed versions=
+.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-f, --file</td>
+<td>Sync manifest file path or URL</td>
+<td>-f manifest.json</td>
+</tr>
+<tr>
+<td>-o, --output</td>
+<td>Output file path (defaults to &lt;input&gt;<em>resolved</em>&lt;timesta=
+mp&gt;.json)</td>
+<td>-o resolved.json</td>
+</tr>
+<tr>
+<td>-e, --environment</td>
+<td>Environment to use for resolving "latest" versions (default: dev1)</td>
+<td>-e sit1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Examples:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash">mesh sync resolve=
+ -f manifest.json                    # Creates manifest_resolved_20241201_1=
+20000.json
+mesh sync resolve -f manifest.json -o resolved.json   # Custom output filen=
+ame =20
+mesh sync resolve -f manifest.json -e sit1            # Use sit1 for versio=
+n resolution
+mesh sync resolve -f https://example.com/manifests/deploy.json  # Resolve f=
+rom URL
+</code></pre>
+<h5 id=3D"user-content-plan">plan<a rel=3D"nofollow"></a></h5>
+<p>Show what changes would be made by applying a sync manifest.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-f, --file</td>
+<td>Sync manifest file path or URL</td>
+<td>-f manifest.json</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Examples:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash">mesh sync plan -f=
+ manifest.json                                    # Show planned changes fr=
+om local file
+mesh sync plan -f https://example.com/manifests/deploy.json        # Show p=
+lanned changes from URL
+</code></pre>
+<h5 id=3D"user-content-apply">apply<a rel=3D"nofollow"></a></h5>
+<p>Apply a sync manifest to deploy components to their desired state.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-f, --file</td>
+<td>Sync manifest file path or URL</td>
+<td>-f manifest.json</td>
+</tr>
+<tr>
+<td>-t, --target</td>
+<td>Target environment(s) or swimlane(s) to apply (can be specified multipl=
+e times). If not specified, applies to all environments and swimlanes excep=
+t prod1.</td>
+<td>-t dev1 -t swimlane-abc</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Examples:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash">mesh sync apply -=
+f manifest.json                           # Apply to all targets except pro=
+d1
+mesh sync apply -f manifest.json --target dev1             # Apply only to =
+dev1 environment
+mesh sync apply -f manifest.json -t dev1 -t sit1          # Apply to dev1 a=
+nd sit1 environments
+mesh sync apply -f manifest.json --target swimlane-abc     # Apply only to =
+specific swimlane
+mesh sync apply -f https://example.com/manifests/deploy.json  # Apply from =
+URL
+</code></pre>
+<h5 id=3D"user-content-release">release<a rel=3D"nofollow"></a></h5>
+<p>Create a prod1 change request from a sync manifest for production deploy=
+ment.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-f, --file</td>
+<td>Sync manifest file path or URL</td>
+<td>-f manifest.json</td>
+</tr>
+<tr>
+<td>-l, --label</td>
+<td>Change request label (optional, auto-generated if not provided)</td>
+<td>-l "Release v2.1.0"</td>
+</tr>
+<tr>
+<td>-d, --deployment-start</td>
+<td>Implementation start date/time in ISO format</td>
+<td>-d "2025-12-10T15:00:00Z"</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Examples:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash">mesh sync release=
+ -f manifest.json -d "2025-12-10T15:00:00Z"
+# Creates change request with auto-generated label from application name an=
+d releaseVersion
+
+mesh sync release -f manifest.json -l "My Release v2.1.0" -d "2025-12-10T15=
+:00:00Z"
+# Creates change request with custom label
+
+mesh sync release -f manifest.json -d "2025-12-10T15:00:00+10:00"
+# Uses timezone-aware datetime (converted to UTC)
+
+mesh sync release -f https://example.com/manifests/deploy.json -d "2025-12-=
+10T15:00:00Z"
+# Create change request from manifest URL
+</code></pre>
+<p><strong>Important Notes:</strong></p>
+<ul>
+<li>Only components with <code>deployed: true</code> for prod1 targets are =
+included in the change request</li>
+<li>The manifest must include <code>changeCoordinatorGroup</code> and <code=
+>releaseVersion</code> in metadata (unless label is provided)</li>
+<li>A confirmation prompt shows all change details before creation</li>
+<li>Components are deployed in order based on their <code>priority</code> f=
+ield</li>
+</ul>
+<h5 id=3D"user-content-validate-1">validate<a rel=3D"nofollow"></a></h5>
+<p>Validate a sync manifest file against the JSON schema.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-f, --file</td>
+<td>Sync manifest file path or URL</td>
+<td>-f manifest.json</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Examples:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash">mesh sync validat=
+e -f manifest.json                           # Validate local manifest file
+mesh sync validate -f https://example.com/manifests/deploy.json  # Validate=
+ manifest from URL
+</code></pre>
+<p><strong>What it validates:</strong></p>
+<ul>
+<li>JSON/YAML structure follows the sync manifest schema</li>
+<li>All required fields are present and properly formatted</li>
+<li>Component types and names reference valid components</li>
+<li>Target environments are valid</li>
+<li>Build numbers and version formats are correct</li>
+<li>Naming conventions are followed</li>
+</ul>
+<h4 id=3D"user-content-workflow-examples">Workflow Examples</h4>
+<p><strong>Note:</strong> All sync commands that accept manifest files (<co=
+de>-f, --file</code>) support both local file paths and URLs (http/https).<=
+/p>
+<p><strong>Standard Deployment Workflow:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash"># 1. Import curre=
+nt state for an application
+mesh sync import -a A12ABC -d all
+
+# 2. Edit the manifest to set desired deployment targets
+# (manually edit a12abc-sync-manifest.json)
+
+# 3. Resolve any "latest" versions to concrete build numbers
+mesh sync resolve -f a12abc-sync-manifest.json
+
+# 4. Preview what changes would be made
+mesh sync plan -f a12abc-sync-manifest_resolved_20241201_120000.json
+
+# 5. Apply the changes
+mesh sync apply -f a12abc-sync-manifest_resolved_20241201_120000.json
+</code></pre>
+<p><strong>Production Release Workflow:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash"># 1. Import curre=
+nt state and prepare for production
+mesh sync import -a A12ABC -d all
+
+# 2. Edit manifest to include prod1 targets and release metadata
+# (manually edit a12abc-sync-manifest.json to add changeCoordinatorGroup an=
+d releaseVersion)
+
+# 3. Resolve versions and apply to lower environments first
+mesh sync resolve -f a12abc-sync-manifest.json
+mesh sync apply -f a12abc-sync-manifest_resolved_20241201_120000.json --tar=
+get dev1,sit1,uat1,svp1
+
+# 4. Create production change request
+mesh sync release -f a12abc-sync-manifest_resolved_20241201_120000.json -d =
+"2025-12-15T09:00:00Z"
+</code></pre>
+<h3 id=3D"user-content-config">config<a rel=3D"nofollow"></a></h3>
+<p>The config command allows you to manage persistent configuration setting=
+s for mesh developer tools. Configuration is stored in <code>~/.mesh/config=
+</code> as a YAML file.</p>
+<h4 id=3D"user-content-usage-14">Usage</h4>
+<pre><code>mesh config &lt;subcommand&gt; [options]
+</code></pre>
+<h5 id=3D"user-content-show">show<a rel=3D"nofollow"></a></h5>
+<p>Display current configuration settings and file contents.</p>
+<p><strong>Examples:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash">mesh config show =
+   # Show current configuration
+</code></pre>
+<h5 id=3D"user-content-set">set<a rel=3D"nofollow"></a></h5>
+<p>Set a configuration value. Values are automatically converted to appropr=
+iate types (boolean, integer, or string).</p>
+<p><strong>Note:</strong> No validation is performed on keys or values. Any=
+ key can be set to any value. The system only performs basic type conversio=
+n.</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>key</td>
+<td>Configuration key to set (any string)</td>
+<td>quiet</td>
+</tr>
+<tr>
+<td>value</td>
+<td>Value to set (true/false/number/string)</td>
+<td>true</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Examples:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash">mesh config set q=
+uiet true     # Enable quiet mode by default
+mesh config set quiet false    # Disable quiet mode
+</code></pre>
+<h5 id=3D"user-content-init">init<a rel=3D"nofollow"></a></h5>
+<p>Create a default configuration file with example settings and comments.<=
+/p>
+<p><strong>Examples:</strong></p>
+<pre><code class=3D"language-bash" data-language=3D"bash">mesh config init =
+   # Create ~/.mesh/config with defaults
+</code></pre>
+<h4 id=3D"user-content-configuration-options">Configuration Options</h4>
+<p><strong>Important:</strong> The configuration system accepts any key-val=
+ue pairs without validation. Only the following keys have defined behavior =
+in the mesh tools:</p>
+<p>The configuration file supports the following options:</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>quiet</td>
+<td>boolean</td>
+<td>false</td>
+<td>Skip yes/no confirmation prompts (auto-approve with defaults)</td>
+</tr>
+</tbody>
+</table>
+<h4 id=3D"user-content-configuration-file-format">Configuration File Format=
+</h4>
+<p>The configuration file (<code>~/.mesh/config</code>) uses YAML format:</=
+p>
+<pre><code class=3D"language-yaml" data-language=3D"yaml"># Mesh Developer =
+Tools Configuration
+# Skip yes/no confirmation prompts (auto-approve with defaults)
+quiet: true
+</code></pre>
+<h3 id=3D"user-content-connect">connect<a rel=3D"nofollow"></a></h3>
+<p>The connect command opens the specified component's page in Mesh Connect=
+ in your default web browser.</p>
+<p>This command may be executed from within the repository corresponding to=
+ the component, or the component can be selected using the --component_name=
+, --component_type or --repo_uri options.</p>
+<p><strong>Note:</strong> This command is not available for Incubator compo=
+nents.</p>
+<h4 id=3D"user-content-usage-15">Usage</h4>
+<pre><code>mesh connect [-n &lt;component_name&gt;] [-t &lt;component_type&=
+gt;] [-r &lt;repo_uri&gt;]
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-n, --component_name</td>
+<td>Component Name (defaults to component checked out in current directory)=
+</td>
+<td>-n mesh-rbac-v2</td>
+</tr>
+<tr>
+<td>-t, --component_type</td>
+<td>Component Type (will infer from name if not provided, and prompt if amb=
+iguous)</td>
+<td>-t api</td>
+</tr>
+<tr>
+<td>-r, --repo_uri</td>
+<td>Repository uri of the component (use instead of name and type if prefer=
+red)</td>
+<td>-r <a rel=3D"nofollow">ssh://git@bitbucket.srv.westpac.com.au/wdp/exp-d=
+ream-core-v1-api.git</a></td>
+</tr>
+<tr>
+<td>-h, --help</td>
+<td>Shows the usage help message</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Additionally supports common options: <code>-v/--verbose</code> and <cod=
+e>-q/--quiet</code></p>
+<h5 id=3D"user-content-examples-6">EXAMPLES</h5>
+<p>Open Mesh Connect for the component in the current directory:</p>
+<p><code>mesh connect</code></p>
+<p>Open Mesh Connect for a specific component by name and type:</p>
+<p><code>mesh connect -n mesh-rbac-v2 -t api</code></p>
+<p><code>mesh connect -n dream -t singlePageApplication</code></p>
+<p><code>mesh connect -n reference-orchestration-v1 -t orchestration</code>=
+</p>
+<p>Open Mesh Connect for a component using its repository URI:</p>
+<p><code>mesh connect -r ssh://git@bitbucket.srv.westpac.com.au/wdp/wdp-mes=
+h-rbac-v2-api.git</code></p>
+</div>
+</div>
+</div>
+</div>
+<p></p>
+<h2 id=3D"MeshDeveloperTools-MavenChecklist">Maven Checklist</h2>
+<p>This checklist is to help you to check your maven setup for some common =
+issues.</p>
+<p>It's important to understand that the current Tomcat 9 API container wor=
+ks with Java 11, and also uses specific repositories to ensure that:</p>
+<ul>
+<li>dependencies come from the Devops-managed Artifactory repositories for =
+your external dependencies (e.g. a properly managed Maven Central mirror);<=
+/li>
+<li>you can include custom packages (published to the WDP Maven repository)=
+; and</li>
+<li>your builds&nbsp;<em>don't</em> include snapshots</li>
+</ul>
+<p>To check your Maven and JDK version:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">mvn -v</=
+pre>
+</div>
+</div>
+<p>Your maven version should be 3.9.9 or later, and your Java version shoul=
+d be Java 21.</p>
+<p>Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">$ mvn -v
+Picked up JAVA_TOOL_OPTIONS: -agentpath:"C:\Windows\system32\Aternity\Java\=
+JavaHookLoader.dll"=3D"C:\ProgramData\Aternity\hooks"
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: C:\ProgramData\maven\apache-maven-3.9.9
+Java version: 21.0.1, vendor: Red Hat, Inc., runtime: C:\ProgramData\redhat=
+\java-21-openjdk-21.0.1.0.12-3.win.jdk.x86_64
+Default locale: en_AU, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+</pre>
+</div>
+</div>
+<p>To check your current Maven repositories:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">cat ~/.m=
+2/settings.xml</pre>
+</div>
+</div>
+<p>Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: sql; gutter: false; theme: Confluence" data-theme=3D"Confluence">$ cat ~/=
+.m2/settings.xml
+&lt;?xml version=3D"1.0" encoding=3D"UTF-8"?&gt;
+&lt;settings xsi:schemaLocation=3D"http://maven.apache.org/SETTINGS/1.0.0 h=
+ttp://maven.apache.org/xsd/settings-1.0.0.xsd" xmlns=3D"http://maven.apache=
+.org/SETTINGS/1.0.0"
+    xmlns:xsi=3D"http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;localRepository&gt;C:/ProgramData/maven/.m2/repository&lt;/localRepos=
+itory&gt;
+  &lt;mirrors&gt;
+    &lt;mirror&gt;
+      &lt;mirrorOf&gt;*&lt;/mirrorOf&gt;
+      &lt;name&gt;westpac-group&lt;/name&gt;
+      &lt;url&gt;https://artifactory.srv.westpac.com.au/artifactory/wdp-001=
+_maven&lt;/url&gt; &lt;!-- IMPORTANT: See Notes below --&gt;
+      &lt;id&gt;westpac-group&lt;/id&gt;
+    &lt;/mirror&gt;
+  &lt;/mirrors&gt;
+  &lt;profiles&gt;
+    &lt;profile&gt;
+      &lt;repositories&gt;
+        &lt;repository&gt;
+          &lt;snapshots&gt;
+            &lt;enabled&gt;false&lt;/enabled&gt;
+          &lt;/snapshots&gt;
+          &lt;id&gt;central&lt;/id&gt;
+          &lt;name&gt;libs-release&lt;/name&gt;
+          &lt;url&gt;https://artifactory.srv.westpac.com.au/artifactory/lib=
+s-release&lt;/url&gt;
+        &lt;/repository&gt;
+        &lt;repository&gt;
+          &lt;snapshots /&gt;
+          &lt;id&gt;snapshots&lt;/id&gt;
+          &lt;name&gt;libs-snapshot&lt;/name&gt;
+          &lt;url&gt;https://artifactory.srv.westpac.com.au/artifactory/lib=
+s-snapshot&lt;/url&gt;
+        &lt;/repository&gt;
+      &lt;/repositories&gt;
+      &lt;pluginRepositories&gt;
+        &lt;pluginRepository&gt;
+          &lt;snapshots&gt;
+            &lt;enabled&gt;false&lt;/enabled&gt;
+          &lt;/snapshots&gt;
+          &lt;id&gt;central&lt;/id&gt;
+          &lt;name&gt;plugins-release&lt;/name&gt;
+          &lt;url&gt;https://artifactory.srv.westpac.com.au/artifactory/plu=
+gins-release&lt;/url&gt;
+        &lt;/pluginRepository&gt;
+        &lt;pluginRepository&gt;
+          &lt;snapshots /&gt;
+          &lt;id&gt;snapshots&lt;/id&gt;
+          &lt;name&gt;plugins-release&lt;/name&gt;
+          &lt;url&gt;https://artifactory.srv.westpac.com.au/artifactory/plu=
+gins-release&lt;/url&gt;
+        &lt;/pluginRepository&gt;
+      &lt;/pluginRepositories&gt;
+      &lt;id&gt;artifactory&lt;/id&gt;
+    &lt;/profile&gt;
+  &lt;/profiles&gt;
+  &lt;activeProfiles&gt;
+    &lt;activeProfile&gt;artifactory&lt;/activeProfile&gt;
+  &lt;/activeProfiles&gt;
+&lt;/settings&gt;
+
+
+</pre>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e"><span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-i=
+nformation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Because the&nbsp;<strong>westpac-group</strong> Artifactory repository i=
+ncludes clashing artifacts, the API builds now use&nbsp;<strong>wdp-001_mav=
+en</strong> as shown above.</p>
+<p>To ensure that builds in your local development environment work the sam=
+e way, please update your <code>settings.xml</code> as shown above:</p>
+<p>Use&nbsp;<a href=3D"https://artifactory.srv.westpac.com.au/artifactory/w=
+dp-001_maven" class=3D"external-link" rel=3D"nofollow">https://artifactory.=
+srv.westpac.com.au/artifactory/wdp-001_maven</a>&nbsp;and not&nbsp;<a href=
+=3D"https://artifactory.srv.westpac.com.au/artifactory/westpac-group" class=
+=3D"external-link" rel=3D"nofollow">https://artifactory.srv.westpac.com.au/=
+artifactory/westpac-group</a>.</p>
+</div>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_116274_867210442.1773923281620--

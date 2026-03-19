@@ -1,0 +1,959 @@
+Date: Thu, 19 Mar 2026 22:48:34 +1100 (AEDT)
+Message-ID: <1399222702.115978.1773920914454@pla190920093818.obm.nix.srv.westpac.com.au>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_115977_2024436980.1773920914453"
+
+------=_Part_115977_2024436980.1773920914453
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>OpenFin &amp; W1C &#39;Intent&#39; Workshop Minutes</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>OpenFin &amp; W1C &#39;Intent&#39; Workshop Minutes</h1>
+    <div class=3D"Section1">
+        <p><u>Workshop:</u> W1 &amp; W1C Customer Portal to assess and deve=
+lop the solution for implementing the Multiverse NPM Library</p>
+<p><u>Attendees:bStuart Johnson &lt;stuart.johnson@<a href=3D"http://westpa=
+c.com.au" class=3D"external-link" rel=3D"nofollow">westpac.com.au</a>&gt;; =
+Gary Baldock &lt;gary.baldock@<a href=3D"http://westpac.com.au" class=3D"ex=
+ternal-link" rel=3D"nofollow">westpac.com.au</a>&gt;; Jeremy Roberts &lt;je=
+remyroberts@<a href=3D"http://westpac.com.au" class=3D"external-link" rel=
+=3D"nofollow">westpac.com.au</a>&gt;; Bobby Joseph &lt;bobby.joseph@<a href=
+=3D"http://westpac.com.au" class=3D"external-link" rel=3D"nofollow">westpac=
+.com.au</a>&gt;; Rachita Sharma &lt;rachita.sharma@<a href=3D"http://westpa=
+c.com.au" class=3D"external-link" rel=3D"nofollow">westpac.com.au</a>&gt;; =
+Oliver Wu &lt;oliver.wu@<a href=3D"http://westpac.com.au" class=3D"external=
+-link" rel=3D"nofollow">westpac.com.au</a>&gt;; Ave Cahyadi &lt;ave.cahyadi=
+@<a href=3D"http://westpac.com.au" class=3D"external-link" rel=3D"nofollow"=
+>westpac.com.au</a>&gt;; Nathaniel Chen &lt;nathaniel.chen@<a href=3D"http:=
+//westpac.com.au" class=3D"external-link" rel=3D"nofollow">westpac.com.au</=
+a>&gt;; Thomas Van Deun &lt;thomas.vandeun@<a href=3D"http://westpac.com.au=
+" class=3D"external-link" rel=3D"nofollow">westpac.com.au</a>&gt;; Zoe Shir=
+ley &lt;zoe.shirley@<a href=3D"http://westpac.com.au" class=3D"external-lin=
+k" rel=3D"nofollow">westpac.com.au</a>&gt;</u></p>
+<p><u>Agenda:</u> For W1C to provide requirements for Openfin regarding the=
+ Customer Portal (only at this stage):</p>
+<ul>
+<li>What =E2=80=98intents=E2=80=99 to define, and how many,</li>
+<li>How do we break down the current W1C MFEs,</li>
+<li>What are =E2=80=98contexts=E2=80=99</li>
+</ul>
+<p><u>Inputs:</u> All current W1C Customer Portal screens across all custom=
+er journeys</p>
+<p><u>Minutes &amp; Actions:</u></p>
+<ul style=3D"list-style-type: square;">
+<li>SSO and session management was parked for this workshop - BJ noted ISG =
+consideration of not having session management for February release</li>
+<li>Agreed that Feb25 ERM is the basic enablement of Galaxy in OpenFin. TVD=
+ suggested that intents may not be necessary to meet this milestone. SJ req=
+uested that the ViewAccountActivity intent is included in Feb to test the c=
+oncept.</li>
+<li>AN advised that consolidated Account List is targeted for Aug25 ERM. No=
+ted that these intents can be deprioritised for Feb.</li>
+<li>AN advised that consolidated Payment List is out-of-scope for MVP (targ=
+et MMP). SJ suggested this should be brought forward to MVP if possible.</l=
+i>
+<li>Agreed that splitting of MFEs will not be in-scope for Feb25 ERM</li>
+<li>SJ advised that Tech assumption is that Staff Portal is in-scope for Op=
+enFin enablement in Feb25 ERM. AN noted that the strategic decision to util=
+ise OpenFin for the W1C Staff Portal is TBC with Lipsa (W1C) and Sue (W1).<=
+/li>
+<li>Dependency on W1 to deliver Navigator for Feb25 ERM</li>
+<li>Action: AN to schedule similar workshop for Staff Portal next week</li>
+</ul>
+<p><u>Output:</u> W1C Customer Portal List of 'Intents' and Applications</p=
+>
+<p></p>
+<div class=3D"table-excerpt tei " data-pageid=3D"1827738919" data-name=3D"W=
+1C Cust Portal Intents" data-merge-tables=3D"true" data-id=3D"a5ca9cc1-a6c1=
+-4718-adde-acb0a404d44f" data-transpose=3D"auto">
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" data-snooker-col-se=
+ries=3D"numbers" data-snooker-locked-cols=3D"0" style=3D"width: 102.967%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 1.7633%;">
+<col class=3D"" style=3D"width: 5.05789%;">
+<col class=3D"" style=3D"width: 4.22265%;">
+<col style=3D"width: 4.50106%;">
+<col class=3D"" style=3D"width: 18.8859%;">
+<col style=3D"width: 36.9365%;">
+<col class=3D"" style=3D"width: 7.19242%;">
+<col class=3D"" style=3D"width: 6.26656%;">
+<col class=3D"" style=3D"width: 10.9974%;">
+<col class=3D"" style=3D"width: 4.12984%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" contenteditable=3D"false" data-m=
+ce-resize=3D"false"><br></th>
+<th class=3D"confluenceTh">MFE</th>
+<th class=3D"confluenceTh">Multiverse Navigator</th>
+<th class=3D"confluenceTh">Access</th>
+<th class=3D"confluenceTh">Application</th>
+<th class=3D"confluenceTh"><p>URLs</p></th>
+<th class=3D"confluenceTh"><p>Navigation method</p></th>
+<th class=3D"confluenceTh"><p>Listens to intents</p></th>
+<th class=3D"confluenceTh">Raises intents</th>
+<th class=3D"confluenceTh">Notes</th>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">1</td>
+<td class=3D"confluenceTd"><p class=3D"sc-koXPp bCfnyz sc-iHGNWf fFdGkU sc-=
+dtBdUo jIJLQG sc-kOHTFB blUSbe styles__ApiHeaderSubtitle-sc-dm5i84-1 iIzJTw=
+" style=3D"text-align: left;"><strong><em>galaxy-dashboard</em></strong></p=
+></td>
+<td class=3D"confluenceTd"><p><strong>:tick:&nbsp;</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Customer</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Westpac One Core (Customer)</strong>&=
+nbsp;Application : /galaxy/dashboard</p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th scope=3D"col" class=3D"confluenceTh">Environment</th>
+<th scope=3D"col" class=3D"confluenceTh">URL</th>
+<th scope=3D"col" class=3D"confluenceTh">Swimlane?</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">DEV</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">https://www.dev1.ui.westp=
+ac.com.au/galaxy/dashboard</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">INT</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">https://www.sit1.ui.westp=
+ac.com.au/galaxy/dashboard?swimlane=3Dw1c1</span></td>
+<td class=3D"confluenceTd">:plus:&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">E2E</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">https://www.sit1.ui.westp=
+ac.com.au/galaxy/dashboard</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">UAT</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">n/a</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">SVP</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">https://www.svp1.ui.westp=
+ac.com.au/galaxy/dashboard</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">PROD</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">https://www.ui.westpac.co=
+m.au/galaxy/dashboard</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Navigator</strong></li>
+</ul>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+>viewAccountActivity(accountId)</p>
+</div></td>
+<td class=3D"confluenceTd"><p>Starting point, retrieves list of accounts ba=
+sed on Mesh secret</p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">2</td>
+<td class=3D"confluenceTd"><strong><em>galaxy-dashboard</em></strong></td>
+<td class=3D"confluenceTd"><p><strong>:tick:</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Staff</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Westpac One Core (Staff)</strong> App=
+lication : galaxy/dashboard</p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+<colgroup class=3D"">
+<col class=3D"">
+<col class=3D"">
+<col class=3D"">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">Environment</th>
+<th class=3D"confluenceTh">URL</th>
+<th class=3D"confluenceTh">Swimlane?</th>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">DEV</td>
+<td class=3D"confluenceTd">https://one.dev1.ui.westpac.com.au/galaxy/dashbo=
+ard</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">INT</td>
+<td class=3D"confluenceTd">https://one.sit1.ui.westpac.com.au/galaxy/dashbo=
+ard?swimlane=3Dw1c1</td>
+<td class=3D"confluenceTd">:plus:&nbsp;</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">E2E</td>
+<td class=3D"confluenceTd">https://one.sit1.ui.westpac.com.au/galaxy/dashbo=
+ard</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">UAT</td>
+<td class=3D"confluenceTd">n/a</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">SVP</td>
+<td class=3D"confluenceTd">https://one.svp1.ui.westpac.com.au/galaxy/dashbo=
+ard</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">PROD</td>
+<td class=3D"confluenceTd">https://one.ui.westpac.com.au/galaxy/dashboard</=
+td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Navigator</strong></li>
+</ul>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">3</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong><span class=3D"status-macro aui-lozenge">STRETCH</span><br>
+ galaxy-accounts</strong></p>
+</div></td>
+<td class=3D"confluenceTd"><p><strong>:cross:&nbsp;</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Customer</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Account Activity (customer)</strong>:=
+ Application <code>/galaxy/account/account-activity</code>&nbsp;</p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+<colgroup class=3D"">
+<col class=3D"">
+<col class=3D"">
+<col class=3D"">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">Environment</th>
+<th class=3D"confluenceTh">URL</th>
+<th class=3D"confluenceTh">Swimlane?</th>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">DEV</td>
+<td class=3D"confluenceTd"><span class=3D"nolink"><span class=3D"nolink">ht=
+tps://www.dev1.ui.westpac.com.au/galaxy/account/account-activity&nbsp;</spa=
+n></span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">INT</td>
+<td class=3D"confluenceTd"><span class=3D"nolink"><span class=3D"nolink">ht=
+tps://www.sit1.ui.westpac.com.au/galaxy/account/account-activity ?swimlane=
+=3Dw1c1</span></span></td>
+<td class=3D"confluenceTd">:plus:&nbsp;</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">E2E</td>
+<td class=3D"confluenceTd"><span class=3D"nolink"><span class=3D"nolink">ht=
+tps://www.sit1.ui.westpac.com.au/galaxy/account/account-activity&nbsp;</spa=
+n></span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">UAT</td>
+<td class=3D"confluenceTd"><span class=3D"nolink"><span class=3D"nolink">n/=
+a</span></span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">SVP</td>
+<td class=3D"confluenceTd"><span class=3D"nolink"><span class=3D"nolink">ht=
+tps://www.svp1.ui.westpac.com.au/galaxy/account/account-activity&nbsp;</spa=
+n></span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">PROD</td>
+<td class=3D"confluenceTd"><span class=3D"nolink"><span class=3D"nolink">ht=
+tps://www.ui.westpac.com.au/galaxy/account/account-activity&nbsp;</span></s=
+pan></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Account Listing</strong></li>
+</ul>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+>viewAccountActivity(accountId)</p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd"><p>Only reachable from account listing.&nbsp;</p=
+><p><br></p><p>When running in openfin, disable ... buttons to initate paym=
+ent / transfer (because intent is not handled )</p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">4</td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong><span class=3D"status-macro aui-lozenge">STRETCH</span></strong>=
+</p>
+<p><strong>galaxy-accounts</strong></p>
+</div></td>
+<td class=3D"confluenceTd"><p><strong>:tick:</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Staff</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Platform Administration Console (Staf=
+f): </strong>Application <strong><code>/galaxy/account<span><span class=3D"=
+ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af=
+ ag ah ai aj ak">/platformadministrationconsole/</span></span></code></stro=
+ng></p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+<colgroup class=3D"">
+<col class=3D"">
+<col class=3D"">
+<col class=3D"">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"confluenceTh">Environment</th>
+<th class=3D"confluenceTh">URL</th>
+<th class=3D"confluenceTh">Swimlane?</th>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">DEV</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">https://one.dev1.ui.westp=
+ac.com.au/galaxy/account/platformadministrationconsole/</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">INT</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">https://one.sit1.ui.westp=
+ac.com.au/galaxy/account/platformadministrationconsole/?swimlane=3Dw1c1</sp=
+an></td>
+<td class=3D"confluenceTd">:plus:&nbsp;</td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">E2E</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">https://one.sit1.ui.westp=
+ac.com.au/galaxy/account/platformadministrationconsole/</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">UAT</td>
+<td class=3D"confluenceTd">n/a</td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">SVP</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">https://one.svp1.ui.westp=
+ac.com.au/galaxy/account/platformadministrationconsole/</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"confluenceTd">PROD</td>
+<td class=3D"confluenceTd"><span class=3D"nolink">https://one.ui.westpac.co=
+m.au/galaxy/account/platformadministrationconsole/</span></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Navigator</strong></li>
+</ul>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" data-snooker-col-se=
+ries=3D"numbers" data-snooker-locked-cols=3D"0" style=3D"width: 105.697%;">
+<colgroup class=3D"">
+<col class=3D"" style=3D"width: 2.92575%;">
+<col class=3D"" style=3D"width: 5.50729%;">
+<col class=3D"" style=3D"width: 5.50729%;">
+<col class=3D"" style=3D"width: 27.2527%;">
+<col class=3D"" style=3D"width: 15.604%;">
+<col class=3D"" style=3D"width: 15.8908%;">
+<col class=3D"" style=3D"width: 15.8908%;">
+<col class=3D"" style=3D"width: 11.4161%;">
+</colgroup>
+<tbody class=3D"">
+<tr class=3D"">
+<th class=3D"numberingColumn confluenceTh" contenteditable=3D"false" data-m=
+ce-resize=3D"false"><br></th>
+<th class=3D"confluenceTh">MFE</th>
+<th class=3D"confluenceTh">Multiverse Navigator</th>
+<th class=3D"confluenceTh">Application</th>
+<th class=3D"confluenceTh"><p>Navigation method</p></th>
+<th class=3D"confluenceTh"><p>Listens to intents</p></th>
+<th class=3D"confluenceTh">Raises intents</th>
+<th class=3D"confluenceTh">Notes</th>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">1</td>
+<td class=3D"confluenceTd"><strong>Galaxy-Accounts</strong></td>
+<td class=3D"confluenceTd"><p><strong>:tick:&nbsp;</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Account Listing</strong> Application&=
+nbsp;: <code>/galaxy/account</code>&nbsp;</p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Navigator</strong></li>
+</ul>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong></p>
+<p>viewAccounts(null)</p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+>viewAccountActivity(accountId)</p>
+</div></td>
+<td class=3D"confluenceTd"><p>Starting point, retrieves list of accounts ba=
+sed on Mesh secret</p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">2</td>
+<td class=3D"confluenceTd"><strong>Galaxy-Accounts</strong></td>
+<td class=3D"confluenceTd"><p><strong>:cross:&nbsp;</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Account Activity</strong>: Applicatio=
+n <code>/galaxy/account/account-activity</code>&nbsp;</p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Account Listing</strong></li>
+</ul>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+>viewAccountActivity(accountId)</p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong></p>
+<p>makePayment(accountid)</p>
+<p>makeTransfer(accountid)</p>
+<p>viewTransactionListing(accountid)</p>
+</div></td>
+<td class=3D"confluenceTd"><p>Only reachable from account listing.&nbsp;</p=
+><p><br></p><p>When running in openfin, disable ... buttons to initate paym=
+ent / transfer (because intent is not handled )</p></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn highlight-#f4f5f7 confluenceTd" contenteditabl=
+e=3D"false" data-highlight-colour=3D"#f4f5f7" data-mce-resize=3D"false">3</=
+td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7"><strong title=3D"">Galaxy-Accounts</strong></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7"><p title=3D""><strong>:cross:</strong></p></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7">
+<div class=3D"content-wrapper">
+<p title=3D""><strong><span class=3D"status-macro aui-lozenge aui-lozenge-m=
+oved">AUG25</span></strong></p>
+<p title=3D""><strong>Transaction Detail</strong>: Application <code>/galax=
+y/account/account-activity/transaction-detail</code>&nbsp;</p>
+</div></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7">
+<div class=3D"content-wrapper" title=3D"">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>within <strong>Account Listing</strong></p>
+</div></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7">
+<div class=3D"content-wrapper" title=3D"">
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong></p>
+<p>viewTransactionListing(accountid)</p>
+</div></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7"><br></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">4</td>
+<td class=3D"confluenceTd"><strong>Galaxy-Payments</strong></td>
+<td class=3D"confluenceTd"><p><strong>:tick:</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Payment Listing </strong>Application&=
+nbsp;: <code>/galaxy/payment</code></p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Navigator</strong></li>
+</ul>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong></p>
+<p>viewPayments(null)</p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong>viewPaymentDetail(paymentId)</p>
+<p>makePayment()</p>
+<p>makeTransfer()</p>
+</div></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn highlight-#f4f5f7 confluenceTd" contenteditabl=
+e=3D"false" data-highlight-colour=3D"#f4f5f7" data-mce-resize=3D"false">5</=
+td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7"><strong title=3D"">Galaxy-Payments</strong></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7"><p title=3D""><strong>:cross:</strong></p></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7">
+<div class=3D"content-wrapper">
+<p title=3D""><strong><span class=3D"status-macro aui-lozenge aui-lozenge-m=
+oved">AUG25</span></strong></p>
+<p title=3D""><strong>Payment Details</strong> Application: <code>/galaxy/p=
+ayment/payment-details</code></p>
+</div></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7">
+<div class=3D"content-wrapper" title=3D"">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>within&nbsp;<strong>Payment Listing&nbsp;</strong></p>
+</div></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7">
+<div class=3D"content-wrapper" title=3D"">
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong>viewPaymentDetail(paymentId)</p>
+</div></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7"><br></td>
+<td class=3D"highlight-#f4f5f7 confluenceTd" data-highlight-colour=3D"#f4f5=
+f7"><br></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">6</td>
+<td class=3D"confluenceTd"><strong>Galaxy-Payments</strong></td>
+<td class=3D"confluenceTd"><p><strong>:tick:</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Make A Payment</strong> Application: =
+<code>/galaxy/payment/make-payment</code>&nbsp;</p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Navigator</strong></li>
+</ul>
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Payment Listing</strong></li>
+<li><strong>Account Listing</strong></li>
+</ul>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong></p>
+<p>makePayment(...accountid)</p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong></p>
+<p>viewPaymentDetail(paymentId)</p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><br></p>
+</div></td>
+</tr>
+<tr class=3D"">
+<td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" data-m=
+ce-resize=3D"false">7</td>
+<td class=3D"confluenceTd"><strong>Galaxy-Payments</strong></td>
+<td class=3D"confluenceTd"><p><strong>:tick:</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Transfer Funds</strong> Application&n=
+bsp;: /<code>galaxy</code><code>/payment/transfer-funds</code>&nbsp;</p></t=
+d>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><span class=3D"status-macro aui-lozenge aui-lozenge-current">FEB25</span=
+></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Navigator</strong></li>
+</ul>
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong></p>
+<p>Open new instance through:</p>
+<ul>
+<li><strong>Payment Listing</strong></li>
+<li><strong>Account Listing</strong></li>
+</ul>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong></p>
+<p>makeTransfer(...accountid)</p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong><span class=3D"status-macro aui-lozenge aui-lozenge-moved">AUG25=
+</span></strong>viewPaymentDetail(paymentId)</p>
+</div></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_115977_2024436980.1773920914453--
